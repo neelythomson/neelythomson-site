@@ -21,29 +21,35 @@ export default function Header() {
         >
           <svg width="32" height="32" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
             {/* Face */}
-            <circle cx="50" cy="50" r="48" fill="#FDDCB5" stroke="#E8C9A0" strokeWidth="2" />
-            {/* Hair */}
-            <path d="M12 45C12 25 28 8 50 8C72 8 88 25 88 45C88 45 85 35 75 30C65 25 60 28 50 28C40 28 35 25 25 30C15 35 12 45 12 45Z" fill="#8B5E3C" />
-            <path d="M12 45C12 42 13 38 15 35C10 42 8 52 12 55C14 50 12 47 12 45Z" fill="#8B5E3C" />
-            <path d="M88 45C88 42 87 38 85 35C90 42 92 52 88 55C86 50 88 47 88 45Z" fill="#8B5E3C" />
+            <circle cx="50" cy="50" r="48" fill="#FFD93D" stroke="#E8C840" strokeWidth="2" />
+            {/* Hair - brown, flowing */}
+            <path d="M10 48C10 24 27 6 50 6C73 6 90 24 90 48C90 48 87 36 77 30C67 24 62 27 50 27C38 27 33 24 23 30C13 36 10 48 10 48Z" fill="#6B3A2A" />
+            <path d="M10 48C10 44 11 40 13 36C8 44 6 54 10 58C12 52 10 49 10 48Z" fill="#6B3A2A" />
+            <path d="M90 48C90 44 89 40 87 36C92 44 94 54 90 58C88 52 90 49 90 48Z" fill="#6B3A2A" />
+            {/* Side hair strands */}
+            <path d="M13 48C11 56 10 64 14 72C16 68 14 60 13 48Z" fill="#6B3A2A" />
+            <path d="M87 48C89 56 90 64 86 72C84 68 86 60 87 48Z" fill="#6B3A2A" />
             {/* Bangs */}
-            <path d="M25 35C30 25 40 20 50 20C60 20 70 25 75 35C70 28 60 24 50 24C40 24 30 28 25 35Z" fill="#7A5232" />
-            {/* Eyes */}
-            <circle cx="36" cy="48" r="3.5" fill="#2D2D2D" />
-            <circle cx="64" cy="48" r="3.5" fill="#2D2D2D" />
+            <path d="M22 36C28 24 38 18 50 18C62 18 72 24 78 36C72 27 62 22 50 22C38 22 28 27 22 36Z" fill="#5A2E1E" />
+            {/* Eyes - green */}
+            <ellipse cx="36" cy="48" rx="4" ry="4.5" fill="#2D8C4E" />
+            <ellipse cx="64" cy="48" rx="4" ry="4.5" fill="#2D8C4E" />
+            {/* Pupils */}
+            <circle cx="36" cy="48" r="2" fill="#1A1A1A" />
+            <circle cx="64" cy="48" r="2" fill="#1A1A1A" />
             {/* Eye shine */}
-            <circle cx="37.5" cy="46.5" r="1.2" fill="white" />
-            <circle cx="65.5" cy="46.5" r="1.2" fill="white" />
-            {/* Eyebrows */}
-            <path d="M29 40C32 37 37 36 41 38" stroke="#7A5232" strokeWidth="2" strokeLinecap="round" fill="none" />
-            <path d="M71 40C68 37 63 36 59 38" stroke="#7A5232" strokeWidth="2" strokeLinecap="round" fill="none" />
+            <circle cx="38" cy="46" r="1.5" fill="white" />
+            <circle cx="66" cy="46" r="1.5" fill="white" />
+            {/* Eyelashes */}
+            <path d="M29 42C31 40 34 39 39 40" stroke="#5A2E1E" strokeWidth="1.5" strokeLinecap="round" fill="none" />
+            <path d="M71 42C69 40 66 39 61 40" stroke="#5A2E1E" strokeWidth="1.5" strokeLinecap="round" fill="none" />
             {/* Nose */}
-            <path d="M48 55C49 57 51 57 52 55" stroke="#D4A574" strokeWidth="1.5" strokeLinecap="round" fill="none" />
+            <path d="M48 56C49 58 51 58 52 56" stroke="#E8B830" strokeWidth="1.5" strokeLinecap="round" fill="none" />
             {/* Smile */}
-            <path d="M38 62C42 68 58 68 62 62" stroke="#2D2D2D" strokeWidth="2" strokeLinecap="round" fill="none" />
+            <path d="M38 64C42 70 58 70 62 64" stroke="#1A1A1A" strokeWidth="2" strokeLinecap="round" fill="none" />
             {/* Blush */}
-            <circle cx="30" cy="58" r="5" fill="#FFB5B5" opacity="0.4" />
-            <circle cx="70" cy="58" r="5" fill="#FFB5B5" opacity="0.4" />
+            <circle cx="28" cy="58" r="5" fill="#FF9E9E" opacity="0.35" />
+            <circle cx="72" cy="58" r="5" fill="#FF9E9E" opacity="0.35" />
           </svg>
         </a>
 
