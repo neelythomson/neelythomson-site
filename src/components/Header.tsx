@@ -19,38 +19,41 @@ export default function Header() {
           href="#"
           className="group flex items-center gap-2 hover:opacity-80 transition-opacity"
         >
-          <svg width="32" height="32" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-            {/* Face */}
-            <circle cx="50" cy="50" r="48" fill="#FFD93D" stroke="#E8C840" strokeWidth="2" />
-            {/* Hair - brown, flowing */}
-            <path d="M10 48C10 24 27 6 50 6C73 6 90 24 90 48C90 48 87 36 77 30C67 24 62 27 50 27C38 27 33 24 23 30C13 36 10 48 10 48Z" fill="#6B3A2A" />
-            <path d="M10 48C10 44 11 40 13 36C8 44 6 54 10 58C12 52 10 49 10 48Z" fill="#6B3A2A" />
-            <path d="M90 48C90 44 89 40 87 36C92 44 94 54 90 58C88 52 90 49 90 48Z" fill="#6B3A2A" />
-            {/* Side hair strands */}
-            <path d="M13 48C11 56 10 64 14 72C16 68 14 60 13 48Z" fill="#6B3A2A" />
-            <path d="M87 48C89 56 90 64 86 72C84 68 86 60 87 48Z" fill="#6B3A2A" />
-            {/* Bangs */}
-            <path d="M22 36C28 24 38 18 50 18C62 18 72 24 78 36C72 27 62 22 50 22C38 22 28 27 22 36Z" fill="#5A2E1E" />
-            {/* Eyes - green */}
-            <ellipse cx="36" cy="48" rx="4" ry="4.5" fill="#2D8C4E" />
-            <ellipse cx="64" cy="48" rx="4" ry="4.5" fill="#2D8C4E" />
-            {/* Pupils */}
-            <circle cx="36" cy="48" r="2" fill="#1A1A1A" />
-            <circle cx="64" cy="48" r="2" fill="#1A1A1A" />
-            {/* Eye shine */}
-            <circle cx="38" cy="46" r="1.5" fill="white" />
-            <circle cx="66" cy="46" r="1.5" fill="white" />
-            {/* Eyelashes */}
-            <path d="M29 42C31 40 34 39 39 40" stroke="#5A2E1E" strokeWidth="1.5" strokeLinecap="round" fill="none" />
-            <path d="M71 42C69 40 66 39 61 40" stroke="#5A2E1E" strokeWidth="1.5" strokeLinecap="round" fill="none" />
-            {/* Nose */}
-            <path d="M48 56C49 58 51 58 52 56" stroke="#E8B830" strokeWidth="1.5" strokeLinecap="round" fill="none" />
-            {/* Smile */}
-            <path d="M38 64C42 70 58 70 62 64" stroke="#1A1A1A" strokeWidth="2" strokeLinecap="round" fill="none" />
-            {/* Blush */}
-            <circle cx="28" cy="58" r="5" fill="#FF9E9E" opacity="0.35" />
-            <circle cx="72" cy="58" r="5" fill="#FF9E9E" opacity="0.35" />
-          </svg>
+          <svg width="36" height="36" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  {/* Background circle */}
+                  <circle cx="50" cy="50" r="50" fill="#FFD93D" />
+                  {/* Hair back */}
+                  <ellipse cx="50" cy="38" rx="42" ry="36" fill="#5C3317" />
+                  {/* Face */}
+                  <circle cx="50" cy="52" r="32" fill="#FFE066" />
+                  {/* Hair top and sides - long flowing */}
+                  <path d="M8 38C8 18 27 4 50 4C73 4 92 18 92 38C92 42 90 46 88 48C86 38 74 22 50 22C26 22 14 38 12 48C10 46 8 42 8 38Z" fill="#5C3317" />
+                  {/* Left hair strand */}
+                  <path d="M14 46C12 54 10 66 14 78C16 74 15 62 14 46Z" fill="#5C3317" />
+                  {/* Right hair strand */}
+                  <path d="M86 46C88 54 90 66 86 78C84 74 85 62 86 46Z" fill="#5C3317" />
+                  {/* Bangs - soft wispy */}
+                  <path d="M24 34C30 22 40 16 50 16C60 16 70 22 76 34C70 26 60 20 50 20C40 20 30 26 24 34Z" fill="#4A2810" />
+                  {/* Left eye */}
+                  <ellipse cx="38" cy="50" rx="4.5" ry="5" fill="#1A1A1A" />
+                  <circle cx="40" cy="48" r="2" fill="white" />
+                  {/* Right eye */}
+                  <ellipse cx="62" cy="50" rx="4.5" ry="5" fill="#1A1A1A" />
+                  <circle cx="64" cy="48" r="2" fill="white" />
+                  {/* Eye color rings */}
+                  <ellipse cx="38" cy="50" rx="4.5" ry="5" fill="none" stroke="#2E8B57" strokeWidth="1.5" />
+                  <ellipse cx="62" cy="50" rx="4.5" ry="5" fill="none" stroke="#2E8B57" strokeWidth="1.5" />
+                  {/* Eyelashes */}
+                  <path d="M31 44C33 42 36 41 41 42" stroke="#4A2810" strokeWidth="1.2" strokeLinecap="round" fill="none" />
+                  <path d="M69 44C67 42 64 41 59 42" stroke="#4A2810" strokeWidth="1.2" strokeLinecap="round" fill="none" />
+                  {/* Nose */}
+                  <path d="M48 58C49 60 51 60 52 58" stroke="#E8B830" strokeWidth="1.2" strokeLinecap="round" fill="none" />
+                  {/* Smile */}
+                  <path d="M39 65C43 71 57 71 61 65" stroke="#1A1A1A" strokeWidth="2" strokeLinecap="round" fill="none" />
+                  {/* Blush */}
+                  <circle cx="30" cy="60" r="6" fill="#FFB3B3" opacity="0.4" />
+                  <circle cx="70" cy="60" r="6" fill="#FFB3B3" opacity="0.4" />
+                </svg>
         </a>
 
         <ul className="hidden sm:flex items-center gap-8">
