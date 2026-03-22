@@ -43,14 +43,6 @@ export default function Contact() {
           >
             LinkedIn
           </a>
-          <a
-            href="https://twitter.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-6 py-3 text-sm font-medium border border-[var(--color-border)] rounded-full hover:border-[var(--color-pop)] hover:text-[var(--color-pop)] transition-colors"
-          >
-            Twitter / X
-          </a>
         </div>
       </div>
     </section>
