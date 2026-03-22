@@ -1,4 +1,4 @@
-export default function About() {
+—export default function About() {
   const stats = [
     { value: "15+", label: "Years in B2B Marketing" },
     { value: "60%", label: "Manual work reduced via AI" },
@@ -19,14 +19,14 @@ export default function About() {
               className="text-3xl sm:text-4xl leading-snug"
               style={{ fontFamily: "var(--font-display)" }}
             >
-              Marketing executive who treats AI as a first-class teammate \u2014 not
+              Marketing executive who treats AI as a first-class teammate — not
               a buzzword.
             </h2>
             <p className="text-base text-[var(--color-muted)] leading-relaxed">
               I&apos;ve spent the last decade and a half building, scaling, and
               leading marketing teams at B2B SaaS and fintech companies. Today,
               I lead an AI-forward marketing org where we&apos;ve automated
-              inbound and outbound funnels, content production, and web ops \u2014
+              inbound and outbound funnels, content production, and web ops —
               all under strict fintech compliance (NACHA, CFPB).
             </p>
             <p className="text-base text-[var(--color-muted)] leading-relaxed">
