@@ -26,7 +26,7 @@ export default function Hero() {
         <p className="text-lg sm:text-xl text-[var(--color-muted)] leading-relaxed max-w-2xl mb-10">
           VP & Head of Marketing with 15+ years turning B2B SaaS companies into
           category leaders. I architect AI-powered GTM strategies, automated
-          funnels, and demand gen engines that drive real pipeline \u2014 not vanity
+          funnels, and demand gen engines that drive real pipeline — not vanity
           metrics.
         </p>
 
