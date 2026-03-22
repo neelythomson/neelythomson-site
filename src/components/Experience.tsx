@@ -1,12 +1,12 @@
 const roles = [
   {
     company: "Dwolla",
-    period: "2022 \u2013 Present",
+    period: "2022 – Present",
     title: "VP & Head of Marketing",
     description:
       "Built and lead an AI-forward marketing organization for a B2B fintech payments platform. Architected automated inbound/outbound funnels, deployed AI-powered content workflows under fintech compliance, and delivered LTV:CAC of 5:1.",
     highlights: [
-      "Led company-wide AI marketing transformation \u2014 60% reduction in manual campaign work",
+      "Led company-wide AI marketing transformation — 60% reduction in manual campaign work",
       "Built AI-assisted website ops pipeline enabling rapid page production & A/B testing at scale",
       "Served as Interim Sales Leader, integrating marketing and sales operations",
       "Introduced AI-driven personalization across ABM campaigns using 6sense intent data",
@@ -14,7 +14,7 @@ const roles = [
   },
   {
     company: "Independent",
-    period: "2022 \u2013 Present",
+    period: "2022 – Present",
     title: "Marketing Consultant",
     description:
       "Advise mid-sized B2B tech companies on GTM strategy, brand positioning, AI-assisted content strategy, and growth marketing frameworks.",
@@ -25,7 +25,7 @@ const roles = [
   },
   {
     company: "ASPCA",
-    period: "2018 \u2013 2022",
+    period: "2018 – 2022",
     title: "Director of B2B Engagement",
     description:
       "Designed and executed digital demand gen and lifecycle strategies to grow B2B partner engagement across a large nonprofit.",
@@ -36,7 +36,7 @@ const roles = [
   },
   {
     company: "PGi",
-    period: "2014 \u2013 2016",
+    period: "2014 – 2016",
     title: "Sr. Sales Enablement Marketing Manager",
     description:
       "Launched an internal sales enablement platform supporting 400+ reps with content, training, battlecards, and funnel analytics.",
@@ -44,7 +44,7 @@ const roles = [
   },
   {
     company: "LeadLife Solutions",
-    period: "2013 \u2013 2014",
+    period: "2013 – 2014",
     title: "Marketing Manager",
     description:
       "Developed demand gen strategy that increased lead volume by 15% for a B2B marketing automation software provider.",
@@ -63,7 +63,7 @@ export default function Experience() {
           className="text-3xl sm:text-4xl leading-snug mb-14"
           style={{ fontFamily: "var(--font-display)" }}
         >
-          From early-stage MarTech to enterprise fintech \u2014 always pushing the
+          From early-stage MarTech to enterprise fintech — always pushing the
           craft forward.
         </h2>
 
