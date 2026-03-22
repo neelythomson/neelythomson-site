@@ -1,4 +1,4 @@
-—export default function About() {
+export default function About() {
   const stats = [
     { value: "15+", label: "Years in B2B Marketing" },
     { value: "60%", label: "Manual work reduced via AI" },
