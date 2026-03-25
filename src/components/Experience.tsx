@@ -71,7 +71,7 @@ export default function Experience() {
           {roles.map((role, i) => (
             <div
               key={i}
-              className="group grid md:grid-cols-12 gap-4 md:gap-8 py-8 border-t border-[var(--color-border)] first:border-t-0 first:pt-0"
+              className="experience-card group grid md:grid-cols-12 gap-4 md:gap-8 py-8 px-4 -mx-4 rounded-lg border-t border-[var(--color-border)] first:border-t-0 first:pt-0"
             >
               <div className="md:col-span-3">
                 <p className="text-sm font-mono text-[var(--color-muted)]">
