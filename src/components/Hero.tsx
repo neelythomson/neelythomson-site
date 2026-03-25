@@ -37,7 +37,7 @@ export default function Hero() {
           ].map((tag) => (
             <span
               key={tag}
-              className="text-sm px-4 py-2 border border-[var(--color-border)] rounded-full text-[var(--color-muted)] hover:border-[var(--color-pop)] hover:text-[var(--color-pop)] transition-colors cursor-default"
+              className="text-sm font-medium px-4 py-2 rounded-full bg-white/80 text-[var(--color-text)] shadow-sm border border-black/[0.08] hover:border-[var(--color-pop)] hover:text-[var(--color-pop)] transition-colors cursor-default"
             >
               {tag}
             </span>
