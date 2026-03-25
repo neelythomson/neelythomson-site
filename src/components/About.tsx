@@ -19,21 +19,22 @@ export default function About() {
               className="text-3xl sm:text-4xl leading-snug"
               style={{ fontFamily: "var(--font-display)" }}
             >
-              Marketing executive who treats AI as a first-class teammate — not
-              a buzzword.
+              Fractional CMO and AI marketing consultant who treats AI as a
+              first-class teammate — not a buzzword.
             </h2>
             <p className="text-base text-[var(--color-muted)] leading-relaxed">
               I&apos;ve spent the last decade and a half building, scaling, and
-              leading marketing teams at B2B SaaS and fintech companies. Today,
-              I lead an AI-forward marketing org where we&apos;ve automated
-              inbound and outbound funnels, content production, and web ops —
-              all under strict fintech compliance (NACHA, CFPB).
+              leading marketing teams at B2B SaaS and fintech companies. Today, I
+              lead an AI-forward marketing org where we&apos;ve automated inbound
+              and outbound funnels, content production, and web ops — all under
+              strict fintech compliance (NACHA, CFPB).
             </p>
             <p className="text-base text-[var(--color-muted)] leading-relaxed">
-              I also advise mid-sized B2B tech companies on GTM strategy, brand
-              positioning, and AI-assisted content strategy. Whether it&apos;s
-              architecting modern MarTech stacks or building lifecycle campaigns
-              that move pipeline, I care about one thing: outcomes.
+              As a fractional CMO and marketing consultant, I advise mid-sized B2B
+              tech companies on GTM strategy, brand positioning, and AI-powered
+              demand generation. Whether it&apos;s architecting modern MarTech
+              stacks or building lifecycle campaigns that move pipeline, I care
+              about one thing: outcomes.
             </p>
           </div>
 
