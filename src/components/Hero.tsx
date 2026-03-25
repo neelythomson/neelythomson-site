@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="pt-28 pb-24 px-6 relative overflow-hidden">
+    <section className="pt-28 pb-12 px-6 relative overflow-hidden">
       {/* Subtle gradient orb */}
       <div className="absolute top-20 -right-40 w-[500px] h-[500px] rounded-full bg-gradient-to-br from-violet-200/40 via-purple-100/20 to-transparent blur-3xl pointer-events-none" />
       <div className="absolute -bottom-20 -left-40 w-[400px] h-[400px] rounded-full bg-gradient-to-tr from-violet-100/30 to-transparent blur-3xl pointer-events-none" />
@@ -16,7 +16,7 @@ export default function Hero() {
           <br />
           engines that{" "}
           <span
-            className="italic"
+            className="italic typing-cursor"
             style={{ fontFamily: "var(--font-display)" }}
           >
             think.
@@ -48,6 +48,14 @@ export default function Hero() {
           ))}
         </div>
       </div>
-    </section>
+    
+        <div className="mt-10 inline-flex items-center gap-2 rounded-full border border-[var(--color-border)] px-4 py-2 text-sm text-[var(--color-muted)]">
+          <span className="relative flex h-2 w-2">
+            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75"></span>
+            <span className="relative inline-flex h-2 w-2 rounded-full bg-green-500"></span>
+          </span>
+          Open to advisory, fractional CMO, and consulting
+        </div>
+</section>
   );
 }
