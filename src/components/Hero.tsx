@@ -6,10 +6,6 @@ export default function Hero() {
       <div className="absolute -bottom-20 -left-40 w-[400px] h-[400px] rounded-full bg-gradient-to-tr from-violet-100/30 to-transparent blur-3xl pointer-events-none" />
 
       <div className="max-w-5xl mx-auto relative">
-        <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-[var(--color-pop-light)] text-[var(--color-pop)] text-xs font-medium mb-8">
-          <span className="w-1.5 h-1.5 rounded-full bg-[var(--color-pop)] animate-pulse" />
-          AI-Forward Marketing Leader
-        </div>
 
         <h1 className="text-5xl sm:text-7xl font-bold tracking-tight leading-[1.05] mb-6">
           I build marketing
@@ -30,7 +26,7 @@ export default function Hero() {
           metrics.
         </p>
 
-        <div className="flex flex-wrap gap-3">
+        <div className="flex flex-wrap justify-center gap-3">
           {[
             "AI Marketing Automation",
             "GTM Strategy",
