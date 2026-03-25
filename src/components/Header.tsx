@@ -16,7 +16,7 @@ export default function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-[var(--color-bg)]/80 backdrop-blur-md">
       <nav className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
         <a href="#" className="hover:scale-110 transition-transform text-2xl leading-none" aria-label="Home">
-              ✨�
+              ✨
             </a>
 
         <ul className="hidden sm:flex items-center gap-8">
