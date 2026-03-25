@@ -41,7 +41,7 @@ export default function Philosophy() {
               key={b.number}
               className="p-6 rounded-xl border border-white/10 bg-white/5 hover:bg-white/[0.08] transition-colors"
             >
-              <span className="text-xs font-mono text-[var(--color-pop)] opacity-80">
+              <span className="text-xs font-mono text-white/50">
                 {b.number}
               </span>
               <h3 className="text-base font-semibold text-white mt-2 mb-3">
