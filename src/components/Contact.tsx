@@ -17,6 +17,17 @@ export default function Contact() {
           love to talk.
         </p>
 
+        <div className="flex flex-wrap gap-3 mb-8">
+          {["Fractional CMO", "Advisory", "GTM Strategy", "AI Marketing Consulting", "Speaking"].map((item) => (
+            <span
+              key={item}
+              className="rounded-full border border-[var(--color-border)] px-4 py-2 text-sm text-[var(--color-muted)] hover:border-[var(--color-pop)] hover:text-[var(--color-pop)] transition-colors"
+            >
+              {item}
+            </span>
+          ))}
+        </div>
+
         <div className="flex flex-wrap gap-4">
           <a
             href="mailto:neelyannconway@gmail.com"
