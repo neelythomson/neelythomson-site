@@ -1,5 +1,17 @@
 const roles = [
   {
+    company: "Kindling",
+    period: "2025 – Present",
+    title: "Founder & Creator",
+    description:
+      "Founded and built Kindling (kindlingmagic.com) — an AI marketing teammate for startup teams of one to three. One brief in, a full campaign out across blog, email, LinkedIn, X, Reddit, Product Hunt, and newsletter.",
+    highlights: [
+      "Designed and shipped the flagship Campaign Builder agent — strategy plus content across seven channels in a single flow",
+      "Built the product from zero: Next.js, TypeScript, Vercel, Claude API streaming",
+      "Positioned against Jasper, Copy.ai, and blank-canvas LLMs as the only tool purpose-built for small startup marketing teams",
+    ],
+  },
+  {
     company: "Dwolla",
     period: "2022 – Present",
     title: "VP & Head of Marketing",

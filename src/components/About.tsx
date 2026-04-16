@@ -36,6 +36,19 @@ export default function About() {
               stacks or building lifecycle campaigns that move pipeline, I care
               about one thing: outcomes.
             </p>
+            <p className="text-base text-[var(--color-muted)] leading-relaxed">
+              I&apos;m also the founder and creator of{" "}
+              <a
+                href="https://kindlingmagic.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[var(--color-pop)] hover:underline"
+              >
+                Kindling
+              </a>
+              {" "}— an AI marketing teammate built for startup teams of one to
+              three. One brief in, a full campaign out.
+            </p>
           </div>
 
           <div className="lg:col-span-2 grid grid-cols-2 gap-4">
