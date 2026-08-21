@@ -1,16 +1,17 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
-  --font-display: "Instrument Serif", Georgia, serif;
-  --font-mono: "JetBrains Mono", ui-monospace, monospace;
-  --color-accent: #0f0f0f;
-  --color-muted: #6b6b6b;
-  --color-border: #e2e2e2;
-  --color-bg: #fafaf8;
-  --color-surface: #ffffff;
-  --color-pop: #6d28d9;
-  --color-pop-light: #ede9fe;
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-display: "Newsreader", Georgia, "Times New Roman", serif;
+
+  --color-bg: #fbfaf8;
+  --color-band: #f3f1ed;
+  --color-ink: #1a1917;
+  --color-muted: #6b6862;
+  --color-faint: #9a968e;
+  --color-rule: #e7e4de;
+  --color-accent: #b33a24;
+  --color-tint: #f5e6e1;
 }
 
 html {
@@ -20,58 +21,90 @@ html {
 body {
   font-family: var(--font-sans);
   background-color: var(--color-bg);
-  color: var(--color-accent);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 ::selection {
-  background-color: var(--color-pop);
+  background-color: var(--color-accent);
   color: #ffffff;
 }
 
-/* Scroll fade-in animation */
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
+h1, h2, h3 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+}
+
+/* ── Display type ──────────────────────────────────────────
+   Newsreader is variable on both opsz and wght. Display sizes
+   push opsz to the top and keep weight LOW — a light serif at
+   large size reads as a monograph; a heavy one reads as a
+   newspaper masthead. Never set a weight above 400 on it. */
+.display {
+  font-family: var(--font-display);
+  font-variation-settings: "opsz" 72;
+  font-weight: 300;
+  letter-spacing: -0.021em;
+  line-height: 0.99;
+}
+
+.display-sm {
+  font-family: var(--font-display);
+  font-variation-settings: "opsz" 60;
+  font-weight: 300;
+  letter-spacing: -0.016em;
+  line-height: 1.08;
+}
+
+.display-xs {
+  font-family: var(--font-display);
+  font-variation-settings: "opsz" 36;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+/* Uppercase labels always carry tracking. Untracked caps is
+   the most common amateur tell in the whole type system. */
+.label {
+  font-size: 10.5px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--color-faint);
+}
+
+.measure {
+  max-width: 66ch;
+}
+
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── Motion ─────────────────────────────────────────────── */
+@keyframes riseIn {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: none; }
+}
+
+.reveal {
+  animation: riseIn 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .reveal { animation: none; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
   }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.animate-on-scroll {
-  opacity: 0;
-  transform: translateY(30px);
-  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
-}
-
-.animate-on-scroll.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-/* Typing cursor blink */
-@keyframes blink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
-}
-
-.typing-cursor::after {
-  content: "|";
-  color: var(--color-pop);
-  animation: blink 1s step-end infinite;
-  font-style: normal;
-  margin-left: 2px;
-}
-
-/* Experience card hover */
-.experience-card {
-  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
-}
-
-.experience-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
-  border-color: var(--color-pop-light);
 }

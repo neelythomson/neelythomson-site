@@ -1,36 +1,37 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+const TITLE = "Neely Thomson | Fractional CMO — The Marketing Engine";
+const DESCRIPTION =
+  "I build the marketing engine. Your team runs it. A 90-day, fixed-scope fractional CMO engagement for B2B software companies selling into regulated and institutional buyers — positioning, sequencing, lead scoring, CRM, routing, and attribution, built and handed over. Diagnostic $7,500, Engine $45,000.";
+
 export const metadata: Metadata = {
-  title: "Neely Thomson | Fractional CMO & AI Marketing Consultant",
-  description:
-    "Neely Thomson is a fractional CMO and AI marketing consultant with 20+ years building AI-powered marketing engines for B2B SaaS and fintech companies. Specializing in GTM strategy, demand generation, marketing automation, and pipeline revenue.",
+  title: TITLE,
+  description: DESCRIPTION,
   keywords: [
     "fractional CMO",
+    "marketing systems architect",
+    "90 day marketing engine",
+    "B2B SaaS fractional CMO",
+    "fintech fractional CMO",
+    "regulated industry marketing",
     "AI marketing consultant",
-    "B2B marketing leader",
     "GTM strategy consultant",
     "demand generation",
-    "marketing automation",
-    "AI marketing strategy",
-    "B2B SaaS marketing",
-    "fintech marketing",
-    "fractional marketing leader",
+    "lead scoring",
+    "marketing automation consultant",
+    "marketing operations consultant",
     "pipeline revenue",
-    "ABM strategy",
-    "marketing advisor",
     "Neely Thomson",
   ],
   authors: [{ name: "Neely Thomson", url: "https://neelythomson.com" }],
   creator: "Neely Thomson",
   metadataBase: new URL("https://neelythomson.com"),
-  alternates: {
-    canonical: "https://neelythomson.com",
-  },
+  alternates: { canonical: "https://neelythomson.com" },
   openGraph: {
-    title: "Neely Thomson | Fractional CMO & AI Marketing Consultant",
+    title: TITLE,
     description:
-      "Fractional CMO and AI marketing consultant with 20+ years building AI-powered marketing engines for B2B SaaS and fintech. GTM strategy, demand gen, and marketing automation that drives pipeline.",
+      "I build the marketing engine. Your team runs it. A 90-day fixed-scope build, handed to your team. Diagnostic $7,500, Engine $45,000.",
     url: "https://neelythomson.com",
     siteName: "Neely Thomson",
     locale: "en_US",
@@ -38,9 +39,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Neely Thomson | Fractional CMO & AI Marketing Consultant",
+    title: TITLE,
     description:
-      "Fractional CMO and AI marketing consultant. 20+ years building AI-powered marketing engines for B2B SaaS and fintech.",
+      "I build the marketing engine. Your team runs it. A 90-day fixed-scope build for B2B software companies.",
     creator: "@neelythomson",
   },
   robots: {
@@ -66,52 +67,72 @@ const jsonLd = {
       url: "https://neelythomson.com",
       jobTitle: "Fractional CMO & Marketing Systems Architect",
       description:
-        "Fractional CMO and AI marketing consultant with 20+ years building AI-powered marketing engines for B2B SaaS and fintech companies.",
+        "Fractional CMO who builds B2B marketing engines in 90 days and hands them to the client's own team. Twenty years in B2B SaaS and fintech, including AI-powered marketing under NACHA and CFPB.",
       knowsAbout: [
         "Fractional CMO",
+        "Marketing systems architecture",
         "AI Marketing",
         "B2B SaaS Marketing",
         "GTM Strategy",
         "Demand Generation",
         "Account-Based Marketing",
         "Marketing Automation",
-        "Pipeline Revenue",
+        "Lead Scoring",
+        "Marketing Attribution",
         "Fintech Marketing",
         "Sales Alignment",
       ],
       sameAs: ["https://linkedin.com/in/neelyconway"],
-      alumniOf: {
-        "@type": "Organization",
-        name: "Dwolla",
-      },
+      alumniOf: { "@type": "Organization", name: "Dwolla" },
     },
     {
-      "@type": "ProfessionalService",
+      "@type": "Service",
       "@id": "https://neelythomson.com/#service",
-      name: "Neely Thomson — Fractional CMO & AI Marketing Consulting",
-      url: "https://neelythomson.com",
-      description:
-        "Fractional CMO, advisory, and AI marketing consulting for B2B SaaS and fintech companies. GTM strategy, demand gen, marketing automation, and pipeline revenue optimization.",
+      name: "The Marketing Engine — Fractional CMO",
+      serviceType: "Fractional CMO / Marketing systems architecture",
       provider: { "@id": "https://neelythomson.com/#person" },
-      serviceType: [
-        "Fractional CMO",
-        "AI Marketing Consulting",
-        "GTM Strategy",
-        "Advisory",
-        "Marketing Automation",
-        "Demand Generation",
+      areaServed: "US",
+      description:
+        "A 90-day fixed-scope engagement that builds a B2B marketing engine — positioning and brand system, lifecycle sequencing, lead scoring, CRM integration, routing, and attribution — then hands it to the client's team with no ongoing retainer.",
+      offers: [
+        {
+          "@type": "Offer",
+          name: "The Diagnostic",
+          price: "7500",
+          priceCurrency: "USD",
+          description:
+            "Two-week marketing audit, ICP and positioning read, pipeline math, and a prioritized build order. Credited in full toward The Marketing Engine.",
+        },
+        {
+          "@type": "Offer",
+          name: "The Marketing Engine",
+          price: "45000",
+          priceCurrency: "USD",
+          description:
+            "Ninety-day fixed-scope build and handoff of a complete B2B marketing engine, billed in three installments of $15,000.",
+        },
+        {
+          "@type": "Offer",
+          name: "Operator's Seat",
+          price: "3500",
+          priceCurrency: "USD",
+          description:
+            "Optional post-build advisory retainer, roughly ten hours a month, six-month minimum.",
+        },
       ],
-      areaServed: "Worldwide",
     },
     {
       "@type": "WebSite",
       "@id": "https://neelythomson.com/#website",
       url: "https://neelythomson.com",
-      name: "Neely Thomson | Fractional CMO & AI Marketing Consultant",
+      name: TITLE,
       publisher: { "@id": "https://neelythomson.com/#person" },
     },
   ],
 };
+
+const favicon =
+  "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='8' fill='%231a1917'/><text x='32' y='45' font-family='Georgia,serif' font-size='38' fill='%23fbfaf8' text-anchor='middle'>N</text></svg>";
 
 export default function RootLayout({
   children,
@@ -121,14 +142,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Inter:wght@400;500;600&display=swap"
           rel="stylesheet"
         />
-        <link
-          rel="icon"
-          href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>\u2728</text></svg>"
-        />
+        <link rel="icon" href={favicon} />
+        <meta name="theme-color" content="#fbfaf8" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

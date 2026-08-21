@@ -1,9 +1,13 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import Situation from "@/components/Situation";
+import Engine from "@/components/Engine";
+import Pricing from "@/components/Pricing";
+import Phases from "@/components/Phases";
+import Keeps from "@/components/Keeps";
+import Regulated from "@/components/Regulated";
+import Fit from "@/components/Fit";
 import About from "@/components/About";
-import Experience from "@/components/Experience";
-import Philosophy from "@/components/Philosophy";
-import Writing from "@/components/Writing";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -13,10 +17,14 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
+        <Situation />
+        <Engine />
+        <Pricing />
+        <Phases />
+        <Keeps />
+        <Regulated />
+        <Fit />
         <About />
-        <Experience />
-        <Philosophy />
-        <Writing />
         <Contact />
       </main>
       <Footer />
