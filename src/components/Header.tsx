@@ -12,40 +12,51 @@ const navLinks = [
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
-  // Two things fight a #hash on first load: the browser jumps before the page
-  // has hydrated, and Next's scroll restoration then pulls it back to the top.
-  // So re-assert the jump for a moment, and stop the instant the reader scrolls.
+  // Three things fight a #hash on first load: the browser jumps before the page
+  // has hydrated, Next's scroll restoration pulls it back to the top, and the
+  // page's own `scroll-behavior: smooth` can swallow the programmatic jump
+  // entirely. So turn smooth off for the jump, re-assert it for a moment, and
+  // stop the instant the reader scrolls for themselves.
   useEffect(() => {
     const id = decodeURIComponent(window.location.hash.slice(1));
     if (!id) return;
 
-    let cancelled = false;
+    const root = document.documentElement;
+    const previousBehavior = root.style.scrollBehavior;
+    root.style.scrollBehavior = "auto";
+
+    let done = false;
     let timer: ReturnType<typeof setTimeout>;
-    const stop = () => {
-      cancelled = true;
+
+    const finish = () => {
+      if (done) return;
+      done = true;
+      clearTimeout(timer);
+      root.style.scrollBehavior = previousBehavior;
+      window.removeEventListener("wheel", finish);
+      window.removeEventListener("touchstart", finish);
+      window.removeEventListener("keydown", finish);
     };
 
     const settle = (tries: number) => {
-      if (cancelled) return;
+      if (done) return;
       const el = document.getElementById(id);
       if (el && Math.abs(el.getBoundingClientRect().top) > 4) {
         el.scrollIntoView({ behavior: "auto", block: "start" });
       }
-      if (tries < 20) timer = setTimeout(() => settle(tries + 1), 40);
+      if (tries < 20) {
+        timer = setTimeout(() => settle(tries + 1), 40);
+      } else {
+        finish();
+      }
     };
     settle(0);
 
-    window.addEventListener("wheel", stop, { passive: true, once: true });
-    window.addEventListener("touchstart", stop, { passive: true, once: true });
-    window.addEventListener("keydown", stop, { once: true });
+    window.addEventListener("wheel", finish, { passive: true, once: true });
+    window.addEventListener("touchstart", finish, { passive: true, once: true });
+    window.addEventListener("keydown", finish, { once: true });
 
-    return () => {
-      cancelled = true;
-      clearTimeout(timer);
-      window.removeEventListener("wheel", stop);
-      window.removeEventListener("touchstart", stop);
-      window.removeEventListener("keydown", stop);
-    };
+    return finish;
   }, []);
 
   return (
