@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Neely Thomson | Fractional CMO & AI Marketing Consultant",
   description:
-    "Neely Thomson is a fractional CMO and AI marketing consultant with 15+ years building AI-powered marketing engines for B2B SaaS and fintech companies. Specializing in GTM strategy, demand generation, marketing automation, and pipeline revenue.",
+    "Neely Thomson is a fractional CMO and AI marketing consultant with 20+ years building AI-powered marketing engines for B2B SaaS and fintech companies. Specializing in GTM strategy, demand generation, marketing automation, and pipeline revenue.",
   keywords: [
     "fractional CMO",
     "AI marketing consultant",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Neely Thomson | Fractional CMO & AI Marketing Consultant",
     description:
-      "Fractional CMO and AI marketing consultant with 15+ years building AI-powered marketing engines for B2B SaaS and fintech. GTM strategy, demand gen, and marketing automation that drives pipeline.",
+      "Fractional CMO and AI marketing consultant with 20+ years building AI-powered marketing engines for B2B SaaS and fintech. GTM strategy, demand gen, and marketing automation that drives pipeline.",
     url: "https://neelythomson.com",
     siteName: "Neely Thomson",
     locale: "en_US",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Neely Thomson | Fractional CMO & AI Marketing Consultant",
     description:
-      "Fractional CMO and AI marketing consultant. 15+ years building AI-powered marketing engines for B2B SaaS and fintech.",
+      "Fractional CMO and AI marketing consultant. 20+ years building AI-powered marketing engines for B2B SaaS and fintech.",
     creator: "@neelythomson",
   },
   robots: {
@@ -64,9 +64,9 @@ const jsonLd = {
       "@id": "https://neelythomson.com/#person",
       name: "Neely Thomson",
       url: "https://neelythomson.com",
-      jobTitle: "Fractional CMO & AI Marketing Consultant",
+      jobTitle: "Fractional CMO & Marketing Systems Architect",
       description:
-        "Fractional CMO and AI marketing consultant with 15+ years building AI-powered marketing engines for B2B SaaS and fintech companies.",
+        "Fractional CMO and AI marketing consultant with 20+ years building AI-powered marketing engines for B2B SaaS and fintech companies.",
       knowsAbout: [
         "Fractional CMO",
         "AI Marketing",
@@ -80,7 +80,7 @@ const jsonLd = {
         "Sales Alignment",
       ],
       sameAs: ["https://linkedin.com/in/neelyconway"],
-      worksFor: {
+      alumniOf: {
         "@type": "Organization",
         name: "Dwolla",
       },
