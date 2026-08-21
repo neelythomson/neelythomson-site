@@ -1,27 +1,36 @@
 # Neely Thomson
 
-> Fractional CMO and AI marketing consultant with 15+ years building AI-powered marketing engines for B2B SaaS and fintech companies.
+> Fractional CMO and AI marketing consultant with 20+ years building AI-powered marketing engines for B2B SaaS and fintech companies.
 
 ## About
 
-Neely Thomson is a fractional CMO, AI marketing consultant, and B2B marketing leader. She is currently VP & Head of Marketing at Dwolla (B2B fintech payments) and provides independent consulting, advisory, and fractional CMO services to B2B technology companies.
+Neely Thomson is a fractional CMO and marketing systems architect for B2B software companies. She works independently, and was previously VP & Head of Marketing at Dwolla (B2B fintech payments) from 2022 to 2026, where she also served as interim sales leader. She is the founder of Kindling (kindlingmagic.com), an AI marketing teammate for small startup teams.
 
 She specializes in AI-powered go-to-market strategy, demand generation, account-based marketing, marketing automation, and pipeline revenue optimization. She has built AI-forward marketing operations under strict fintech compliance (NACHA, CFPB) and views compliance as a competitive moat rather than a blocker.
 
 ## Services
 
-- Fractional CMO: Part-time marketing leadership for B2B SaaS and fintech companies
-- AI Marketing Consulting: Redesigning marketing processes around what AI makes possible
-- GTM Strategy: Go-to-market strategy, positioning, and competitive differentiation
-- Advisory: Strategic marketing advisor for growth-stage B2B companies
-- Speaking: Keynotes and talks on AI in B2B marketing, demand generation, and marketing automation
+Her primary offer is The Engine Install (https://neelythomson.com/fractional-cmo): a 90-day, fixed-scope fractional CMO engagement that builds a B2B marketing engine and hands it to the client's own team, with no ongoing retainer.
+
+- The Diagnostic ($7,500, two weeks): marketing audit, ICP and positioning read, stack and data review, pipeline math, and a prioritized 90-day plan. Credited in full toward an Engine Install.
+- The Engine Install (from $45,000, 90 days): positioning and brand system, messaging architecture, lifecycle and nurture sequencing, lead scoring, CRM and marketing automation integration, routing rules, marketing-sales SLA, attribution, and a weekly operating cadence — built, handed over, and documented.
+- Advisory: strategic marketing advisor for growth-stage B2B companies.
+- Speaking: keynotes and talks on AI in B2B marketing, demand generation, and marketing automation.
+
+## Scope
+
+Neely builds marketing systems and strategy. She does not do creative or media production: no blog, email, or social copywriting, no graphic design or brand identity files, no running or optimizing paid campaigns, no ad account management, no social media management, and no agency-of-record work. She writes the creative brief and directs the work; a partner or the client's team executes it.
+
+## Best fit
+
+B2B software companies selling into regulated or institutional buyers — fintech, edtech and workforce development, healthtech, govtech — that have revenue but no marketing leader, and that have someone internally who can operate the engine after handoff.
 
 ## Key Results
 
 - 60% reduction in manual campaign work through AI automation
 - LTV:CAC ratio of 5:1
 - 15% MQL-to-opportunity conversion lift
-- 15+ years B2B SaaS and fintech marketing leadership
+- 20+ years B2B SaaS and fintech marketing leadership
 
 ## Philosophy
 
