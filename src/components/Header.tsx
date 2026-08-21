@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const navLinks = [
   { label: "What I build", href: "/#engine" },
@@ -11,6 +11,25 @@ const navLinks = [
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+
+  // The browser tries to jump to a #hash before the page has hydrated, so a
+  // link like /#start (or the /fractional-cmo redirect that carries one) lands
+  // at the top instead of the section. Re-run the jump once we're mounted.
+  useEffect(() => {
+    const id = decodeURIComponent(window.location.hash.slice(1));
+    if (!id) return;
+    let frame = 0;
+    const jump = () => {
+      const el = document.getElementById(id);
+      if (el) {
+        el.scrollIntoView({ behavior: "auto", block: "start" });
+      } else if (frame < 20) {
+        frame += 1;
+        requestAnimationFrame(jump);
+      }
+    };
+    requestAnimationFrame(jump);
+  }, []);
 
   return (
     <header className="sticky top-0 z-50 border-b border-rule bg-bg">
