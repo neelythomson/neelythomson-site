@@ -12,21 +12,30 @@ export default function Contact() {
           Let&apos;s build something together.
         </h2>
         <p className="text-base text-[var(--color-muted)] leading-relaxed mb-10 max-w-xl">
-          Whether you&apos;re looking for a marketing leader, a strategic
-          advisor, or someone to help you rethink your GTM with AI — I&apos;d
-          love to talk.
+          Most of my work is one thing: a 90-day build that leaves your team
+          running the marketing engine instead of paying me to run it. I also
+          take on advisory and speaking when the fit is right.
         </p>
 
-        <div className="flex flex-wrap gap-3 mb-8">
-          {["Fractional CMO", "Advisory", "GTM Strategy", "AI Marketing Consulting", "Speaking"].map((item) => (
-            <span
-              key={item}
-              className="rounded-full border border-[var(--color-border)] px-4 py-2 text-sm text-[var(--color-muted)] hover:border-[var(--color-pop)] hover:text-[var(--color-pop)] transition-colors"
-            >
-              {item}
-            </span>
-          ))}
-        </div>
+        <a
+          href="/fractional-cmo"
+          className="block mb-10 max-w-2xl p-6 bg-[var(--color-surface)] border border-[var(--color-border)] rounded-xl hover:border-[var(--color-pop)] transition-colors group"
+        >
+          <p className="font-mono text-xs uppercase tracking-wider text-[var(--color-pop)] mb-3">
+            The Engine Install · 90 days
+          </p>
+          <h3 className="text-xl font-semibold mb-2">
+            I install the marketing engine. Your team runs it.
+          </h3>
+          <p className="text-sm text-[var(--color-muted)] leading-relaxed mb-4">
+            Positioning and brand system, lifecycle sequencing, lead scoring,
+            CRM integration, routing, attribution — built, handed over, done.
+            Fixed scope, fixed end date, no open-ended retainer.
+          </p>
+          <span className="text-sm font-medium text-[var(--color-pop)] group-hover:underline">
+            See how it works →
+          </span>
+        </a>
 
         <div className="flex flex-wrap gap-4">
           <a

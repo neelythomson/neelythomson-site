@@ -20,11 +20,27 @@ export default function Hero() {
         </h1>
 
         <p className="text-lg sm:text-xl text-[var(--color-muted)] leading-relaxed max-w-2xl mb-10">
-          VP & Head of Marketing with 15+ years turning B2B SaaS companies into
-          category leaders. I architect AI-powered GTM strategies, automated
-          funnels, and demand gen engines that drive real pipeline — not vanity
-          metrics.
+          Twenty years building B2B SaaS and fintech marketing, including
+          AI-powered marketing under NACHA and CFPB. Now I install the systems
+          that generate pipeline — sequencing, lead scoring, CRM, attribution —
+          and hand them to your team in 90 days.
         </p>
+
+        <div className="flex flex-wrap gap-4 mb-12">
+          <a
+            href="/fractional-cmo"
+            className="inline-flex items-center gap-2 px-6 py-3 text-sm font-medium bg-[var(--color-pop)] text-white rounded-full hover:opacity-90 transition-opacity"
+          >
+            See how the Engine Install works
+            <span aria-hidden="true">→</span>
+          </a>
+          <a
+            href="#about"
+            className="inline-flex items-center gap-2 px-6 py-3 text-sm font-medium border border-[var(--color-border)] rounded-full hover:border-[var(--color-pop)] hover:text-[var(--color-pop)] transition-colors"
+          >
+            About me
+          </a>
+        </div>
 
         <div className="flex flex-wrap justify-center gap-3">
           {[
@@ -50,7 +66,7 @@ export default function Hero() {
             <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75"></span>
             <span className="relative inline-flex h-2 w-2 rounded-full bg-green-500"></span>
           </span>
-          Open to advisory, fractional CMO, and consulting
+          Taking two Engine Installs this quarter
         </div>
 </section>
   );

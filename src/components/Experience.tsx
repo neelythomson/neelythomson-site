@@ -1,5 +1,17 @@
 const roles = [
   {
+    company: "Independent",
+    period: "2020 – Present",
+    title: "Fractional CMO & Marketing Systems Architect",
+    description:
+      "I install marketing engines for B2B software companies — brand and positioning, lifecycle sequencing, lead scoring, CRM integration, routing, and attribution — then hand them to the client's team in 90 days and step out.",
+    highlights: [
+      "Fixed-scope 90-day engagements, not open-ended retainers",
+      "Built for companies selling into regulated and institutional buyers — fintech, edtech, healthtech, govtech",
+      "Systems and strategy only; creative and media execution stay with the client's team or a partner",
+    ],
+  },
+  {
     company: "Kindling",
     period: "2025 – Present",
     title: "Founder & Creator",
@@ -13,26 +25,15 @@ const roles = [
   },
   {
     company: "Dwolla",
-    period: "2022 – Present",
+    period: "2022 – 2026",
     title: "VP & Head of Marketing",
     description:
-      "Built and lead an AI-forward marketing organization for a B2B fintech payments platform. Architected automated inbound/outbound funnels, deployed AI-powered content workflows under fintech compliance, and delivered LTV:CAC of 5:1.",
+      "Built and led an AI-forward marketing organization for a B2B fintech payments platform. Architected automated inbound/outbound funnels, deployed AI-powered content workflows under fintech compliance, and delivered LTV:CAC of 5:1.",
     highlights: [
       "Led company-wide AI marketing transformation — 60% reduction in manual campaign work",
       "Built AI-assisted website ops pipeline enabling rapid page production & A/B testing at scale",
       "Served as Interim Sales Leader, integrating marketing and sales operations",
       "Introduced AI-driven personalization across ABM campaigns using 6sense intent data",
-    ],
-  },
-  {
-    company: "Independent",
-    period: "2022 – Present",
-    title: "Marketing Consultant",
-    description:
-      "Advise mid-sized B2B tech companies on GTM strategy, brand positioning, AI-assisted content strategy, and growth marketing frameworks.",
-    highlights: [
-      "Architect modern MarTech stacks and AI-powered automation workflows",
-      "Build lifecycle campaigns to improve pipeline velocity and close rates",
     ],
   },
   {

@@ -1,6 +1,6 @@
 export default function About() {
   const stats = [
-    { value: "15+", label: "Years in B2B Marketing" },
+    { value: "20+", label: "Years in B2B Marketing" },
     { value: "60%", label: "Manual work reduced via AI" },
     { value: "5:1", label: "LTV:CAC ratio achieved" },
     { value: "15%", label: "MQL-to-Opp conversion lift" },
@@ -23,18 +23,22 @@ export default function About() {
               first-class teammate — not a buzzword.
             </h2>
             <p className="text-base text-[var(--color-muted)] leading-relaxed">
-              I&apos;ve spent the last decade and a half building, scaling, and
-              leading marketing teams at B2B SaaS and fintech companies. Today, I
-              lead an AI-forward marketing org where we&apos;ve automated inbound
-              and outbound funnels, content production, and web ops — all under
-              strict fintech compliance (NACHA, CFPB).
+              I spent two decades building, scaling, and leading marketing
+              teams at B2B SaaS and fintech companies — most recently as VP
+              &amp; Head of Marketing at Dwolla, where I led an AI-forward
+              marketing org that automated inbound and outbound funnels,
+              content production, and web ops, all under strict fintech
+              compliance (NACHA, CFPB). I also stepped in as interim sales
+              leader, which is where I learned what actually keeps a marketing
+              engine running.
             </p>
             <p className="text-base text-[var(--color-muted)] leading-relaxed">
-              As a fractional CMO and marketing consultant, I advise mid-sized B2B
-              tech companies on GTM strategy, brand positioning, and AI-powered
-              demand generation. Whether it&apos;s architecting modern MarTech
-              stacks or building lifecycle campaigns that move pipeline, I care
-              about one thing: outcomes.
+              Today I work independently. I install marketing engines for B2B
+              software companies selling into regulated and institutional
+              buyers — the positioning, the brand system, the sequencing,
+              scoring, CRM integration, routing, and attribution — then hand
+              the whole thing to their team and step out. Ninety days, fixed
+              scope, no open-ended retainer.
             </p>
             <p className="text-base text-[var(--color-muted)] leading-relaxed">
               I&apos;m also the founder and creator of{" "}

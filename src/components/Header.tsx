@@ -3,10 +3,12 @@
 import { useState } from "react";
 
 const navLinks = [
-  { label: "About", href: "#about" },
-  { label: "Experience", href: "#experience" },
-  { label: "Philosophy", href: "#philosophy" },
-  { label: "Contact", href: "#contact" },
+  { label: "Fractional CMO", href: "/fractional-cmo" },
+  { label: "About", href: "/#about" },
+  { label: "Experience", href: "/#experience" },
+  { label: "Philosophy", href: "/#philosophy" },
+  { label: "Writing", href: "/#writing" },
+  { label: "Contact", href: "/#contact" },
 ];
 
 export default function Header() {
@@ -15,11 +17,11 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-[var(--color-bg)]/80 backdrop-blur-md">
       <nav className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
-        <a href="#" className="hover:scale-110 transition-transform text-2xl leading-none" aria-label="Home">
+        <a href="/" className="hover:scale-110 transition-transform text-2xl leading-none" aria-label="Home">
               ✨
             </a>
 
-        <ul className="hidden sm:flex items-center gap-8">
+        <ul className="hidden md:flex items-center gap-6">
           {navLinks.map((link) => (
             <li key={link.href}>
               <a
@@ -33,7 +35,7 @@ export default function Header() {
         </ul>
 
         <button
-          className="sm:hidden p-2 -mr-2"
+          className="md:hidden p-2 -mr-2"
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label="Toggle menu"
         >
@@ -55,7 +57,7 @@ export default function Header() {
       </nav>
 
       {menuOpen && (
-        <div className="sm:hidden bg-[var(--color-bg)] border-b border-[var(--color-border)]">
+        <div className="md:hidden bg-[var(--color-bg)] border-b border-[var(--color-border)]">
           <ul className="max-w-5xl mx-auto px-6 py-4 flex flex-col gap-4">
             {navLinks.map((link) => (
               <li key={link.href}>
