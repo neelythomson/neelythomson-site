@@ -1,15 +1,25 @@
 export default function Footer() {
   return (
-    <footer className="py-8 px-6 border-t border-[var(--color-border)]">
-      <div className="max-w-5xl mx-auto flex items-center justify-between text-sm text-[var(--color-muted)]">
-        <p>&copy; {new Date().getFullYear()} Neely Thomson</p>
+    <div className="mx-auto max-w-[960px] px-6 sm:px-10">
+      <footer className="flex flex-wrap gap-6 border-t border-rule py-11 text-[12.5px] text-faint">
+        <span>&copy; {new Date().getFullYear()} Neely Thomson</span>
         <a
-          href="#"
-          className="hover:text-[var(--color-pop)] transition-colors"
+          href="https://kindlingmagic.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="transition-colors hover:text-accent"
         >
-          Back to top
+          Kindling
         </a>
-      </div>
-    </footer>
+        <a
+          href="https://linkedin.com/in/neelyconway"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="transition-colors hover:text-accent"
+        >
+          LinkedIn
+        </a>
+      </footer>
+    </div>
   );
 }

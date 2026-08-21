@@ -1,59 +1,36 @@
+import ContactForm from "@/components/ContactForm";
+
 export default function Contact() {
   return (
-    <section id="contact" className="py-24 px-6">
-      <div className="max-w-5xl mx-auto">
-        <p className="text-sm font-medium text-[var(--color-pop)] mb-4 tracking-wide uppercase">
-          Contact
-        </p>
-        <h2
-          className="text-3xl sm:text-4xl leading-snug mb-6"
-          style={{ fontFamily: "var(--font-display)" }}
-        >
-          Let&apos;s build something together.
+    <section id="start" className="scroll-mt-20 border-t border-rule px-6 pt-24 pb-20 sm:px-10 sm:pt-28 sm:pb-24">
+      <div className="mx-auto max-w-[960px]">
+        <p className="label mb-8">Start here</p>
+
+        <h2 className="display mb-7 max-w-[16ch] text-[clamp(2.2rem,4.4vw,3.6rem)]">
+          Two weeks, $7,500, and you&apos;ll know what&apos;s broken.
         </h2>
-        <p className="text-base text-[var(--color-muted)] leading-relaxed mb-10 max-w-xl">
-          Most of my work is one thing: a 90-day build that leaves your team
-          running the marketing engine instead of paying me to run it. I also
-          take on advisory and speaking when the fit is right.
+
+        <p className="measure mb-11 text-base leading-[1.68] text-muted">
+          The Diagnostic is the front door. Nobody should quote a 90-day build
+          before looking at the business. It&apos;s credited in full toward The
+          Marketing Engine, and if you&apos;d rather take the plan and run it
+          yourself, that&apos;s a legitimate outcome.
         </p>
 
-        <a
-          href="/fractional-cmo"
-          className="block mb-10 max-w-2xl p-6 bg-[var(--color-surface)] border border-[var(--color-border)] rounded-xl hover:border-[var(--color-pop)] transition-colors group"
-        >
-          <p className="font-mono text-xs uppercase tracking-wider text-[var(--color-pop)] mb-3">
-            The Engine Install · 90 days
-          </p>
-          <h3 className="text-xl font-semibold mb-2">
-            I install the marketing engine. Your team runs it.
-          </h3>
-          <p className="text-sm text-[var(--color-muted)] leading-relaxed mb-4">
-            Positioning and brand system, lifecycle sequencing, lead scoring,
-            CRM integration, routing, attribution — built, handed over, done.
-            Fixed scope, fixed end date, no open-ended retainer.
-          </p>
-          <span className="text-sm font-medium text-[var(--color-pop)] group-hover:underline">
-            See how it works →
-          </span>
-        </a>
+        <ContactForm />
 
-        <div className="flex flex-wrap gap-4">
-          <a
-            href="/fractional-cmo#start"
-            className="inline-flex items-center gap-2 px-6 py-3 text-sm font-medium bg-[var(--color-pop)] text-white rounded-full hover:opacity-90 transition-opacity"
-          >
-            Get in touch
-            <span aria-hidden="true">&rarr;</span>
-          </a>
+        <p className="mt-8 text-[13px] text-faint">
+          Prefer LinkedIn?{" "}
           <a
             href="https://linkedin.com/in/neelyconway"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-6 py-3 text-sm font-medium border border-[var(--color-border)] rounded-full hover:border-[var(--color-pop)] hover:text-[var(--color-pop)] transition-colors"
+            className="border-b border-accent pb-px text-ink transition-colors hover:text-accent"
           >
-            LinkedIn
+            Message me there
           </a>
-        </div>
+          .
+        </p>
       </div>
     </section>
   );

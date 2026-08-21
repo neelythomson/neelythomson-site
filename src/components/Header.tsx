@@ -3,68 +3,71 @@
 import { useState } from "react";
 
 const navLinks = [
-  { label: "Fractional CMO", href: "/fractional-cmo" },
+  { label: "What I build", href: "/#engine" },
+  { label: "Pricing", href: "/#pricing" },
+  { label: "The 90 days", href: "/#ninety" },
   { label: "About", href: "/#about" },
-  { label: "Experience", href: "/#experience" },
-  { label: "Philosophy", href: "/#philosophy" },
-  { label: "Writing", href: "/#writing" },
-  { label: "Contact", href: "/#contact" },
 ];
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-[var(--color-bg)]/80 backdrop-blur-md">
-      <nav className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
-        <a href="/" className="hover:scale-110 transition-transform text-2xl leading-none" aria-label="Home">
-              ✨
-            </a>
-
-        <ul className="hidden md:flex items-center gap-6">
-          {navLinks.map((link) => (
-            <li key={link.href}>
-              <a
-                href={link.href}
-                className="text-sm text-[var(--color-muted)] hover:text-[var(--color-accent)] transition-colors"
-              >
-                {link.label}
-              </a>
-            </li>
-          ))}
-        </ul>
-
-        <button
-          className="md:hidden p-2 -mr-2"
-          onClick={() => setMenuOpen(!menuOpen)}
-          aria-label="Toggle menu"
-        >
-          <svg
-            width="20"
-            height="20"
-            viewBox="0 0 20 20"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="1.5"
+    <header className="sticky top-0 z-50 border-b border-rule bg-bg">
+      <nav className="mx-auto max-w-[960px] px-6 sm:px-10">
+        <div className="flex items-baseline gap-7 py-5">
+          <a
+            href="/"
+            className="display-xs mr-auto text-[17px] text-ink"
+            style={{ fontVariationSettings: '"opsz" 24' }}
           >
-            {menuOpen ? (
-              <path d="M5 5l10 10M15 5L5 15" />
-            ) : (
-              <path d="M3 6h14M3 10h14M3 14h14" />
-            )}
-          </svg>
-        </button>
-      </nav>
+            Neely Thomson
+          </a>
 
-      {menuOpen && (
-        <div className="md:hidden bg-[var(--color-bg)] border-b border-[var(--color-border)]">
-          <ul className="max-w-5xl mx-auto px-6 py-4 flex flex-col gap-4">
+          <ul className="hidden items-baseline gap-7 md:flex">
             {navLinks.map((link) => (
               <li key={link.href}>
                 <a
                   href={link.href}
+                  className="text-[13px] text-muted transition-colors hover:text-accent"
+                >
+                  {link.label}
+                </a>
+              </li>
+            ))}
+            <li>
+              <a
+                href="/#start"
+                className="text-[13px] font-medium text-accent transition-opacity hover:opacity-70"
+              >
+                Start a Diagnostic
+              </a>
+            </li>
+          </ul>
+
+          <button
+            type="button"
+            className="-mr-2 self-center p-2 md:hidden"
+            onClick={() => setMenuOpen(!menuOpen)}
+            aria-expanded={menuOpen}
+            aria-label="Toggle menu"
+          >
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.4">
+              {menuOpen ? <path d="M5 5l10 10M15 5L5 15" /> : <path d="M3 6h14M3 10h14M3 14h14" />}
+            </svg>
+          </button>
+        </div>
+      </nav>
+
+      {menuOpen && (
+        <div className="border-b border-rule bg-bg md:hidden">
+          <ul className="mx-auto flex max-w-[960px] flex-col gap-4 px-6 py-5 sm:px-10">
+            {[...navLinks, { label: "Start a Diagnostic", href: "/#start" }].map((link) => (
+              <li key={link.href}>
+                <a
+                  href={link.href}
                   onClick={() => setMenuOpen(false)}
-                  className="text-sm text-[var(--color-muted)] hover:text-[var(--color-accent)] transition-colors"
+                  className="text-sm text-muted transition-colors hover:text-accent"
                 >
                   {link.label}
                 </a>

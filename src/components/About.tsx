@@ -1,75 +1,56 @@
+const track = [
+  { k: "2020 — present", v: "Independent · Fractional CMO & marketing systems" },
+  { k: "2025 — present", v: "Kindling · Founder" },
+  { k: "2022 — 2026", v: "Dwolla · VP & Head of Marketing" },
+  { k: "2018 — 2022", v: "ASPCA · Director of B2B Engagement" },
+  { k: "2014 — 2016", v: "PGi · Sr. Sales Enablement Marketing Manager" },
+  { k: "2013 — 2014", v: "LeadLife Solutions · Marketing Manager" },
+];
+
 export default function About() {
-  const stats = [
-    { value: "20+", label: "Years in B2B Marketing" },
-    { value: "60%", label: "Manual work reduced via AI" },
-    { value: "5:1", label: "LTV:CAC ratio achieved" },
-    { value: "15%", label: "MQL-to-Opp conversion lift" },
-  ];
-
   return (
-    <section id="about" className="py-24 px-6">
-      <div className="max-w-5xl mx-auto">
-        <p className="text-sm font-medium text-[var(--color-pop)] mb-4 tracking-wide uppercase">
-          About
-        </p>
-
-        <div className="grid lg:grid-cols-5 gap-12 lg:gap-16">
-          <div className="lg:col-span-3 space-y-5">
-            <h2
-              className="text-3xl sm:text-4xl leading-snug"
-              style={{ fontFamily: "var(--font-display)" }}
+    <section id="about" className="scroll-mt-20 border-t border-rule px-6 pt-24 pb-20 sm:px-10 sm:pt-28 sm:pb-24">
+      <div className="mx-auto grid max-w-[960px] items-start gap-8 lg:grid-cols-2 lg:gap-14">
+        <div>
+          <p className="label mb-8">About</p>
+          <h2 className="display-sm mb-5 text-[clamp(1.9rem,3.4vw,2.9rem)]">
+            Neely Thomson
+          </h2>
+          <p className="text-base leading-[1.68] text-muted">
+            Twenty years building, scaling, and leading B2B SaaS and fintech
+            marketing teams — most recently as VP &amp; Head of Marketing at
+            Dwolla, where I led a company-wide AI marketing transformation and
+            stepped in as interim sales leader.
+          </p>
+          <p className="mt-4 text-base leading-[1.68] text-muted">
+            Now I work independently, building marketing engines for B2B
+            software companies selling into regulated and institutional buyers.
+            I also build{" "}
+            <a
+              href="https://kindlingmagic.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border-b border-accent pb-px text-ink transition-colors hover:text-accent"
             >
-              Fractional CMO and AI marketing consultant who treats AI as a
-              first-class teammate — not a buzzword.
-            </h2>
-            <p className="text-base text-[var(--color-muted)] leading-relaxed">
-              I spent two decades building, scaling, and leading marketing
-              teams at B2B SaaS and fintech companies — most recently as VP
-              &amp; Head of Marketing at Dwolla, where I led an AI-forward
-              marketing org that automated inbound and outbound funnels,
-              content production, and web ops, all under strict fintech
-              compliance (NACHA, CFPB). I also stepped in as interim sales
-              leader, which is where I learned what actually keeps a marketing
-              engine running.
-            </p>
-            <p className="text-base text-[var(--color-muted)] leading-relaxed">
-              Today I work independently. I install marketing engines for B2B
-              software companies selling into regulated and institutional
-              buyers — the positioning, the brand system, the sequencing,
-              scoring, CRM integration, routing, and attribution — then hand
-              the whole thing to their team and step out. Ninety days, fixed
-              scope, no open-ended retainer.
-            </p>
-            <p className="text-base text-[var(--color-muted)] leading-relaxed">
-              I&apos;m also the founder and creator of{" "}
-              <a
-                href="https://kindlingmagic.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-[var(--color-pop)] hover:underline"
-              >
-                Kindling
-              </a>
-              {" "}— an AI marketing teammate built for startup teams of one to
-              three. One brief in, a full campaign out.
-            </p>
-          </div>
+              Kindling
+            </a>
+            , an AI marketing teammate for very small teams.
+          </p>
+        </div>
 
-          <div className="lg:col-span-2 grid grid-cols-2 gap-4">
-            {stats.map((stat) => (
-              <div
-                key={stat.label}
-                className="p-5 bg-[var(--color-surface)] border border-[var(--color-border)] rounded-xl"
+        <div>
+          <p className="label mb-8">Track record</p>
+          <ul>
+            {track.map((r) => (
+              <li
+                key={r.v}
+                className="grid gap-1 border-t border-rule py-3 text-[13.5px] leading-[1.5] text-muted sm:grid-cols-[118px_1fr] sm:gap-4"
               >
-                <p className="text-2xl sm:text-3xl font-bold text-[var(--color-pop)]">
-                  {stat.value}
-                </p>
-                <p className="text-sm text-[var(--color-muted)] mt-1">
-                  {stat.label}
-                </p>
-              </div>
+                <span className="label pt-0.5">{r.k}</span>
+                {r.v}
+              </li>
             ))}
-          </div>
+          </ul>
         </div>
       </div>
     </section>

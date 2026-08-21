@@ -12,7 +12,7 @@ const COMPANY_SIZES = [
 
 const ENGAGEMENTS = [
   "The Diagnostic (2 weeks)",
-  "The Engine Install (90 days)",
+  "The Marketing Engine (90 days)",
   "Advisory / ongoing support",
   "Not sure yet",
 ];
@@ -31,8 +31,8 @@ const TIMELINES = [
 ];
 
 const FIELD =
-  "w-full rounded-lg border border-[var(--color-border)] bg-[var(--color-surface)] px-4 py-3 text-sm text-[var(--color-accent)] outline-none transition-colors focus:border-[var(--color-pop)] focus:ring-2 focus:ring-[var(--color-pop)]/20";
-const LABEL = "block text-sm font-medium mb-2";
+  "w-full rounded-sm border border-rule bg-white px-3.5 py-3 text-sm text-ink outline-none transition-colors focus:border-accent";
+const LABEL = "block text-[12.5px] font-medium mb-2";
 
 type Status = "idle" | "submitting" | "success" | "error";
 
@@ -71,14 +71,9 @@ export default function ContactForm() {
 
   if (status === "success") {
     return (
-      <div className="rounded-xl border border-[var(--color-pop)] bg-[var(--color-pop-light)] p-8">
-        <h3
-          className="mb-3 text-2xl"
-          style={{ fontFamily: "var(--font-display)" }}
-        >
-          Got it — thank you.
-        </h3>
-        <p className="max-w-lg text-base leading-relaxed text-[var(--color-muted)]">
+      <div className="max-w-2xl border-t-2 border-accent bg-band px-7 py-8">
+        <h3 className="display-xs mb-3 text-[24px]">Got it — thank you.</h3>
+        <p className="max-w-lg text-base leading-[1.68] text-muted">
           Your details are in my inbox. I read every one of these myself and
           reply within two business days, usually with a question or two before
           we book anything.
@@ -177,7 +172,7 @@ export default function ContactForm() {
         <div className="sm:col-span-2">
           <label className={LABEL} htmlFor="notes">
             Anything else?{" "}
-            <span className="font-normal text-[var(--color-muted)]">(optional)</span>
+            <span className="font-normal text-faint">(optional)</span>
           </label>
           <textarea
             id="notes"
@@ -193,7 +188,7 @@ export default function ContactForm() {
       {status === "error" && (
         <p
           role="alert"
-          className="mt-5 rounded-lg border border-red-300 bg-red-50 px-4 py-3 text-sm text-red-800"
+          className="mt-5 border-l-2 border-accent bg-tint px-4 py-3 text-sm text-ink"
         >
           {error}
         </p>
@@ -203,12 +198,12 @@ export default function ContactForm() {
         <button
           type="submit"
           disabled={status === "submitting"}
-          className="inline-flex items-center gap-2 rounded-full bg-[var(--color-pop)] px-6 py-3 text-sm font-medium text-white transition-opacity hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-60"
+          className="inline-flex items-center gap-2 rounded-sm bg-ink px-[22px] py-[13px] text-sm font-medium text-bg transition-colors hover:bg-accent disabled:cursor-not-allowed disabled:opacity-60"
         >
           {status === "submitting" ? "Sending…" : "Request a Diagnostic"}
           {status !== "submitting" && <span aria-hidden="true">→</span>}
         </button>
-        <p className="text-sm text-[var(--color-muted)]">
+        <p className="text-[13px] text-faint">
           Goes straight to my inbox. No list, no sequence.
         </p>
       </div>
