@@ -1,3 +1,5 @@
+import ContactForm from "./ContactForm";
+
 const installs = [
   {
     group: "Brand & positioning",
@@ -186,7 +188,7 @@ export default function FractionalCMO() {
       </section>
 
       {/* ---------- What I install ---------- */}
-      <section id="install" className="py-20 px-6 border-t border-[var(--color-border)]">
+      <section id="install" className="scroll-mt-20 py-20 px-6 border-t border-[var(--color-border)]">
         <div className="max-w-5xl mx-auto">
           <Eyebrow>What I install</Eyebrow>
           <h2
@@ -500,7 +502,7 @@ export default function FractionalCMO() {
       </section>
 
       {/* ---------- Start ---------- */}
-      <section id="start" className="py-24 px-6 border-t border-[var(--color-border)]">
+      <section id="start" className="scroll-mt-20 py-24 px-6 border-t border-[var(--color-border)]">
         <div className="max-w-5xl mx-auto">
           <Eyebrow>Where to start</Eyebrow>
           <h2
@@ -550,28 +552,19 @@ export default function FractionalCMO() {
             </div>
           </div>
 
-          <div className="flex flex-wrap gap-4">
-            <a
-              href="mailto:neelyannconway@gmail.com?subject=Engine%20Install%20%E2%80%94%20Diagnostic"
-              className="inline-flex items-center gap-2 px-6 py-3 text-sm font-medium bg-[var(--color-pop)] text-white rounded-full hover:opacity-90 transition-opacity"
-            >
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
-                <rect x="2" y="3" width="12" height="10" rx="1.5" />
-                <path d="M2 5l6 4 6-4" />
-              </svg>
-              Book a Diagnostic
-            </a>
+          <ContactForm />
+
+          <p className="text-sm text-[var(--color-muted)] mt-8">
+            Taking two Engine Installs this quarter. Prefer LinkedIn?{" "}
             <a
               href="https://linkedin.com/in/neelyconway"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-6 py-3 text-sm font-medium border border-[var(--color-border)] rounded-full hover:border-[var(--color-pop)] hover:text-[var(--color-pop)] transition-colors"
+              className="text-[var(--color-pop)] hover:underline"
             >
-              LinkedIn
+              Message me there
             </a>
-          </div>
-          <p className="text-sm text-[var(--color-muted)] mt-6">
-            Taking two Engine Installs this quarter.
+            .
           </p>
         </div>
       </section>

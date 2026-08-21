@@ -39,21 +39,11 @@ export default function Contact() {
 
         <div className="flex flex-wrap gap-4">
           <a
-            href="mailto:neelyannconway@gmail.com"
+            href="/fractional-cmo#start"
             className="inline-flex items-center gap-2 px-6 py-3 text-sm font-medium bg-[var(--color-pop)] text-white rounded-full hover:opacity-90 transition-opacity"
           >
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 16 16"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="1.5"
-            >
-              <rect x="2" y="3" width="12" height="10" rx="1.5" />
-              <path d="M2 5l6 4 6-4" />
-            </svg>
-            Email me
+            Get in touch
+            <span aria-hidden="true">&rarr;</span>
           </a>
           <a
             href="https://linkedin.com/in/neelyconway"
