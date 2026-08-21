@@ -12,23 +12,40 @@ const navLinks = [
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
-  // The browser tries to jump to a #hash before the page has hydrated, so a
-  // link like /#start (or the /fractional-cmo redirect that carries one) lands
-  // at the top instead of the section. Re-run the jump once we're mounted.
+  // Two things fight a #hash on first load: the browser jumps before the page
+  // has hydrated, and Next's scroll restoration then pulls it back to the top.
+  // So re-assert the jump for a moment, and stop the instant the reader scrolls.
   useEffect(() => {
     const id = decodeURIComponent(window.location.hash.slice(1));
     if (!id) return;
-    let frame = 0;
-    const jump = () => {
-      const el = document.getElementById(id);
-      if (el) {
-        el.scrollIntoView({ behavior: "auto", block: "start" });
-      } else if (frame < 20) {
-        frame += 1;
-        requestAnimationFrame(jump);
-      }
+
+    let cancelled = false;
+    let timer: ReturnType<typeof setTimeout>;
+    const stop = () => {
+      cancelled = true;
     };
-    requestAnimationFrame(jump);
+
+    const settle = (tries: number) => {
+      if (cancelled) return;
+      const el = document.getElementById(id);
+      if (el && Math.abs(el.getBoundingClientRect().top) > 4) {
+        el.scrollIntoView({ behavior: "auto", block: "start" });
+      }
+      if (tries < 20) timer = setTimeout(() => settle(tries + 1), 40);
+    };
+    settle(0);
+
+    window.addEventListener("wheel", stop, { passive: true, once: true });
+    window.addEventListener("touchstart", stop, { passive: true, once: true });
+    window.addEventListener("keydown", stop, { once: true });
+
+    return () => {
+      cancelled = true;
+      clearTimeout(timer);
+      window.removeEventListener("wheel", stop);
+      window.removeEventListener("touchstart", stop);
+      window.removeEventListener("keydown", stop);
+    };
   }, []);
 
   return (
