@@ -38,7 +38,7 @@ export default function Hero() {
               See what gets built
             </a>
             <span className="tnum text-[12.5px] tracking-[0.02em] text-faint">
-              Diagnostic $7,500 · The Marketing Engine $45,000
+              Starts with a two-week Diagnostic · $7,500
             </span>
           </div>
         </div>
