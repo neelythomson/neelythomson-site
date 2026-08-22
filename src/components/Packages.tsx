@@ -24,7 +24,7 @@ const packages = [
       "Everything in the Diagnostic",
       "All three system groups, built and live",
       "The three-rep handoff to your named operator",
-      "The four artifacts you keep",
+      "The six artifacts you keep, as working files",
       "Four weeks of support after handoff",
       "Kindling free for twelve months",
     ],

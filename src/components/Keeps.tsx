@@ -1,23 +1,66 @@
-const keeps = [
+const artifacts = [
   {
-    f: "Living document",
+    kind: "Living document",
     t: "The Engine Doc",
-    b: "One source of truth — ICP, positioning, every channel bet with its kill criteria, the pipeline model, and every decision with the reasoning attached. Not a slide deck.",
+    b: "One source of truth for how marketing works here, with the reasoning attached to every decision. The thing a new hire reads on day one instead of asking six people.",
+    contains: [
+      "ICP and buyer research",
+      "Every channel bet with its kill and scale criteria",
+      "The decision log — what we chose, and why",
+    ],
   },
   {
-    f: "~12 videos, 5 min each",
-    t: "Recorded walkthroughs",
-    b: "Every workflow, screen-recorded. Nobody reads documentation. They watch it once and copy what you did.",
+    kind: "Positioning asset",
+    t: "The Messaging Kit",
+    b: "Everything your team needs to say the same thing in the same way, without you in the room approving copy.",
+    contains: [
+      "Category narrative and value proposition",
+      "Messaging architecture by segment and persona",
+      "Proof points, objection handling, competitor framing",
+      "Voice guidelines and naming conventions",
+    ],
   },
   {
-    f: "Weekly ritual",
-    t: "The Monday loop",
-    b: "Priorities, what shipped, what the numbers say, what to kill or scale. A ritual, not a folder — it's what keeps the engine from becoming a screenshot.",
+    kind: "Model + dashboard",
+    t: "The Pipeline Model & Scoreboard",
+    b: "The math behind the number, and a live board that tells you within a week whether it's still true.",
+    contains: [
+      "Funnel stages with conversion assumptions",
+      "Five metrics — definitions, sources, and owners",
+      "The dashboard, wired to your real data",
+      "Budget allocation model",
+    ],
   },
   {
-    f: "Printed runbook",
-    t: "The 30/60/90",
-    b: "Exactly what your operator does in each of their first three months without me in the room.",
+    kind: "Technical specification",
+    t: "The Systems Spec",
+    b: "How the plumbing is actually put together, written so a new ops hire or an agency can pick it up without reverse-engineering anything.",
+    contains: [
+      "Lifecycle sequences — logic, triggers, branching, timing",
+      "Lead scoring model with thresholds",
+      "Routing rules and CRM field architecture",
+      "The marketing–sales SLA, agreed by both sides",
+    ],
+  },
+  {
+    kind: "Documentation",
+    t: "Documented processes and walkthroughs",
+    b: "A written procedure for every workflow I build: what it does, when it runs, how to change it safely, and how to tell when it's broken. Screen recordings where a recording genuinely helps, but the documentation stands on its own.",
+    contains: [
+      "One procedure per system, in plain language",
+      "Change and troubleshooting steps for each",
+      "Walkthroughs recorded during the handoff",
+    ],
+  },
+  {
+    kind: "Operating kit",
+    t: "The Weekly Loop and the 30/60/90",
+    b: "The cadence that keeps the engine from becoming a screenshot, plus exactly what your operator does in each of their first three months without me.",
+    contains: [
+      "The Monday agenda — inputs, decisions, owners",
+      "Campaign brief and template structures",
+      "A 30/60/90 runbook written for the named operator",
+    ],
   },
 ];
 
@@ -27,21 +70,46 @@ export default function Keeps() {
       <div className="mx-auto max-w-[960px]">
         <p className="label mb-8">What you keep</p>
 
-        <h2 className="display-sm max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)]">
-          Four artifacts that outlive the engagement.
+        <h2 className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)]">
+          The engagement ends. All of this stays.
         </h2>
 
+        <p className="measure text-base leading-[1.68] text-muted">
+          What you&apos;re buying isn&apos;t my availability — it&apos;s a shelf
+          of things your company owns outright. Every one of them is written for
+          the person who has to use it after I&apos;m gone, not for the person
+          who signed the agreement.
+        </p>
+
         <div className="mt-11 grid gap-px border border-rule bg-rule sm:grid-cols-2">
-          {keeps.map((k) => (
-            <div key={k.t} className="bg-bg px-6 py-7">
+          {artifacts.map((a) => (
+            <div key={a.t} className="flex flex-col bg-bg px-6 py-7">
               <p className="mb-3 text-[10px] uppercase tracking-[0.13em] text-accent">
-                {k.f}
+                {a.kind}
               </p>
-              <h3 className="display-xs mb-2.5 text-[19px]">{k.t}</h3>
-              <p className="text-[13.5px] leading-[1.6] text-muted">{k.b}</p>
+              <h3 className="display-xs mb-2.5 text-[19px]">{a.t}</h3>
+              <p className="text-[13.5px] leading-[1.6] text-muted">{a.b}</p>
+              <ul className="mt-4 border-t border-rule pt-3">
+                {a.contains.map((c) => (
+                  <li
+                    key={c}
+                    className="relative py-1 pl-4 text-[12.5px] leading-[1.5] text-faint"
+                  >
+                    <span aria-hidden="true" className="absolute left-0.5 text-accent">
+                      &middot;
+                    </span>
+                    {c}
+                  </li>
+                ))}
+              </ul>
             </div>
           ))}
         </div>
+
+        <p className="measure mt-8 text-[15px] leading-[1.7] text-muted">
+          Handed over as working files in your own tools — your drive, your CRM,
+          your automation platform. Nothing lives in a system only I can log into.
+        </p>
       </div>
     </section>
   );
