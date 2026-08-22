@@ -83,7 +83,6 @@ const jsonLd = {
         "Sales Alignment",
       ],
       sameAs: ["https://linkedin.com/in/neelyconway"],
-      alumniOf: { "@type": "Organization", name: "Dwolla" },
     },
     {
       "@type": "Service",
@@ -111,9 +110,9 @@ const jsonLd = {
         },
         {
           "@type": "Offer",
-          name: "The Operator's Seat",
+          name: "The Advisory Seat",
           description:
-            "Optional post-build advisory, roughly ten hours a month, priced into the original agreement.",
+            "Monthly strategic advisory, roughly ten hours a month, scoped to the work. Available after an Engine build or on its own.",
         },
       ],
     },

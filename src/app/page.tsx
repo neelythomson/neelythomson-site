@@ -1,8 +1,9 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Situation from "@/components/Situation";
+import WhoIWorkWith from "@/components/WhoIWorkWith";
 import Engine from "@/components/Engine";
-import Engagement from "@/components/Engagement";
+import Packages from "@/components/Packages";
 import Phases from "@/components/Phases";
 import Keeps from "@/components/Keeps";
 import Regulated from "@/components/Regulated";
@@ -18,8 +19,9 @@ export default function Home() {
       <main>
         <Hero />
         <Situation />
+        <WhoIWorkWith />
         <Engine />
-        <Engagement />
+        <Packages />
         <Phases />
         <Keeps />
         <Regulated />
