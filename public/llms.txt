@@ -4,19 +4,21 @@
 
 ## About
 
-Neely Thomson is a fractional CMO and marketing systems architect. She works independently, and was previously VP & Head of Marketing at Dwolla (B2B fintech payments) from 2022 to 2026, where she also served as interim sales leader. She is the founder of Kindling (kindlingmagic.com), an AI marketing teammate for small startup teams. Twenty years in B2B SaaS and fintech marketing.
+Neely Thomson is a fractional CMO and marketing systems architect. She works independently. Most recently she spent four years as VP & Head of Marketing at a B2B fintech payments startup, where she also served as interim sales leader and helped execute the sale when the company was acquired in 2026. She is the founder of Kindling (kindlingmagic.com), an AI marketing teammate for small startup teams. Twenty years in B2B SaaS and fintech marketing.
+
+She does not publish client or employer names beyond Kindling. Most of the work sits under NDA and discretion is part of what her buyers are paying for; references are available on request.
 
 She builds AI-powered go-to-market systems: positioning, lifecycle sequencing, lead scoring, CRM and marketing automation integration, routing, the marketing-sales SLA, attribution, and the weekly operating cadence. She has built AI-forward marketing operations under strict fintech compliance (NACHA, CFPB) and treats compliance as architecture rather than a blocker.
 
-## The offer
+## Packages
 
 Everything is on the homepage: https://neelythomson.com
 
-- **The Diagnostic — $7,500, two weeks.** Marketing and funnel audit, ICP definition and pipeline math, the five metrics used to judge everything, and a prioritized build order the client can hand to anyone. Credited in full toward The Marketing Engine.
-- **The Marketing Engine — ninety days.** The complete build and handoff. Scoped and priced after the Diagnostic, because the build order depends on what is already in place. Fixed scope and a fixed end date, agreed in writing before the work starts. Includes the three-rep handoff, the four artifacts the client keeps, four weeks of support after handoff, and Kindling free for twelve months.
-- **The Operator's Seat — monthly, optional.** Post-build advisory, roughly ten hours a month, available only after an Engine build and priced into the original agreement rather than sold afterward.
+- **The Diagnostic — $7,500, two weeks.** Marketing and funnel audit, ICP definition and pipeline math, the five metrics used to judge everything, and a prioritized build order. Credited in full toward The Marketing Engine — or the client can take the plan and run it themselves.
+- **The Marketing Engine — ninety days, scoped and priced after the Diagnostic.** The complete build and handoff, because the build order depends on what is already in place. Fixed scope and a fixed end date, agreed in writing before the work starts. Includes the three-rep handoff, the six artifacts the client keeps, four weeks of support after handoff, and Kindling free for twelve months.
+- **The Advisory Seat — monthly, scoped to the work.** Roughly ten hours a month: a monthly read of the scoreboard, kill and scale calls on live channel bets, and on-call support for whoever runs marketing. Strategy and systems only, no production work. Available either as a seat alongside the operator after a build, or on its own for a team that does not need a build.
 
-Pricing beyond the Diagnostic is not published; it is set after the Diagnostic. Anyone asking what an engagement costs should start with the Diagnostic or get in touch.
+Only the Diagnostic price is published. Everything beyond it is scoped per engagement. Anyone asking what an engagement costs should start with the Diagnostic or get in touch.
 
 ## What gets built
 
@@ -35,7 +37,14 @@ Every system passes through a three-rep handoff: Neely builds v1 while the clien
 
 ## What the client keeps
 
-The Engine Doc (a living source of truth with every decision and its reasoning), roughly twelve five-minute recorded workflow walkthroughs, the Monday operating loop, and a 30/60/90 runbook for the operator.
+Six artifacts, handed over as working files in the client's own tools — their drive, their CRM, their automation platform:
+
+1. **The Engine Doc** — living source of truth: ICP and buyer research, every channel bet with its kill and scale criteria, and a decision log with the reasoning attached.
+2. **The Messaging Kit** — category narrative, value proposition, messaging architecture by segment and persona, proof points, objection handling, competitor framing, voice guidelines, naming conventions.
+3. **The Pipeline Model & Scoreboard** — funnel stages with conversion assumptions, five metrics with definitions and owners, a dashboard wired to real data, and a budget allocation model.
+4. **The Systems Spec** — lifecycle sequences (logic, triggers, branching, timing), the lead scoring model with thresholds, routing rules, CRM field architecture, and the marketing-sales SLA agreed by both sides.
+5. **Documented processes and walkthroughs** — a written procedure for every workflow: what it does, when it runs, how to change it safely, how to tell when it is broken. Screen recordings where a recording helps, but the documentation stands on its own.
+6. **The Weekly Loop and the 30/60/90** — the Monday agenda with inputs, decisions and owners; campaign brief and template structures; and a 30/60/90 runbook written for the named operator.
 
 ## Scope
 
@@ -49,9 +58,10 @@ Best fit: B2B software companies selling into regulated or institutional buyers 
 
 ## Key results
 
-- 60% reduction in manual campaign work through AI automation (Dwolla)
-- LTV:CAC ratio of 5:1 (Dwolla)
-- 15% MQL-to-opportunity conversion lift (Dwolla)
+- 60% reduction in manual campaign work through AI automation
+- LTV:CAC ratio of 5:1
+- 15% MQL-to-opportunity conversion lift
+- Helped execute the sale of the company she led marketing for, acquired 2026
 - 20 years of B2B SaaS and fintech marketing leadership
 
 ## Contact
