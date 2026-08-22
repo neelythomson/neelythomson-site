@@ -13,8 +13,10 @@ She builds AI-powered go-to-market systems: positioning, lifecycle sequencing, l
 Everything is on the homepage: https://neelythomson.com
 
 - **The Diagnostic — $7,500, two weeks.** Marketing and funnel audit, ICP definition and pipeline math, the five metrics used to judge everything, and a prioritized build order the client can hand to anyone. Credited in full toward The Marketing Engine.
-- **The Marketing Engine — $45,000, 90 days.** The complete build and handoff, billed in three installments of $15,000. Founding rate of $32,000 for the first two engagements. Includes the three-rep handoff, the four artifacts the client keeps, four weeks of silent support after handoff, and Kindling free for twelve months.
-- **Operator's Seat — $3,500/month, six-month minimum.** Optional post-build advisory, roughly ten hours a month. Only available after an Engine build.
+- **The Marketing Engine — ninety days.** The complete build and handoff. Scoped and priced after the Diagnostic, because the build order depends on what is already in place. Fixed scope and a fixed end date, agreed in writing before the work starts. Includes the three-rep handoff, the four artifacts the client keeps, four weeks of support after handoff, and Kindling free for twelve months.
+- **The Operator's Seat — monthly, optional.** Post-build advisory, roughly ten hours a month, available only after an Engine build and priced into the original agreement rather than sold afterward.
+
+Pricing beyond the Diagnostic is not published; it is set after the Diagnostic. Anyone asking what an engagement costs should start with the Diagnostic or get in touch.
 
 ## What gets built
 
