@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-const TITLE = "Neely Thomson | Fractional CMO — The Marketing Engine";
+const TITLE = "Neely Thomson | Fractional CMO, The Marketing Engine";
 const DESCRIPTION =
-  "I build the marketing engine. Your team runs it. A 90-day, fixed-scope fractional CMO engagement for B2B software companies selling into regulated and institutional buyers — positioning, sequencing, lead scoring, CRM, routing, and attribution, built and handed over. Starts with a two-week Diagnostic, $7,500.";
+  "I build the marketing engine. Your team runs it. A 90-day, fixed-scope fractional CMO engagement for B2B software companies selling into regulated and institutional buyers: positioning, sequencing, lead scoring, CRM, routing and attribution, built and handed over. Starts with a two-week Diagnostic, $7,500.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -87,12 +87,12 @@ const jsonLd = {
     {
       "@type": "Service",
       "@id": "https://neelythomson.com/#service",
-      name: "The Marketing Engine — Fractional CMO",
+      name: "The Marketing Engine, a fractional CMO engagement",
       serviceType: "Fractional CMO / Marketing systems architecture",
       provider: { "@id": "https://neelythomson.com/#person" },
       areaServed: "US",
       description:
-        "A 90-day fixed-scope engagement that builds a B2B marketing engine — positioning and brand system, lifecycle sequencing, lead scoring, CRM integration, routing, and attribution — then hands it to the client's team with no ongoing retainer.",
+        "A 90-day fixed-scope engagement that builds a B2B marketing engine (positioning and brand system, lifecycle sequencing, lead scoring, CRM integration, routing and attribution), then hands it to the client's team with no ongoing retainer.",
       offers: [
         {
           "@type": "Offer",
