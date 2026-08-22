@@ -6,7 +6,7 @@ const artifacts = [
     contains: [
       "ICP and buyer research",
       "Every channel bet with its kill and scale criteria",
-      "The decision log — what we chose, and why",
+      "The decision log: what we chose, and why",
     ],
   },
   {
@@ -26,7 +26,7 @@ const artifacts = [
     b: "The math behind the number, and a live board that tells you within a week whether it's still true.",
     contains: [
       "Funnel stages with conversion assumptions",
-      "Five metrics — definitions, sources, and owners",
+      "Five metrics, with definitions, sources and owners",
       "The dashboard, wired to your real data",
       "Budget allocation model",
     ],
@@ -36,7 +36,7 @@ const artifacts = [
     t: "The Systems Spec",
     b: "How the plumbing is actually put together, written so a new ops hire or an agency can pick it up without reverse-engineering anything.",
     contains: [
-      "Lifecycle sequences — logic, triggers, branching, timing",
+      "Lifecycle sequences: logic, triggers, branching, timing",
       "Lead scoring model with thresholds",
       "Routing rules and CRM field architecture",
       "The marketing–sales SLA, agreed by both sides",
@@ -45,7 +45,7 @@ const artifacts = [
   {
     kind: "Documentation",
     t: "Documented processes and walkthroughs",
-    b: "A written procedure for every workflow I build: what it does, when it runs, how to change it safely, and how to tell when it's broken. Screen recordings where a recording genuinely helps, but the documentation stands on its own.",
+    b: "A written procedure for every workflow I build: what it does, when it runs, how to change it safely, and how to tell when it&apos;s broken. Screen recordings where they help, though the writing stands on its own.",
     contains: [
       "One procedure per system, in plain language",
       "Change and troubleshooting steps for each",
@@ -57,7 +57,7 @@ const artifacts = [
     t: "The Weekly Loop and the 30/60/90",
     b: "The cadence that keeps the engine from becoming a screenshot, plus exactly what your operator does in each of their first three months without me.",
     contains: [
-      "The Monday agenda — inputs, decisions, owners",
+      "The Monday agenda: inputs, decisions, owners",
       "Campaign brief and template structures",
       "A 30/60/90 runbook written for the named operator",
     ],
@@ -75,10 +75,10 @@ export default function Keeps() {
         </h2>
 
         <p className="measure text-base leading-[1.68] text-muted">
-          What you&apos;re buying isn&apos;t my availability — it&apos;s a shelf
-          of things your company owns outright. Every one of them is written for
-          the person who has to use it after I&apos;m gone, not for the person
-          who signed the agreement.
+          What you own at the end is a shelf of documents, models and specs,
+          all of it written for whoever has to use it once I&apos;m gone rather
+          than for whoever signed the agreement — a distinction that starts to
+          matter about six months in.
         </p>
 
         <div className="mt-11 grid gap-px border border-rule bg-rule sm:grid-cols-2">
@@ -107,7 +107,7 @@ export default function Keeps() {
         </div>
 
         <p className="measure mt-8 text-[15px] leading-[1.7] text-muted">
-          Handed over as working files in your own tools — your drive, your CRM,
+          Handed over as working files in your own tools: your drive, your CRM,
           your automation platform. Nothing lives in a system only I can log into.
         </p>
       </div>

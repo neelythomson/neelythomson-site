@@ -14,7 +14,7 @@ const groups = [
     group: "Pipeline systems",
     weeks: "Weeks 3–10",
     items: [
-      "Lifecycle and nurture sequencing — logic, triggers, branching, timing",
+      "Lifecycle and nurture sequencing: logic, triggers, branching, timing",
       "Lead scoring model and qualification thresholds",
       "CRM and marketing automation integration, data hygiene, field architecture",
       "Routing rules and the marketing–sales SLA",
@@ -35,7 +35,7 @@ const groups = [
 const excluded = [
   "Writing your blog posts, emails, or social content",
   "Graphic design, brand identity files, illustration, video",
-  "Running or optimizing paid campaigns — LinkedIn, Google, anything",
+  "Running or optimizing paid campaigns. LinkedIn, Google, any of it",
   "Holding or managing your ad accounts",
   "Social media management, community, event execution",
   "Acting as agency of record, or managing your agency",

@@ -179,7 +179,7 @@ export default function ContactForm() {
             name="notes"
             rows={4}
             maxLength={4000}
-            placeholder="What's already been tried, what's stuck, what the growth number is — whatever's useful."
+            placeholder="What you&apos;ve already tried, what&apos;s stuck, what the growth number is. Whatever&apos;s useful."
             className={`${FIELD} resize-y`}
           />
         </div>

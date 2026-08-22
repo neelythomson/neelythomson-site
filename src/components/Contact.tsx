@@ -11,10 +11,9 @@ export default function Contact() {
         </h2>
 
         <p className="measure mb-11 text-base leading-[1.68] text-muted">
-          The Diagnostic is the front door. Nobody should quote a 90-day build
-          before looking at the business. It&apos;s credited in full toward The
-          Marketing Engine, and if you&apos;d rather take the plan and run it
-          yourself, that&apos;s a legitimate outcome.
+          Two weeks, a fixed fee, and a written plan at the end of it. If we go
+          on to build, the fee comes off the price. If we don&apos;t, you still
+          have the plan, and you&apos;re free to hand it to anyone you like.
         </p>
 
         <ContactForm />

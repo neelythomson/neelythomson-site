@@ -15,10 +15,10 @@ export default function Situation() {
           trusting the handoff.
         </p>
         <p className="measure mt-4 text-base leading-[1.68] text-muted">
-          That gap isn&apos;t a content problem. It&apos;s a plumbing problem —
-          sequencing, scoring, routing, attribution, and an operating cadence
-          that forces a decision every week. AI made production cheap. It made
-          the plumbing scarce.
+          Everyone reads that as a content problem. It&apos;s a plumbing
+          problem: sequencing, scoring, routing, attribution, and an operating
+          cadence that forces a decision every week. AI made production cheap;
+          that is exactly what made the plumbing scarce.
         </p>
 
         <p

@@ -1,10 +1,10 @@
 const track = [
-  { k: "2020 — present", v: "Independent · Fractional CMO & marketing systems" },
-  { k: "2025 — present", v: "Kindling · Founder" },
-  { k: "2022 — 2026", v: "B2B fintech payments · VP & Head of Marketing (acquired)" },
-  { k: "2018 — 2022", v: "National nonprofit · Director of B2B Engagement" },
-  { k: "2014 — 2016", v: "Enterprise collaboration software · Sr. Sales Enablement Marketing Manager" },
-  { k: "2013 — 2014", v: "B2B marketing automation software · Marketing Manager" },
+  { k: "2020 – present", v: "Independent · Fractional CMO & marketing systems" },
+  { k: "2025 – present", v: "Kindling · Founder" },
+  { k: "2022 – 2026", v: "B2B fintech payments · VP & Head of Marketing (acquired)" },
+  { k: "2018 – 2022", v: "National nonprofit · Director of B2B Engagement" },
+  { k: "2014 – 2016", v: "Enterprise collaboration software · Sr. Sales Enablement Marketing Manager" },
+  { k: "2013 – 2014", v: "B2B marketing automation software · Marketing Manager" },
 ];
 
 export default function About() {

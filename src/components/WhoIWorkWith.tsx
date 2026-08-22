@@ -2,12 +2,12 @@ const audiences = [
   {
     n: "01",
     t: "Startups looking to scale",
-    b: "You've closed enough deals to know who the buyer is, and the founder is still the best marketer in the building. The engine is what lets the next fifty deals happen without them in every one.",
+    b: "You've closed enough deals to know who the buyer is, and the founder is still the best marketer in the building. The engine is what lets the next fifty deals close without the founder in every one of them.",
   },
   {
     n: "02",
     t: "Enterprises automating marketing",
-    b: "You have the team, the tools, and the budget — and the work still moves by hand. At that scale, automation is a routing, scoring, and governance problem, and whatever gets built has to survive legal and procurement.",
+    b: "You have the team, the tools, and the budget. The work still moves by hand. At that scale, automating it is a routing, scoring and governance problem, and whatever gets built has to survive legal and procurement.",
   },
   {
     n: "03",
@@ -28,9 +28,9 @@ export default function WhoIWorkWith() {
 
         <p className="measure text-base leading-[1.68] text-muted">
           Most of my work is with B2B software sold into regulated or
-          institutional buyers — fintech, edtech and workforce, healthtech,
-          govtech. But the gap between making things and routing them looks the
-          same wherever it turns up.
+          institutional buyers: fintech, edtech and workforce, healthtech,
+          govtech. The gap between making things and routing them looks much the
+          same wherever it turns up, though.
         </p>
 
         <div className="mt-11 grid gap-x-12 gap-y-9 md:grid-cols-3">
@@ -47,10 +47,10 @@ export default function WhoIWorkWith() {
           <p className="label mb-3">On client names</p>
           <p className="measure text-[15px] leading-[1.7] text-muted">
             No logo wall. Most of this work happens inside other companies&apos;
-            go-to-market, under NDA — and for the buyers I work with, discretion
-            is part of the value. I&apos;m glad to arrange references; a
-            conversation with someone who has been through it will tell you more
-            than a logo would.
+            go-to-market, under NDA, and for the buyers I work with discretion is
+            part of what they&apos;re paying for. I&apos;m glad to arrange
+            references, though. A conversation with someone who has been through
+            it will tell you more than a logo would.
           </p>
         </div>
       </div>

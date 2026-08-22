@@ -5,15 +5,15 @@ const points = [
   },
   {
     t: "I've sat in the sales chair",
-    b: "I served as interim sales leader at the same company, and helped execute its sale when it was acquired. The marketing–sales handshake is the first thing to die after a consultant leaves — I build it from both sides because I have sat in both.",
+    b: "I served as interim sales leader at the same company, and helped execute its sale when it was acquired. The marketing–sales handshake is the first thing to die after a consultant leaves. I build it from both sides because I have sat in both.",
   },
   {
     t: "The handoff has software attached",
-    b: "I built Kindling, an AI marketing teammate for teams of one to three. Your operator gets a tool, not just a runbook.",
+    b: "I built Kindling, an AI marketing teammate for teams of one to three. Your operator inherits working software alongside the runbook.",
   },
   {
-    t: "I leave a system, not a strategy",
-    b: "A build isn't finished until someone on your team has done every workflow three times — on camera, with me watching the first two.",
+    t: "What survives me is a system",
+    b: "A build isn't finished until someone on your team has done every workflow three times, on camera, with me watching the first two.",
   },
 ];
 
@@ -32,13 +32,13 @@ export default function Regulated() {
           agencies isn&apos;t the same motion with a longer sales cycle. The
           buying committee has a security reviewer in it. Procurement gates on
           fiscal year. Legal reads your landing page. Most marketing engines are
-          built as if none of that is true, then quietly stall at the compliance
+          built as if none of that is true, and then stall at the compliance
           step.
         </p>
         <p className="measure mt-4 text-base leading-[1.68] text-white/60">
           I built AI-assisted content production and web ops at a B2B fintech
-          payments startup under NACHA rules and CFPB scrutiny — with legal in
-          the workflow, not bolted on at the end.
+          payments startup under NACHA rules and CFPB scrutiny, with legal
+          sitting inside the workflow instead of reviewing it at the end.
         </p>
 
         <div className="mt-11 grid gap-x-12 gap-y-8 sm:grid-cols-2">

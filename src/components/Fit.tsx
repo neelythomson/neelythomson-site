@@ -9,11 +9,11 @@ const conditions = [
   },
   {
     t: "Creative and media live with your team",
-    b: "I build the systems that route, score, and measure the work. Your team or a partner produces it — and I'm glad to refer people I trust.",
+    b: "I build the systems that route, score and measure the work. Your team or a partner produces it, and I'm glad to refer people I trust.",
   },
   {
     t: "You know who your buyer is",
-    b: "Roughly a dozen closed deals is enough for me to build from real patterns instead of guesses. Earlier than that, positioning work is more useful than plumbing.",
+    b: "Roughly a dozen closed deals is enough for me to build from patterns instead of guesses. Earlier than that, positioning work will do more for you than plumbing.",
   },
 ];
 
@@ -28,7 +28,7 @@ export default function Fit() {
         </h2>
 
         <p className="measure text-base leading-[1.68] text-muted">
-          If any of these isn&apos;t the case yet, say so on the first call — it
+          If any of these isn&apos;t true yet, say so on the first call. It
           usually means a different engagement, or a different month.
         </p>
 

@@ -18,10 +18,11 @@ export default function Hero() {
           </h1>
 
           <p className="mb-9 max-w-[60ch] text-[17px] leading-[1.62] text-muted">
-            Ninety days. I build the systems that turn attention into pipeline —
-            positioning, sequencing, scoring, CRM, routing, attribution — train
-            someone on your side to run them, and step out. Fixed scope, fixed
-            end date, no retainer that quietly becomes a job.
+            Ninety days. I build the systems that turn attention into
+            pipeline (positioning, sequencing, scoring, CRM, routing,
+            attribution), train someone on your side to run them, and step out.
+            Fixed scope, fixed end date, and no retainer that turns into a job
+            neither of us agreed to.
           </p>
 
           <div className="flex flex-wrap items-center gap-x-7 gap-y-4">
