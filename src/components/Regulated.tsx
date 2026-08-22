@@ -5,7 +5,7 @@ const points = [
   },
   {
     t: "I've sat in the sales chair",
-    b: "Interim Sales Leader at Dwolla. The marketing–sales handshake is the thing that dies first after a consultant leaves. I build it from both sides.",
+    b: "I served as interim sales leader at the same company, and helped execute its sale when it was acquired. The marketing–sales handshake is the first thing to die after a consultant leaves — I build it from both sides because I have sat in both.",
   },
   {
     t: "The handoff has software attached",
@@ -36,9 +36,9 @@ export default function Regulated() {
           step.
         </p>
         <p className="measure mt-4 text-base leading-[1.68] text-white/60">
-          I built AI-assisted content production and web ops at a payments
-          company under NACHA rules and CFPB scrutiny — with legal in the
-          workflow, not bolted on at the end.
+          I built AI-assisted content production and web ops at a B2B fintech
+          payments startup under NACHA rules and CFPB scrutiny — with legal in
+          the workflow, not bolted on at the end.
         </p>
 
         <div className="mt-11 grid gap-x-12 gap-y-8 sm:grid-cols-2">

@@ -1,8 +1,8 @@
 const proof = [
-  { v: "60%", l: "of manual campaign work removed", s: "Dwolla, 2022–26" },
-  { v: "5:1", l: "LTV:CAC delivered", s: "Dwolla" },
-  { v: "15%", l: "lift in MQL-to-Opportunity conversion", s: "Dwolla" },
-  { v: "20", l: "years building B2B SaaS and fintech marketing", s: "Since 2005" },
+  { v: "60%", l: "of manual campaign work removed", s: "B2B fintech payments, 2022–26" },
+  { v: "5:1", l: "LTV:CAC delivered", s: "Same four years" },
+  { v: "15%", l: "lift in MQL-to-Opportunity conversion", s: "Same four years" },
+  { v: "1", l: "acquisition, which I helped execute", s: "Same company, 2026" },
 ];
 
 export default function Hero() {
@@ -37,9 +37,6 @@ export default function Hero() {
             >
               See what gets built
             </a>
-            <span className="tnum text-[12.5px] tracking-[0.02em] text-faint">
-              Starts with a two-week Diagnostic · $7,500
-            </span>
           </div>
         </div>
       </section>
