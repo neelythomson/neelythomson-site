@@ -3,7 +3,7 @@ import "./globals.css";
 
 const TITLE = "Neely Thomson | Fractional CMO — The Marketing Engine";
 const DESCRIPTION =
-  "I build the marketing engine. Your team runs it. A 90-day, fixed-scope fractional CMO engagement for B2B software companies selling into regulated and institutional buyers — positioning, sequencing, lead scoring, CRM, routing, and attribution, built and handed over. Diagnostic $7,500, Engine $45,000.";
+  "I build the marketing engine. Your team runs it. A 90-day, fixed-scope fractional CMO engagement for B2B software companies selling into regulated and institutional buyers — positioning, sequencing, lead scoring, CRM, routing, and attribution, built and handed over. Starts with a two-week Diagnostic, $7,500.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: TITLE,
     description:
-      "I build the marketing engine. Your team runs it. A 90-day fixed-scope build, handed to your team. Diagnostic $7,500, Engine $45,000.",
+      "I build the marketing engine. Your team runs it. A 90-day fixed-scope build, handed to your team. Starts with a two-week Diagnostic, $7,500.",
     url: "https://neelythomson.com",
     siteName: "Neely Thomson",
     locale: "en_US",
@@ -106,18 +106,14 @@ const jsonLd = {
         {
           "@type": "Offer",
           name: "The Marketing Engine",
-          price: "45000",
-          priceCurrency: "USD",
           description:
-            "Ninety-day fixed-scope build and handoff of a complete B2B marketing engine, billed in three installments of $15,000.",
+            "Ninety-day fixed-scope build and handoff of a complete B2B marketing engine. Scoped and priced after the Diagnostic.",
         },
         {
           "@type": "Offer",
-          name: "Operator's Seat",
-          price: "3500",
-          priceCurrency: "USD",
+          name: "The Operator's Seat",
           description:
-            "Optional post-build advisory retainer, roughly ten hours a month, six-month minimum.",
+            "Optional post-build advisory, roughly ten hours a month, priced into the original agreement.",
         },
       ],
     },

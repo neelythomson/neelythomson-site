@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Situation from "@/components/Situation";
 import Engine from "@/components/Engine";
-import Pricing from "@/components/Pricing";
+import Engagement from "@/components/Engagement";
 import Phases from "@/components/Phases";
 import Keeps from "@/components/Keeps";
 import Regulated from "@/components/Regulated";
@@ -19,7 +19,7 @@ export default function Home() {
         <Hero />
         <Situation />
         <Engine />
-        <Pricing />
+        <Engagement />
         <Phases />
         <Keeps />
         <Regulated />
