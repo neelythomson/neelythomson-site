@@ -46,11 +46,8 @@ export default function WhoIWorkWith() {
         <div className="mt-12 border-t border-rule pt-7">
           <p className="label mb-3">On client names</p>
           <p className="measure text-[15px] leading-[1.7] text-muted">
-            No logo wall. Most of this work happens inside other companies&apos;
-            go-to-market, under NDA, and for the buyers I work with discretion is
-            part of what they&apos;re paying for. I&apos;m glad to arrange
-            references, though. A conversation with someone who has been through
-            it will tell you more than a logo would.
+            No logo wall. Most of this work sits under NDA, and discretion is
+            part of what people hire me for. References on request.
           </p>
         </div>
       </div>
