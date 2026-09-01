@@ -24,7 +24,7 @@ export default function Footer() {
           Kindling
         </a>
         <a
-          href="https://linkedin.com/in/neelyconway"
+          href="https://www.linkedin.com/in/neelythomson"
           target="_blank"
           rel="noopener noreferrer"
           className="transition-colors hover:text-accent"

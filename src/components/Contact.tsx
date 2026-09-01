@@ -21,7 +21,7 @@ export default function Contact() {
         <p className="mt-8 text-[13px] text-faint">
           Prefer LinkedIn?{" "}
           <a
-            href="https://linkedin.com/in/neelyconway"
+            href="https://www.linkedin.com/in/neelythomson"
             target="_blank"
             rel="noopener noreferrer"
             className="border-b border-accent pb-px text-ink transition-colors hover:text-accent"

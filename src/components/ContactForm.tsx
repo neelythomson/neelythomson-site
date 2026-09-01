@@ -30,6 +30,15 @@ const TIMELINES = [
   "Exploring, no timeline yet",
 ];
 
+const SOURCES = [
+  "Google or another search engine",
+  "An AI tool (ChatGPT, Claude, Perplexity, Copilot)",
+  "LinkedIn",
+  "The Substack",
+  "A referral or introduction",
+  "Somewhere else",
+];
+
 const FIELD =
   "w-full rounded-sm border border-rule bg-white px-3.5 py-3 text-sm text-ink outline-none transition-colors focus:border-accent";
 const LABEL = "block text-[12.5px] font-medium mb-2";
@@ -163,6 +172,20 @@ export default function ContactForm() {
               Select…
             </option>
             {TIMELINES.map((s) => (
+              <option key={s} value={s}>
+                {s}
+              </option>
+            ))}
+          </select>
+        </div>
+        <div className="sm:col-span-2">
+          <label className={LABEL} htmlFor="source">
+            How did you find me?{" "}
+            <span className="font-normal text-faint">(optional)</span>
+          </label>
+          <select id="source" name="source" defaultValue="" className={FIELD}>
+            <option value="">Select…</option>
+            {SOURCES.map((s) => (
               <option key={s} value={s}>
                 {s}
               </option>
