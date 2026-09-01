@@ -6,6 +6,7 @@ const navLinks = [
   { label: "What I build", href: "/#engine" },
   { label: "Packages", href: "/#packages" },
   { label: "The 90 days", href: "/#ninety" },
+  { label: "Work", href: "/work" },
   { label: "About", href: "/#about" },
 ];
 
