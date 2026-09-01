@@ -36,6 +36,7 @@ const securityHeaders = [
       "font-src 'self' https://fonts.gstatic.com",
       "img-src 'self' data: https:",
       "connect-src 'self'",
+      "frame-src https://neelythomson.substack.com",
       "frame-ancestors 'none'",
     ].join("; "),
   },
