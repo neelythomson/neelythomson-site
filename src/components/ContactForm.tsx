@@ -207,6 +207,16 @@ export default function ContactForm() {
           Goes straight to my inbox. No list, no sequence.
         </p>
       </div>
+      <p className="mt-4 text-[13px] text-faint">
+        Not ready for a Diagnostic?{" "}
+        <a
+          href="/writing"
+          className="border-b border-accent pb-px text-ink transition-colors hover:text-accent"
+        >
+          I write about this
+        </a>{" "}
+        every other week.
+      </p>
     </form>
   );
 }

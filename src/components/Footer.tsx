@@ -9,6 +9,9 @@ export default function Footer() {
         <a href="/faq" className="transition-colors hover:text-accent">
           FAQ
         </a>
+        <a href="/writing" className="transition-colors hover:text-accent">
+          Writing
+        </a>
         <a
           href="https://kindlingmagic.com"
           target="_blank"
