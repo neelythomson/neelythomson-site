@@ -87,7 +87,11 @@ const jsonLd = {
         "Fintech Marketing",
         "Sales Alignment",
       ],
-      sameAs: ["https://linkedin.com/in/neelyconway"],
+      sameAs: [
+        "https://www.linkedin.com/in/neelythomson",
+        "https://neelythomson.substack.com",
+        "https://kindlingmagic.com",
+      ],
     },
     {
       "@type": "Service",
