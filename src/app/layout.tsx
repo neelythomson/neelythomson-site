@@ -3,7 +3,7 @@ import "./globals.css";
 
 const TITLE = "Neely Thomson | Fractional CMO, The Marketing Engine";
 const DESCRIPTION =
-  "I build the marketing engine. Your team runs it. A 90-day, fixed-scope fractional CMO engagement for B2B software companies selling into regulated and institutional buyers: positioning, sequencing, lead scoring, CRM, routing and attribution, built and handed over. Starts with a two-week Diagnostic, $7,500.";
+  "I build the marketing engine. Your team runs it. A 90-day fractional CMO engagement for B2B software selling to regulated buyers. Diagnostic: two weeks, $7,500.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -36,9 +36,11 @@ export const metadata: Metadata = {
     siteName: "Neely Thomson",
     locale: "en_US",
     type: "website",
+    images: [{ url: "/og.png", width: 1200, height: 630, alt: "Neely Thomson. I build the marketing engine. Your team runs it." }],
   },
   twitter: {
     card: "summary_large_image",
+    images: ["/og.png"],
     title: TITLE,
     description:
       "I build the marketing engine. Your team runs it. A 90-day fixed-scope build for B2B software companies.",
@@ -47,6 +49,9 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
+    "max-video-preview": -1,
+    "max-image-preview": "large",
+    "max-snippet": -1,
     googleBot: {
       index: true,
       follow: true,
