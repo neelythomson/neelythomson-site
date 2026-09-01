@@ -14,6 +14,7 @@ const FIELDS = {
   engagement: { label: "Looking for", max: 100, required: true },
   operator: { label: "Who owns marketing after", max: 120, required: true },
   timeline: { label: "Timeline", max: 80, required: true },
+  source: { label: "How they found me", max: 120, required: false },
   notes: { label: "Anything else", max: 4000, required: false },
 } as const;
 
@@ -109,6 +110,7 @@ export async function POST(request: Request) {
     ["Looking for", clean.engagement],
     ["Owns marketing after", clean.operator],
     ["Timeline", clean.timeline],
+    ["How they found me", clean.source || "Not answered"],
   ];
 
   const text =
