@@ -97,12 +97,12 @@ export default function Work() {
               Two weeks, $7,500, and you&apos;ll know what&apos;s broken.
             </h2>
             <p className="measure text-base leading-[1.68] text-muted">
-              Every engine above started with the same audit.{" "}
-              <a href="/#start" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
-                Send a note
-              </a>{" "}
-              and I&apos;ll reply with a few questions.
+              Every engine above started with the same audit. Two weeks, a fixed
+              fee, and a written plan at the end of it.
             </p>
+            <a href="/#start" className="mt-9 inline-block rounded-sm bg-ink px-[22px] py-[13px] text-sm font-medium text-bg transition-colors hover:bg-accent">
+              Start a Diagnostic &nbsp;&rarr;
+            </a>
           </div>
         </section>
       </main>
