@@ -38,7 +38,11 @@ export default function Regulated() {
         <p className="measure mt-4 text-base leading-[1.68] text-white/60">
           I built AI-assisted content production and web ops at a B2B fintech
           payments startup under NACHA rules and CFPB scrutiny, with legal
-          sitting inside the workflow instead of reviewing it at the end.
+          sitting inside the workflow instead of reviewing it at the end.{" "}
+          <a href="/fractional-cmo-fintech" className="border-b border-white/40 pb-px text-white transition-colors hover:text-accent">
+            What changes in fintech, in detail
+          </a>
+          .
         </p>
 
         <div className="mt-11 grid gap-x-12 gap-y-8 sm:grid-cols-2">
