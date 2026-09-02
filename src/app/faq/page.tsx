@@ -52,7 +52,7 @@ const groups: Group[] = [
       {
         q: "Who is Neely Thomson?",
         a: [
-          "I'm a fractional CMO and marketing systems architect based in Atlanta. I spent twenty years leading B2B SaaS and fintech marketing teams, most recently four years as VP & Head of Marketing at a B2B fintech payments company, where I led a company-wide AI marketing transformation, served as interim sales leader, and helped execute the sale when the company was acquired in 2026. I also build Kindling, an AI marketing teammate for very small teams.",
+          "I'm a fractional CMO and marketing systems architect based in Atlanta. I spent twenty years leading B2B SaaS and fintech marketing teams, most recently four years as VP & Head of Marketing at a B2B fintech payments company, where I led a company-wide AI marketing transformation, served as interim sales leader, and helped execute the sale when the company was acquired in 2026.",
         ],
       },
     ],
@@ -84,7 +84,7 @@ const groups: Group[] = [
       {
         q: "Why a fixed-scope build instead of a retainer?",
         a: [
-          "Because a retainer pays the consultant for staying, and a build pays them for finishing. On a retainer, the systems tend to live in the consultant's head and leave when they do. In a build, every system passes through a three-rep handoff and ends up in your tools, documented, run by your person. I'm always trying to work myself out of a job, because I don't think a permanent fractional CMO is healthy for a marketing team.",
+          "Because a retainer pays the consultant for staying, and a build pays them for finishing. On a retainer, the systems tend to live in the consultant's head and leave when they do. In a build, every system ends up in your tools, documented, run by your person. I'm always trying to work myself out of a job, because I don't think a permanent fractional CMO is healthy for a marketing team.",
         ],
       },
     ],
@@ -95,38 +95,38 @@ const groups: Group[] = [
       {
         q: "What is the Diagnostic?",
         a: [
-          "The Diagnostic is a two-week, $7,500 marketing audit that starts every engagement. It covers the marketing and funnel audit, ICP definition and pipeline math, the five metrics worth judging everything by, and a prioritized build order, written down. Your side commits about six hours of interviews.",
-          "At the end you have a written plan. If we go on to build, the $7,500 comes off the price. If we don't, the plan is yours to run yourself or hand to anyone you like, and some people do exactly that.",
+          "The Diagnostic is a two-week, $7,500 audit that starts every engagement. I go through your stack, the funnel and unit economics by business unit, the last ninety days of marketing requests, and up to eight interviews across marketing, sales, and the business owners. Your side commits about six hours of interviews and read-only access to your systems.",
+          "At the end you have three things: a findings document ranked by impact on pipeline, a board one-pager, and a scoped, priced proposal for the build. If we go on to build, the $7,500 comes off the price. If we don't, the findings are yours to run yourself or hand to anyone you like, and some people do exactly that.",
         ],
       },
       {
         q: "What happens in the ninety days?",
         a: [
-          "Four phases. Diagnose (weeks one and two): audit, ICP, positioning brief, pipeline math, and your operator gets named. Architect (weeks three to five): brand system, messaging architecture, channel bets written as hypotheses, the scoring model, routing rules, the marketing and sales SLA, and the data architecture underneath. Build (weeks six to ten): the systems go live, each through the three-rep cycle. Hand off (weeks eleven to thirteen): your operator runs the engine unaided, runbooks recorded. Then I sit on your Monday call for four more weeks, silent unless asked.",
+          "Four phases. Diagnose (weeks one and two): the audit, and your operator gets named or the role gets scoped. Architect (weeks three to five): lead definitions and the SLA, a one-page go-to-market per business unit, messaging architecture and brand system, the brief template and quality bar, channel and conference tiering. Build (weeks six to ten): scoring and routing live in your CRM, the intake queue live, the AI libraries built in the tools you own, the scoreboard wired to real data. I build each system with your operator beside me and run the weekly plan while we do. Hand off (weeks eleven to thirteen): your operator runs the engine, runbooks written, walkthroughs recorded. Then four more weeks on your Monday call.",
         ],
       },
       {
-        q: "What is the three-rep handoff?",
+        q: "How does the handoff work?",
         a: [
-          "Every system I build goes through the same cycle. I build the first version live while your operator watches, screen recorded. Your operator builds the second version and I review it before it ships. Your operator builds the third version alone and I review it afterward. A system isn't finished until someone on your team has done it three times. It's the reason the engine still works six months after I leave.",
+          "I build every system in your tools with your operator beside me, and I run the weekly plan during the build so the cadence is a habit before it's theirs. Each system ships with a written procedure: what it does, when it runs, how to change it safely, and how to tell when it's broken. In the last three weeks your operator runs the engine and I review. After the ninety days I stay on your Monday call for four more weeks, and the Advisory Seat is there if you want a hand on the wheel after that.",
         ],
       },
       {
         q: "What does my team have to commit?",
         a: [
-          "One named operator, and their time. About six hours of interviews in the Diagnostic, four hours a week in Architect, six hours a week in Build, and four hours a week in Hand off. The operator is usually a marketing manager, a marketing ops person, or a sharp generalist. Without one, there's nothing to hand over, so I don't start engagements that don't have one.",
+          "One named operator, and their time. About six hours of interviews in the Diagnostic, four hours a week in Architect, six hours a week in Build, and four hours a week in Hand off. The operator is usually a marketing manager, a marketing ops person, or a sharp generalist. If a team doesn't have that person yet, scoping or hiring the role is a Diagnostic output, and nothing ships for that team until they exist.",
         ],
       },
       {
         q: "What do we keep when it ends?",
         a: [
-          "Six working artifacts, in your own tools. The Engine Doc (ICP, channel bets with kill and scale criteria, and a decision log). The Messaging Kit (category narrative, value proposition, messaging by segment and persona, proof points, objection handling, voice guidelines). The Pipeline Model and Scoreboard (funnel stages, five metrics with owners, a dashboard wired to real data, a budget model). The Systems Spec (sequences, scoring model, routing rules, CRM field architecture, the SLA). Documented processes for every workflow. And the Weekly Loop plus a 30/60/90 runbook for your operator.",
+          "Six working artifacts, in your own tools. The Engine Doc (ICP and subsegmentation, the one-page go-to-market per business unit, channel bets with kill and scale criteria, and a decision log). The Messaging Kit (category narrative, value proposition, messaging by segment and persona, proof points, objection handling, voice guidelines, brand system and creative direction). The Pipeline Model and Scoreboard (funnel stages, five metrics with owners, a dashboard wired to real data, pipeline per dollar by channel, and the board one-pager). The Systems Spec (sequences, scoring model, routing rules, CRM field architecture, the intake queue, the SLA). Documented processes for every workflow, including the brief template and quality bar. And the Weekly Loop plus a 30/60/90 runbook for your operator.",
         ],
       },
       {
         q: "What is the Advisory Seat?",
         a: [
-          "The Advisory Seat is an optional monthly arrangement, roughly ten hours a month, scoped per client. It covers a monthly read of the scoreboard, kill and scale calls on live channel bets, and being on call for whoever runs marketing, usually your operator. Strategy and systems only, no production work. Some clients take it after a build; some take it on its own because they already have an operator and need the judgment, not the plumbing.",
+          "The build has a fixed end date. The engagement doesn't have to. The Advisory Seat is an optional monthly arrangement, roughly ten hours a month, scoped per client. It covers a monthly read of the scoreboard, kill and scale calls on live channel bets, and being on call for whoever runs marketing, usually your operator. Strategy and systems only, no production work. Some clients take it after a build; some take it on its own because they already have an operator and need the judgment, not the plumbing.",
         ],
       },
     ],
@@ -168,7 +168,14 @@ const groups: Group[] = [
       {
         q: "Can you help us with the AI tools we just bought?",
         a: [
-          "That's one of the most common reasons companies call. The tools are live (Copy.ai, Jasper, Canva, HubSpot's AI features, whichever landed last quarter) and the output looks the same as before, or worse, because there's no process around them and no internal owner. I build the process: a prompt and template library built from your messaging framework, brand guardrails in the design tools, a review path that legal can live with, and a named person who owns it. I don't write the content the tools produce.",
+          "That's one of the most common reasons companies call. The tools are live (Copy.ai, Jasper, Canva, HubSpot's AI features, whichever landed last quarter) and the output looks the same as before, or worse, because there's no process around them and no internal owner. I build the process: a brief template every piece of work starts from, a scheduled subject-matter-expert step so accuracy isn't a favor, a prompt and template library built from your messaging framework, brand guardrails in the design tools, a written quality bar, a review path that legal can live with, and a named person who owns it. I don't write the content the tools produce.",
+        ],
+      },
+      {
+        q: "What if our CRM or automation platform can't do this?",
+        a: [
+          "The Diagnostic answers that first: can the engine be built in what you already have? Three outcomes. If the stack is sufficient, configuration is the build and the fixed fee covers it. If it needs an add-on (an attribution layer, intent data, a tier that can score and route), the recommendation lands in the readout with the annual cost and the build-in-what-exists alternative beside it; you buy it in your name, billed by the vendor, and the build fee doesn't change. If it needs a foundational replacement, a CRM or automation migration, that's never absorbed into the fixed fee: it's a separately priced addendum or a phase zero handled by an implementation partner I refer, with the build starting after.",
+          "I don't resell software and I don't take vendor commissions, so the recommendation is clean.",
         ],
       },
     ],
@@ -179,7 +186,7 @@ const groups: Group[] = [
       {
         q: "Do you work remotely?",
         a: [
-          "Yes. I'm in Atlanta and work with clients across the US. The Diagnostic is entirely remote. During the build, the three-rep handoff happens over screen-share and recording, which is better than in person because your operator keeps the recording.",
+          "Yes. I'm in Atlanta and work with clients across the US. The Diagnostic is entirely remote. During the build, we work over screen-share, and your operator keeps the recordings.",
         ],
       },
       {
