@@ -13,7 +13,11 @@ export default function Contact() {
         <p className="measure mb-11 text-base leading-[1.68] text-muted">
           Two weeks, a fixed fee, and a written plan at the end of it. If we go
           on to build, the fee comes off the price. If we don&apos;t, you still
-          have the plan, and you&apos;re free to hand it to anyone you like.
+          have the plan, and you&apos;re free to hand it to anyone you like.{" "}
+          <a href="/diagnostic" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+            Here&apos;s how the two weeks run
+          </a>
+          .
         </p>
 
         <ContactForm />

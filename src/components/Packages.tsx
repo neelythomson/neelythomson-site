@@ -112,6 +112,11 @@ export default function Packages() {
               <p className="mt-4 border-t border-rule pt-3.5 text-xs leading-[1.55] text-faint">
                 {pkg.note}
               </p>
+              {pkg.lead && (
+                <a href="/diagnostic" className="mt-3 inline-block border-b border-accent pb-px text-[13px] text-ink transition-colors hover:text-accent">
+                  How the two weeks run
+                </a>
+              )}
             </div>
           ))}
         </div>
