@@ -70,6 +70,7 @@ const jsonLd = {
       "@id": "https://neelythomson.com/#person",
       name: "Neely Thomson",
       url: "https://neelythomson.com",
+      image: "https://neelythomson.com/neely-thomson.jpg",
       jobTitle: "Fractional CMO & Marketing Systems Architect",
       description:
         "Fractional CMO who builds B2B marketing engines in 90 days and hands them to the client's own team. Twenty years in B2B SaaS and fintech, including AI-powered marketing under NACHA and CFPB.",
