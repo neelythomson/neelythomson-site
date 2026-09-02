@@ -65,7 +65,11 @@ export default function Engine() {
             The engine has three layers. The strategy layer points it. The
             operating system runs it. The optimization loop makes it cheaper per
             opportunity every quarter. Every complaint a CEO has about marketing
-            lives in one of the three.
+            lives in one of the three.{" "}
+            <a href="/marketing-engine" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+              The full definition
+            </a>
+            .
           </p>
 
           <div className="mt-12">
