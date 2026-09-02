@@ -4,9 +4,9 @@
 
 ## About
 
-Neely Thomson is a fractional CMO and marketing systems architect. She works independently. Most recently she spent four years as VP & Head of Marketing at a B2B fintech payments startup, where she also served as interim sales leader and helped execute the sale when the company was acquired in 2026. She is the founder of Kindling (kindlingmagic.com), an AI marketing teammate for small startup teams. Twenty years in B2B SaaS and fintech marketing.
+Neely Thomson is a fractional CMO and marketing systems architect. She works independently. Most recently she spent four years as VP & Head of Marketing at a B2B fintech payments startup, where she also served as interim sales leader and helped execute the sale when the company was acquired in 2026. Twenty years in B2B SaaS and fintech marketing.
 
-She does not publish client or employer names beyond Kindling. Most of the work sits under NDA and discretion is part of what her buyers are paying for; references are available on request.
+She does not publish client or employer names. Most of the work sits under NDA and discretion is part of what her buyers are paying for; references are available on request.
 
 She builds AI-powered go-to-market systems: positioning, lifecycle sequencing, lead scoring, CRM and marketing automation integration, routing, the marketing-sales SLA, attribution, and the weekly operating cadence. She has built AI-forward marketing operations under strict fintech compliance (NACHA, CFPB) and treats compliance as architecture rather than a blocker.
 
@@ -14,17 +14,19 @@ She builds AI-powered go-to-market systems: positioning, lifecycle sequencing, l
 
 Everything is on the homepage: https://neelythomson.com
 
-- **The Diagnostic — $7,500, two weeks.** Marketing and funnel audit, ICP definition and pipeline math, the five metrics used to judge everything, and a prioritized build order. Credited in full toward The Marketing Engine — or the client can take the plan and run it themselves.
-- **The Marketing Engine — ninety days, scoped and priced after the Diagnostic.** The complete build and handoff, because the build order depends on what is already in place. Fixed scope and a fixed end date, agreed in writing before the work starts. Includes the three-rep handoff, the six artifacts the client keeps, four weeks of support after handoff, and Kindling free for twelve months.
+- **The Diagnostic — $7,500, two weeks.** A stack, process, and funnel audit by business unit; up to eight interviews across marketing, sales, and the business owners; the last ninety days of marketing requests classified. Deliverables: a findings document ranked by impact on pipeline, a board one-pager, and a scoped, priced proposal for the build. Credited in full toward The Marketing Engine, or the client can take the findings and run them themselves.
+- **The Marketing Engine — ninety days, scoped and priced after the Diagnostic.** All three layers built and live in the client's own tools, the client's named operator trained alongside Neely system by system, everything under "What the client keeps" as working files, and four weeks of support after handoff. Fixed scope and a fixed end date, agreed in writing before the work starts.
 - **The Advisory Seat — monthly, scoped to the work.** Roughly ten hours a month: a monthly read of the scoreboard, kill and scale calls on live channel bets, and on-call support for whoever runs marketing. Strategy and systems only, no production work. Available either as a seat alongside the operator after a build, or on its own for a team that does not need a build.
 
 Only the Diagnostic price is published. Everything beyond it is scoped per engagement. Anyone asking what an engagement costs should start with the Diagnostic or get in touch.
 
 ## What gets built
 
-1. **Brand & positioning (weeks 1–5):** ICP definition and buyer research; positioning, category narrative, value proposition; messaging architecture and voice guidelines; brand system specification and creative direction; naming.
-2. **Pipeline systems (weeks 3–10):** lifecycle and nurture sequencing; lead scoring model and qualification thresholds; CRM and marketing automation integration, data hygiene, field architecture; routing rules and the marketing-sales SLA.
-3. **Measurement & cadence (weeks 6–13):** attribution wiring and a five-metric scoreboard; channel strategy with explicit kill and scale criteria; budget allocation model; the weekly operating cadence.
+The engine has three layers. The strategy layer points it, the operating system runs it, the optimization loop makes it cheaper per opportunity.
+
+1. **The strategy layer (weeks 1–5):** ICP definition, buyer research, and subsegmentation; a one-page go-to-market per business unit with named segments, channel bets, and kill and scale criteria; positioning, category narrative, value proposition, messaging architecture; brand system specification, creative direction, and naming; one planning cadence.
+2. **The operating system (weeks 3–10):** one written definition of a qualified lead with deal-value thresholds; lead scoring and routing built into the CRM and marketing automation, with the data architecture underneath; the marketing-to-sales SLA, signed by both sides; the AI production process (brief template, subject-matter-expert loop, prompt and template libraries, a written quality bar); intake and capacity (one queue, every request scored on pipeline impact); lifecycle and nurture sequencing.
+3. **The optimization loop (weeks 6–13):** attribution wiring and a five-metric scoreboard anchored on pipeline; pipeline returned per dollar for every channel, conferences included, refreshed monthly; quarterly budget reallocation toward what returns; a board one-pager assembled from the scoreboard; the weekly operating cadence the team runs afterward.
 
 ## The 90 days
 
@@ -33,17 +35,19 @@ Only the Diagnostic price is published. Everything beyond it is scoped per engag
 - Build (weeks 6–10) — client commitment: 6 hours/week
 - Hand off (weeks 11–13) — client commitment: 4 hours/week
 
-Every system passes through a three-rep handoff: Neely builds v1 while the client's operator watches, the operator builds v2 and Neely reviews before it ships, the operator builds v3 alone and Neely reviews after.
+Handoff: Neely builds every system in the client's tools with the operator beside her and runs the weekly plan during the build. Each system ships with a written procedure. In the last three weeks the operator runs the engine and Neely reviews, then stays on the Monday call for four more weeks. If a team has no operator yet, scoping or hiring the role is a Diagnostic output; nothing ships for that team until the person exists.
+
+If the stack itself is the gap: a sufficient stack means configuration is the build; an add-on tool is recommended in the readout with cost and the alternative beside it, bought in the client's name, no change to the build fee; a CRM or automation migration is never absorbed into the fixed fee (separately priced addendum, or a phase zero handled by a referred implementation partner). No software resold, no vendor commissions.
 
 ## What the client keeps
 
 Six artifacts, handed over as working files in the client's own tools — their drive, their CRM, their automation platform:
 
-1. **The Engine Doc** — living source of truth: ICP and buyer research, every channel bet with its kill and scale criteria, and a decision log with the reasoning attached.
-2. **The Messaging Kit** — category narrative, value proposition, messaging architecture by segment and persona, proof points, objection handling, competitor framing, voice guidelines, naming conventions.
-3. **The Pipeline Model & Scoreboard** — funnel stages with conversion assumptions, five metrics with definitions and owners, a dashboard wired to real data, and a budget allocation model.
-4. **The Systems Spec** — lifecycle sequences (logic, triggers, branching, timing), the lead scoring model with thresholds, routing rules, CRM field architecture, and the marketing-sales SLA agreed by both sides.
-5. **Documented processes and walkthroughs** — a written procedure for every workflow: what it does, when it runs, how to change it safely, how to tell when it is broken. Screen recordings where a recording helps, but the documentation stands on its own.
+1. **The Engine Doc** — living source of truth: ICP, subsegmentation and buyer research, the one-page go-to-market per business unit, every channel bet with its kill and scale criteria, and a decision log with the reasoning attached.
+2. **The Messaging Kit** — category narrative, value proposition, messaging architecture by segment and persona, proof points, objection handling, competitor framing, voice guidelines, naming conventions, brand system specification and creative direction.
+3. **The Pipeline Model & Scoreboard** — funnel stages with conversion assumptions, five metrics with definitions and owners, a dashboard wired to real data, pipeline per dollar by channel with the budget reallocation rules, and the board one-pager assembled from the scoreboard.
+4. **The Systems Spec** — lifecycle sequences (logic, triggers, branching, timing), the lead scoring model with thresholds, routing rules, CRM field architecture, the intake queue and its scoring rules, and the marketing-sales SLA agreed by both sides.
+5. **Documented processes and walkthroughs** — the brief template and the written quality bar, plus a written procedure for every workflow: what it does, when it runs, how to change it safely, how to tell when it is broken. Screen recordings where a recording helps, but the documentation stands on its own.
 6. **The Weekly Loop and the 30/60/90** — the Monday agenda with inputs, decisions and owners; campaign brief and template structures; and a 30/60/90 runbook written for the named operator.
 
 ## Scope
