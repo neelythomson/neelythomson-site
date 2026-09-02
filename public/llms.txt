@@ -82,7 +82,7 @@ Best fit: B2B software companies selling into regulated or institutional buyers 
 - https://neelythomson.com/fractional-cmo-fintech: fractional CMO for fintech and payments companies. The five things that change in fintech marketing (legal reads the landing page, the security reviewer is on the buying committee, procurement calendars, trust-based positioning from verifiable claims, AI tools need guardrails first), the fintech build order, and the payments-company results (60% less manual campaign work, 5:1 LTV:CAC, +15% MQL-to-opportunity).
 - https://neelythomson.com/diagnostic: the two-week, $7,500 Diagnostic in full: the seven audit activities, the four deliverables, the ten-day schedule, what the client provides, and the terms (fixed fee, net 15, credited toward the build within 30 days, customer data stays in the client's systems).
 - https://neelythomson.com/faq: twenty-two questions about the engagement, cost, scope, and fit, answered plainly.
-- https://neelythomson.com/writing: the Writing page. Essays every other Tuesday on building marketing engines inside B2B software companies, published on Substack at https://neelythomson.substack.com
+- https://neelythomson.com/writing: the essay index. Every other Tuesday Neely Thomson writes about building a marketing engine from inside a B2B software company: what she saw, what she decided, what the scoreboard said. Each essay has a page at https://neelythomson.com/writing/<slug> carrying the title, the date, and the opening of the essay; the full text is published on Substack at https://neelythomson.substack.com and linked from every essay page.
 
 ## Contact
 

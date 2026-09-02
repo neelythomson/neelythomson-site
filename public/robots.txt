@@ -4,6 +4,7 @@ Allow: /
 
 # Sitemaps
 Sitemap: https://neelythomson.com/sitemap.xml
+Sitemap: https://neelythomson.com/writing-sitemap.xml
 
 # LLM-readable info
 # See https://neelythomson.com/llms.txt for structured information about Neely Thomson
