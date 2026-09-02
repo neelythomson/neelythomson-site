@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { track } from "@vercel/analytics";
 
 const COMPANY_SIZES = [
   "1–10",
@@ -70,6 +71,11 @@ export default function ContactForm() {
         return;
       }
       setStatus("success");
+      track("form_submitted", {
+        engagement: String(data.engagement ?? ""),
+        companySize: String(data.companySize ?? ""),
+        source: String(data.source || "not answered"),
+      });
     } catch {
       setError(
         "Couldn't reach the server. Please email neelyannconway@gmail.com directly.",
