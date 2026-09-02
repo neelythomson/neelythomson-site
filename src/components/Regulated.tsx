@@ -8,12 +8,12 @@ const points = [
     b: "I served as interim sales leader at the same company, and helped execute its sale when it was acquired. The marketing–sales handshake is the first thing to die after a consultant leaves. I build it from both sides because I have sat in both.",
   },
   {
-    t: "The handoff has software attached",
-    b: "I built Kindling, an AI marketing teammate for teams of one to three. Your operator inherits working software alongside the runbook.",
+    t: "Procurement runs on a fiscal year",
+    b: "School districts, agencies and hospital systems buy on a budget calendar, not on your quarter. Channel bets and sequencing get planned against their year, so pipeline is warm when the window opens.",
   },
   {
-    t: "What survives me is a system",
-    b: "A build isn't finished until someone on your team has done every workflow three times, on camera, with me watching the first two.",
+    t: "The security reviewer is on the committee",
+    b: "Your buyer's security and legal teams are in the deal by the second call. The engine carries what they'll ask for: claims with substantiation, a review trail, and content that has already been through the gate.",
   },
 ];
 

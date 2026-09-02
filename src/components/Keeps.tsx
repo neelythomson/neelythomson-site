@@ -45,7 +45,7 @@ const artifacts = [
   {
     kind: "Documentation",
     t: "Documented processes and walkthroughs",
-    b: "A written procedure for every workflow I build: what it does, when it runs, how to change it safely, and how to tell when it&apos;s broken. Screen recordings where they help, though the writing stands on its own.",
+    b: "A written procedure for every workflow I build: what it does, when it runs, how to change it safely, and how to tell when it's broken. Screen recordings where they help, though the writing stands on its own.",
     contains: [
       "One procedure per system, in plain language",
       "Change and troubleshooting steps for each",
@@ -77,7 +77,7 @@ export default function Keeps() {
         <p className="measure text-base leading-[1.68] text-muted">
           What you own at the end is a shelf of documents, models and specs,
           all of it written for whoever has to use it once I&apos;m gone rather
-          than for whoever signed the agreement — a distinction that starts to
+          than for whoever signed the agreement. That distinction starts to
           matter about six months in.
         </p>
 

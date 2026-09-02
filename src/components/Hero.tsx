@@ -18,9 +18,10 @@ export default function Hero() {
           </h1>
 
           <p className="mb-9 max-w-[60ch] text-[17px] leading-[1.62] text-muted">
-            Ninety days. I build the systems that turn attention into
-            pipeline (positioning, sequencing, scoring, CRM, routing,
-            attribution), train someone on your side to run them, and step out.
+            Ninety days, for B2B software companies selling into regulated
+            and institutional buyers. I build the systems that turn attention
+            into pipeline, from positioning through scoring, routing and
+            attribution, train someone on your side to run them, and step out.
             Fixed scope, fixed end date, and no retainer that turns into a job
             neither of us agreed to.
           </p>
@@ -54,6 +55,16 @@ export default function Hero() {
             </div>
           ))}
         </div>
+        <p className="mx-auto mt-9 max-w-[960px] border-t border-rule pt-5 text-[13px] text-muted">
+          Three of these engagements are written up, names withheld.{" "}
+          <a
+            href="/work"
+            className="border-b border-accent pb-px text-ink transition-colors hover:text-accent"
+          >
+            Read the case studies
+          </a>
+          .
+        </p>
       </div>
     </>
   );

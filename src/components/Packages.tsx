@@ -125,6 +125,17 @@ export default function Packages() {
             </li>
           ))}
         </ul>
+
+        <p className="mt-8 text-[15px] leading-[1.7] text-muted">
+          Weighing this against a full-time hire?{" "}
+          <a
+            href="/fractional-cmo-vs-full-time"
+            className="border-b border-accent pb-px text-ink transition-colors hover:text-accent"
+          >
+            Here&apos;s the year-one math
+          </a>
+          .
+        </p>
       </div>
     </section>
   );

@@ -50,6 +50,17 @@ export default function Fit() {
             </div>
           ))}
         </div>
+
+        <p className="mt-6 border-t border-rule pt-7 text-[15px] leading-[1.7] text-muted">
+          Everything else people ask before the first call is on the{" "}
+          <a
+            href="/faq"
+            className="border-b border-accent pb-px text-ink transition-colors hover:text-accent"
+          >
+            FAQ
+          </a>
+          .
+        </p>
       </div>
     </section>
   );

@@ -97,10 +97,10 @@ export default function Engine() {
             {excluded.map((x) => (
               <li
                 key={x}
-                className="relative break-inside-avoid border-t border-rule py-2.5 pl-[22px] text-[14.5px] leading-[1.5] text-muted"
+                className="relative break-inside-avoid border-t border-rule py-2.5 pl-4 text-[14.5px] leading-[1.5] text-muted"
               >
-                <span aria-hidden="true" className="absolute left-0 text-accent">
-                  &mdash;
+                <span aria-hidden="true" className="absolute left-0.5 text-accent">
+                  &middot;
                 </span>
                 {x}
               </li>

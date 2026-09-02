@@ -11,8 +11,8 @@ const audiences = [
   },
   {
     n: "03",
-    t: "Small businesses without a CMO",
-    b: "Nobody senior owns marketing, and a full-time hire is a decision you're not ready to make. You get the strategy and the systems, someone on your team runs them, and there's a seat you can keep if you want a hand on the wheel.",
+    t: "Companies between marketing leaders",
+    b: "Your last marketing lead left, or the role was never filled, and a full-time hire is a decision you're not ready to make this quarter. You get the strategy and the systems, someone on your team runs them, and there's a seat you can keep if you want a hand on the wheel.",
   },
 ];
 
@@ -47,7 +47,16 @@ export default function WhoIWorkWith() {
           <p className="label mb-3">On client names</p>
           <p className="measure text-[15px] leading-[1.7] text-muted">
             No logo wall. Most of this work sits under NDA, and discretion is
-            part of what people hire me for. References on request.
+            part of what people hire me for. Three engagements are written up
+            with the names withheld: a fintech payments company, a national
+            nonprofit, and an enterprise ABM program.{" "}
+            <a
+              href="/work"
+              className="border-b border-accent pb-px text-ink transition-colors hover:text-accent"
+            >
+              Read the case studies
+            </a>
+            . References on request.
           </p>
         </div>
       </div>
