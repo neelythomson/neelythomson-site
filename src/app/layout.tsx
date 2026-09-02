@@ -1,5 +1,23 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next";
+import localFont from "next/font/local";
+
+const newsreader = localFont({
+  src: [
+    { path: "./fonts/newsreader-normal.woff2", style: "normal", weight: "200 800" },
+    { path: "./fonts/newsreader-italic.woff2", style: "italic", weight: "200 800" },
+  ],
+  variable: "--font-newsreader",
+  display: "swap",
+  fallback: ["Georgia", "Times New Roman", "serif"],
+});
+
+const inter = localFont({
+  src: [{ path: "./fonts/inter.woff2", style: "normal", weight: "100 900" }],
+  variable: "--font-inter",
+  display: "swap",
+  fallback: ["ui-sans-serif", "system-ui", "-apple-system", "sans-serif"],
+});
 import "./globals.css";
 
 const TITLE = "Neely Thomson | Fractional CMO, The Marketing Engine";
@@ -37,11 +55,9 @@ export const metadata: Metadata = {
     siteName: "Neely Thomson",
     locale: "en_US",
     type: "website",
-    images: [{ url: "/og.png", width: 1200, height: 630, alt: "Neely Thomson. I build the marketing engine. Your team runs it." }],
   },
   twitter: {
     card: "summary_large_image",
-    images: ["/og.png"],
     title: TITLE,
     description:
       "I build the marketing engine. Your team runs it. A 90-day fixed-scope build for B2B software companies.",
@@ -146,14 +162,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${newsreader.variable} ${inter.variable}`}>
       <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Inter:wght@400;500;600&display=swap"
-          rel="stylesheet"
-        />
         <link rel="icon" href={favicon} />
         <meta name="theme-color" content="#fbfaf8" />
         <script
