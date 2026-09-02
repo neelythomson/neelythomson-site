@@ -40,7 +40,7 @@ const groups = [
 
 const excluded = [
   "Writing your blog posts, emails, or social content",
-  "Graphic design, brand identity files, illustration, video",
+  "Graphic design, brand identity files, illustration, video (I specify the brand system and set creative direction; a designer produces it)",
   "Running or optimizing paid campaigns. LinkedIn, Google, any of it",
   "Holding or managing your ad accounts",
   "Social media management, community, event execution",

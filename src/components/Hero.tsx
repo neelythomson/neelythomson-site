@@ -66,7 +66,7 @@ export default function Hero() {
       <div className="border-t border-rule bg-band px-6 py-13 sm:px-10">
         <div className="mx-auto max-w-[960px]">
           <div className="mb-9 flex flex-wrap items-baseline justify-between gap-x-6 gap-y-2">
-            <p className="label">Proof · three engagements, names withheld</p>
+            <p className="label">Results</p>
             <a
               href="/work"
               className="border-b border-accent pb-px text-[13px] text-ink transition-colors hover:text-accent"
