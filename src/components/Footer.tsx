@@ -23,6 +23,9 @@ export default function Footer() {
         >
           LinkedIn
         </a>
+        <a href="/privacy" className="transition-colors hover:text-accent">
+          Privacy
+        </a>
       </footer>
     </div>
   );

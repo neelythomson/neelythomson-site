@@ -265,12 +265,12 @@ export default function CaseStudy({ c }: { c: CaseStudyData }) {
 
         <section className="bg-ink px-6 pt-20 pb-16 text-band sm:px-10 sm:pt-24 sm:pb-20">
           <div className="mx-auto max-w-[960px]">
-            <p className="label mb-8 text-white/40">04 <span className="mx-0.5">·</span> Why it matters to you</p>
+            <p className="label mb-8 text-white/55">04 <span className="mx-0.5">·</span> Why it matters to you</p>
             <h2 className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)] text-white">The relevant part</h2>
             {c.why.map((p, i) => (
               <p key={i} className={`measure text-base leading-[1.68] text-white/60 ${i === 0 ? "" : "mt-4"}`}>{p}</p>
             ))}
-            <p className="mt-9 border-t border-white/20 pt-6 text-[13px] leading-[1.6] text-white/40">{c.note}</p>
+            <p className="mt-9 border-t border-white/20 pt-6 text-[13px] leading-[1.6] text-white/55">{c.note}</p>
           </div>
         </section>
 

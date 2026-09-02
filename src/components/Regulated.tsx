@@ -21,7 +21,7 @@ export default function Regulated() {
   return (
     <section className="bg-ink px-6 pt-24 pb-20 text-band sm:px-10 sm:pt-28 sm:pb-24">
       <div className="mx-auto max-w-[960px]">
-        <p className="label mb-8 text-white/40">Why regulated buyers</p>
+        <p className="label mb-8 text-white/55">Why regulated buyers</p>
 
         <h2 className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)] text-white">
           I&apos;ve shipped AI marketing through legal review, not around it.
