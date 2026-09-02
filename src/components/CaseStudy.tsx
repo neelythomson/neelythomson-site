@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export type CaseStudyData = {
   slug: string;
@@ -191,6 +192,7 @@ export default function CaseStudy({ c }: { c: CaseStudyData }) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(caseStudyJsonLd(c)) }}
       />
       <Header />
+      <Breadcrumbs items={[{ name: "Work", url: "https://neelythomson.com/work" }, { name: c.title, url: `https://neelythomson.com/work/${c.slug}` }]} />
       <main>
         <section className="px-6 pt-20 pb-16 sm:px-10 sm:pt-24 sm:pb-20">
           <div className="mx-auto max-w-[960px]">
@@ -271,6 +273,13 @@ export default function CaseStudy({ c }: { c: CaseStudyData }) {
               <p key={i} className={`measure text-base leading-[1.68] text-white/60 ${i === 0 ? "" : "mt-4"}`}>{p}</p>
             ))}
             <p className="mt-9 border-t border-white/20 pt-6 text-[13px] leading-[1.6] text-white/55">{c.note}</p>
+            <a
+              href={`/case-studies/${c.slug}.pdf`}
+              download={`Neely-Thomson-Case-Study-${c.slug}.pdf`}
+              className="mt-5 inline-block border-b border-white/40 pb-px text-[13px] text-white transition-colors hover:text-accent"
+            >
+              Download this case study as a one-page PDF
+            </a>
           </div>
         </section>
 
