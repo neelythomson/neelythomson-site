@@ -12,14 +12,6 @@ export default function About() {
       <div className="mx-auto grid max-w-[960px] items-start gap-8 lg:grid-cols-2 lg:gap-14">
         <div>
           <p className="label mb-8">About</p>
-          <img
-            src="/neely-thomson.jpg"
-            alt="Neely Thomson"
-            width={800}
-            height={800}
-            loading="lazy"
-            className="mb-7 h-[168px] w-[168px] rounded-[3px] object-cover"
-          />
           <h2 className="display-sm mb-5 text-[clamp(1.9rem,3.4vw,2.9rem)]">
             Neely Thomson
           </h2>
