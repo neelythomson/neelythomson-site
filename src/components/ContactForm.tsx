@@ -81,7 +81,7 @@ export default function ContactForm() {
   if (status === "success") {
     return (
       <div className="max-w-2xl border-t-2 border-accent bg-band px-7 py-8">
-        <h3 className="display-xs mb-3 text-[24px]">Got it — thank you.</h3>
+        <h3 className="display-xs mb-3 text-[24px]">Got it. Thank you.</h3>
         <p className="max-w-lg text-base leading-[1.68] text-muted">
           Your details are in my inbox. I read every one of these myself and
           reply within two business days, usually with a question or two before
