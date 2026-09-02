@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 const TITLE = "Fractional CMO for Fintech: Marketing That Survives Compliance Review";
 const DESCRIPTION =
@@ -17,7 +18,6 @@ export const metadata: Metadata = {
     url: URL,
     siteName: "Neely Thomson",
     locale: "en_US",
-    images: [{ url: "/og.png", width: 1200, height: 630, alt: "Neely Thomson. I build the marketing engine. Your team runs it." }],
     type: "article",
   },
 };
@@ -135,6 +135,7 @@ export default function FractionalCMOFintech() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
+      <Breadcrumbs items={[{ name: "Fractional CMO for fintech", url: "https://neelythomson.com/fractional-cmo-fintech" }]} />
       <main>
         <section className="px-6 pt-24 pb-20 sm:px-10 sm:pt-28 sm:pb-24">
           <div className="mx-auto max-w-[960px]">
