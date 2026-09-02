@@ -289,13 +289,14 @@ export default function CaseStudy({ c }: { c: CaseStudyData }) {
                 </a>
               ))}
             </div>
-            <p className="mt-12 border-t border-rule pt-7 text-[13.5px] leading-[1.6] text-muted">
-              Want this built for your team? It starts with a two-week Diagnostic.{" "}
-              <a href="/#start" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
-                Send a note
+            <div className="mt-12 border-t border-rule pt-7">
+              <p className="text-[13.5px] leading-[1.6] text-muted">
+                Want this built for your team? It starts with a two-week Diagnostic.
+              </p>
+              <a href="/#start" className="mt-5 inline-block rounded-sm bg-ink px-[22px] py-[13px] text-sm font-medium text-bg transition-colors hover:bg-accent">
+                Start a Diagnostic &nbsp;&rarr;
               </a>
-              .
-            </p>
+            </div>
           </div>
         </section>
       </main>

@@ -2,25 +2,25 @@ const phases = [
   {
     name: "Diagnose",
     weeks: "Weeks 1–2",
-    body: "Marketing audit, ICP, positioning brief, pipeline math, and the five metrics we'll judge everything by. Your operator gets named here.",
-    you: "Your side: 6 hrs of interviews",
+    body: "The audit: your stack, the funnel and unit economics by business unit, the last ninety days of marketing requests, and up to eight interviews. You get a findings document, a board one-pager, and a priced proposal for the build. Your operator gets named here, or the role gets scoped if you don't have one yet.",
+    you: "Your side: about 6 hrs of interviews, plus system access",
   },
   {
     name: "Architect",
     weeks: "Weeks 3–5",
-    body: "Brand system and messaging architecture. Channel bets written as hypotheses with kill and scale criteria. Scoring model, routing rules, the marketing–sales SLA, and the data architecture underneath.",
+    body: "Lead definitions and the SLA drafted and signed. A one-page go-to-market per business unit. Messaging architecture, brand system, and creative direction. The brief template and the quality bar. Channel and conference tiering against pipeline.",
     you: "Your side: 4 hrs/week",
   },
   {
     name: "Build",
     weeks: "Weeks 6–10",
-    body: "Systems get built and go live. Each passes through the three-rep cycle: I build v1 while your operator watches, they build v2 and I review before it ships, they build v3 alone and I review after.",
+    body: "Scoring and routing live in your CRM. The intake queue live. Prompt, template, and brand libraries built in the tools you already own. The scoreboard live and wired to real data. I build each system with your operator beside me and run the weekly plan while we do.",
     you: "Your side: 6 hrs/week",
   },
   {
     name: "Hand off",
     weeks: "Weeks 11–13",
-    body: "Your operator runs the engine unaided. Runbooks recorded, cadence under their hand. Then I sit on your Monday call for four more weeks, silent unless asked.",
+    body: "Your operator runs the engine. Runbooks written, walkthroughs recorded, the Monday cadence under their hand, the board one-pager producing itself. Then four more weeks on your Monday call, there when you need me.",
     you: "Your side: 4 hrs/week",
   },
 ];

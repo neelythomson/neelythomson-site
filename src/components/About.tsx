@@ -1,6 +1,5 @@
 const track = [
   { k: "2020 – present", v: "Independent · Fractional CMO & marketing systems" },
-  { k: "2025 – present", v: "Kindling · Founder" },
   { k: "2022 – 2026", v: "B2B fintech payments · VP & Head of Marketing (acquired)" },
   { k: "2018 – 2022", v: "National nonprofit · Director of B2B Engagement" },
   { k: "2014 – 2016", v: "Enterprise collaboration software · Sr. Sales Enablement Marketing Manager" },
@@ -27,16 +26,6 @@ export default function About() {
           <p className="mt-4 text-base leading-[1.68] text-muted">
             Now I work independently, building marketing engines for B2B
             software companies selling into regulated and institutional buyers.
-            I also build{" "}
-            <a
-              href="https://kindlingmagic.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="border-b border-accent pb-px text-ink transition-colors hover:text-accent"
-            >
-              Kindling
-            </a>
-            , an AI marketing teammate for very small teams.
           </p>
         </div>
 

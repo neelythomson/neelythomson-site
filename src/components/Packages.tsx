@@ -7,12 +7,14 @@ const packages = [
     terms: "Two weeks",
     lead: true,
     includes: [
-      "Marketing and funnel audit",
-      "ICP definition and pipeline math",
-      "The five metrics worth judging everything by",
-      "A prioritized build order, written down",
+      "Stack, process, and funnel audit, by business unit",
+      "Interviews with you, marketing, sales, and the business owners",
+      "The last ninety days of marketing requests, classified",
+      "A findings document, ranked by impact on pipeline",
+      "A board one-pager",
+      "A scoped, priced proposal for the build",
     ],
-    note: "Credited in full if we go on to build. Or take the plan and run it yourself, which some people do.",
+    note: "Credited in full if we go on to build. Or take the findings and run them yourself, which some people do.",
   },
   {
     n: "02",
@@ -22,11 +24,10 @@ const packages = [
     terms: "Scoped and priced after the Diagnostic",
     includes: [
       "Everything in the Diagnostic",
-      "All three system groups, built and live",
-      "The three-rep handoff to your named operator",
-      "The six artifacts you keep, as working files",
+      "All three layers, built and live in your tools",
+      "Your named operator trained alongside me, system by system",
+      "Everything under What you keep, as working files",
       "Four weeks of support after handoff",
-      "Kindling free for twelve months",
     ],
     note: "Fixed scope and a fixed end date, agreed in writing before anything starts.",
   },
@@ -43,7 +44,7 @@ const packages = [
       "On call for whoever runs marketing (usually your operator)",
       "Strategy and systems only, no production work",
     ],
-    note: "Works either way: a seat alongside your operator after a build, or on its own for a team that doesn't need one.",
+    note: "The build has a fixed end date. The engagement doesn't have to. Works as a seat alongside your operator after a build, or on its own for a team that doesn't need one.",
   },
 ];
 

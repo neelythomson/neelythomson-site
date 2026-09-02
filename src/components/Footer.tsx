@@ -16,14 +16,6 @@ export default function Footer() {
           Writing
         </a>
         <a
-          href="https://kindlingmagic.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="transition-colors hover:text-accent"
-        >
-          Kindling
-        </a>
-        <a
           href="https://www.linkedin.com/in/neelythomson"
           target="_blank"
           rel="noopener noreferrer"

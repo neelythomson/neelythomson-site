@@ -4,7 +4,8 @@ const artifacts = [
     t: "The Engine Doc",
     b: "One source of truth for how marketing works here, with the reasoning attached to every decision. The thing a new hire reads on day one instead of asking six people.",
     contains: [
-      "ICP and buyer research",
+      "ICP, subsegmentation, and buyer research",
+      "The one-page go-to-market per business unit",
       "Every channel bet with its kill and scale criteria",
       "The decision log: what we chose, and why",
     ],
@@ -18,6 +19,7 @@ const artifacts = [
       "Messaging architecture by segment and persona",
       "Proof points, objection handling, competitor framing",
       "Voice guidelines and naming conventions",
+      "Brand system specification and creative direction",
     ],
   },
   {
@@ -28,7 +30,8 @@ const artifacts = [
       "Funnel stages with conversion assumptions",
       "Five metrics, with definitions, sources and owners",
       "The dashboard, wired to your real data",
-      "Budget allocation model",
+      "Pipeline per dollar by channel, and the budget reallocation rules",
+      "The board one-pager, assembled from the scoreboard",
     ],
   },
   {
@@ -39,6 +42,7 @@ const artifacts = [
       "Lifecycle sequences: logic, triggers, branching, timing",
       "Lead scoring model with thresholds",
       "Routing rules and CRM field architecture",
+      "The intake queue and its scoring rules",
       "The marketing–sales SLA, agreed by both sides",
     ],
   },
@@ -47,6 +51,7 @@ const artifacts = [
     t: "Documented processes and walkthroughs",
     b: "A written procedure for every workflow I build: what it does, when it runs, how to change it safely, and how to tell when it's broken. Screen recordings where they help, though the writing stands on its own.",
     contains: [
+      "The brief template and the written quality bar",
       "One procedure per system, in plain language",
       "Change and troubleshooting steps for each",
       "Walkthroughs recorded during the handoff",

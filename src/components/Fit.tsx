@@ -5,7 +5,7 @@ const conditions = [
   },
   {
     t: "You can name your operator",
-    b: "One person on your side who'll own the engine and give it four to six hours a week during the build. Without them there's nothing to hand over.",
+    b: "One person on your side who'll own the engine and give it four to six hours a week during the build. If a team doesn't have that person yet, scoping or hiring the role is a Diagnostic output, and nothing ships for that team until they exist.",
   },
   {
     t: "Creative and media live with your team",

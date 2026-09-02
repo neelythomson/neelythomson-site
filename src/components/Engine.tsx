@@ -1,32 +1,38 @@
 const groups = [
   {
-    group: "Brand & positioning",
+    group: "The strategy layer",
+    sub: "Points the engine",
     weeks: "Weeks 1–5",
     items: [
-      "ICP definition and buyer research",
-      "Positioning, category narrative, value proposition",
-      "Messaging architecture and voice guidelines",
-      "Brand system specification and creative direction",
-      "Naming for products, tiers, and categories",
+      "ICP definition, buyer research, and subsegmentation",
+      "A one-page go-to-market per business unit: named segments, channel bets, kill and scale criteria",
+      "Positioning, category narrative, value proposition, messaging architecture",
+      "Brand system specification, creative direction, and naming",
+      "One planning cadence, so every team plans on the same template",
     ],
   },
   {
-    group: "Pipeline systems",
+    group: "The operating system",
+    sub: "Runs it",
     weeks: "Weeks 3–10",
     items: [
+      "One written definition of a qualified lead, with deal-value thresholds where they belong",
+      "Lead scoring and routing built into your CRM and marketing automation, with the data architecture underneath",
+      "The marketing-to-sales SLA, one page, signed by both sides",
+      "The AI production process: brief template, subject-matter-expert loop, prompt and template libraries, a written quality bar",
+      "Intake and capacity: one queue, every request scored on pipeline impact",
       "Lifecycle and nurture sequencing: logic, triggers, branching, timing",
-      "Lead scoring model and qualification thresholds",
-      "CRM and marketing automation integration, data hygiene, field architecture",
-      "Routing rules and the marketing–sales SLA",
     ],
   },
   {
-    group: "Measurement & cadence",
+    group: "The optimization loop",
+    sub: "Makes it cheaper per opportunity",
     weeks: "Weeks 6–13",
     items: [
-      "Attribution wiring and a five-metric scoreboard",
-      "Channel strategy with explicit kill and scale criteria",
-      "Budget allocation model",
+      "Attribution wiring and a five-metric scoreboard, anchored on pipeline",
+      "Pipeline returned per dollar for every channel, conferences included, refreshed monthly",
+      "Budget reallocation on a quarterly cadence, toward what returns",
+      "A board one-pager that assembles itself from the scoreboard",
       "The weekly operating cadence your team runs after I leave",
     ],
   },
@@ -48,13 +54,19 @@ export default function Engine() {
       <section id="engine" className="scroll-mt-20 border-t border-rule px-6 pt-24 pb-20 sm:px-10 sm:pt-28 sm:pb-24">
         <div className="mx-auto max-w-[960px]">
           <p className="label mb-8">
-            What gets built <span className="text-accent">· three system groups</span>
+            What gets built <span className="text-accent">· three layers</span>
           </p>
 
-          <h2 className="display-sm max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)]">
-            Everything below is built, tested, and handed to a named person on
-            your team.
+          <h2 className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)]">
+            Everything below is built in your tools and handed to a named person
+            on your team.
           </h2>
+          <p className="measure text-base leading-[1.68] text-muted">
+            The engine has three layers. The strategy layer points it. The
+            operating system runs it. The optimization loop makes it cheaper per
+            opportunity every quarter. Every complaint a CEO has about marketing
+            lives in one of the three.
+          </p>
 
           <div className="mt-12">
             {groups.map((g, i) => (
@@ -66,7 +78,8 @@ export default function Engine() {
               >
                 <div>
                   <p className="text-[12.5px] font-medium">{g.group}</p>
-                  <p className="label mt-1">{g.weeks}</p>
+                  <p className="mt-0.5 text-[12.5px] italic text-muted">{g.sub}</p>
+                  <p className="label mt-1.5">{g.weeks}</p>
                 </div>
                 <ul>
                   {g.items.map((item, j) => (
