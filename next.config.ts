@@ -43,6 +43,13 @@ const securityHeaders = [
 ];
 
 const nextConfig: NextConfig = {
+  async rewrites() {
+    return [
+      // The essay sitemap lives at a .xml URL; the route folder cannot carry
+      // the dot, so it is served through this rewrite.
+      { source: "/writing-sitemap.xml", destination: "/writing-sitemap" },
+    ];
+  },
   async headers() {
     return [
       {
