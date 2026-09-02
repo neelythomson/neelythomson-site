@@ -13,7 +13,6 @@ export const metadata: Metadata = {
     url: "https://neelythomson.com/work/fintech-payments",
     siteName: "Neely Thomson",
     locale: "en_US",
-    images: [{ url: "/og.png", width: 1200, height: 630, alt: "Neely Thomson. I build the marketing engine. Your team runs it." }],
     type: "article",
   },
 };
