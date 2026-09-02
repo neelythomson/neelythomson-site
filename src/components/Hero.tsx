@@ -38,12 +38,9 @@ export default function Hero() {
           </h1>
 
           <p className="mb-9 max-w-[60ch] text-[17px] leading-[1.62] text-muted">
-            Ninety days, for B2B software companies selling into regulated
-            and institutional buyers. I build the systems that turn attention
-            into pipeline, from positioning through scoring, routing and
-            attribution, train someone on your side to run them, and step out.
-            Fixed scope, fixed end date, and no retainer that turns into a job
-            neither of us agreed to.
+            Ninety days. I build the systems that turn marketing into
+            pipeline, train one person on your team to run them, and step out.
+            Fixed scope, fixed end date.
           </p>
 
           <div className="flex flex-wrap items-center gap-x-7 gap-y-4">
