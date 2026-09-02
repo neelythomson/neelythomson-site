@@ -109,8 +109,9 @@ const jsonLd = {
           name: "The Diagnostic",
           price: "7500",
           priceCurrency: "USD",
+          url: "https://neelythomson.com/diagnostic",
           description:
-            "Two-week marketing audit, ICP and positioning read, pipeline math, and a prioritized build order. Credited in full toward The Marketing Engine.",
+            "Two-week audit of the marketing stack, funnel economics by business unit, and team. Deliverables: a findings document ranked by pipeline impact, a board one-pager, and a priced proposal for the build. Credited in full toward The Marketing Engine.",
         },
         {
           "@type": "Offer",
