@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 const TITLE = "Fractional CMO FAQ: How the Engagement Works, What It Costs, Who It's For";
 const DESCRIPTION =
@@ -16,7 +17,6 @@ export const metadata: Metadata = {
     url: "https://neelythomson.com/faq",
     siteName: "Neely Thomson",
     locale: "en_US",
-    images: [{ url: "/og.png", width: 1200, height: 630, alt: "Neely Thomson. I build the marketing engine. Your team runs it." }],
     type: "website",
   },
 };
@@ -233,6 +233,7 @@ export default function FAQ() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
       <Header />
+      <Breadcrumbs items={[{ name: "FAQ", url: "https://neelythomson.com/faq" }]} />
       <main>
         <section className="px-6 pt-20 pb-16 sm:px-10 sm:pt-24 sm:pb-20">
           <div className="mx-auto max-w-[960px]">
