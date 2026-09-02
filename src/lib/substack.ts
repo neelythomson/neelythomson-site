@@ -130,6 +130,23 @@ export async function getEssays(): Promise<Essay[]> {
   }
 }
 
+// Diagnostic only: says whether the last read came from Substack or from the
+// committed snapshot, so a silently stale page is easy to spot.
+export async function feedIsLive(): Promise<boolean> {
+  try {
+    const res = await fetch(`${SUBSTACK}/feed`, {
+      next: { revalidate: 3600 },
+      headers: {
+        "user-agent": "Mozilla/5.0 (compatible; neelythomson.com; +https://neelythomson.com)",
+        accept: "application/rss+xml, application/xml;q=0.9, */*;q=0.8",
+      },
+    });
+    return res.ok && parse(await res.text()).length > 0;
+  } catch {
+    return false;
+  }
+}
+
 export async function getEssay(slug: string): Promise<Essay | undefined> {
   return (await getEssays()).find((e) => e.slug === slug);
 }
