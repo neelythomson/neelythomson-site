@@ -90,7 +90,6 @@ const jsonLd = {
       sameAs: [
         "https://www.linkedin.com/in/neelythomson",
         "https://neelythomson.substack.com",
-        "https://kindlingmagic.com",
       ],
     },
     {
