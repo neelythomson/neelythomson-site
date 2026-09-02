@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 const TITLE = "Writing | Neely Thomson";
 const DESCRIPTION =
@@ -16,7 +17,6 @@ export const metadata: Metadata = {
     url: "https://neelythomson.com/writing",
     siteName: "Neely Thomson",
     locale: "en_US",
-    images: [{ url: "/og.png", width: 1200, height: 630, alt: "Neely Thomson. I build the marketing engine. Your team runs it." }],
     type: "website",
   },
 };
@@ -27,6 +27,7 @@ export default function WritingPage() {
   return (
     <>
       <Header />
+      <Breadcrumbs items={[{ name: "Writing", url: "https://neelythomson.com/writing" }]} />
       <main>
         <section className="px-6 pt-20 pb-16 sm:px-10 sm:pt-24 sm:pb-20">
           <div className="mx-auto max-w-[960px]">
