@@ -31,7 +31,7 @@ const groups: Group[] = [
       {
         q: "What is a fractional CMO?",
         a: [
-          "A fractional CMO is a senior marketing leader who works with a company part-time, usually ten to twenty hours a week, instead of joining as a full-time executive. Most work on a monthly retainer of $10,000 to $12,000 and stay for a year or more. The model exists because companies between roughly $2M and $20M in revenue need marketing judgment at the executive level before they can justify the salary of one.",
+          "A fractional CMO is a senior marketing leader who works with a company part-time, usually ten to twenty hours a week, instead of joining as a full-time executive. Most work on a monthly retainer of $10,000 to $12,000 and stay for a year or more. The model exists because companies between roughly $2M and $30M in revenue need marketing judgment at the executive level before they can justify the salary of one.",
           "I work as a fractional CMO for B2B software companies, with one difference from the usual model: my engagements are built to end. Ninety days, a fixed scope, and one person on your team trained to run everything before I step out.",
         ],
       },
@@ -39,7 +39,7 @@ const groups: Group[] = [
         q: "What does a fractional CMO do?",
         a: [
           "A typical fractional CMO sets the marketing strategy, decides where the budget goes, manages the marketing team or agency, and reports to the CEO on pipeline. Some run campaigns themselves; most direct other people who do.",
-          "What I do is narrower and more permanent. I build the marketing engine: positioning and messaging, lifecycle sequencing, lead scoring, CRM and marketing automation integration, routing rules, the marketing and sales SLA, attribution, and a weekly operating cadence. I build it in your tools, teach your operator to run it, and leave.",
+          "What I do is narrower, and it's built to stay after I leave. I build the marketing engine: positioning and messaging, lifecycle sequencing, lead scoring, CRM and marketing automation integration, routing rules, the marketing and sales SLA, attribution, and a weekly operating cadence. I build it in your tools, teach your operator to run it, and leave.",
         ],
       },
       {
@@ -137,20 +137,20 @@ const groups: Group[] = [
       {
         q: "What is not included?",
         a: [
-          "Writing your blog posts, emails, or social content. Graphic design, brand identity files, illustration, video. Running or optimizing paid campaigns on LinkedIn, Google, or anywhere else. Holding or managing your ad accounts. Social media management, community, or event execution. Acting as agency of record. Managing your people.",
+          "Writing your blog posts, emails, or social content. Graphic design, brand identity files, illustration, video (I specify the brand system and set creative direction; a designer produces it). Running or optimizing paid campaigns on LinkedIn, Google, or anywhere else. Holding or managing your ad accounts. Social media management, community, or event execution. Acting as agency of record. Managing your people.",
           "The rule is simple: if it produces an asset, it's your team's or a partner's. If it moves, routes, scores, or measures an asset, it's mine.",
         ],
       },
       {
         q: "Who is this for?",
         a: [
-          "B2B software companies selling into regulated or institutional buyers: fintech, edtech and workforce development, healthtech, govtech. Usually $2M to $30M in revenue, a dozen or more closed deals, some marketing spend going out the door, and no marketing leader above the manager level. It works when four things are true: you want to own the engine rather than rent an operator, you can name the person who'll run it, creative and media stay with your team or a partner, and you know who your buyer is.",
+          "B2B software companies selling into regulated or institutional buyers: fintech, edtech and workforce development, healthtech, govtech. Usually $2M to $30M in revenue, a dozen or more closed deals, some marketing spend going out the door, and either no marketing leader above the manager level or a marketing team that produces without a system behind it. It works when four things are true: you want to own the engine rather than rent an operator, you can name the person who'll run it, creative and media stay with your team or a partner, and you know who your buyer is.",
         ],
       },
       {
         q: "Who is this not for?",
         a: [
-          "Companies that need someone to run marketing week to week; that's an operator hire, and I'll say so on the first call. Teams of five or more that need a manager. Product-led companies where marketing is the whole growth engine and belongs in-house full-time. And companies earlier than about a dozen closed deals, where positioning work will do more than plumbing.",
+          "Companies that need someone to run marketing week to week; that's an operator hire, and I'll say so on the first call. Teams that need a manager more than a system; I don't manage people. Product-led companies where marketing is the whole growth engine and belongs in-house full-time. And companies earlier than about a dozen closed deals, where positioning work will do more than plumbing.",
         ],
       },
       {
