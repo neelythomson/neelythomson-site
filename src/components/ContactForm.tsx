@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import { track } from "@vercel/analytics";
 
 const COMPANY_SIZES = [
   "1–10",
@@ -41,8 +40,8 @@ const SOURCES = [
 ];
 
 const FIELD =
-  "w-full rounded-sm border border-rule bg-white px-3.5 py-3 text-sm text-ink outline-none transition-colors focus:border-accent";
-const LABEL = "block text-[12.5px] font-medium mb-2";
+  "w-full min-h-[48px] rounded-sm border border-rule bg-white px-3.5 py-3 text-[16px] text-ink outline-none transition-colors focus:border-accent sm:min-h-0 sm:text-sm";
+const LABEL = "block text-[13px] font-medium mb-2 sm:text-[12.5px]";
 
 type Status = "idle" | "submitting" | "success" | "error";
 
@@ -71,11 +70,6 @@ export default function ContactForm() {
         return;
       }
       setStatus("success");
-      track("form_submitted", {
-        engagement: String(data.engagement ?? ""),
-        companySize: String(data.companySize ?? ""),
-        source: String(data.source || "not answered"),
-      });
     } catch {
       setError(
         "Couldn't reach the server. Please email neelyannconway@gmail.com directly.",
@@ -105,7 +99,7 @@ export default function ContactForm() {
         <input id="website" name="website" type="text" tabIndex={-1} autoComplete="off" />
       </div>
 
-      <div className="grid gap-5 sm:grid-cols-2">
+      <div className="grid gap-5 md:grid-cols-2">
         <div>
           <label className={LABEL} htmlFor="name">
             Your name
@@ -139,7 +133,7 @@ export default function ContactForm() {
             ))}
           </select>
         </div>
-        <div className="sm:col-span-2">
+        <div className="md:col-span-2">
           <label className={LABEL} htmlFor="engagement">
             What are you looking for?
           </label>
@@ -184,7 +178,7 @@ export default function ContactForm() {
             ))}
           </select>
         </div>
-        <div className="sm:col-span-2">
+        <div className="md:col-span-2">
           <label className={LABEL} htmlFor="source">
             How did you find me?{" "}
             <span className="font-normal text-faint">(optional)</span>
@@ -198,7 +192,7 @@ export default function ContactForm() {
             ))}
           </select>
         </div>
-        <div className="sm:col-span-2">
+        <div className="md:col-span-2">
           <label className={LABEL} htmlFor="notes">
             Anything else?{" "}
             <span className="font-normal text-faint">(optional)</span>
@@ -227,7 +221,7 @@ export default function ContactForm() {
         <button
           type="submit"
           disabled={status === "submitting"}
-          className="inline-flex items-center gap-2 rounded-sm bg-ink px-[22px] py-[13px] text-sm font-medium text-bg transition-colors hover:bg-accent disabled:cursor-not-allowed disabled:opacity-60"
+          className="inline-flex w-full items-center justify-center gap-2 rounded-sm bg-ink px-[22px] py-[14px] sm:w-auto sm:py-[13px] text-sm font-medium text-bg transition-colors hover:bg-accent disabled:cursor-not-allowed disabled:opacity-60"
         >
           {status === "submitting" ? "Sending…" : "Request a Diagnostic"}
           {status !== "submitting" && <span aria-hidden="true">→</span>}
