@@ -69,9 +69,9 @@ const rows = [
   },
   {
     k: "Right when",
-    ft: "You have a team of five or more to manage, a board that wants one throat to choke, and the budget to pay for a bench.",
+    ft: "You have a team of five or more to manage, a board that wants a named owner of the number, and the budget to pay for a bench.",
     fc: "You need marketing run by a senior person for a defined stretch and you're fine renting that judgment month to month.",
-    me: "You have revenue, a dozen or so closed deals, someone on your team who can own the engine, and no marketing leader yet.",
+    me: "You have revenue, a dozen or so closed deals, someone on your team who can own the engine, and either no marketing leader yet or a team producing without a system.",
   },
 ];
 
@@ -92,7 +92,7 @@ const fullTimeCases = [
 
 const fractionalCases = [
   {
-    t: "You're between $2M and $20M in revenue with no marketing leader",
+    t: "You're between $2M and $30M in revenue with no marketing leader",
     b: "There's a marketing manager or a small team, and nobody senior above them. The CEO is the de facto CMO. Marketing spend goes out the door every month without anyone able to say what it returned.",
   },
   {
