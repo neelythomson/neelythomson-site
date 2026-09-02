@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 const TITLE = "Fractional CMO vs. Full-Time CMO: Cost, Timing, and Which to Choose";
 const DESCRIPTION =
@@ -16,7 +17,6 @@ export const metadata: Metadata = {
     url: "https://neelythomson.com/fractional-cmo-vs-full-time",
     siteName: "Neely Thomson",
     locale: "en_US",
-    images: [{ url: "/og.png", width: 1200, height: 630, alt: "Neely Thomson. I build the marketing engine. Your team runs it." }],
     type: "article",
   },
 };
@@ -117,6 +117,7 @@ export default function FractionalCMOvsFullTime() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <Header />
+      <Breadcrumbs items={[{ name: "Fractional CMO vs. full-time", url: "https://neelythomson.com/fractional-cmo-vs-full-time" }]} />
       <main>
         {/* ── Hero ────────────────────────────────────────── */}
         <section className="px-6 pt-20 pb-16 sm:px-10 sm:pt-24 sm:pb-20">
