@@ -342,13 +342,11 @@ export default function FractionalCMOvsFullTime() {
               client&apos;s team or a partner.
             </p>
             <p className="measure mt-4 text-base leading-[1.68] text-white/60">
-              The difference from a retainer is that it ends on purpose. Every
-              system goes through a three-rep handoff: I build the first version
-              while your operator watches, they build the second and I review it
-              before it ships, they build the third alone. When the ninety days
-              are up, the engine is theirs, and the marketing leader you hire
-              afterward, full-time or fractional, starts with something that
-              already works.
+              The difference from a retainer is that it ends on purpose. I build
+              every system in your tools with your operator beside me, document
+              each one, and hand it over running. When the ninety days are up,
+              the engine is theirs, and the marketing leader you hire afterward,
+              full-time or fractional, starts with something that already works.
             </p>
             <p className="mt-9 text-[13.5px] leading-[1.6] text-white/60">
               Everything starts with a two-week Diagnostic at $7,500, credited in
