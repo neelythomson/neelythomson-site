@@ -3,8 +3,15 @@ import { NextResponse } from "next/server";
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
-const TO_EMAIL = process.env.CONTACT_TO_EMAIL || "neelyannconway@gmail.com";
+// Comma-separated list. Resend's test sender (onboarding@resend.dev) can only
+// deliver to the account owner, so the second address only works once
+// CONTACT_FROM_EMAIL is on the verified neelythomson.com domain.
+const TO_EMAILS = (process.env.CONTACT_TO_EMAIL || "neelyannconway@gmail.com")
+  .split(",")
+  .map((s) => s.trim())
+  .filter(Boolean);
 const FROM_EMAIL = process.env.CONTACT_FROM_EMAIL || "onboarding@resend.dev";
+const FROM_IS_VERIFIED_DOMAIN = !FROM_EMAIL.endsWith("@resend.dev");
 
 const FIELDS = {
   name: { label: "Name", max: 120, required: true },
@@ -145,10 +152,10 @@ export async function POST(request: Request) {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        from: `Engine Install enquiries <${FROM_EMAIL}>`,
-        to: [TO_EMAIL],
+        from: `neelythomson.com enquiries <${FROM_EMAIL}>`,
+        to: TO_EMAILS,
         reply_to: clean.email,
-        subject: `${clean.company} (${clean.companySize}) — ${clean.engagement}`,
+        subject: `${clean.company} (${clean.companySize}): ${clean.engagement}`,
         text,
         html,
       }),
@@ -168,6 +175,60 @@ export async function POST(request: Request) {
       { error: "Something went wrong sending that. Please email neelyannconway@gmail.com directly." },
       { status: 502 },
     );
+  }
+
+  // Confirmation to the person who wrote in. Only possible from the verified
+  // domain; the test sender can't deliver to arbitrary addresses. Best effort:
+  // a failure here never turns a delivered enquiry into an error for them.
+  if (FROM_IS_VERIFIED_DOMAIN) {
+    const firstName = clean.name.split(/\s+/)[0] || "there";
+    const confirmText = [
+      `Hi ${firstName},`,
+      "",
+      "Thanks for writing. Your note is in my inbox and I read every one of these myself.",
+      "",
+      "I'll reply within two business days, usually with a question or two before we book anything. If it looks like a fit, the next step is a two-week Diagnostic: a marketing and funnel audit, ICP and pipeline math, the five metrics worth judging everything by, and a prioritized build order, written down.",
+      "",
+      "In the meantime, the questions people usually ask first are answered at https://neelythomson.com/faq, and the case studies are at https://neelythomson.com/work.",
+      "",
+      "If anything changes on your side before you hear from me, just reply to this email.",
+      "",
+      "Neely",
+      "neelythomson.com",
+    ].join("\n");
+
+    const confirmHtml = `
+      <div style="font-family:-apple-system,Segoe UI,Inter,sans-serif;font-size:15px;color:#1a1917;line-height:1.65;max-width:560px">
+        <p>Hi ${escapeHtml(firstName)},</p>
+        <p>Thanks for writing. Your note is in my inbox and I read every one of these myself.</p>
+        <p>I'll reply within two business days, usually with a question or two before we book anything. If it looks like a fit, the next step is a two-week Diagnostic: a marketing and funnel audit, ICP and pipeline math, the five metrics worth judging everything by, and a prioritized build order, written down.</p>
+        <p>In the meantime, the questions people usually ask first are answered at <a href="https://neelythomson.com/faq" style="color:#b33a24">neelythomson.com/faq</a>, and the case studies are at <a href="https://neelythomson.com/work" style="color:#b33a24">neelythomson.com/work</a>.</p>
+        <p>If anything changes on your side before you hear from me, just reply to this email.</p>
+        <p style="margin-top:24px">Neely<br><a href="https://neelythomson.com" style="color:#6b6862;text-decoration:none">neelythomson.com</a></p>
+      </div>`;
+
+    try {
+      const res = await fetch("https://api.resend.com/emails", {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${apiKey}`,
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          from: `Neely Thomson <${FROM_EMAIL}>`,
+          to: [clean.email],
+          reply_to: TO_EMAILS[0],
+          subject: "Got it. Here's what happens next.",
+          text: confirmText,
+          html: confirmHtml,
+        }),
+      });
+      if (!res.ok) {
+        console.error("[contact] Confirmation email rejected:", res.status, await res.text());
+      }
+    } catch (err) {
+      console.error("[contact] Confirmation email network error:", err);
+    }
   }
 
   recordSend(ip);
