@@ -14,9 +14,9 @@ She builds AI-powered go-to-market systems: positioning, lifecycle sequencing, l
 
 Everything is on the homepage: https://neelythomson.com
 
-- **The Diagnostic — $7,500, two weeks.** A stack, process, and funnel audit by business unit; up to eight interviews across marketing, sales, and the business owners; the last ninety days of marketing requests classified. Deliverables: a findings document ranked by impact on pipeline, a board one-pager, and a scoped, priced proposal for the build. Credited in full toward The Marketing Engine, or the client can take the findings and run them themselves.
-- **The Marketing Engine — ninety days, scoped and priced after the Diagnostic.** All three layers built and live in the client's own tools, the client's named operator trained alongside Neely system by system, everything under "What the client keeps" as working files, and four weeks of support after handoff. Fixed scope and a fixed end date, agreed in writing before the work starts.
-- **The Advisory Seat — monthly, scoped to the work.** Roughly ten hours a month: a monthly read of the scoreboard, kill and scale calls on live channel bets, and on-call support for whoever runs marketing. Strategy and systems only, no production work. Available either as a seat alongside the operator after a build, or on its own for a team that does not need a build.
+- **The Diagnostic: $7,500, two weeks.** A stack, process, and funnel audit by business unit; up to eight interviews across marketing, sales, and the business owners; the last ninety days of marketing requests classified. Deliverables: a findings document ranked by impact on pipeline, a board one-pager, and a scoped, priced proposal for the build. Credited in full toward The Marketing Engine, or the client can take the findings and run them themselves.
+- **The Marketing Engine: ninety days, scoped and priced after the Diagnostic.** All three layers built and live in the client's own tools, the client's named operator trained alongside Neely system by system, everything under "What the client keeps" as working files, and four weeks of support after handoff. Fixed scope and a fixed end date, agreed in writing before the work starts.
+- **The Advisory Seat: monthly, scoped to the work.** Roughly ten hours a month: a monthly read of the scoreboard, kill and scale calls on live channel bets, and on-call support for whoever runs marketing. Strategy and systems only, no production work. Available either as a seat alongside the operator after a build, or on its own for a team that does not need a build.
 
 Only the Diagnostic price is published. Everything beyond it is scoped per engagement. Anyone asking what an engagement costs should start with the Diagnostic or get in touch.
 
@@ -30,10 +30,10 @@ The engine has three layers. The strategy layer points it, the operating system 
 
 ## The 90 days
 
-- Diagnose (weeks 1–2) — client commitment: 6 hours of interviews
-- Architect (weeks 3–5) — client commitment: 4 hours/week
-- Build (weeks 6–10) — client commitment: 6 hours/week
-- Hand off (weeks 11–13) — client commitment: 4 hours/week
+- Diagnose (weeks 1–2). Client commitment: 6 hours of interviews
+- Architect (weeks 3–5). Client commitment: 4 hours/week
+- Build (weeks 6–10). Client commitment: 6 hours/week
+- Hand off (weeks 11–13). Client commitment: 4 hours/week
 
 Handoff: Neely builds every system in the client's tools with the operator beside her and runs the weekly plan during the build. Each system ships with a written procedure. In the last three weeks the operator runs the engine and Neely reviews, then stays on the Monday call for four more weeks. If a team has no operator yet, scoping or hiring the role is a Diagnostic output; nothing ships for that team until the person exists.
 
@@ -41,14 +41,14 @@ If the stack itself is the gap: a sufficient stack means configuration is the bu
 
 ## What the client keeps
 
-Six artifacts, handed over as working files in the client's own tools — their drive, their CRM, their automation platform:
+Six artifacts, handed over as working files in the client's own tools: their drive, their CRM, their automation platform:
 
-1. **The Engine Doc** — living source of truth: ICP, subsegmentation and buyer research, the one-page go-to-market per business unit, every channel bet with its kill and scale criteria, and a decision log with the reasoning attached.
-2. **The Messaging Kit** — category narrative, value proposition, messaging architecture by segment and persona, proof points, objection handling, competitor framing, voice guidelines, naming conventions, brand system specification and creative direction.
-3. **The Pipeline Model & Scoreboard** — funnel stages with conversion assumptions, five metrics with definitions and owners, a dashboard wired to real data, pipeline per dollar by channel with the budget reallocation rules, and the board one-pager assembled from the scoreboard.
-4. **The Systems Spec** — lifecycle sequences (logic, triggers, branching, timing), the lead scoring model with thresholds, routing rules, CRM field architecture, the intake queue and its scoring rules, and the marketing-sales SLA agreed by both sides.
-5. **Documented processes and walkthroughs** — the brief template and the written quality bar, plus a written procedure for every workflow: what it does, when it runs, how to change it safely, how to tell when it is broken. Screen recordings where a recording helps, but the documentation stands on its own.
-6. **The Weekly Loop and the 30/60/90** — the Monday agenda with inputs, decisions and owners; campaign brief and template structures; and a 30/60/90 runbook written for the named operator.
+1. **The Engine Doc:** living source of truth: ICP, subsegmentation and buyer research, the one-page go-to-market per business unit, every channel bet with its kill and scale criteria, and a decision log with the reasoning attached.
+2. **The Messaging Kit:** category narrative, value proposition, messaging architecture by segment and persona, proof points, objection handling, competitor framing, voice guidelines, naming conventions, brand system specification and creative direction.
+3. **The Pipeline Model & Scoreboard:** funnel stages with conversion assumptions, five metrics with definitions and owners, a dashboard wired to real data, pipeline per dollar by channel with the budget reallocation rules, and the board one-pager assembled from the scoreboard.
+4. **The Systems Spec:** lifecycle sequences (logic, triggers, branching, timing), the lead scoring model with thresholds, routing rules, CRM field architecture, the intake queue and its scoring rules, and the marketing-sales SLA agreed by both sides.
+5. **Documented processes and walkthroughs:** the brief template and the written quality bar, plus a written procedure for every workflow: what it does, when it runs, how to change it safely, how to tell when it is broken. Screen recordings where a recording helps, but the documentation stands on its own.
+6. **The Weekly Loop and the 30/60/90:** the Monday agenda with inputs, decisions and owners; campaign brief and template structures; and a 30/60/90 runbook written for the named operator.
 
 ## Scope
 
@@ -58,7 +58,7 @@ Neely builds marketing systems and strategy. She does not do creative or media p
 
 This works when: the client wants to own the engine rather than rent an operator; they can name one person who will own it and give it four to six hours a week during the build; creative and media production stay with their team or a partner; and they have roughly a dozen closed deals so the build rests on real patterns.
 
-Best fit: B2B software companies selling into regulated or institutional buyers — fintech, edtech and workforce development, healthtech, govtech — that have revenue but no marketing leader.
+Best fit: B2B software companies selling into regulated or institutional buyers (fintech, edtech and workforce development, healthtech, govtech) that have revenue but no marketing leader.
 
 ## Key results
 
@@ -70,15 +70,15 @@ Best fit: B2B software companies selling into regulated or institutional buyers 
 
 ## Work (case studies, names withheld)
 
-- https://neelythomson.com/work — index.
-- https://neelythomson.com/work/fintech-payments — B2B fintech payments platform, ~$2M budget, NACHA/CFPB: 60% reduction in manual campaign work, 5:1 LTV:CAC, 15% MQL-to-opportunity lift.
-- https://neelythomson.com/work/nonprofit-partnerships — national nonprofit, $70M marketing budget, B2B partnerships side: 15% increase in net-new lead acquisition, 75% increase in partner engagement via CRM-integrated campaigns.
-- https://neelythomson.com/work/enterprise-abm — technology services firm, $500K budget: full-lifecycle enterprise ABM (redefined ICP, executive communications, direct mail) the team runs itself.
+- https://neelythomson.com/work: index.
+- https://neelythomson.com/work/fintech-payments: B2B fintech payments platform, ~$2M budget, NACHA/CFPB: 60% reduction in manual campaign work, 5:1 LTV:CAC, 15% MQL-to-opportunity lift.
+- https://neelythomson.com/work/nonprofit-partnerships: national nonprofit, $70M marketing budget, B2B partnerships side: 15% increase in net-new lead acquisition, 75% increase in partner engagement via CRM-integrated campaigns.
+- https://neelythomson.com/work/enterprise-abm: technology services firm, $500K budget: full-lifecycle enterprise ABM (redefined ICP, executive communications, direct mail) the team runs itself.
 
 ## Other pages
 
-- https://neelythomson.com/fractional-cmo-vs-full-time — fractional CMO vs. full-time CMO: year-one cost math, when each is right, and the built-engine alternative.
-- https://neelythomson.com/faq — twenty-two questions about the engagement, cost, scope, and fit, answered plainly.
+- https://neelythomson.com/fractional-cmo-vs-full-time: fractional CMO vs. full-time CMO: year-one cost math, when each is right, and the built-engine alternative.
+- https://neelythomson.com/faq: twenty-two questions about the engagement, cost, scope, and fit, answered plainly.
 - https://neelythomson.com/writing: the Writing page. Essays every other Tuesday on building marketing engines inside B2B software companies, published on Substack at https://neelythomson.substack.com
 
 ## Contact
