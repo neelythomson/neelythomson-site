@@ -1,8 +1,28 @@
 const proof = [
-  { v: "60%", l: "of manual campaign work removed", s: "B2B fintech payments, 2022–26" },
-  { v: "5:1", l: "LTV:CAC delivered", s: "Same four years" },
-  { v: "15%", l: "lift in MQL-to-Opportunity conversion", s: "Same four years" },
-  { v: "1", l: "acquisition, which I helped execute", s: "Same company, 2026" },
+  {
+    v: "60%",
+    l: "of manual campaign work removed",
+    s: "Fintech payments, under NACHA and CFPB",
+    href: "/work/fintech-payments",
+  },
+  {
+    v: "5:1",
+    l: "LTV:CAC over four years",
+    s: "Same engine, same company",
+    href: "/work/fintech-payments",
+  },
+  {
+    v: "75%",
+    l: "lift in partner engagement",
+    s: "National nonprofit, $70M marketing org",
+    href: "/work/nonprofit-partnerships",
+  },
+  {
+    v: "$500K",
+    l: "budget behind a full enterprise ABM build",
+    s: "Technology services firm",
+    href: "/work/enterprise-abm",
+  },
 ];
 
 export default function Hero() {
@@ -44,27 +64,34 @@ export default function Hero() {
       </section>
 
       <div className="border-t border-rule bg-band px-6 py-13 sm:px-10">
-        <div className="mx-auto grid max-w-[960px] gap-9 sm:grid-cols-2 lg:grid-cols-4">
-          {proof.map((p) => (
-            <div key={p.l}>
-              <div className="display tnum text-[40px] leading-none">{p.v}</div>
-              <p className="mt-[9px] max-w-[22ch] text-[12.5px] leading-[1.45] text-muted">
-                {p.l}
-              </p>
-              <p className="label mt-1.5">{p.s}</p>
-            </div>
-          ))}
+        <div className="mx-auto max-w-[960px]">
+          <div className="mb-9 flex flex-wrap items-baseline justify-between gap-x-6 gap-y-2">
+            <p className="label">Proof · three engagements, names withheld</p>
+            <a
+              href="/work"
+              className="border-b border-accent pb-px text-[13px] text-ink transition-colors hover:text-accent"
+            >
+              All case studies &rarr;
+            </a>
+          </div>
+          <div className="grid gap-9 sm:grid-cols-2 lg:grid-cols-4">
+            {proof.map((p) => (
+              <a
+                key={p.l}
+                href={p.href}
+                className="group block border-t border-rule pt-5 transition-colors hover:border-accent"
+              >
+                <div className="display tnum text-[40px] leading-none transition-colors group-hover:text-accent">
+                  {p.v}
+                </div>
+                <p className="mt-[9px] max-w-[22ch] text-[12.5px] leading-[1.45] text-muted">
+                  {p.l}
+                </p>
+                <p className="label mt-1.5">{p.s}</p>
+              </a>
+            ))}
+          </div>
         </div>
-        <p className="mx-auto mt-9 max-w-[960px] border-t border-rule pt-5 text-[13px] text-muted">
-          Three of these engagements are written up, names withheld.{" "}
-          <a
-            href="/work"
-            className="border-b border-accent pb-px text-ink transition-colors hover:text-accent"
-          >
-            Read the case studies
-          </a>
-          .
-        </p>
       </div>
     </>
   );
