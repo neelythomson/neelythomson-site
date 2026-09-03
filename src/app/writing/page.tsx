@@ -150,6 +150,29 @@ export default async function WritingPage() {
             </div>
           </div>
         </section>
+
+        <section className="border-t border-rule px-6 pt-20 pb-16 sm:px-10 sm:pt-24 sm:pb-20">
+          <div className="mx-auto max-w-[960px]">
+            <div className="grid gap-4 md:grid-cols-[170px_1fr] md:gap-10">
+              <p className="label">The day job</p>
+              <div className="max-w-[62ch]">
+                <p className="text-[15px] leading-[1.7] text-muted">
+                  I build these engines for a living. Ninety days, fixed scope, handed to one named
+                  person on your team, and then I am out. It starts with a two-week audit.
+                </p>
+                <p className="mt-4 text-[15px] leading-[1.7] text-muted">
+                  <a href="/diagnostic" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+                    How the two weeks run
+                  </a>
+                  <span className="px-2 text-faint">&middot;</span>
+                  <a href="/#start" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+                    Start a Diagnostic
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
       <Footer />
     </>
