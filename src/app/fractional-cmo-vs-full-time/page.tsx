@@ -136,7 +136,7 @@ export default function FractionalCMOvsFullTime() {
             </p>
             <p className="measure mt-5 text-base leading-[1.68] text-muted">
               I&apos;m Neely Thomson. I spent twenty years as an in-house B2B
-              marketing leader, most recently as VP &amp; Head of Marketing at a
+              marketing leader, most recently as Head of Marketing at a
               fintech payments company, and I now work as a fractional CMO for
               B2B software companies. I&apos;ve been on both sides of this
               decision. This page lays out what each option costs, when each one
