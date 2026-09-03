@@ -52,7 +52,7 @@ const groups: Group[] = [
       {
         q: "Who is Neely Thomson?",
         a: [
-          "I'm a fractional CMO and marketing systems architect based in Atlanta. I spent twenty years leading B2B SaaS and fintech marketing teams, most recently four years as VP & Head of Marketing at a B2B fintech payments company, where I led a company-wide AI marketing transformation, served as interim sales leader, and helped execute the sale when the company was acquired in 2026.",
+          "I'm a fractional CMO and marketing systems architect based in Atlanta. I spent twenty years leading B2B SaaS and fintech marketing teams, most recently four years as Head of Marketing at a B2B fintech payments company, where I led a company-wide AI marketing transformation, served as interim sales leader, and helped execute the sale when the company was acquired in 2026.",
         ],
       },
     ],
