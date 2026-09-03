@@ -5,7 +5,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 
 const TITLE = "About Neely Thomson: Fractional CMO and Marketing Systems Architect";
 const DESCRIPTION =
-  "Neely Thomson builds B2B marketing engines in ninety days and hands them to the client's own team. Four years leading marketing at a fintech payments company under NACHA and CFPB, including a stretch in the sales chair.";
+  "Twenty years in B2B SaaS and fintech marketing. Neely Thomson builds B2B marketing engines in ninety days and hands them to the client's own team, most recently after four years leading marketing at a fintech payments company under NACHA and CFPB.";
 const URL = "https://neelythomson.com/about";
 
 export const metadata: Metadata = {
@@ -96,12 +96,12 @@ export default function About() {
               and institutional buyers, and then I hand them to the client&apos;s own team.
             </p>
             <p className="measure mt-4 text-base leading-[1.68] text-muted">
-              Most recently I spent four years as Head of Marketing at a B2B fintech payments
-              company, where I led a company-wide AI marketing transformation, stepped in as interim
-              sales leader, and helped execute the sale when the company was acquired. Before that,
-              the B2B side of a $70M nonprofit marketing organization, and before that, sales
-              enablement and marketing automation, which is where I learned what the plumbing
-              actually is.
+              Twenty years in B2B SaaS and fintech marketing. Four of them most recently as Head
+              of Marketing at a B2B fintech payments company, where I led a company-wide AI
+              marketing transformation, stepped in as interim sales leader, and helped execute the
+              sale when the company was acquired. Before that, the B2B side of a $70M nonprofit
+              marketing organization, and before that, sales enablement and marketing automation,
+              which is where I learned what the plumbing actually is.
             </p>
           </div>
         </section>
