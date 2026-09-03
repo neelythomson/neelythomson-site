@@ -72,7 +72,7 @@ export default function ContactForm() {
       setStatus("success");
     } catch {
       setError(
-        "Couldn't reach the server. Please email neelyannconway@gmail.com directly.",
+        "Couldn't reach the server. Please email hello@neelythomson.com directly.",
       );
       setStatus("error");
     }
@@ -231,6 +231,16 @@ export default function ContactForm() {
         </p>
       </div>
       <p className="mt-4 text-[13px] text-faint">
+        Rather write an email?{" "}
+        <a
+          href="mailto:hello@neelythomson.com"
+          className="border-b border-accent pb-px text-ink transition-colors hover:text-accent"
+        >
+          hello@neelythomson.com
+        </a>
+        .
+      </p>
+      <p className="mt-2 text-[13px] text-faint">
         Not ready for a Diagnostic?{" "}
         <a
           href="/writing"

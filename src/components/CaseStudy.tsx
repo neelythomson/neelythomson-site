@@ -31,7 +31,7 @@ export const caseStudies: CaseStudyData[] = [
       { k: "Company", v: "B2B fintech payments platform" },
       { k: "Annual marketing budget", v: "About $2M" },
       { k: "Regulatory context", v: "NACHA, CFPB, legal review on every asset" },
-      { k: "My role", v: "VP & Head of Marketing, then interim sales leader" },
+      { k: "My role", v: "Head of Marketing, then interim sales leader" },
     ],
     situation: [
       "A payments platform selling into regulated industries, where every asset passes compliance and legal review before it ships. Campaign production was manual, marketing and sales ran on separate definitions of a good lead, and the team's capacity was going into producing work instead of moving pipeline.",

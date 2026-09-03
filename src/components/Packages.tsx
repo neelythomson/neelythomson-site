@@ -132,6 +132,18 @@ export default function Packages() {
           ))}
         </ul>
 
+        <div className="mt-9 flex flex-wrap items-center gap-x-7 gap-y-3 border-t border-rule pt-8">
+          <a
+            href="#start"
+            className="rounded-sm bg-ink px-[22px] py-[13px] text-sm font-medium text-bg transition-colors hover:bg-accent"
+          >
+            Start a Diagnostic &nbsp;&rarr;
+          </a>
+          <p className="text-[13px] text-faint">
+            Two weeks, $7,500, credited in full if we go on to build.
+          </p>
+        </div>
+
         <p className="mt-8 text-[15px] leading-[1.7] text-muted">
           Weighing this against a full-time hire?{" "}
           <a

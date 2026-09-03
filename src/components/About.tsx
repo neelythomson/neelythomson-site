@@ -1,6 +1,6 @@
 const track = [
   { k: "2020 – present", v: "Independent · Fractional CMO & marketing systems" },
-  { k: "2022 – 2026", v: "B2B fintech payments · VP & Head of Marketing (acquired)" },
+  { k: "2022 – 2026", v: "B2B fintech payments · Head of Marketing (acquired)" },
   { k: "2018 – 2022", v: "National nonprofit · Director of B2B Engagement" },
   { k: "2014 – 2016", v: "Enterprise collaboration software · Sr. Sales Enablement Marketing Manager" },
   { k: "2013 – 2014", v: "B2B marketing automation software · Marketing Manager" },
@@ -17,8 +17,8 @@ export default function About() {
           </h2>
           <p className="text-base leading-[1.68] text-muted">
             Twenty years building, scaling, and leading B2B SaaS and fintech
-            marketing teams. Most recently I spent four years as VP &amp; Head
-            of Marketing at a B2B fintech payments startup, where I led a
+            marketing teams. Most recently I spent four years as Head of
+            Marketing at a B2B fintech payments startup, where I led a
             company-wide AI marketing transformation, stepped in as interim
             sales leader, and helped execute the sale when the company was
             acquired.

@@ -7,7 +7,8 @@ const navLinks = [
   { label: "Packages", href: "/#packages" },
   { label: "The 90 days", href: "/#ninety" },
   { label: "Work", href: "/work" },
-  { label: "About", href: "/#about" },
+  { label: "FAQ", href: "/faq" },
+  { label: "About", href: "/about" },
 ];
 
 export default function Header() {
