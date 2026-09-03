@@ -278,6 +278,9 @@ export default function MarketingEngine() {
               <a href="/diagnostic" className="rounded-sm bg-ink px-[22px] py-[13px] text-sm font-medium text-bg transition-colors hover:bg-accent">
                 The Diagnostic &nbsp;&rarr;
               </a>
+              <a href="/#start" className="border-b border-accent pb-0.5 text-sm font-medium text-ink transition-colors hover:text-accent">
+                Start a Diagnostic
+              </a>
               <a href="/#engine" className="border-b border-accent pb-0.5 text-sm font-medium text-ink transition-colors hover:text-accent">
                 What gets built in ninety days
               </a>
