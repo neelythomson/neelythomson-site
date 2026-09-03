@@ -108,7 +108,9 @@ export default function About() {
 
         <section className="border-t border-rule px-6 pt-20 pb-20 sm:px-10 sm:pt-24 sm:pb-24">
           <div className="mx-auto max-w-[960px]">
-            <p className="label mb-8">Track record</p>
+            <p className="label mb-8">
+              Track record <span className="text-accent">&middot; a selection</span>
+            </p>
             <div>
               {track.map((t, i) => (
                 <div
