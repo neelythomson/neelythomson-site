@@ -43,6 +43,18 @@ const securityHeaders = [
 ];
 
 const nextConfig: NextConfig = {
+  async redirects() {
+    return [
+      // Slugs a draft of the case studies briefly used. Nothing should link to
+      // them, but they were crawled, so they redirect rather than 404.
+      { source: "/work/01-b2b-fintech-payments-platform", destination: "/work/fintech-payments", permanent: true },
+      { source: "/work/02-national-nonprofit", destination: "/work/nonprofit-partnerships", permanent: true },
+      { source: "/work/03-technology-services-firm", destination: "/work/enterprise-abm", permanent: true },
+      // Two URLs people and crawlers guess at.
+      { source: "/privacy-policy", destination: "/privacy", permanent: true },
+      { source: "/what-gets-built", destination: "/marketing-engine", permanent: true },
+    ];
+  },
   async rewrites() {
     return [
       // The essay sitemap lives at a .xml URL; the route folder cannot carry
