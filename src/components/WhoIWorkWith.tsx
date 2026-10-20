@@ -28,9 +28,13 @@ export default function WhoIWorkWith() {
 
         <p className="measure text-base leading-[1.68] text-muted">
           Most of my work is with B2B software sold into regulated or
-          institutional buyers: fintech, edtech and workforce, healthtech,
-          govtech. The gap between making things and routing them looks much the
-          same wherever it turns up, though.
+          institutional buyers:{" "}
+          <a href="/fractional-cmo-fintech" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+            fintech
+          </a>
+          , edtech and workforce, healthtech, govtech. The gap between making
+          things and routing them looks much the same wherever it turns up,
+          though.
         </p>
 
         <div className="mt-11 grid gap-x-12 gap-y-9 md:grid-cols-3">
