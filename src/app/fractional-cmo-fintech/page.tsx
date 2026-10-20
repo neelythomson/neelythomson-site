@@ -3,10 +3,12 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
-const TITLE = "Fractional CMO for Fintech: Marketing That Survives Compliance Review";
+const TITLE = "Fractional CMO for Fintech: Marketing That Survives Compliance Review (2026)";
 const DESCRIPTION =
-  "A fractional CMO for fintech builds marketing that clears NACHA, CFPB, and legal review without stalling. What changes in fintech marketing, what to build first, and proof from a payments company.";
+  "A fractional CMO for fintech and payments companies. What changes when legal reads the landing page and the security reviewer is on the buying committee, what gets built first, what it costs, and results from a payments company under NACHA and CFPB rules.";
 const URL = "https://neelythomson.com/fractional-cmo-fintech";
+const PUBLISHED = "2026-09-02";
+const MODIFIED = "2026-10-19";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -19,29 +21,49 @@ export const metadata: Metadata = {
     siteName: "Neely Thomson",
     locale: "en_US",
     type: "article",
+    publishedTime: PUBLISHED,
+    modifiedTime: MODIFIED,
   },
 };
+
+const segments = [
+  {
+    n: "01",
+    t: "Payments and embedded finance",
+    b: "You sell payment rails, payouts, or account infrastructure to banks, credit unions, and platforms. The buyer's compliance and security teams are in the deal early, and the sales cycle is measured in quarters.",
+  },
+  {
+    n: "02",
+    t: "Banking and lending infrastructure",
+    b: "You sell to financial institutions that budget annually and plan around examination cycles. Marketing has to be warm when the window opens, and every claim has to stand up to the risk owner reading it.",
+  },
+  {
+    n: "03",
+    t: "Fintech sold through institutions",
+    b: "Financial wellness, benefits, and member-facing products that reach the end user through employers, credit unions, and banks. Two buyers, one engine, and a lead definition that has to hold for both.",
+  },
+];
 
 const differences = [
   {
     t: "Legal reads the landing page",
-    b: "In fintech, every claim about rates, speed, security, or compliance is a regulated statement. A marketing engine that treats legal review as a gate at the end produces a queue. One that treats it as a step inside the workflow, with claim substantiation attached to the brief and a written rule for which claims need counsel, produces throughput. The difference showed up as a 60 percent reduction in manual campaign work at a payments company under NACHA and CFPB rules.",
+    b: "In fintech, every claim about rates, speed, security, or compliance is a regulated statement. If legal review happens once at the end, the campaign calendar is set by the review queue. If claim substantiation travels with the brief and there is a written rule for which claims need counsel, review becomes a step inside the workflow. At a payments company under NACHA and CFPB rules, that change took 60 percent of the manual work out of campaigns.",
   },
   {
     t: "The security reviewer is on the buying committee",
-    b: "Banks, credit unions, and payment platforms bring security and compliance into the deal by the second call. The engine carries what they will ask for: a review trail on every asset, SOC 2 and data-handling language that has already been through counsel, and content that speaks to the risk owner, not only the business owner.",
+    b: "Banks, credit unions, and payment platforms bring security and compliance into the deal by the second call. The engine carries what they will ask for: a review trail on every asset, SOC 2 and data-handling language that has already been through counsel, and content written for the risk owner as well as the business owner.",
   },
   {
     t: "Procurement runs on a calendar you do not control",
-    b: "Banks budget annually, credit unions plan around examination cycles, and enterprise payments buyers move on fiscal years. Channel bets and sequencing get planned against the buyer's calendar so pipeline is warm when the window opens, instead of a campaign landing in a quarter nobody is buying.",
+    b: "Banks budget annually, credit unions plan around examination cycles, and enterprise payments buyers move on fiscal years. Channel bets and sequencing get planned against the buyer's calendar, so pipeline is warm when the window opens instead of a campaign landing in a quarter nobody is buying.",
   },
   {
     t: "Trust is the product, so the messaging is the moat",
-    b: "In a category where every competitor claims secure, compliant, and fast, positioning has to be built from proof points a buyer can verify: regulatory posture, uptime, named integrations, the customers who will take a reference call. That messaging kit is a strategy-layer deliverable, and it is what the AI tools draw from so they never invent a claim.",
+    b: "In a category where every competitor claims secure, compliant, and fast, positioning has to be built from proof a buyer can verify: regulatory posture, uptime, named integrations, the customers who will take a reference call. That messaging kit is a strategy-layer deliverable, and it is what the AI tools draw from, so they never invent a claim.",
   },
   {
     t: "The AI tools need guardrails before they need prompts",
-    b: "Copy.ai, Jasper, Canva, and the AI features in HubSpot are fine tools. In fintech they are dangerous without a locked messaging framework, a prompt library built from approved claims, and a review state every asset moves through. That process is what turns them from a liability into a 60 percent capacity gain.",
+    b: "Copy.ai, Jasper, Canva, and the AI features in HubSpot are fine tools. In fintech they are a liability without a locked messaging framework, a prompt library built from approved claims, and a review state every asset moves through. With that process in place, the same tools returned a 60 percent capacity gain.",
   },
 ];
 
@@ -56,7 +78,7 @@ const build = [
   },
   {
     t: "Compliance as architecture",
-    b: "Review states, approval routing, and claim substantiation inside the workflow. Legal stops being the bottleneck because they are a step, not a gate.",
+    b: "Review states, approval routing, and claim substantiation inside the workflow. Counsel sees the claim and its evidence together, in the tool, which is why review time stops setting the calendar.",
   },
   {
     t: "An AI production process with the guardrails first",
@@ -71,11 +93,19 @@ const build = [
 const faq = [
   {
     q: "What does a fractional CMO for fintech do differently?",
-    a: "A fractional CMO for fintech builds marketing systems that survive compliance review: positioning from verifiable claims, legal review as a step inside the workflow, a lead definition with deal-value thresholds, and AI production with guardrails built from approved messaging. The generalist version treats compliance as a gate and produces a queue.",
+    a: "A fractional CMO for fintech builds marketing systems that survive compliance review: positioning from verifiable claims, legal review as a step inside the workflow, a lead definition with deal-value thresholds, and AI production with guardrails built from approved messaging. The generalist version treats compliance as a gate at the end and produces a queue.",
   },
   {
     q: "Can you do AI marketing under NACHA and CFPB rules?",
     a: "Yes. I built AI-assisted content production and web operations at a B2B fintech payments company under NACHA rules and CFPB scrutiny, with legal sitting inside the workflow instead of reviewing at the end. Manual campaign work fell 60 percent, LTV:CAC reached 5:1, and MQL-to-opportunity conversion rose 15 percent.",
+  },
+  {
+    q: "What does a fractional CMO for fintech cost?",
+    a: "Market-rate fractional CMO retainers in the US run $10,000 to $12,000 a month, usually with a three to six month minimum, and most run past a year. I work differently: a two-week Diagnostic for $7,500, which is the only price I publish, then a 90-day build with a fixed scope and a fixed end date, quoted in the proposal next to the retainer and full-time alternatives so you can compare them on the same page.",
+  },
+  {
+    q: "Which fintech companies is this built for?",
+    a: "B2B fintech and payments companies between roughly $2M and $30M in revenue: payments and embedded finance, banking and lending infrastructure, and products sold through employers, credit unions, and banks. It works when there is a named person on your team who will run the engine after the build, and when the next twelve months depend on marketing producing pipeline rather than brand.",
   },
   {
     q: "How long does it take?",
@@ -84,6 +114,10 @@ const faq = [
   {
     q: "Do you work with banks and credit unions directly, or with the fintechs that sell to them?",
     a: "Mostly the latter: B2B fintech and payments companies selling into banks, credit unions, and institutional buyers. The buying mechanics on the other side of that sale are what the engine is designed around.",
+  },
+  {
+    q: "Do you work in other regulated verticals?",
+    a: "Yes. The architecture is the same wherever a buyer's legal, security, or procurement team sits inside the deal. Only the rulebook changes. Beyond fintech I work with healthtech, edtech and workforce, and govtech companies. Right now that includes designing the B2B go-to-market for a psychoeducation and community platform for neurodivergent adults, built under clinical and data-handling constraints from the first screen.",
   },
 ];
 
@@ -96,12 +130,12 @@ const jsonLd = {
       headline: TITLE,
       description: DESCRIPTION,
       url: URL,
-      datePublished: "2026-09-02",
-      dateModified: "2026-09-02",
+      datePublished: PUBLISHED,
+      dateModified: MODIFIED,
       author: { "@id": "https://neelythomson.com/#person" },
       publisher: { "@id": "https://neelythomson.com/#person" },
       isPartOf: { "@id": "https://neelythomson.com/#website" },
-      about: ["Fractional CMO", "Fintech marketing", "NACHA", "CFPB", "B2B payments marketing"],
+      about: ["Fractional CMO", "Fintech marketing", "NACHA", "CFPB", "B2B payments marketing", "Embedded finance marketing"],
     },
     {
       "@type": "Service",
@@ -113,6 +147,13 @@ const jsonLd = {
       audience: { "@type": "BusinessAudience", name: "B2B fintech and payments companies" },
       url: URL,
       description: DESCRIPTION,
+      offers: {
+        "@type": "Offer",
+        name: "Marketing Diagnostic",
+        price: "7500",
+        priceCurrency: "USD",
+        url: "https://neelythomson.com/diagnostic",
+      },
     },
     {
       "@type": "FAQPage",
@@ -135,26 +176,29 @@ export default function FractionalCMOFintech() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
-      <Breadcrumbs items={[{ name: "Fractional CMO for fintech", url: "https://neelythomson.com/fractional-cmo-fintech" }]} />
+      <Breadcrumbs items={[{ name: "Fractional CMO for fintech", url: URL }]} />
       <main>
         <section className="px-6 pt-24 pb-20 sm:px-10 sm:pt-28 sm:pb-24">
           <div className="mx-auto max-w-[960px]">
-            <p className="label mb-8">Fractional CMO · Fintech and payments</p>
-            <h1 className="display mb-8 max-w-[16ch] text-[clamp(2.2rem,4.8vw,3.8rem)]">
-              Fintech marketing that survives compliance review.
+            <p className="label mb-8">
+              Fractional CMO · Fintech and payments · Updated{" "}
+              <time dateTime={MODIFIED}>October 2026</time>
+            </p>
+            <h1 className="display mb-8 max-w-[18ch] text-[clamp(2.2rem,4.8vw,3.8rem)]">
+              Fractional CMO for fintech: marketing that survives compliance review.
             </h1>
             <p className="measure text-[17px] leading-[1.62] text-muted">
               A fractional CMO for fintech builds marketing that clears NACHA,
-              CFPB, and legal review without stalling. The work is the same
-              engine any B2B software company needs, with one difference that
-              changes everything: every claim is a regulated statement, and the
-              buyer&apos;s security reviewer is in the deal by the second call.
+              CFPB, and legal review without stalling. The engine is the same
+              one any B2B software company needs. The constraint is different:
+              every claim is a regulated statement, and the buyer&apos;s
+              security reviewer is in the deal by the second call.
             </p>
             <p className="measure mt-4 text-[17px] leading-[1.62] text-muted">
               I spent four years running marketing at a B2B fintech payments
-              company under exactly those constraints, and served as its interim
-              sales leader. What follows is what I learned there and what I build
-              now.
+              company under exactly those constraints, served as its interim
+              sales leader, and helped execute its acquisition. What follows is
+              what I learned there and what I build now.
             </p>
             <div className="mt-9 flex flex-wrap items-center gap-x-7 gap-y-4">
               <a href="/#start" className="rounded-sm bg-ink px-[22px] py-[13px] text-sm font-medium text-bg transition-colors hover:bg-accent">
@@ -189,6 +233,30 @@ export default function FractionalCMOFintech() {
             </div>
           </div>
         </div>
+
+        <section className="border-t border-rule px-6 pt-24 pb-20 sm:px-10 sm:pt-28 sm:pb-24">
+          <div className="mx-auto max-w-[960px]">
+            <p className="label mb-8">Who this is for</p>
+            <h2 className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)]">
+              Fintech sold to institutions, between $2M and $30M in revenue.
+            </h2>
+            <p className="measure text-base leading-[1.68] text-muted">
+              The common thread is the buyer. Whoever signs, their compliance,
+              security, and procurement teams are in the deal, and the
+              marketing engine has to be built for them as much as for the
+              executive sponsor.
+            </p>
+            <div className="mt-11 grid gap-x-12 gap-y-9 md:grid-cols-3">
+              {segments.map((s) => (
+                <div key={s.t} className="border-t border-rule pt-5">
+                  <p className="label mb-3">{s.n}</p>
+                  <h3 className="display-xs mb-2.5 text-[19px]">{s.t}</h3>
+                  <p className="text-[13.5px] leading-[1.65] text-muted">{s.b}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
 
         <section className="border-t border-rule px-6 pt-24 pb-20 sm:px-10 sm:pt-28 sm:pb-24">
           <div className="mx-auto max-w-[960px]">
@@ -241,6 +309,17 @@ export default function FractionalCMOFintech() {
                 <p className="max-w-[62ch] text-[15px] leading-[1.7] text-muted">{f.a}</p>
               </div>
             ))}
+            <p className="mt-9 text-[13px] text-faint">
+              More on cost, scope, and fit in the{" "}
+              <a href="/faq" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+                full FAQ
+              </a>
+              , and the year-one math at{" "}
+              <a href="/fractional-cmo-vs-full-time" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+                fractional vs. full-time
+              </a>
+              .
+            </p>
           </div>
         </section>
 
