@@ -19,9 +19,9 @@ const points = [
 
 export default function Regulated() {
   return (
-    <section className="bg-ink px-6 pt-24 pb-20 text-band sm:px-10 sm:pt-28 sm:pb-24">
+    <section id="regulated" className="scroll-mt-20 bg-ink px-6 pt-24 pb-20 text-band sm:px-10 sm:pt-28 sm:pb-24">
       <div className="mx-auto max-w-[960px]">
-        <p className="label mb-8 text-white/55">Why regulated buyers</p>
+        <p className="label mb-8 text-white/55">Fractional CMO for regulated industries</p>
 
         <h2 className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)] text-white">
           I&apos;ve shipped AI marketing through legal review, not around it.
@@ -43,6 +43,15 @@ export default function Regulated() {
             What changes in fintech, in detail
           </a>
           .
+        </p>
+        <p className="mt-6 text-[13px] text-white/55">
+          <span className="label mr-3">By industry</span>
+          <a href="/fractional-cmo-fintech" className="border-b border-white/40 pb-px text-white transition-colors hover:text-accent">
+            Fintech and payments
+          </a>
+          <span className="mx-2">&middot;</span>Healthtech
+          <span className="mx-2">&middot;</span>Edtech and workforce
+          <span className="mx-2">&middot;</span>Govtech
         </p>
 
         <div className="mt-11 grid gap-x-12 gap-y-8 sm:grid-cols-2">

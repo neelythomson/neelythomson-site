@@ -1,5 +1,5 @@
 const track = [
-  { k: "2020 – present", v: "Independent · Fractional CMO & marketing systems" },
+  { k: "2020 – present", v: "Independent · Fractional CMO for regulated industries" },
   { k: "2022 – 2026", v: "B2B fintech payments · Head of Marketing (acquired)" },
   { k: "2018 – 2022", v: "National nonprofit · Director of B2B Engagement" },
   { k: "2014 – 2016", v: "Enterprise collaboration software · Sr. Sales Enablement Marketing Manager" },

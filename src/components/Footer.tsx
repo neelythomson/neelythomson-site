@@ -19,7 +19,7 @@ export default function Footer() {
           Fractional vs. full-time
         </a>
         <a href="/fractional-cmo-fintech" className="transition-colors hover:text-accent">
-          Fintech
+          Fractional CMO for fintech
         </a>
         <a href="/faq" className="transition-colors hover:text-accent">
           FAQ
