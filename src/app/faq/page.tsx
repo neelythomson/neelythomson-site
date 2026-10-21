@@ -5,7 +5,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 
 const TITLE = "Fractional CMO FAQ: How the Engagement Works, What It Costs, Who It's For";
 const DESCRIPTION =
-  "Twenty-two questions people ask before hiring a fractional CMO: what one does, what it costs, how a 90-day build differs from a retainer, and what you keep.";
+  "Twenty-six questions people ask before hiring a fractional CMO: what one does, what it costs, what counts as a regulated industry, how a 90-day build differs from a retainer, and what you keep.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -52,7 +52,7 @@ const groups: Group[] = [
       {
         q: "Who is Neely Thomson?",
         a: [
-          "I'm a fractional CMO and marketing systems architect based in Atlanta. I spent twenty years leading B2B SaaS and fintech marketing teams, most recently four years as Head of Marketing at a B2B fintech payments company, where I led a company-wide AI marketing transformation, served as interim sales leader, and helped execute the sale when the company was acquired in 2026.",
+          "I'm a fractional CMO for regulated industries, based in Atlanta. I spent twenty years leading B2B SaaS and fintech marketing teams, most recently four years as Head of Marketing at a B2B fintech payments company, where I led a company-wide AI marketing transformation, served as interim sales leader, and helped execute the sale when the company was acquired in 2026.",
         ],
       },
     ],
@@ -151,6 +151,24 @@ const groups: Group[] = [
         q: "Who is this not for?",
         a: [
           "Companies that need someone to run marketing week to week; that's an operator hire, and I'll say so on the first call. Teams that need a manager more than a system; I don't manage people. Product-led companies where marketing is the whole growth engine and belongs in-house full-time. And companies earlier than about a dozen closed deals, where positioning work will do more than plumbing.",
+        ],
+      },
+      {
+        q: "What counts as a regulated industry?",
+        a: [
+          "Any industry where someone other than the buyer gets a say in what marketing can claim and how a deal closes. In practice that means fintech and payments (NACHA, CFPB, state money transmission rules), healthtech (HIPAA where it applies, the FTC's health breach rule, clinical claim substantiation), edtech and workforce (FERPA, state procurement, grant and fiscal cycles), and govtech (procurement rules and security review). The common thread is a buying committee with a legal, security or compliance reviewer in it, and procurement that runs on a calendar the seller does not control.",
+        ],
+      },
+      {
+        q: "Do you need to know our regulations before you start?",
+        a: [
+          "I need to know how they shape your marketing, and the Diagnostic finds that out in the first week: which claims need counsel, who reviews what, where work waits, and what your buyer's security and procurement teams ask for. I have shipped AI marketing under NACHA and CFPB and I am building a healthtech go-to-market now, so the pattern is familiar. Your counsel stays the authority on the rules themselves. The engine is built so their review happens inside the workflow rather than at the end of it.",
+        ],
+      },
+      {
+        q: "How do you work with our legal and compliance team?",
+        a: [
+          "As part of the build, from the first week. We agree in writing which categories of claim need review and which do not, attach substantiation to every brief so counsel sees the claim and its evidence together, and put review states and routing into the tools your team already uses. Legal gets a shorter queue and a record of what was approved. Marketing gets a calendar that review no longer sets. In the fintech engine, that took 60 percent of the manual work out of campaigns.",
         ],
       },
       {
