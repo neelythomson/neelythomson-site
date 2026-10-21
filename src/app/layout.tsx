@@ -20,9 +20,9 @@ const inter = localFont({
 });
 import "./globals.css";
 
-const TITLE = "Neely Thomson | Fractional CMO, The Marketing Engine";
+const TITLE = "Neely Thomson | Fractional CMO for Regulated Industries";
 const DESCRIPTION =
-  "I build the marketing engine. Your team runs it. A 90-day fractional CMO engagement for B2B software selling to regulated buyers. Diagnostic: two weeks, $7,500.";
+  "Fractional CMO for regulated industries: fintech, healthtech, edtech, govtech. I build the marketing engine, with compliance inside the workflow, and your team runs it. Diagnostic: two weeks, $7,500.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -34,6 +34,8 @@ export const metadata: Metadata = {
     "B2B SaaS fractional CMO",
     "fintech fractional CMO",
     "regulated industry marketing",
+    "fractional CMO regulated industries",
+    "healthtech fractional CMO",
     "AI marketing consultant",
     "GTM strategy consultant",
     "demand generation",
@@ -50,7 +52,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: TITLE,
     description:
-      "I build the marketing engine. Your team runs it. A 90-day fixed-scope build, handed to your team. Starts with a two-week Diagnostic, $7,500.",
+      "Fractional CMO for regulated industries. I build the marketing engine, with compliance inside the workflow, and your team runs it. Starts with a two-week Diagnostic, $7,500.",
     url: "https://neelythomson.com",
     siteName: "Neely Thomson",
     locale: "en_US",
@@ -60,7 +62,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: TITLE,
     description:
-      "I build the marketing engine. Your team runs it. A 90-day fixed-scope build for B2B software companies.",
+      "Fractional CMO for regulated industries. I build the marketing engine. Your team runs it.",
     creator: "@neelythomson",
   },
   robots: {
@@ -88,9 +90,9 @@ const jsonLd = {
       name: "Neely Thomson",
       url: "https://neelythomson.com",
       image: "https://neelythomson.com/neely-thomson.jpg",
-      jobTitle: "Fractional CMO & Marketing Systems Architect",
+      jobTitle: "Fractional CMO for Regulated Industries",
       description:
-        "Fractional CMO who builds B2B marketing engines in 90 days and hands them to the client's own team. Twenty years in B2B SaaS and fintech, including AI-powered marketing under NACHA and CFPB.",
+        "Fractional CMO for regulated industries: fintech, healthtech, edtech and govtech. Builds B2B marketing engines in 90 days, with compliance review inside the workflow, and hands them to the client's own team. Twenty years in B2B SaaS and fintech, including AI-powered marketing under NACHA and CFPB.",
       knowsAbout: [
         "Fractional CMO",
         "Marketing systems architecture",
@@ -103,6 +105,12 @@ const jsonLd = {
         "Lead Scoring",
         "Marketing Attribution",
         "Fintech Marketing",
+        "Healthtech Marketing",
+        "Edtech Marketing",
+        "Regulated industry marketing",
+        "Marketing compliance review",
+        "NACHA",
+        "CFPB",
         "Sales Alignment",
       ],
       sameAs: [

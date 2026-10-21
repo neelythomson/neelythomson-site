@@ -18,13 +18,13 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
+        <Regulated />
         <Situation />
         <WhoIWorkWith />
         <Engine />
         <Packages />
         <Phases />
         <Keeps />
-        <Regulated />
         <Fit />
         <About />
         <Contact />
