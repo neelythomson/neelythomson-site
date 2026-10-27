@@ -16,6 +16,7 @@ export type CaseStudyData = {
   resultsProse?: string[];
   why: string[];
   note: string;
+  more?: { href: string; text: string };
   keywords: string[];
 };
 
@@ -65,6 +66,7 @@ export const caseStudies: CaseStudyData[] = [
       "The hard version of AI marketing is the one that survives a compliance department. Under NACHA and CFPB constraints, the process had to be a system: documented, reviewable, repeatable. That discipline is exactly what selling to regulated or institutional buyers takes, and it's the method I now build for clients.",
     ],
     note: "Company name withheld. Detail and verification available in conversation.",
+    more: { href: "/fractional-cmo-fintech", text: "How I build this for payments and banking clients: fractional CMO for fintech" },
     keywords: ["fintech marketing case study", "AI marketing compliance", "NACHA marketing", "CFPB marketing review", "LTV:CAC", "MQL to opportunity conversion"],
   },
   {
@@ -280,6 +282,11 @@ export default function CaseStudy({ c }: { c: CaseStudyData }) {
             >
               Download this case study as a one-page PDF
             </a>
+            {c.more && (
+              <p className="mt-4 text-[13px] leading-[1.6] text-white/55">
+                <a href={c.more.href} className="border-b border-white/40 pb-px text-white transition-colors hover:text-accent">{c.more.text}</a>
+              </p>
+            )}
           </div>
         </section>
 
