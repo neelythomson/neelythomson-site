@@ -176,6 +176,12 @@ export default function About() {
                     on this site, and in full on Substack
                   </li>
                   <li className="border-t border-rule py-3 text-[14px] text-muted">
+                    Start with{" "}
+                    <a href="/writing/your-buyers-are-finding-you-through" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+                      Your buyers are finding you through an AI tool. Are you ready?
+                    </a>
+                  </li>
+                  <li className="border-t border-rule py-3 text-[14px] text-muted">
                     <a
                       href="https://www.linkedin.com/in/neelythomson"
                       target="_blank"
