@@ -3,9 +3,9 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
-const TITLE = "What Is a Marketing Engine? The Three Layers, Defined";
+const TITLE = "Marketing Engine: What It Is, the Three Layers, and a Five-Question Test";
 const DESCRIPTION =
-  "A marketing engine is the set of systems underneath marketing that decide what gets made, for whom, where it goes, and whether it worked. Three layers, three terms, and a five-question test.";
+  "A marketing engine is the set of systems underneath marketing that decide what gets made, for whom, where it goes, and whether it worked. The three layers explained, three terms defined, and five questions that tell you whether your company has one.";
 const URL = "https://neelythomson.com/marketing-engine";
 
 export const metadata: Metadata = {
@@ -101,7 +101,7 @@ const jsonLd = {
       description: DESCRIPTION,
       url: URL,
       datePublished: "2026-09-02",
-      dateModified: "2026-09-02",
+      dateModified: "2026-10-27",
       author: { "@id": "https://neelythomson.com/#person" },
       publisher: { "@id": "https://neelythomson.com/#person" },
       isPartOf: { "@id": "https://neelythomson.com/#website" },
@@ -272,7 +272,10 @@ export default function MarketingEngine() {
             <p className="measure text-base leading-[1.68] text-muted">
               Three engines are written up, names withheld, at{" "}
               <a href="/work" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">Work</a>.
-              Every one started with the same two-week audit.
+              Every one started with the same two-week audit. If you sell into
+              payments or banking, the version of this built for compliance
+              review is at{" "}
+              <a href="/fractional-cmo-fintech" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">fractional CMO for fintech</a>.
             </p>
             <div className="mt-9 flex flex-wrap items-center gap-x-7 gap-y-4">
               <a href="/diagnostic" className="rounded-sm bg-ink px-[22px] py-[13px] text-sm font-medium text-bg transition-colors hover:bg-accent">
