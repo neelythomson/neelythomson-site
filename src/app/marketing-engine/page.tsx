@@ -49,10 +49,11 @@ const layers = [
   },
 ];
 
-const terms = [
+const terms: { t: string; d: string; more?: { href: string; text: string } }[] = [
   {
     t: "Plumbing over production",
     d: "The routing, scoring, and attribution that decide whether anything you make turns into pipeline. AI made production cheap. That is exactly what made the plumbing scarce, and the plumbing is where a marketing leader's judgment now goes.",
+    more: { href: "/writing/ai-made-content-free-it-made-the", text: "The essay: AI made content free. It made the plumbing worth ten times more." },
   },
   {
     t: "Build-and-leave",
@@ -222,7 +223,14 @@ export default function MarketingEngine() {
               {terms.map((t, i) => (
                 <div key={t.t} id={slug(t.t)} className={`scroll-mt-20 grid gap-3 py-7 md:grid-cols-[260px_1fr] md:gap-10 ${i === 0 ? "" : "border-t border-white/20"}`}>
                   <h3 className="display-xs text-[20px] text-white">{t.t}</h3>
-                  <p className="max-w-[62ch] text-[15px] leading-[1.7] text-white/60">{t.d}</p>
+                  <div>
+                    <p className="max-w-[62ch] text-[15px] leading-[1.7] text-white/60">{t.d}</p>
+                    {t.more && (
+                      <p className="mt-3 text-[13px] leading-[1.6]">
+                        <a href={t.more.href} className="border-b border-white/40 pb-px text-white transition-colors hover:text-accent">{t.more.text}</a>
+                      </p>
+                    )}
+                  </div>
                 </div>
               ))}
             </div>
