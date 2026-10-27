@@ -66,13 +66,15 @@ const groups: Group[] = [
           "Market-rate fractional CMO retainers in the US run $10,000 to $12,000 a month for ten to twenty hours a week, usually with a three to six month minimum. The industry renewal rate is around 84 percent, so most engagements run past a year and the total cost is closer to $120,000 to $144,000 than to a monthly number.",
           "My engagement is priced differently. It starts with a two-week Diagnostic at $7,500. The ninety-day build that follows is a fixed fee, scoped after the Diagnostic and written into the SOW before anything starts, and the Diagnostic fee is credited in full toward it. There's no retainer and nothing ongoing is required.",
         ],
+        more: { href: "/fractional-cmo-vs-full-time", text: "Fractional CMO vs. full-time: the year-one cost math, side by side" },
       },
       {
         q: "What is the difference between a fractional CMO and a full-time CMO?",
         a: [
           "A full-time CMO is an employee who owns the marketing function, manages the team, sits in executive meetings, and carries the number. A fractional CMO provides the same level of judgment part-time, without the salary, the recruiter fee, or the three to six months it takes to hire one.",
-          "The right choice depends on stage. Five or more people reporting into marketing, or a board that wants a named owner of the number, means hire full-time. Revenue but no marketing leader, sales sourcing most of the pipeline, and a small team without senior direction means fractional. I wrote the full comparison, with the year-one cost math, at neelythomson.com/fractional-cmo-vs-full-time.",
+          "The right choice depends on stage. Five or more people reporting into marketing, or a board that wants a named owner of the number, means hire full-time. Revenue but no marketing leader, sales sourcing most of the pipeline, and a small team without senior direction means fractional.",
         ],
+        more: { href: "/fractional-cmo-vs-full-time", text: "The full comparison, with the year-one cost math" },
       },
       {
         q: "What is the difference between a fractional CMO and a marketing agency?",
