@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   },
 };
 
-type QA = { q: string; a: string[] };
+type QA = { q: string; a: string[]; more?: { href: string; text: string } };
 type Group = { label: string; items: QA[] };
 
 const groups: Group[] = [
@@ -176,6 +176,7 @@ const groups: Group[] = [
         a: [
           "Yes, and it's where I learned most of this. I built AI-assisted content production and web operations at a B2B fintech payments company under NACHA rules and CFPB scrutiny, with legal sitting inside the workflow instead of reviewing it at the end. Selling to banks, credit unions, and payment platforms means a security reviewer on the buying committee, procurement that gates on fiscal year, and claims that have to be substantiated before they ship. I build engines that treat those as steps in the process rather than gates at the end.",
         ],
+        more: { href: "/fractional-cmo-fintech", text: "Fractional CMO for fintech: what changes when legal reads the landing page" },
       },
       {
         q: "Do you work with edtech, healthtech, or govtech companies?",
@@ -309,6 +310,11 @@ export default function FAQ() {
                         {p}
                       </p>
                     ))}
+                    {item.more && (
+                      <p className="mt-4 max-w-[62ch] text-[15px] leading-[1.7]">
+                        <a href={item.more.href} className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">{item.more.text}</a>
+                      </p>
+                    )}
                   </div>
                 </article>
               ))}
