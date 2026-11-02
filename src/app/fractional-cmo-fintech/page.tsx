@@ -109,7 +109,7 @@ const faq = [
   },
   {
     q: "How does the fractional CMO engagement process work?",
-    a: "Two weeks for the Diagnostic, which audits your stack, funnel economics, and team and returns a findings document, a board one-pager, and a priced proposal. Ninety days for the build, with a fixed scope and a fixed end date, in your own tools. A named person on your team runs the engine afterward, and the engagement is designed to end rather than roll into a retainer.",
+    a: "Two weeks for the Diagnostic, which audits your stack, funnel economics, and team and returns a findings document, a board one-pager, and a priced proposal. Ninety days for the build, with a fixed scope and a fixed end date, in your own tools. A named person on your team runs the function afterward. The build has a fixed end date; an advisory seat after it is your call.",
   },
   {
     q: "Do you work as a fractional CMO for credit unions and banks?",
@@ -188,11 +188,13 @@ export default function FractionalCMOFintech() {
               Fractional CMO for fintech: marketing that survives compliance review.
             </h1>
             <p className="measure text-[17px] leading-[1.62] text-muted">
-              A fractional CMO for fintech builds marketing that clears NACHA,
-              CFPB, and legal review without stalling. The engine is the same
-              one any B2B software company needs. The constraint is different:
-              every claim is a regulated statement, and the buyer&apos;s
-              security reviewer is in the deal by the second call.
+              A fractional CMO for fintech rebuilds marketing so it clears
+              NACHA, CFPB, and legal review without stalling. The function has
+              to become AI-native like every other marketing function in 2026,
+              with one difference: every claim is a regulated statement, the
+              buyer&apos;s security reviewer is in the deal by the second call,
+              and a machine-drafted claim is still your claim. AI does the
+              drafting, routing, scoring and reporting. People hold the line.
             </p>
             <p className="measure mt-4 text-[17px] leading-[1.62] text-muted">
               I spent four years running marketing at a B2B fintech payments
