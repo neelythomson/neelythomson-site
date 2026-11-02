@@ -56,8 +56,8 @@ const terms: { t: string; d: string; more?: { href: string; text: string } }[] =
     more: { href: "/writing/ai-made-content-free-it-made-the", text: "The essay: AI made content free. It made the plumbing worth ten times more." },
   },
   {
-    t: "Build-and-leave",
-    d: "An engagement designed to end. The systems are built in the client's own tools, documented, and run by a named person on the client's team before the consultant steps out. The opposite of a retainer, which pays the consultant for staying.",
+    t: "Build, then hand over",
+    d: "A build with a fixed scope and a fixed end date. The systems are built in the client's own tools, documented, and run by a named person on the client's team before the build ends. Whether the consultant stays in an advisory seat afterward is the client's choice, not a condition of the work.",
   },
   {
     t: "The engine becomes a screenshot",
@@ -283,7 +283,7 @@ export default function MarketingEngine() {
           <div className="mx-auto max-w-[960px]">
             <p className="label mb-8">Built, not described</p>
             <h2 className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)]">
-              I build the marketing engine. Your team runs it.
+              I rebuild the function. Your team runs it.
             </h2>
             <p className="measure text-base leading-[1.68] text-muted">
               Three engines are written up, names withheld, at{" "}
