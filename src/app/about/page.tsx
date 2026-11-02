@@ -3,9 +3,9 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
-const TITLE = "About Neely Thomson: Fractional CMO for Regulated Industries";
+const TITLE = "About Neely Thomson: Fractional CMO for Regulated B2B Software";
 const DESCRIPTION =
-  "Neely Thomson is a fractional CMO for regulated industries: fintech, healthtech, edtech and govtech. Twenty years in B2B SaaS and fintech marketing, most recently four years leading marketing at a fintech payments company under NACHA and CFPB. She builds the marketing engine in ninety days and hands it to the client's own team.";
+  "Neely Thomson is a fractional CMO for regulated industries: fintech, healthtech, edtech and govtech. Twenty years in B2B SaaS and fintech marketing, most recently four years leading marketing at a fintech payments company under NACHA and CFPB. She rebuilds marketing functions to be AI-native and compliant, and hands them to the client's own team to run.";
 const URL = "https://neelythomson.com/about";
 
 export const metadata: Metadata = {
@@ -38,7 +38,7 @@ const track = [
   {
     k: "2020 – present",
     v: "Independent",
-    r: "Fractional CMO for regulated industries. B2B software companies selling into fintech, healthtech, edtech and government buyers.",
+    r: "Fractional CMO for regulated B2B software. Companies selling into fintech, healthtech, edtech and government buyers.",
   },
   {
     k: "2022 – 2026",
@@ -68,8 +68,8 @@ const beliefs = [
     b: "AI made content cheap. It did not make routing, scoring, attribution or a weekly decision cadence cheap, and those are what turn work into pipeline. Most marketing help still sells harder into the half that got commoditized.",
   },
   {
-    t: "Build and leave",
-    b: "A fixed scope and a fixed end date. I train one named person on the client's team to run the engine while I build it, and then I am out. No open-ended retainer, and nothing that only works while I am in the room.",
+    t: "Build it so your team runs it",
+    b: "A fixed scope and a fixed end date for the build. I train one named person on the client's team to run the function while I build it, so nothing depends on me being in the room. Whether I stay in an advisory seat after that is their call.",
   },
   {
     t: "Compliance is architecture",
@@ -91,9 +91,9 @@ export default function About() {
               I spent my career on the inside. Now I build the part that stays.
             </h1>
             <p className="measure text-base leading-[1.68] text-muted">
-              I am Neely Thomson, a fractional CMO for regulated industries, based in Atlanta. I
-              build marketing engines for B2B software companies selling into fintech, healthtech,
-              edtech and government buyers, and then I hand them to the client&apos;s own team.
+              I am Neely Thomson, a fractional CMO for regulated B2B software, based in Atlanta. I
+              rebuild marketing functions for companies selling into fintech, healthtech, edtech
+              and government buyers: AI-native, compliant, and run by the client&apos;s own team.
             </p>
             <p className="measure mt-4 text-base leading-[1.68] text-muted">
               Twenty years in B2B SaaS and fintech marketing. Four of them most recently as Head
