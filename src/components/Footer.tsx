@@ -21,6 +21,9 @@ export default function Footer() {
         <a href="/fractional-cmo-fintech" className="transition-colors hover:text-accent">
           Fractional CMO for fintech
         </a>
+        <a href="/fractional-cmo-credit-unions" className="transition-colors hover:text-accent">
+          Fractional CMO for credit unions
+        </a>
         <a href="/faq" className="transition-colors hover:text-accent">
           FAQ
         </a>
