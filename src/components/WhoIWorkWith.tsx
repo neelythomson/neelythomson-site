@@ -12,7 +12,7 @@ const audiences = [
   {
     n: "03",
     t: "Companies between marketing leaders",
-    b: "Your last marketing lead left, or the role was never filled, and a full-time hire is a decision you're not ready to make this quarter. You get the strategy and the systems, someone on your team runs them, and there's a seat you can keep if you want a hand on the wheel.",
+    b: "Your last marketing lead left, or the role was never filled, and a full-time hire is a decision you're not ready to make this quarter. You get the strategy and the systems, someone on your team runs them, and there's a seat you can keep if you want a hand on the wheel. The Diagnostic tells you what the role should be before you post it.",
   },
 ];
 

@@ -20,6 +20,7 @@ const groups = [
       "Lead scoring and routing built into your CRM and marketing automation, with the data architecture underneath",
       "The marketing-to-sales SLA, one page, signed by both sides",
       "The AI production process: brief template, subject-matter-expert loop, prompt and template libraries, a written quality bar",
+      "The AI usage policy and approval gates: what AI may draft, what a person must sign, and the log that proves it",
       "Intake and capacity: one queue, every request scored on pipeline impact",
       "Lifecycle and nurture sequencing: logic, triggers, branching, timing",
     ],
@@ -54,7 +55,7 @@ export default function Engine() {
       <section id="engine" className="scroll-mt-20 border-t border-rule px-6 pt-24 pb-20 sm:px-10 sm:pt-28 sm:pb-24">
         <div className="mx-auto max-w-[960px]">
           <p className="label mb-8">
-            What gets built <span className="text-accent">· three layers</span>
+            How it works <span className="text-accent">· three layers</span>
           </p>
 
           <h2 className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)]">

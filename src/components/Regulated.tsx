@@ -1,7 +1,7 @@
 const points = [
   {
-    t: "Compliance as architecture",
-    b: "Review states, approval routing, and claim substantiation live inside the workflow. Legal stops being the bottleneck because they're a step, not a gate.",
+    t: "Humans hold the regulated line",
+    b: "AI does the retrieval, drafting, routing, scoring and reporting. People own what gets claimed, what gets sent, and which bets get killed or scaled. That split is designed in, not left to whoever is in a hurry.",
   },
   {
     t: "I've sat in the sales chair",

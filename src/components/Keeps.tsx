@@ -42,6 +42,7 @@ const artifacts = [
       "Lifecycle sequences: logic, triggers, branching, timing",
       "Lead scoring model with thresholds",
       "Routing rules and CRM field architecture",
+      "The AI usage policy and approval routing",
       "The intake queue and its scoring rules",
       "The marketing–sales SLA, agreed by both sides",
     ],

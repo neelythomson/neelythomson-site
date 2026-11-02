@@ -1,7 +1,7 @@
 const conditions = [
   {
-    t: "You want to own the engine",
-    b: "This is a build-and-leave engagement. At the end it belongs to your team, and I'm out. If what you need is someone to run marketing week to week, you need an operator, not me.",
+    t: "You want to own the function",
+    b: "At the end of the build it belongs to your team and runs under their hands. Whether I stay in the seat after that is your call, not a condition. If what you need is someone to run marketing week to week, you need an operator, not me.",
   },
   {
     t: "You can name your operator",

@@ -2,7 +2,7 @@ const phases = [
   {
     name: "Diagnose",
     weeks: "Weeks 1–2",
-    body: "The audit: your stack, the funnel and unit economics by business unit, the last ninety days of marketing requests, and up to eight interviews. You get a findings document, a board one-pager, and a priced proposal for the build. Your operator gets named here, or the role gets scoped if you don't have one yet.",
+    body: "The audit: your stack, the funnel and unit economics by business unit, the last ninety days of marketing requests, and up to eight interviews. You get a findings document, a first answer to what AI should cover and what stays human, a board one-pager, and a priced proposal for the build. Your operator gets named here, or the role gets scoped if you don't have one yet.",
     you: "Your side: about 6 hrs of interviews, plus system access",
   },
   {

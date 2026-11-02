@@ -32,15 +32,16 @@ export default function Hero() {
         <div className="mx-auto max-w-[960px]">
           <p className="label mb-8">Fractional CMO · Regulated industries</p>
 
-          <h1 className="display mb-8 max-w-[15ch] text-[clamp(2.9rem,6.6vw,5.4rem)]">
-            I build the marketing engine.{" "}
-            <em className="font-light italic">Your team runs it.</em>
+          <h1 className="display mb-8 max-w-[16ch] text-[clamp(2.9rem,6.6vw,5.4rem)]">
+            I rebuild marketing functions{" "}
+            <em className="font-light italic">for regulated B2B software.</em>
           </h1>
 
           <p className="mb-9 max-w-[60ch] text-[17px] leading-[1.62] text-muted">
-            Ninety days. I build the systems that turn marketing into
-            pipeline, train one person on your team to run them, and step out.
-            Fixed scope, fixed end date.
+            AI-native, compliant, and run by your team. I redesign the
+            function around what AI covers and what people must hold, build
+            it in your tools, and stay in the seat as long as you want me
+            there.
           </p>
 
           <div className="flex flex-wrap items-center gap-x-7 gap-y-4">
@@ -54,7 +55,7 @@ export default function Hero() {
               href="#engine"
               className="border-b border-accent pb-0.5 text-sm font-medium text-ink transition-colors hover:text-accent"
             >
-              See what gets built
+              How it works
             </a>
           </div>
         </div>

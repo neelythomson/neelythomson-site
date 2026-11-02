@@ -24,8 +24,9 @@ export default function About() {
             acquired.
           </p>
           <p className="mt-4 text-base leading-[1.68] text-muted">
-            Now I work independently, building marketing engines for B2B
-            software companies selling into regulated and institutional buyers.
+            Now I work independently, rebuilding marketing functions for B2B
+            software sold into regulated and institutional buyers: AI-native,
+            compliant, and run by the client&apos;s own team.
           </p>
         </div>
 
