@@ -3,9 +3,9 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
-const TITLE = "Marketing Engine: What It Is, the Three Layers, and a Five-Question Test";
+const TITLE = "What Is a Marketing Engine? The Three Layers, Defined";
 const DESCRIPTION =
-  "A marketing engine is the set of systems underneath marketing that decide what gets made, for whom, where it goes, and whether it worked. The three layers explained, three terms defined, and five questions that tell you whether your company has one.";
+  "A marketing engine is the system under your marketing that decides what gets made, for whom, and whether it worked. Three layers, three terms, and a five-question test.";
 const URL = "https://neelythomson.com/marketing-engine";
 
 export const metadata: Metadata = {
@@ -90,6 +90,14 @@ const faq = [
     q: "How do I know if my company has a marketing engine?",
     a: "Five questions: whether sales and marketing signed one lead definition; whether you can name pipeline per dollar by channel; whether every workflow has a written procedure; whether requests go through one ranked queue; and whether the board sees a self-assembling one-pager. Fewer than three yeses means you have marketing activity, not an engine.",
   },
+  {
+    q: "How do you build a marketing engine?",
+    a: "In layer order, over about ninety days. Strategy first: ICP, a one-page go-to-market, positioning, and channel bets with kill and scale criteria. Then the operating system: one lead definition, scoring and routing in the CRM, the sales SLA, intake, and the AI production process. Last, the optimization loop: the scoreboard, channel P&L, and the quarterly budget move. Each layer is built in the company's own tools and handed to a named operator before the next one starts.",
+  },
+  {
+    q: "What does it mean for a marketing engine to compound?",
+    a: "Each quarter's optimization loop feeds the next quarter's strategy layer. Budget moves toward the channels that returned pipeline, the messaging kit absorbs what the winning campaigns proved, and the prompt library gets better with every approved asset. Activity resets every quarter. An engine carries what it learned forward.",
+  },
 ];
 
 const jsonLd = {
@@ -102,7 +110,7 @@ const jsonLd = {
       description: DESCRIPTION,
       url: URL,
       datePublished: "2026-09-02",
-      dateModified: "2026-10-27",
+      dateModified: "2026-11-02",
       author: { "@id": "https://neelythomson.com/#person" },
       publisher: { "@id": "https://neelythomson.com/#person" },
       isPartOf: { "@id": "https://neelythomson.com/#website" },
