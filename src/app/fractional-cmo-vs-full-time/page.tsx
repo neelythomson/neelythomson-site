@@ -29,7 +29,7 @@ const jsonLd = {
   description: DESCRIPTION,
   url: "https://neelythomson.com/fractional-cmo-vs-full-time",
   datePublished: "2026-09-02",
-  dateModified: "2026-09-02",
+  dateModified: "2026-11-02",
   author: { "@id": "https://neelythomson.com/#person" },
   publisher: { "@id": "https://neelythomson.com/#person" },
   isPartOf: { "@id": "https://neelythomson.com/#website" },
@@ -266,6 +266,34 @@ export default function FractionalCMOvsFullTime() {
           </div>
         </section>
 
+        {/* ── What should the role be now ──────────────────── */}
+        <section className="border-t border-rule px-6 pt-24 pb-20 sm:px-10 sm:pt-28 sm:pb-24">
+          <div className="mx-auto max-w-[960px]">
+            <p className="label mb-8">Before you choose</p>
+            <h2 className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)]">
+              The cost question has an older question underneath it: what
+              should the role be now?
+            </h2>
+            <p className="measure text-base leading-[1.68] text-muted">
+              Most marketing leaders held headcount flat this year and expect
+              to again. The job description you are about to post, or the
+              retainer you are about to sign, was written for a team that AI
+              has already changed: the drafting, routing, scoring and reporting
+              that used to need three people now needs one person and a
+              governed process. In a regulated company the governed part is
+              not optional.
+            </p>
+            <p className="measure mt-4 text-base leading-[1.68] text-muted">
+              So before the full-time versus fractional decision, decide what
+              the function should be: what AI covers, what stays human, and
+              what that costs against today. That is what the Diagnostic
+              returns in two weeks, and it is a better brief for a full-time
+              hire than any job description, if full-time turns out to be the
+              answer.
+            </p>
+          </div>
+        </section>
+
         {/* ── When full-time is right ──────────────────────── */}
         <section className="border-t border-rule px-6 pt-24 pb-20 sm:px-10 sm:pt-28 sm:pb-24">
           <div className="mx-auto max-w-[960px]">
@@ -343,7 +371,7 @@ export default function FractionalCMOvsFullTime() {
               client&apos;s team or a partner.
             </p>
             <p className="measure mt-4 text-base leading-[1.68] text-white/60">
-              The difference from a retainer is that it ends on purpose. I build
+              The difference from a retainer is that the build ends on purpose. I build
               every system in your tools with your operator beside me, document
               each one, and hand it over running. When the ninety days are up,
               the engine is theirs, and the marketing leader you hire afterward,
