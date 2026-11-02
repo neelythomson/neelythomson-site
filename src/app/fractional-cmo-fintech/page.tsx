@@ -3,12 +3,12 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
-const TITLE = "Fractional CMO for Fintech: Marketing That Survives Compliance Review (2026)";
+const TITLE = "Fractional CMO for Fintech: Built to Pass Compliance Review";
 const DESCRIPTION =
-  "A fractional CMO for fintech and payments companies. What changes when legal reads the landing page and the security reviewer is on the buying committee, what gets built first, what it costs, and results from a payments company under NACHA and CFPB rules.";
+  "Fractional CMO for fintech and payments companies. Legal inside the workflow, one lead definition, AI with guardrails. 60% less manual campaign work under NACHA and CFPB.";
 const URL = "https://neelythomson.com/fractional-cmo-fintech";
 const PUBLISHED = "2026-09-02";
-const MODIFIED = "2026-10-19";
+const MODIFIED = "2026-11-02";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -108,12 +108,12 @@ const faq = [
     a: "B2B fintech and payments companies between roughly $2M and $30M in revenue: payments and embedded finance, banking and lending infrastructure, and products sold through employers, credit unions, and banks. It works when there is a named person on your team who will run the engine after the build, and when the next twelve months depend on marketing producing pipeline rather than brand.",
   },
   {
-    q: "How long does it take?",
-    a: "Two weeks for the Diagnostic, which audits your stack, funnel economics, and team and returns a findings document, a board one-pager, and a priced proposal. Ninety days for the build, with a fixed scope and a fixed end date. A named person on your team runs the engine afterward.",
+    q: "How does the fractional CMO engagement process work?",
+    a: "Two weeks for the Diagnostic, which audits your stack, funnel economics, and team and returns a findings document, a board one-pager, and a priced proposal. Ninety days for the build, with a fixed scope and a fixed end date, in your own tools. A named person on your team runs the engine afterward, and the engagement is designed to end rather than roll into a retainer.",
   },
   {
-    q: "Do you work with banks and credit unions directly, or with the fintechs that sell to them?",
-    a: "Mostly the latter: B2B fintech and payments companies selling into banks, credit unions, and institutional buyers. The buying mechanics on the other side of that sale are what the engine is designed around.",
+    q: "Do you work as a fractional CMO for credit unions and banks?",
+    a: "Mostly from the fintech side: B2B fintech and payments companies selling into banks and credit unions, where the institution's compliance, security, and procurement teams shape the deal. Those buying mechanics are what the engine is designed around. For a credit union or community bank with a named marketing operator and a pipeline goal, the same build applies under the examination calendar and the marketing-compliance rulebook. Start with the Diagnostic and the fit question gets answered in two weeks.",
   },
   {
     q: "Do you work in other regulated verticals?",
@@ -314,9 +314,13 @@ export default function FractionalCMOFintech() {
               <a href="/faq" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
                 full FAQ
               </a>
-              , and the year-one math at{" "}
+              , the year-one math at{" "}
               <a href="/fractional-cmo-vs-full-time" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
                 fractional vs. full-time
+              </a>
+              , and why your next buyer may arrive through an AI tool in{" "}
+              <a href="/writing/your-buyers-are-finding-you-through" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+                this essay
               </a>
               .
             </p>
