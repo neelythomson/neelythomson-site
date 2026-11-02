@@ -38,9 +38,10 @@ export default function Hero() {
           </h1>
 
           <p className="mb-9 max-w-[60ch] text-[17px] leading-[1.62] text-muted">
-            AI-native, compliant, and run by your team. I redesign the
-            function around what AI covers and what people must hold, build
-            it in your tools, and stay in the seat as long as you want me
+            I rebuild the marketing function so AI does the drafting,
+            routing, scoring and reporting, your people own the claims and
+            the decisions, and it holds up when compliance reads it. Then
+            your team runs it. I stay in the seat as long as you want me
             there.
           </p>
 

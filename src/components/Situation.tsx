@@ -20,8 +20,8 @@ export default function Situation() {
         <p className="label mb-8">The situation</p>
 
         <h2 className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)]">
-          Headcount is flat. The board wants more pipeline. Somebody bought
-          the AI tools.
+          Most companies I talk to have some version of the same three
+          problems.
         </h2>
 
         <div className="measure">
@@ -39,11 +39,12 @@ export default function Situation() {
         </div>
 
         <p className="measure mt-7 text-base leading-[1.68] text-muted">
-          Each of those is a function problem, not a tools problem. Everyone
-          reads it as a content problem. It&apos;s a plumbing problem:
-          sequencing, scoring, routing, attribution, and an operating cadence
-          that forces a decision every week. AI made production cheap; that is
-          exactly what made the plumbing scarce.
+          All three come back to the same thing: the function underneath
+          marketing was never built. Everyone reads it as a content problem.
+          It&apos;s a plumbing problem: sequencing, scoring, routing,
+          attribution, and an operating cadence that forces a decision every
+          week. AI made production cheap, which is exactly what made the
+          plumbing scarce.
         </p>
 
         <p
