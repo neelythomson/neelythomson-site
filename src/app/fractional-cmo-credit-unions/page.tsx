@@ -105,7 +105,7 @@ const faq = [
   },
   {
     q: "How does the engagement process work?",
-    a: "Two weeks for the Diagnostic, which audits your stack, your funnel economics by line of business, and how work moves through compliance today, and returns a findings document, a board one-pager, and a priced proposal. Ninety days for the build, in your own tools, with a named person on your team running each system before I step out. The engagement is designed to end rather than roll into a retainer.",
+    a: "Two weeks for the Diagnostic, which audits your stack, your funnel economics by line of business, and how work moves through compliance today, and returns a findings document, a board one-pager, and a priced proposal. Ninety days for the build, in your own tools, with a named person on your team running each system before the build ends. The build has a fixed end date; whether I stay in an advisory seat afterward is your call.",
   },
   {
     q: "Do you work with CUSOs and fintechs that sell to credit unions?",
