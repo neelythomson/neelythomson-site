@@ -271,25 +271,20 @@ export default function FractionalCMOvsFullTime() {
           <div className="mx-auto max-w-[960px]">
             <p className="label mb-8">Before you choose</p>
             <h2 className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)]">
-              The cost question has an older question underneath it: what
-              should the role be now?
+              Decide what the role should be before you decide who fills it.
             </h2>
             <p className="measure text-base leading-[1.68] text-muted">
-              Most marketing leaders held headcount flat this year and expect
-              to again. The job description you are about to post, or the
-              retainer you are about to sign, was written for a team that AI
-              has already changed: the drafting, routing, scoring and reporting
-              that used to need three people now needs one person and a
-              governed process. In a regulated company the governed part is
-              not optional.
+              Most marketing leaders kept headcount flat this year. The job
+              you&apos;re about to post, or the retainer you&apos;re about to
+              sign, was written for a team AI has already changed. Drafting,
+              routing, scoring and reporting used to take three people. Now it
+              takes one person and a process legal can sign off on.
             </p>
             <p className="measure mt-4 text-base leading-[1.68] text-muted">
-              So before the full-time versus fractional decision, decide what
-              the function should be: what AI covers, what stays human, and
-              what that costs against today. That is what the Diagnostic
-              returns in two weeks, and it is a better brief for a full-time
-              hire than any job description, if full-time turns out to be the
-              answer.
+              The Diagnostic answers that in two weeks: what AI should do,
+              what your people should do, and what it costs. If the answer is
+              a full-time hire, you&apos;ll have a better job description than
+              any recruiter would write.
             </p>
           </div>
         </section>
