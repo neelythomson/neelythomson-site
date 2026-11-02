@@ -188,13 +188,13 @@ export default function FractionalCMOFintech() {
               Fractional CMO for fintech: marketing that survives compliance review.
             </h1>
             <p className="measure text-[17px] leading-[1.62] text-muted">
-              A fractional CMO for fintech rebuilds marketing so it clears
-              NACHA, CFPB, and legal review without stalling. The function has
-              to become AI-native like every other marketing function in 2026,
-              with one difference: every claim is a regulated statement, the
-              buyer&apos;s security reviewer is in the deal by the second call,
-              and a machine-drafted claim is still your claim. AI does the
-              drafting, routing, scoring and reporting. People hold the line.
+              A fractional CMO for fintech builds marketing that clears NACHA,
+              CFPB and legal review without stalling. Every claim is a regulated
+              statement, and the buyer&apos;s security team is in the deal by
+              the second call. I set up review inside the workflow, write the
+              rules for what AI can draft, and build the lead system
+              underneath. Legal sees claims with their evidence. Sales gets
+              leads it trusts.
             </p>
             <p className="measure mt-4 text-[17px] leading-[1.62] text-muted">
               I spent four years running marketing at a B2B fintech payments
