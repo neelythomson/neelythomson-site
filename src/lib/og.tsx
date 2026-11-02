@@ -58,8 +58,8 @@ export async function ogImage(opts: { label: string; title: string; sub?: string
         <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", borderTop: "1px solid #e7e4de", paddingTop: 28 }}>
           <div style={{ fontFamily: "Newsreader", fontSize: 30 }}>Neely Thomson</div>
           <div style={{ fontSize: 20, color: "#6b6862", display: "flex", gap: 8, alignItems: "baseline" }}>
-            <span>I build the marketing engine. </span>
-            <span style={{ fontFamily: "Newsreader", fontStyle: "italic", fontSize: 24, color: "#b33a24" }}>Your team runs it.</span>
+            <span>AI-native. Compliant. </span>
+            <span style={{ fontFamily: "Newsreader", fontStyle: "italic", fontSize: 24, color: "#b33a24" }}>Run by your team.</span>
           </div>
         </div>
       </div>
