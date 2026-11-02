@@ -182,7 +182,7 @@ export default function FractionalCMOFintech() {
           <div className="mx-auto max-w-[960px]">
             <p className="label mb-8">
               Fractional CMO · Fintech and payments · Updated{" "}
-              <time dateTime={MODIFIED}>October 2026</time>
+              <time dateTime={MODIFIED}>November 2026</time>
             </p>
             <h1 className="display mb-8 max-w-[18ch] text-[clamp(2.2rem,4.8vw,3.8rem)]">
               Fractional CMO for fintech: marketing that survives compliance review.
@@ -313,6 +313,10 @@ export default function FractionalCMOFintech() {
               More on cost, scope, and fit in the{" "}
               <a href="/faq" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
                 full FAQ
+              </a>
+              , the credit union version of this page at{" "}
+              <a href="/fractional-cmo-credit-unions" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+                fractional CMO for credit unions
               </a>
               , the year-one math at{" "}
               <a href="/fractional-cmo-vs-full-time" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
