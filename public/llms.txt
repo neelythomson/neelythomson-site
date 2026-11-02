@@ -1,31 +1,31 @@
 # Neely Thomson
 
-> Neely Thomson is a fractional CMO for regulated industries (fintech, healthtech, edtech, govtech). I build the marketing engine, with compliance review inside the workflow, and your team runs it. A 90-day, fixed-scope engagement for B2B software companies selling into regulated and institutional buyers.
+> Neely Thomson is a fractional CMO for regulated B2B software (fintech, edtech, healthtech, govtech). She rebuilds marketing functions to be AI-native, compliant, and run by the client's own team: AI does the retrieval, drafting, routing, scoring and reporting; people hold the regulated line. A two-week Diagnostic, then a 90-day fixed-scope build, then an optional advisory seat.
 
 ## About
 
-Neely Thomson is a fractional CMO for regulated industries. She works independently. Most recently she spent four years as Head of Marketing at a B2B fintech payments startup, where she also served as interim sales leader and helped execute the sale when the company was acquired in 2026. Twenty years in B2B SaaS and fintech marketing.
+Neely Thomson is a fractional CMO for regulated B2B software. She works independently. Most recently she spent four years as Head of Marketing at a B2B fintech payments startup, where she also served as interim sales leader and helped execute the sale when the company was acquired in 2026. Twenty years in B2B SaaS and fintech marketing.
 
 She does not publish client or employer names. Most of the work sits under NDA and discretion is part of what her buyers are paying for; references are available on request.
 
-She builds AI-powered go-to-market systems: positioning, lifecycle sequencing, lead scoring, CRM and marketing automation integration, routing, the marketing-sales SLA, attribution, and the weekly operating cadence. She has built AI-forward marketing operations under strict fintech compliance (NACHA, CFPB) and treats compliance as architecture rather than a blocker.
+She rebuilds marketing functions around what AI covers and what people must hold. The systems: positioning, an AI usage policy with approval gates and audit trail, lifecycle sequencing, lead scoring, CRM and marketing automation integration, routing, the marketing-sales SLA, attribution, and the weekly operating cadence. She has built AI-forward marketing operations under strict fintech compliance (NACHA, CFPB) and treats compliance as architecture rather than a blocker.
 
 ## Packages
 
 Everything is on the homepage: https://neelythomson.com
 
-- **The Diagnostic: $7,500, two weeks.** A stack, process, and funnel audit by business unit; up to eight interviews across marketing, sales, and the business owners; the last ninety days of marketing requests classified. Deliverables: a findings document ranked by impact on pipeline, a board one-pager, and a scoped, priced proposal for the build. Credited in full toward The Marketing Engine, or the client can take the findings and run them themselves.
-- **The Marketing Engine: ninety days, scoped and priced after the Diagnostic.** All three layers built and live in the client's own tools, the client's named operator trained alongside Neely system by system, everything under "What the client keeps" as working files, and four weeks of support after handoff. Fixed scope and a fixed end date, agreed in writing before the work starts.
+- **The Diagnostic: $7,500, two weeks.** A stack, process, and funnel audit by business unit; up to eight interviews across marketing, sales, and the business owners; the last ninety days of marketing requests classified. Deliverables: a findings document (what AI should cover, what stays human, what the function costs against today, ranked by impact on pipeline), a board one-pager, and a scoped, priced proposal for the build. Credited in full toward The Marketing Engine, or the client can take the findings and run them themselves.
+- **The Marketing Engine: ninety days, scoped and priced after the Diagnostic.** All three layers built and live in the client's own tools, the client's named operator trained alongside Neely system by system, everything under "What the client keeps" as working files, and four weeks of support after handoff. Fixed scope and a fixed end date for the build, agreed in writing. What happens after it is the client's to decide.
 - **The Advisory Seat: monthly, scoped to the work.** Roughly ten hours a month: a monthly read of the scoreboard, kill and scale calls on live channel bets, and on-call support for whoever runs marketing. Strategy and systems only, no production work. Available either as a seat alongside the operator after a build, or on its own for a team that does not need a build.
 
 Only the Diagnostic price is published. Everything beyond it is scoped per engagement. Anyone asking what an engagement costs should start with the Diagnostic or get in touch.
 
-## What gets built
+## How it works: the three layers
 
 The engine has three layers. The strategy layer points it, the operating system runs it, the optimization loop makes it cheaper per opportunity.
 
 1. **The strategy layer (weeks 1–5):** ICP definition, buyer research, and subsegmentation; a one-page go-to-market per business unit with named segments, channel bets, and kill and scale criteria; positioning, category narrative, value proposition, messaging architecture; brand system specification, creative direction, and naming; one planning cadence.
-2. **The operating system (weeks 3–10):** one written definition of a qualified lead with deal-value thresholds; lead scoring and routing built into the CRM and marketing automation, with the data architecture underneath; the marketing-to-sales SLA, signed by both sides; the AI production process (brief template, subject-matter-expert loop, prompt and template libraries, a written quality bar); intake and capacity (one queue, every request scored on pipeline impact); lifecycle and nurture sequencing.
+2. **The operating system (weeks 3–10):** one written definition of a qualified lead with deal-value thresholds; lead scoring and routing built into the CRM and marketing automation, with the data architecture underneath; the marketing-to-sales SLA, signed by both sides; the AI production process (brief template, subject-matter-expert loop, prompt and template libraries, a written quality bar); the AI usage policy and approval gates (what AI may draft, what a person must sign, and the log that proves it); intake and capacity (one queue, every request scored on pipeline impact); lifecycle and nurture sequencing.
 3. **The optimization loop (weeks 6–13):** attribution wiring and a five-metric scoreboard anchored on pipeline; pipeline returned per dollar for every channel, conferences included, refreshed monthly; quarterly budget reallocation toward what returns; a board one-pager assembled from the scoreboard; the weekly operating cadence the team runs afterward.
 
 ## The 90 days
@@ -46,9 +46,13 @@ Six artifacts, handed over as working files in the client's own tools: their dri
 1. **The Engine Doc:** living source of truth: ICP, subsegmentation and buyer research, the one-page go-to-market per business unit, every channel bet with its kill and scale criteria, and a decision log with the reasoning attached.
 2. **The Messaging Kit:** category narrative, value proposition, messaging architecture by segment and persona, proof points, objection handling, competitor framing, voice guidelines, naming conventions, brand system specification and creative direction.
 3. **The Pipeline Model & Scoreboard:** funnel stages with conversion assumptions, five metrics with definitions and owners, a dashboard wired to real data, pipeline per dollar by channel with the budget reallocation rules, and the board one-pager assembled from the scoreboard.
-4. **The Systems Spec:** lifecycle sequences (logic, triggers, branching, timing), the lead scoring model with thresholds, routing rules, CRM field architecture, the intake queue and its scoring rules, and the marketing-sales SLA agreed by both sides.
+4. **The Systems Spec:** lifecycle sequences (logic, triggers, branching, timing), the lead scoring model with thresholds, routing rules, CRM field architecture, the AI usage policy and approval routing, the intake queue and its scoring rules, and the marketing-sales SLA agreed by both sides.
 5. **Documented processes and walkthroughs:** the brief template and the written quality bar, plus a written procedure for every workflow: what it does, when it runs, how to change it safely, how to tell when it is broken. Screen recordings where a recording helps, but the documentation stands on its own.
 6. **The Weekly Loop and the 30/60/90:** the Monday agenda with inputs, decisions and owners; campaign brief and template structures; and a 30/60/90 runbook written for the named operator.
+
+## Compliant by design
+
+The rules governing marketing did not change when the tools did: a machine-drafted claim is still the firm's claim, supervision cannot be delegated to an algorithm, and the record has to show who reviewed what. Every function Neely builds carries a written AI usage policy, approval gates inside the workflow, and prompt, output and approval logs kept the way an examiner expects. Built this way under NACHA rules and CFPB scrutiny; designed to the rulebook that applies to the client (FINRA 2210 for a broker-dealer, CFPB UDAAP and bank-partner requirements for payments and lending).
 
 ## Scope
 
@@ -56,7 +60,7 @@ Neely builds marketing systems and strategy. She does not do creative or media p
 
 ## Fit
 
-This works when: the client wants to own the engine rather than rent an operator; they can name one person who will own it and give it four to six hours a week during the build; creative and media production stay with their team or a partner; and they have roughly a dozen closed deals so the build rests on real patterns.
+This works when: the client wants to own the function, and whether Neely stays in an advisory seat afterward is their call rather than a condition; they can name one person who will own it and give it four to six hours a week during the build; creative and media production stay with their team or a partner; and they have roughly a dozen closed deals so the build rests on real patterns.
 
 Best fit: B2B software companies selling into regulated or institutional buyers (fintech, edtech and workforce development, healthtech, govtech) that have revenue but no marketing leader.
 
@@ -77,12 +81,12 @@ Best fit: B2B software companies selling into regulated or institutional buyers 
 
 ## Other pages
 
-- https://neelythomson.com/fractional-cmo-vs-full-time: fractional CMO vs. full-time CMO: year-one cost math, when each is right, and the built-engine alternative.
-- https://neelythomson.com/marketing-engine: the definition page. What a marketing engine is, the three layers (strategy layer points it, operating system runs it, optimization loop makes it cheaper per opportunity), the three coined terms (plumbing over production, build-and-leave, the engine becomes a screenshot), and a five-question test for whether a company has one.
-- https://neelythomson.com/fractional-cmo-fintech: fractional CMO for fintech and payments companies (updated October 2026). Who it is for (payments and embedded finance, banking and lending infrastructure, fintech sold through employers, credit unions and banks; $2M to $30M revenue), the five things that change in fintech marketing (legal reads the landing page, the security reviewer is on the buying committee, procurement calendars, trust-based positioning from verifiable claims, AI tools need guardrails first), the fintech build order, what a fractional CMO for fintech costs (market retainers $10K to $12K a month; the $7,500 Diagnostic is the only published price), and the payments-company results (60% less manual campaign work, 5:1 LTV:CAC, +15% MQL-to-opportunity).
+- https://neelythomson.com/fractional-cmo-vs-full-time: fractional CMO vs. full-time CMO: what the role should be now, year-one cost math, when each is right, and the built-engine alternative.
+- https://neelythomson.com/marketing-engine: the definition page. What a marketing engine is, the three layers (strategy layer points it, operating system runs it, optimization loop makes it cheaper per opportunity), the three coined terms (plumbing over production, build then hand over, the engine becomes a screenshot), and a five-question test for whether a company has one.
+- https://neelythomson.com/fractional-cmo-fintech: fractional CMO for fintech and payments companies (updated November 2026). Who it is for (payments and embedded finance, banking and lending infrastructure, fintech sold through employers, credit unions and banks; $2M to $30M revenue), the five things that change in fintech marketing (legal reads the landing page, the security reviewer is on the buying committee, procurement calendars, trust-based positioning from verifiable claims, AI tools need guardrails first), the fintech build order, what a fractional CMO for fintech costs (market retainers $10K to $12K a month; the $7,500 Diagnostic is the only published price), and the payments-company results (60% less manual campaign work, 5:1 LTV:CAC, +15% MQL-to-opportunity).
 - https://neelythomson.com/diagnostic: the two-week, $7,500 Diagnostic in full: the seven audit activities, the four deliverables, the ten-day schedule, what the client provides, and the terms (fixed fee, net 15, credited toward the build within 30 days, customer data stays in the client's systems).
-- https://neelythomson.com/about: who Neely Thomson is. The full track record year by year, the three things she would say on any first call (plumbing over production, build and leave, compliance is architecture), and where else she publishes.
-- https://neelythomson.com/faq: twenty-six questions about the engagement, cost, scope, fit, and how regulation shapes the work, answered plainly.
+- https://neelythomson.com/about: who Neely Thomson is. The full track record year by year, the three things she would say on any first call (plumbing over production, build it so your team runs it, compliance is architecture), and where else she publishes.
+- https://neelythomson.com/faq: twenty-nine questions about the engagement, cost, scope, fit, what AI-native means here, what stays human, the compliance layer, and how regulation shapes the work, answered plainly.
 - https://neelythomson.com/writing: the essay index. Every other Tuesday Neely Thomson writes about building a marketing engine from inside a B2B software company: what she saw, what she decided, what the scoreboard said. Each essay has a page at https://neelythomson.com/writing/<slug> carrying the title, the date, and the opening of the essay; the full text is published on Substack at https://neelythomson.substack.com and linked from every essay page.
 
 ## Contact
