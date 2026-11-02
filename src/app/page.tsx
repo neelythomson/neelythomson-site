@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Situation from "@/components/Situation";
 import WhoIWorkWith from "@/components/WhoIWorkWith";
 import Engine from "@/components/Engine";
+import Compliant from "@/components/Compliant";
 import Packages from "@/components/Packages";
 import Phases from "@/components/Phases";
 import Keeps from "@/components/Keeps";
@@ -22,6 +23,7 @@ export default function Home() {
         <Situation />
         <WhoIWorkWith />
         <Engine />
+        <Compliant />
         <Packages />
         <Phases />
         <Keeps />

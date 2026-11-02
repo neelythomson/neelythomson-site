@@ -20,9 +20,9 @@ const inter = localFont({
 });
 import "./globals.css";
 
-const TITLE = "Neely Thomson | Fractional CMO for Regulated Industries";
+const TITLE = "Neely Thomson | Fractional CMO for Regulated B2B Software";
 const DESCRIPTION =
-  "Fractional CMO for regulated industries: fintech, healthtech, edtech, govtech. I build the marketing engine, with compliance inside the workflow, and your team runs it. Diagnostic: two weeks, $7,500.";
+  "I rebuild marketing functions for regulated B2B software: AI-native, compliant, and run by your team. Fintech, edtech, healthtech, govtech. Start with a two-week Diagnostic, $7,500.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: TITLE,
     description:
-      "Fractional CMO for regulated industries. I build the marketing engine, with compliance inside the workflow, and your team runs it. Starts with a two-week Diagnostic, $7,500.",
+      "Fractional CMO for regulated B2B software. I rebuild the marketing function: AI-native, compliant, and run by your team. Starts with a two-week Diagnostic, $7,500.",
     url: "https://neelythomson.com",
     siteName: "Neely Thomson",
     locale: "en_US",
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: TITLE,
     description:
-      "Fractional CMO for regulated industries. I build the marketing engine. Your team runs it.",
+      "Fractional CMO for regulated B2B software. I rebuild marketing functions: AI-native, compliant, and run by your team.",
     creator: "@neelythomson",
   },
   robots: {
@@ -90,9 +90,9 @@ const jsonLd = {
       name: "Neely Thomson",
       url: "https://neelythomson.com",
       image: "https://neelythomson.com/neely-thomson.jpg",
-      jobTitle: "Fractional CMO for Regulated Industries",
+      jobTitle: "Fractional CMO for Regulated B2B Software",
       description:
-        "Fractional CMO for regulated industries: fintech, healthtech, edtech and govtech. Builds B2B marketing engines in 90 days, with compliance review inside the workflow, and hands them to the client's own team. Twenty years in B2B SaaS and fintech, including AI-powered marketing under NACHA and CFPB.",
+        "Fractional CMO for regulated B2B software: fintech, edtech, healthtech and govtech. Rebuilds marketing functions to be AI-native and compliant, with AI usage policy, approval gates and audit trail inside the workflow, and hands them to the client's own team to run. Twenty years in B2B SaaS and fintech, including AI marketing under NACHA and CFPB.",
       knowsAbout: [
         "Fractional CMO",
         "Marketing systems architecture",
@@ -126,7 +126,7 @@ const jsonLd = {
       provider: { "@id": "https://neelythomson.com/#person" },
       areaServed: "US",
       description:
-        "A 90-day fixed-scope engagement that builds a B2B marketing engine (positioning and brand system, lifecycle sequencing, lead scoring, CRM integration, routing and attribution), then hands it to the client's team with no ongoing retainer.",
+        "A 90-day fixed-scope engagement that rebuilds a B2B marketing function to be AI-native and compliant (positioning and brand system, AI usage policy and approval gates, lifecycle sequencing, lead scoring, CRM integration, routing and attribution), then hands it to the client's team to run, with an optional advisory seat afterward.",
       offers: [
         {
           "@type": "Offer",
@@ -135,7 +135,7 @@ const jsonLd = {
           priceCurrency: "USD",
           url: "https://neelythomson.com/diagnostic",
           description:
-            "Two-week audit of the marketing stack, funnel economics by business unit, and team. Deliverables: a findings document ranked by pipeline impact, a board one-pager, and a priced proposal for the build. Credited in full toward The Marketing Engine.",
+            "Two-week audit of the marketing stack, funnel economics by business unit, and team. Deliverables: a findings document covering what AI should cover, what stays human and what the function costs against today, ranked by pipeline impact; a board one-pager; and a priced proposal for the build. Credited in full toward The Marketing Engine.",
         },
         {
           "@type": "Offer",
