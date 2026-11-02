@@ -20,7 +20,6 @@ const groups = [
       "Lead scoring and routing built into your CRM and marketing automation, with the data architecture underneath",
       "The marketing-to-sales SLA, one page, signed by both sides",
       "The AI production process: brief template, subject-matter-expert loop, prompt and template libraries, a written quality bar",
-      "The AI usage policy and approval gates: what AI may draft, what a person must sign, and the log that proves it",
       "Intake and capacity: one queue, every request scored on pipeline impact",
       "Lifecycle and nurture sequencing: logic, triggers, branching, timing",
     ],
@@ -63,10 +62,11 @@ export default function Engine() {
             on your team.
           </h2>
           <p className="measure text-base leading-[1.68] text-muted">
-            The engine has three layers. The strategy layer points it. The
-            operating system runs it. The optimization loop makes it cheaper per
-            opportunity every quarter. Every complaint a CEO has about marketing
-            lives in one of the three.{" "}
+            Three layers, built in order, in the tools you already own.
+            Strategy decides who you sell to and what you say. The operating
+            system moves leads from first touch to sales without anyone chasing
+            them. The scoreboard tells you what each channel returned, every
+            month.{" "}
             <a href="/marketing-engine" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
               The full definition
             </a>

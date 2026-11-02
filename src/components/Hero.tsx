@@ -38,11 +38,9 @@ export default function Hero() {
           </h1>
 
           <p className="mb-9 max-w-[60ch] text-[17px] leading-[1.62] text-muted">
-            I rebuild the marketing function so AI does the drafting,
-            routing, scoring and reporting, your people own the claims and
-            the decisions, and it holds up when compliance reads it. Then
-            your team runs it. I stay in the seat as long as you want me
-            there.
+            For companies selling to banks, schools, hospitals and government
+            agencies. I rebuild your marketing around AI, get it through legal
+            review, and train your team to run it. Ninety days, fixed price.
           </p>
 
           <div className="flex flex-wrap items-center gap-x-7 gap-y-4">

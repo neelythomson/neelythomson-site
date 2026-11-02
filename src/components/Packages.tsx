@@ -10,7 +10,7 @@ const packages = [
       "Stack, process, and funnel audit, by business unit",
       "Interviews with you, marketing, sales, and the business owners",
       "The last ninety days of marketing requests, classified",
-      "A findings document: what AI should cover, what stays human, what the function costs against today, ranked by impact on pipeline",
+      "A findings document, ranked by impact on pipeline",
       "A board one-pager",
       "A scoped, priced proposal for the build",
     ],
@@ -29,11 +29,11 @@ const packages = [
       "Everything under What you keep, as working files",
       "Four weeks of support after handoff",
     ],
-    note: "Fixed scope and a fixed end date for the build, agreed in writing. What happens after it is yours to decide.",
+    note: "Fixed scope and a fixed end date, agreed in writing before anything starts.",
   },
   {
     n: "03",
-    stage: "What most people keep",
+    stage: "After, or instead",
     name: "The Advisory Seat",
     figure: "Monthly",
     terms: "Scoped per client",
@@ -62,14 +62,14 @@ export default function Packages() {
         <p className="label mb-8">Packages</p>
 
         <h2 className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)]">
-          Three ways in. Most people start with the first.
+          Three ways in. Most people start with the Diagnostic.
         </h2>
 
         <p className="measure text-base leading-[1.68] text-muted">
-          Nobody should quote a ninety-day build before looking at the business,
-          so the Diagnostic is where almost everything starts. What comes after
-          it is scoped to what we find there, and written down in full before
-          anything begins.
+          The Diagnostic is two weeks and $7,500. I audit your stack, your
+          funnel and your team, then tell you what to build, what AI should
+          do, what your people should do, and what it costs. If you hire me to
+          build it, the $7,500 comes off the price. If not, the plan is yours.
         </p>
 
         <div className="mt-11 grid items-start gap-x-8 md:grid-cols-3">
