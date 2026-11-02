@@ -32,14 +32,14 @@ const groups: Group[] = [
         q: "What is a fractional CMO?",
         a: [
           "A fractional CMO is a senior marketing leader who works with a company part-time, usually ten to twenty hours a week, instead of joining as a full-time executive. Most work on a monthly retainer of $10,000 to $12,000 and stay for a year or more. The model exists because companies between roughly $2M and $30M in revenue need marketing judgment at the executive level before they can justify the salary of one.",
-          "I work as a fractional CMO for B2B software sold into regulated buyers, with one difference from the usual model: I rebuild the function rather than run it. Ninety days, a fixed scope, and one person on your team trained to run everything. Whether I stay in an advisory seat after that is your call.",
+          "I work as a fractional CMO for B2B software sold to regulated buyers. The difference from most: I rebuild the marketing system in ninety days, train one person on your team to run it, and then it's yours. If you want me to stay on in an advisory seat after that, you can.",
         ],
       },
       {
         q: "What does a fractional CMO do?",
         a: [
           "A typical fractional CMO sets the marketing strategy, decides where the budget goes, manages the marketing team or agency, and reports to the CEO on pipeline. Some run campaigns themselves; most direct other people who do.",
-          "What I do is narrower, and it's built to stay. I rebuild the marketing function: positioning and messaging, the AI usage policy and approval gates, lifecycle sequencing, lead scoring, CRM and marketing automation integration, routing rules, the marketing and sales SLA, attribution, and a weekly operating cadence. I build it in your tools and teach your operator to run it.",
+          "What I do is narrower. I build the system: positioning and messaging, the rules for what AI can draft, lead scoring and routing in your CRM, the marketing and sales SLA, attribution, and a weekly cadence. I build it in your tools and teach your person to run it.",
         ],
       },
       {
@@ -189,21 +189,21 @@ const groups: Group[] = [
       {
         q: "What does an AI-native marketing function mean here?",
         a: [
-          "A function designed around what AI can do and what people must do, rather than a traditional team with AI tools added. AI handles the retrieval, drafting, routing, scoring, and reporting. People own what gets claimed, what gets sent, which bets get killed or scaled, and every regulated communication. The split is written down, the approvals live inside the workflow, and the result is a smaller team producing more pipeline than the old org did with more people.",
-          "It is not a smaller headcount for its own sake, and it is not agents running marketing unsupervised. The CEO question it answers is: what should my marketing team be now?",
+          "AI does the production: drafts, lead routing, scoring, reports. Your people make the decisions: what the company claims, what goes out, which channels get more budget. I write down which is which and build the approvals into the workflow. The result is a smaller team producing more pipeline.",
+          "It is not agents running marketing on their own. A named person approves every claim and every send.",
         ],
       },
       {
         q: "What stays human in an AI-native function?",
         a: [
-          "Four things, by design: what the company claims and the substantiation behind it; what goes out to a regulated audience; positioning and the one-page go-to-market; and the kill or scale decision on every channel bet. AI drafts toward those decisions and reports on them. A named person signs them. That is the same split fintech CMOs already keep in practice, written into the function so it survives staff turnover.",
+          "Four things: what the company claims and the evidence behind it, anything sent to a regulated audience, positioning and the go-to-market plan, and the decision to cut or scale a channel. AI drafts toward those decisions and reports on them. A person signs them.",
         ],
       },
       {
         q: "What is the compliance layer?",
         a: [
-          "Three things that ship with every build. A written AI usage policy: what AI may touch, what it may draft, what a person must sign, agreed with legal before the first prompt runs. Approval gates inside the workflow: review states, routing, and claim substantiation, so legal is a step rather than a bottleneck. And the record: prompt and output logs, model versions, and who approved what, kept the way an examiner expects to find them.",
-          "I am not a compliance professional and nothing I build is a certification. It is architecture, built to the rulebook that applies to you, whether that is FINRA 2210 for a broker-dealer or CFPB UDAAP and your bank partner's requirements for payments and lending. I built it this way under NACHA rules and CFPB scrutiny.",
+          "Three things that come with every build. Written rules for what AI may draft and what a person must approve, agreed with legal before the first prompt. Review inside the workflow, so legal sees each claim with its evidence instead of reading finished campaigns at the end. And the record: prompts, outputs and approvals, kept the way an examiner expects.",
+          "I'm not a compliance professional and nothing I build is a certification. It's how I built marketing under NACHA and CFPB, and it works the same under FINRA 2210 or UDAAP.",
         ],
       },
       {
