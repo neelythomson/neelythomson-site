@@ -309,6 +309,14 @@ export default function MarketingEngine() {
                 What gets built in ninety days
               </a>
             </div>
+            <p className="mt-8 max-w-2xl border-t border-rule pt-6 text-[14px] leading-[1.65] text-muted">
+              <span className="label mr-3">Related reading</span>
+              Why the documentation comes before any agent you set up:{" "}
+              <a href="/writing/built-with-not-for" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+                Built with, not for
+              </a>
+              .
+            </p>
           </div>
         </section>
       </main>
