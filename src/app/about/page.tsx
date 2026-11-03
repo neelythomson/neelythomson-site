@@ -54,7 +54,7 @@ const track = [
   {
     k: "2014 – 2016",
     v: "Enterprise collaboration software",
-    r: "Senior Sales Enablement Marketing Manager.",
+    r: "Senior Sales Enablement Marketing Manager. Launched the internal sales enablement platform used by 400+ reps.",
   },
   {
     k: "2013 – 2014",
