@@ -21,10 +21,16 @@ const proof = [
     href: "/work/nonprofit-partnerships",
   },
   {
-    v: "$500K",
-    l: "budget behind a full enterprise ABM build",
-    s: "Technology services firm",
-    href: "/work/enterprise-abm",
+    v: "15%",
+    l: "more net-new leads acquired",
+    s: "Same nonprofit, same engine",
+    href: "/work/nonprofit-partnerships",
+  },
+  {
+    v: "400+",
+    l: "sales reps on an enablement platform I launched",
+    s: "Enterprise collaboration software",
+    href: "/about",
   },
 ];
 
@@ -92,7 +98,7 @@ export default function Hero() {
               All case studies &rarr;
             </a>
           </div>
-          <div className="grid gap-9 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="grid gap-9 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
             {proof.map((p) => (
               <a
                 key={p.l}
@@ -102,7 +108,7 @@ export default function Hero() {
                 <div className="display tnum text-[40px] leading-none transition-colors group-hover:text-accent">
                   {p.v}
                 </div>
-                <p className="mt-[9px] max-w-[22ch] text-[12.5px] leading-[1.45] text-muted">
+                <p className="mt-[9px] max-w-[20ch] text-[12.5px] leading-[1.45] text-muted">
                   {p.l}
                 </p>
                 <p className="label mt-1.5">{p.s}</p>
