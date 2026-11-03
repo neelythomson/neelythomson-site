@@ -8,7 +8,7 @@ import { getEssays, SUBSTACK } from "@/lib/substack";
 
 const TITLE = "Writing | Neely Thomson";
 const DESCRIPTION =
-  "Essays every other Tuesday on building a marketing engine from inside a B2B software company: what I saw, what I decided, what the scoreboard said.";
+  "Essays on building a marketing engine from inside a B2B software company: what I saw, what I decided, what the scoreboard said.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -65,10 +65,10 @@ export default async function WritingPage() {
               Notes from building marketing engines that run without me.
             </h1>
             <p className="measure text-base leading-[1.68] text-muted">
-              Every other Tuesday I write about what building a marketing engine
-              looks like from inside a B2B software company: what I saw, what I
-              decided, what the scoreboard said. Names changed, numbers real. It
-              goes out on Substack.
+              Essays on building a marketing engine from inside a B2B software
+              company: what I saw, what I decided, what the scoreboard said.
+              Names changed, numbers real. They go out on Substack when there is
+              one worth sending.
             </p>
           </div>
         </section>
@@ -129,7 +129,7 @@ export default async function WritingPage() {
               <div>
                 <p className="label">Subscribe</p>
                 <p className="tnum mt-2 text-[12.5px] leading-[1.5] text-muted">
-                  Every other Tuesday. No other email.
+                  When there is one worth sending. No other email.
                 </p>
               </div>
               <div>
