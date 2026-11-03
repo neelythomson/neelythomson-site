@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { getEssays } from "@/lib/substack";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -170,6 +171,13 @@ export async function POST(request: Request) {
   // a failure here never turns a delivered enquiry into an error for them.
   if (FROM_IS_VERIFIED_DOMAIN) {
     const firstName = clean.name.split(/\s+/)[0] || "there";
+    const latest = await getEssays().then((e) => e[0]).catch(() => undefined);
+    const latestText = latest
+      ? `While you wait, the latest essay is "${latest.title}": https://neelythomson.com/writing/${latest.slug}. I write one every other Tuesday; you can subscribe at https://neelythomson.substack.com/subscribe.`
+      : "While you wait, the essays are at https://neelythomson.com/writing. I write one every other Tuesday; you can subscribe at https://neelythomson.substack.com/subscribe.";
+    const latestHtml = latest
+      ? `While you wait, the latest essay is <a href="https://neelythomson.com/writing/${escapeHtml(latest.slug)}" style="color:#b33a24">${escapeHtml(latest.title)}</a>. I write one every other Tuesday; you can <a href="https://neelythomson.substack.com/subscribe" style="color:#b33a24">subscribe on Substack</a>.`
+      : `While you wait, the essays are at <a href="https://neelythomson.com/writing" style="color:#b33a24">neelythomson.com/writing</a>. I write one every other Tuesday; you can <a href="https://neelythomson.substack.com/subscribe" style="color:#b33a24">subscribe on Substack</a>.`;
     const confirmText = [
       `Hi ${firstName},`,
       "",
@@ -178,6 +186,8 @@ export async function POST(request: Request) {
       "I'll reply within two business days, usually with a question or two before we book anything. If it looks like a fit, the next step is a two-week Diagnostic: a marketing and funnel audit, ICP and pipeline math, the five metrics worth judging everything by, and a prioritized build order, written down.",
       "",
       "In the meantime, the questions people usually ask first are answered at https://neelythomson.com/faq, and the case studies are at https://neelythomson.com/work.",
+      "",
+      latestText,
       "",
       "If anything changes on your side before you hear from me, just reply to this email.",
       "",
@@ -191,6 +201,7 @@ export async function POST(request: Request) {
         <p>Thanks for writing. Your note is in my inbox and I read every one of these myself.</p>
         <p>I'll reply within two business days, usually with a question or two before we book anything. If it looks like a fit, the next step is a two-week Diagnostic: a marketing and funnel audit, ICP and pipeline math, the five metrics worth judging everything by, and a prioritized build order, written down.</p>
         <p>In the meantime, the questions people usually ask first are answered at <a href="https://neelythomson.com/faq" style="color:#b33a24">neelythomson.com/faq</a>, and the case studies are at <a href="https://neelythomson.com/work" style="color:#b33a24">neelythomson.com/work</a>.</p>
+        <p>${latestHtml}</p>
         <p>If anything changes on your side before you hear from me, just reply to this email.</p>
         <p style="margin-top:24px">Neely<br><a href="https://neelythomson.com" style="color:#6b6862;text-decoration:none">neelythomson.com</a></p>
       </div>`;
