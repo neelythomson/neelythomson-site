@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
@@ -85,7 +86,8 @@ export default function About() {
       <Breadcrumbs items={[{ name: "About", url: URL }]} />
       <main>
         <section className="px-6 pt-20 pb-16 sm:px-10 sm:pt-24 sm:pb-20">
-          <div className="mx-auto max-w-[960px]">
+          <div className="mx-auto grid max-w-[960px] items-start gap-10 md:grid-cols-[1fr_240px] md:gap-14">
+            <div>
             <p className="label mb-8">About</p>
             <h1 className="display mb-8 max-w-[17ch] text-[clamp(2.3rem,5vw,4rem)]">
               I spent my career on the inside. Now I build the part that stays.
@@ -103,6 +105,19 @@ export default function About() {
               marketing organization, and before that, sales enablement and marketing automation,
               which is where I learned what the plumbing actually is.
             </p>
+            </div>
+            <figure className="max-w-[280px] md:max-w-none md:pt-14">
+              <Image
+                src="/neely-thomson.jpg"
+                alt="Neely Thomson"
+                width={800}
+                height={800}
+                priority
+                sizes="(min-width: 768px) 240px, 280px"
+                className="aspect-[4/5] w-full rounded-[3px] object-cover object-top"
+              />
+              <figcaption className="label mt-3">Neely Thomson · Atlanta</figcaption>
+            </figure>
           </div>
         </section>
 
