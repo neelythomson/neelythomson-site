@@ -53,7 +53,7 @@ export const caseStudies: CaseStudyData[] = [
         b: "Rapid page production and A/B testing at scale, inside the same review process, so the site could move as fast as the campaigns.",
       },
       {
-        t: "Personalization as a system, not a stunt",
+        t: "Personalization built into the campaigns",
         b: "AI-driven personalization across ABM campaigns using 6sense intent data, so high-value accounts saw relevant messaging instead of the generic version.",
       },
     ],
@@ -64,7 +64,7 @@ export const caseStudies: CaseStudyData[] = [
       { figure: "15%", label: "lift in MQL-to-opportunity conversion" },
     ],
     why: [
-      "The hard version of AI marketing is the one that survives a compliance department. Under NACHA and CFPB constraints, the process had to be a system: documented, reviewable, repeatable. That discipline is exactly what selling to regulated or institutional buyers takes, and it's the method I now build for clients.",
+      "Under NACHA and CFPB, the process had to be documented, reviewable and repeatable. Selling to any regulated or institutional buyer takes the same discipline. It's the method I build for clients.",
     ],
     note: "Company name withheld. Detail and verification available in conversation.",
     more: { href: "/fractional-cmo-fintech", text: "How I build this for payments and banking clients: fractional CMO for fintech" },
