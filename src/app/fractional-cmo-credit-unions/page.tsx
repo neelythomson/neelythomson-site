@@ -47,15 +47,15 @@ const segments = [
 const differences = [
   {
     t: "Every rate and claim is a regulated statement",
-    b: "NCUA, UDAAP, and the advertising rules that sit under them (Truth in Savings on deposit ads, Regulation Z on loan ads) decide what a landing page can say. If compliance reviews once at the end, the review queue sets the campaign calendar. If claim substantiation travels with the brief and there is a written rule for which claims need review, compliance becomes a step inside the workflow. At a payments company under NACHA and CFPB rules, that change took 60 percent of the manual work out of campaigns.",
+    b: "NCUA, UDAAP, Truth in Savings and Regulation Z decide what a landing page can say. If compliance reviews once at the end, the review queue sets your campaign calendar. If each claim carries its evidence and there is a written rule for which claims need review, compliance is a step in the workflow instead. At a payments company that change took 60% of the manual work out of campaigns.",
   },
   {
     t: "The examination calendar sets the rhythm",
     b: "Budgets are annual, exams are scheduled, and the supervisory committee meets on its own cadence. Channel bets and sequencing get planned against that calendar, so pipeline is warm when the budget window opens instead of a campaign landing in a quarter nobody is approving spend.",
   },
   {
-    t: "Agencies sell creative. Credit unions need plumbing.",
-    b: "Most credit union marketing budgets go to an agency retainer that produces campaigns. What is usually missing is underneath: one definition of a qualified member or business lead, scoring and routing in the CRM, and a way to say which channel produced loans last quarter. That is the engine, and it is what stays when the retainer ends.",
+    t: "Agencies sell campaigns. What's missing is underneath.",
+    b: "Most credit union marketing budgets go to an agency that produces campaigns. What's usually missing: one definition of a qualified lead, scoring and routing in the CRM, and a way to say which channel produced loans last quarter. That is the system, and it stays when the retainer ends.",
   },
   {
     t: "The board wants a one-pager, not a dashboard",
@@ -63,7 +63,7 @@ const differences = [
   },
   {
     t: "The AI tools need an approved-claims library first",
-    b: "Canva, Jasper, and the AI features in the marketing automation platform are fine tools. Under NCUA and UDAAP they are a liability without a locked messaging framework, a prompt library built from approved claims and disclosures, and a review state every asset moves through. With that process in place, the same tools returned a 60 percent capacity gain.",
+    b: "Canva, Jasper and the AI in your marketing platform are fine tools. Under NCUA and UDAAP they are a liability until there is an approved-claims library, a prompt library built from it, and a review step every asset passes through. With that in place, the same tools gave back 60% of the team's time.",
   },
 ];
 
@@ -77,7 +77,7 @@ const build = [
     b: "A written definition of a qualified lead for each line, with the thresholds that matter to lending, scoring and routing built into the CRM, and a service-level agreement between marketing and the lending and business development teams.",
   },
   {
-    t: "Compliance as architecture",
+    t: "Compliance inside the workflow",
     b: "Review states, approval routing, and claim substantiation inside the workflow. The compliance officer sees the claim, its disclosure, and its evidence together, in the tool, which is why review time stops setting the calendar.",
   },
   {
@@ -93,27 +93,27 @@ const build = [
 const faq = [
   {
     q: "What does a fractional CMO for credit unions do?",
-    a: "A fractional CMO for credit unions builds the systems under the marketing: positioning from verifiable claims with disclosures attached, one lead definition across member and business lines, compliance review as a step inside the workflow, an AI production process with guardrails, and a scoreboard anchored on loans and deposits. The agency keeps producing campaigns. The engine decides which ones ship, where they go, and whether they worked.",
+    a: "Builds the systems under the marketing: positioning from verifiable claims with disclosures attached, one lead definition across member and business lines, compliance review inside the workflow, an AI production process with guardrails, and a scoreboard that counts loans and deposits. The agency keeps producing campaigns. The system decides which ones ship, where they go, and whether they worked.",
   },
   {
     q: "Can a credit union use AI in marketing under NCUA and UDAAP rules?",
-    a: "Yes, with the guardrails built before the prompts. A locked messaging framework, a prompt library built from approved claims and required disclosures, and a review state every asset moves through. I built AI-assisted content production and web operations at a B2B fintech payments company under NACHA rules and CFPB scrutiny, with legal sitting inside the workflow instead of reviewing at the end. Manual campaign work fell 60 percent.",
+    a: "Yes, with the guardrails built first: an approved-claims library with the required disclosures, a prompt library built from it, and a review step every asset passes through. I built AI content production this way at a B2B payments company under NACHA and CFPB, with legal inside the workflow. Manual campaign work fell 60%.",
   },
   {
     q: "What does a fractional CMO for a credit union cost compared with an agency retainer?",
-    a: "Market-rate fractional CMO retainers in the US run $10,000 to $12,000 a month, usually with a three to six month minimum. An agency retainer for a mid-sized credit union often runs in the same range and produces campaigns, not systems. I work differently: a two-week Diagnostic for $7,500, which is the only price I publish, then a 90-day build with a fixed scope and a fixed end date, quoted in the proposal next to the retainer and full-time alternatives so you can compare them on the same page.",
+    a: "Fractional CMO retainers in the US run $10,000 to $12,000 a month, usually with a three to six month minimum. An agency retainer for a mid-sized credit union often costs the same and produces campaigns, not systems. I work differently: a two-week Diagnostic for $7,500, the only price I publish, then a ninety-day build with a fixed scope and a fixed end date. The proposal shows that price next to the retainer and full-time options so you can compare them.",
   },
   {
     q: "How does the engagement process work?",
-    a: "Two weeks for the Diagnostic, which audits your stack, your funnel economics by line of business, and how work moves through compliance today, and returns a findings document, a board one-pager, and a priced proposal. Ninety days for the build, in your own tools, with a named person on your team running each system before the build ends. The build has a fixed end date; whether I stay in an advisory seat afterward is your call.",
+    a: "Two weeks for the Diagnostic: an audit of your stack, your funnel by line of business, and how work moves through compliance today. You get a findings document, a board one-pager, and a priced proposal. Then ninety days for the build, in your own tools, with a named person on your team running each system before it ends. Whether I stay on afterward is your call.",
   },
   {
     q: "Do you work with CUSOs and fintechs that sell to credit unions?",
-    a: "Yes, and most of my experience is on that side of the sale. I spent four years running marketing at a B2B fintech payments company whose buyers were banks, credit unions, and platforms, so the buying mechanics on the credit union side (compliance, IT, the board, the budget calendar) are what the engine is designed around. The fintech version of this page is at fractional CMO for fintech.",
+    a: "Yes. Most of my experience is on that side of the sale. I ran marketing for four years at a B2B payments company that sold to banks and credit unions, so compliance, IT, the board and the budget calendar are what the system is built around. The fintech version of this page is at fractional CMO for fintech.",
   },
   {
     q: "Which credit unions is this built for?",
-    a: "Credit unions between roughly $500 million and $5 billion in assets with a growth mandate and a marketing lead on staff who will run the engine after the build. It works when the next twelve months depend on marketing producing funded loans and new accounts rather than awareness, and when there is appetite to measure the agency on the same scoreboard as every other channel.",
+    a: "Credit unions between roughly $500 million and $5 billion in assets, with a growth mandate and a marketing lead on staff who will run the system after the build. It works when the next twelve months depend on marketing producing funded loans and new accounts, and when you are willing to measure the agency on the same scoreboard as every other channel.",
   },
 ];
 
@@ -184,20 +184,18 @@ export default function FractionalCMOCreditUnions() {
               Fractional CMO for credit unions: growth that clears compliance.
             </h1>
             <p className="measure text-[17px] leading-[1.62] text-muted">
-              A fractional CMO for credit unions builds the marketing engine
-              underneath the agency: one lead definition across member and
-              business lines, compliance review inside the workflow, AI
-              production with guardrails, and a scoreboard anchored on funded
-              loans and new deposits. The same engine works for the CUSOs and
-              fintechs selling into credit unions, because the buyer is the
-              same.
+              I build the marketing system under your agency: one lead
+              definition across member and business lines, compliance review
+              inside the workflow, AI production with guardrails, and a
+              scoreboard that counts funded loans and new deposits. The same
+              system works for CUSOs and fintechs selling to credit unions. The
+              buyer is the same.
             </p>
             <p className="measure mt-4 text-[17px] leading-[1.62] text-muted">
-              I spent four years running marketing at a B2B fintech payments
-              company whose buyers were banks, credit unions, and platforms,
-              under NACHA and CFPB rules, and helped execute its acquisition.
-              What follows is what I learned about selling to and marketing for
-              institutions that answer to an examiner.
+              I ran marketing for four years at a B2B payments company that
+              sold to banks and credit unions, under NACHA and CFPB. This page
+              is what I learned about marketing to institutions that answer to
+              an examiner.
             </p>
             <div className="mt-9 flex flex-wrap items-center gap-x-7 gap-y-4">
               <a href="/#start" className="rounded-sm bg-ink px-[22px] py-[13px] text-sm font-medium text-bg transition-colors hover:bg-accent">
@@ -261,7 +259,7 @@ export default function FractionalCMOCreditUnions() {
           <div className="mx-auto max-w-[960px]">
             <p className="label mb-8">What changes for a credit union</p>
             <h2 className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)]">
-              Five things a generalist engine gets wrong here.
+              Five things that are different here.
             </h2>
             <div className="mt-11">
               {differences.map((d, i) => (
@@ -276,19 +274,18 @@ export default function FractionalCMOCreditUnions() {
 
         <section className="bg-ink px-6 pt-24 pb-20 text-band sm:px-10 sm:pt-28 sm:pb-24">
           <div className="mx-auto max-w-[960px]">
-            <p className="label mb-8 text-white/55">What I build first</p>
+            <p className="label mb-8 text-white/70">What I build first</p>
             <h2 className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)] text-white">
               The credit union build order.
             </h2>
             <p className="measure text-base leading-[1.68] text-white/60">
-              The Diagnostic decides the exact sequence for your credit union.
-              This is the shape it usually takes, because the constraint is the
-              strategy.
+              The Diagnostic sets the order for your credit union. This is the
+              usual shape.
             </p>
             <div className="mt-11">
               {build.map((b, i) => (
                 <div key={b.t} className={`grid gap-3 py-6 md:grid-cols-[60px_1fr] md:gap-6 ${i === 0 ? "" : "border-t border-white/20"}`}>
-                  <span className="label tnum pt-1 text-white/55">0{i + 1}</span>
+                  <span className="label tnum pt-1 text-white/70">0{i + 1}</span>
                   <div>
                     <h3 className="display-xs mb-1.5 text-[18px] text-white">{b.t}</h3>
                     <p className="max-w-[62ch] text-[14px] leading-[1.65] text-white/60">{b.b}</p>
