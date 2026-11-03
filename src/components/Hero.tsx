@@ -1,4 +1,3 @@
-import Image from "next/image";
 import TrackedLink from "@/components/TrackedLink";
 import { BOOKING_URL } from "@/lib/site";
 
@@ -33,11 +32,11 @@ export default function Hero() {
   return (
     <>
       <section className="reveal px-6 pt-24 pb-20 sm:px-10">
-        <div className="mx-auto grid max-w-[960px] items-end gap-10 md:grid-cols-[1fr_240px] md:gap-14 lg:grid-cols-[1fr_280px]">
+        <div className="mx-auto max-w-[960px]">
           <div>
             <p className="label mb-8">Fractional CMO · Regulated industries</p>
 
-            <h1 className="display mb-8 max-w-[16ch] text-[clamp(2.9rem,6vw,4.5rem)]">
+            <h1 className="display mb-8 max-w-[16ch] text-[clamp(2.9rem,6.6vw,5.4rem)]">
               I rebuild marketing functions{" "}
               <em className="font-light italic">for regulated B2B software.</em>
             </h1>
@@ -79,18 +78,6 @@ export default function Hero() {
             </div>
           </div>
 
-          <figure className="order-first w-[132px] md:order-none md:w-auto">
-            <Image
-              src="/neely-thomson.jpg"
-              alt="Neely Thomson"
-              width={800}
-              height={800}
-              priority
-              sizes="(min-width: 1024px) 280px, (min-width: 768px) 240px, 280px"
-              className="aspect-square w-full rounded-[3px] object-cover object-top md:aspect-[4/5]"
-            />
-            <figcaption className="label mt-3 hidden md:block">Neely Thomson · Atlanta</figcaption>
-          </figure>
         </div>
       </section>
 

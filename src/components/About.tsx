@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const track = [
   { k: "2020 – present", v: "Independent · Fractional CMO for regulated industries" },
   { k: "2022 – 2026", v: "B2B fintech payments · Head of Marketing (acquired)" },
@@ -11,6 +13,14 @@ export default function About() {
     <section id="about" className="scroll-mt-20 border-t border-rule px-6 pt-24 pb-20 sm:px-10 sm:pt-28 sm:pb-24">
       <div className="mx-auto grid max-w-[960px] items-start gap-8 lg:grid-cols-2 lg:gap-14">
         <div>
+          <Image
+            src="/neely-thomson.jpg"
+            alt="Neely Thomson"
+            width={800}
+            height={800}
+            sizes="168px"
+            className="mb-8 aspect-[4/5] w-[168px] rounded-[3px] object-cover object-top"
+          />
           <p className="label mb-8">About</p>
           <h2 className="display-sm mb-5 text-[clamp(1.9rem,3.4vw,2.9rem)]">
             Neely Thomson
