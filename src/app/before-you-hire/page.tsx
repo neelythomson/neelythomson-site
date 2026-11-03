@@ -59,6 +59,14 @@ const jsonLd = {
         },
         {
           "@type": "Question",
+          name: "How do you shorten the onboarding of a new CMO or Head of Marketing?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Build the function before they arrive. A new marketing leader who inherits a lead definition, routing, a working scoreboard, an owned AI stack, and a go-to-market per business unit spends their first month on the leader's job: strategy, board management, hiring and people management, and revenue forecasting. Without those, the same work waits until the fourth month while the leader builds infrastructure at a leader's salary.",
+          },
+        },
+        {
+          "@type": "Question",
           name: "How has AI changed the Head of Marketing job description?",
           acceptedAnswer: {
             "@type": "Answer",
@@ -90,6 +98,12 @@ const quarter = [
   { d: "Weeks 1 to 4", w: "Learns the company. Meets sales. Discovers there are three definitions of a lead and nobody agrees on which one the board sees." },
   { d: "Weeks 5 to 8", w: "Audits the stack. Finds the AI tools somebody bought last spring, no process around them, no owner. Starts a tool evaluation." },
   { d: "Weeks 9 to 13", w: "Rebuilds reporting. Negotiates the lead definition with sales. Presents a plan to the board. Pipeline from this quarter: whatever was already in motion." },
+];
+
+const quarterWithFunction = [
+  { d: "Weeks 1 to 4", w: "Opens a scoreboard with numbers in it. Meets sales over a lead definition both sides already signed. Walks into the first board meeting with a read, not a plan to produce one." },
+  { d: "Weeks 5 to 8", w: "Sets the strategy: which segments, which channel bets, what gets killed. Decides who to hire under them, against a headcount plan that already accounts for what AI covers." },
+  { d: "Weeks 9 to 13", w: "Forecasts pipeline for the next two quarters from attribution that already works. Manages people instead of tools. Pipeline from this quarter: theirs." },
 ];
 
 const outputs = [
@@ -152,7 +166,9 @@ export default function BeforeYouHire() {
               on day one.
             </p>
             <p className="measure mt-4 text-[17px] leading-[1.62] text-muted">
-              The hire still happens. It just lands on something.
+              The hire still happens. It just lands on something, and the
+              leader you pay for gets to strategy, the board, the people, and
+              the forecast in their first month instead of their fourth.
             </p>
             <div className="mt-9 flex flex-wrap items-center gap-x-7 gap-y-4">
               <a href="/#start" className="rounded-sm bg-ink px-[22px] py-[13px] text-sm font-medium text-bg transition-colors hover:bg-accent">
@@ -232,9 +248,27 @@ export default function BeforeYouHire() {
             <p className="measure mt-10 text-[15px] leading-[1.7] text-muted">
               Every item on that list can be done before they start, by
               someone who has done it before, in two weeks of diagnosis and
-              a fixed build. The leader you hire then spends their first
-              quarter on the job you hired them for.
+              a fixed build.
             </p>
+
+            <div className="mt-14 border-t border-rule pt-8">
+              <p className="label mb-6">The same quarter, with a function in place</p>
+              <div>
+                {quarterWithFunction.map((q, i) => (
+                  <div key={q.d} className={`grid gap-3 py-6 md:grid-cols-[170px_1fr] md:gap-10 ${i === 0 ? "" : "border-t border-rule"}`}>
+                    <p className="label pt-1">{q.d}</p>
+                    <p className="max-w-[62ch] text-[15px] leading-[1.7] text-muted">{q.w}</p>
+                  </div>
+                ))}
+              </div>
+              <p className="measure mt-8 text-[15px] leading-[1.7] text-muted">
+                That is the job you&apos;re paying a leader&apos;s salary for:
+                strategy, the board, the people, the forecast. A function in
+                place gets them to it in their first month instead of their
+                fourth. Onboarding stops being a quarter of infrastructure
+                and becomes a week of reading what&apos;s already there.
+              </p>
+            </div>
           </div>
         </section>
 
