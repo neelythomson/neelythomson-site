@@ -18,7 +18,9 @@ const LABEL = "block text-[13px] font-medium mb-2 sm:text-[12.5px]";
 
 type Status = "idle" | "submitting" | "success" | "error";
 
-export default function ContactForm() {
+type LatestEssay = { title: string; slug: string } | null;
+
+export default function ContactForm({ latest = null }: { latest?: LatestEssay }) {
   const [status, setStatus] = useState<Status>("idle");
   const [error, setError] = useState("");
 
@@ -63,6 +65,36 @@ export default function ContactForm() {
           within two business days, usually with a question or two before we
           book anything.
         </p>
+        <div className="mt-7 max-w-lg border-t border-rule pt-6">
+          <p className="label mb-3">While you wait</p>
+          {latest && (
+            <p className="text-[15px] leading-[1.65] text-muted">
+              The latest essay:{" "}
+              <a
+                href={`/writing/${latest.slug}`}
+                className="border-b border-accent pb-px text-ink transition-colors hover:text-accent"
+              >
+                {latest.title}
+              </a>
+            </p>
+          )}
+          <p className="mt-2 text-[15px] leading-[1.65] text-muted">
+            I write one every other Tuesday.{" "}
+            <a
+              href="https://neelythomson.substack.com/subscribe"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border-b border-accent pb-px text-ink transition-colors hover:text-accent"
+            >
+              Subscribe on Substack
+            </a>
+            , or{" "}
+            <a href="/writing" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+              read the rest here
+            </a>
+            .
+          </p>
+        </div>
       </div>
     );
   }

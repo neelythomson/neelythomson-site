@@ -20,6 +20,12 @@ export default function Situation() {
           what to hire for, headcount is flat and the board wants more
           pipeline, or you bought AI tools and nothing changed.
         </p>
+        <p className="mt-5 text-[13.5px] leading-[1.6] text-faint">
+          <span className="label mr-3">Related reading</span>
+          <a href="/writing/your-buyers-are-finding-you-through" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+            Your buyers are finding you through an AI tool. Are you ready?
+          </a>
+        </p>
 
         <p
           className="mt-9 max-w-[32ch] border-t border-rule pt-7 text-[23px] italic leading-[1.42] text-ink"

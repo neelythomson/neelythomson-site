@@ -1,8 +1,10 @@
 import ContactForm from "@/components/ContactForm";
 import TrackedLink from "@/components/TrackedLink";
 import { BOOKING_URL, EMAIL, LINKEDIN_URL } from "@/lib/site";
+import { getEssays } from "@/lib/substack";
 
-export default function Contact() {
+export default async function Contact() {
+  const [latest] = await getEssays();
   return (
     <section id="start" className="scroll-mt-20 border-t border-rule px-6 pt-24 pb-20 sm:px-10 sm:pt-28 sm:pb-24">
       <div className="mx-auto max-w-[960px]">
@@ -40,7 +42,7 @@ export default function Contact() {
           </p>
         )}
 
-        <ContactForm />
+        <ContactForm latest={latest ? { title: latest.title, slug: latest.slug } : null} />
 
         <p className="mt-8 text-[13px] text-faint">
           Rather write an email?{" "}
