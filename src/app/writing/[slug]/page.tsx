@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import SubscribeEmbed from "@/components/SubscribeEmbed";
 import { getEssay, getEssays } from "@/lib/substack";
 
 export const revalidate = 3600;
@@ -113,7 +114,14 @@ export default async function EssayPage({ params }: Params) {
                       Read the full essay on Substack
                     </a>
                   </p>
-                  <p className="mt-6 text-[13px] text-faint">
+                  <div className="mt-10">
+                    <p className="label mb-4">Get the next one</p>
+                    <SubscribeEmbed />
+                    <p className="mt-3 text-[12.5px] leading-[1.5] text-faint">
+                      Every other Tuesday. No other email.
+                    </p>
+                  </div>
+                  <p className="mt-8 text-[13px] text-faint">
                     <Link
                       href="/writing"
                       className="border-b border-accent pb-px text-ink transition-colors hover:text-accent"
