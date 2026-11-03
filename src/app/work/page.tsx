@@ -50,8 +50,8 @@ export default function Work() {
             <p className="measure text-base leading-[1.68] text-muted">
               A $2M fintech marketing budget under federal payments regulation, the B2B side of a
               $70M nonprofit, and a $500K services firm selling to enterprise executives. Different
-              money, same problem: production without plumbing. Names are withheld; details and
-              references are available in conversation.
+              budgets, same problem: plenty of marketing activity, no system under it. Names are
+              withheld; details and references are available in conversation.
             </p>
           </div>
         </section>
