@@ -160,15 +160,14 @@ export default function BeforeYouHire() {
             </h1>
             <p className="measure text-[17px] leading-[1.62] text-muted">
               Your next marketing leader should inherit a system, not build
-              one. The search takes months. In that window I run a two-week
-              Diagnostic that defines what the role runs, sets up the AI stack
-              compliantly, and writes the ninety-day plan your hire walks into
-              on day one.
+              one. While you search, I run a two-week Diagnostic that defines
+              the role, sets up the AI stack compliantly, and writes the
+              ninety-day plan. Your hire walks into it on day one.
             </p>
             <p className="measure mt-4 text-[17px] leading-[1.62] text-muted">
-              The hire still happens. It just lands on something, and the
-              leader you pay for gets to strategy, the board, the people, and
-              the forecast in their first month instead of their fourth.
+              The hire still happens. They just start with the function
+              already built, so their first month goes to strategy, the
+              board, the team, and the forecast instead of the CRM.
             </p>
             <div className="mt-9 flex flex-wrap items-center gap-x-7 gap-y-4">
               <a href="/#start" className="rounded-sm bg-ink px-[22px] py-[13px] text-sm font-medium text-bg transition-colors hover:bg-accent">
@@ -262,11 +261,10 @@ export default function BeforeYouHire() {
                 ))}
               </div>
               <p className="measure mt-8 text-[15px] leading-[1.7] text-muted">
-                That is the job you&apos;re paying a leader&apos;s salary for:
-                strategy, the board, the people, the forecast. A function in
-                place gets them to it in their first month instead of their
-                fourth. Onboarding stops being a quarter of infrastructure
-                and becomes a week of reading what&apos;s already there.
+                That is what you&apos;re paying a leader for: strategy, the
+                board, the team, the forecast. Build the function before
+                they start and they get to it in month one instead of month
+                four.
               </p>
             </div>
           </div>
