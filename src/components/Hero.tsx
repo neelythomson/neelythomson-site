@@ -26,12 +26,6 @@ const proof = [
     s: "Same nonprofit, same engine",
     href: "/work/nonprofit-partnerships",
   },
-  {
-    v: "400+",
-    l: "sales reps on an enablement platform I launched",
-    s: "Enterprise collaboration software",
-    href: "/about",
-  },
 ];
 
 export default function Hero() {
@@ -98,7 +92,7 @@ export default function Hero() {
               All case studies &rarr;
             </a>
           </div>
-          <div className="grid gap-9 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+          <div className="grid gap-9 sm:grid-cols-2 lg:grid-cols-4">
             {proof.map((p) => (
               <a
                 key={p.l}
