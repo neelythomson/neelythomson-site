@@ -6,7 +6,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 
 const TITLE = "About Neely Thomson: Fractional CMO for Regulated B2B Software";
 const DESCRIPTION =
-  "Neely Thomson is a fractional CMO for regulated industries: fintech, healthtech, edtech and govtech. Twenty years in B2B SaaS and fintech marketing, most recently four years leading marketing at a fintech payments company under NACHA and CFPB. She rebuilds marketing functions to be AI-native and compliant, and hands them to the client's own team to run.";
+  "Neely Thomson is a fractional CMO in Atlanta for B2B software companies that sell into regulated buyers. Twenty years running B2B marketing in-house, the last four as Head of Marketing at a fintech payments company under NACHA and CFPB. She rebuilds the marketing function around AI, gets it through legal review, and trains the team to run it.";
 const URL = "https://neelythomson.com/about";
 
 export const metadata: Metadata = {
@@ -39,42 +39,42 @@ const track = [
   {
     k: "2020 – present",
     v: "Independent",
-    r: "Fractional CMO for regulated B2B software. Companies selling into fintech, healthtech, edtech and government buyers.",
+    r: "Fractional CMO for regulated B2B software.",
   },
   {
     k: "2022 – 2026",
     v: "B2B fintech payments",
-    r: "Head of Marketing. Led a company-wide AI marketing transformation, served as interim sales leader, and helped execute the sale when the company was acquired.",
+    r: "Head of Marketing. Led the AI marketing rebuild, served as interim sales leader, helped execute the sale.",
   },
   {
     k: "2018 – 2022",
     v: "National nonprofit",
-    r: "Director of B2B Engagement inside a $70M marketing organization, on the corporate partnerships side.",
+    r: "Director of B2B Engagement, corporate partnerships, inside a $70M marketing organization.",
   },
   {
     k: "2014 – 2016",
     v: "Enterprise collaboration software",
-    r: "Senior Sales Enablement Marketing Manager. The first job where the marketing to sales handshake was the whole problem.",
+    r: "Senior Sales Enablement Marketing Manager.",
   },
   {
     k: "2013 – 2014",
     v: "B2B marketing automation software",
-    r: "Marketing Manager. Learned the plumbing from inside the tools that do it.",
+    r: "Marketing Manager.",
   },
 ];
 
 const beliefs = [
   {
-    t: "Plumbing over production",
-    b: "AI made content cheap. It did not make routing, scoring, attribution or a weekly decision cadence cheap, and those are what turn work into pipeline. Most marketing help still sells harder into the half that got commoditized.",
+    t: "The plumbing matters more than the content",
+    b: "AI made content cheap. Routing, scoring, attribution and a weekly decision cadence are what turn it into pipeline.",
   },
   {
-    t: "Build it so your team runs it",
-    b: "A fixed scope and a fixed end date for the build. I train one named person on the client's team to run the function while I build it, so nothing depends on me being in the room. Whether I stay in an advisory seat after that is their call.",
+    t: "Your team runs it",
+    b: "Fixed scope, fixed end date. One person on your side learns each system as I build it. Whether I stay on afterward is your call.",
   },
   {
-    t: "Compliance is architecture",
-    b: "Legal reading your landing page is not friction to route around. Review states, approval routing and claim substantiation belong inside the workflow, which is what makes marketing move faster in a regulated company, not slower.",
+    t: "Compliance is part of the build",
+    b: "Review, approval routing and claim substantiation go inside the workflow. That is what makes marketing faster in a regulated company, not slower.",
   },
 ];
 
@@ -90,20 +90,23 @@ export default function About() {
             <div>
             <p className="label mb-8">About</p>
             <h1 className="display mb-8 max-w-[17ch] text-[clamp(2.3rem,5vw,4rem)]">
-              I spent my career on the inside. Now I build the part that stays.
+              I ran B2B marketing in-house for twenty years. Now I rebuild it for other companies.
             </h1>
             <p className="measure text-base leading-[1.68] text-muted">
-              I am Neely Thomson, a fractional CMO for regulated B2B software, based in Atlanta. I
-              rebuild marketing functions for companies selling into fintech, healthtech, edtech
-              and government buyers: AI-native, compliant, and run by the client&apos;s own team.
+              I&apos;m Neely Thomson, a fractional CMO in Atlanta. I work with B2B software
+              companies that sell into regulated buyers: fintech, edtech, healthtech, govtech.
             </p>
             <p className="measure mt-4 text-base leading-[1.68] text-muted">
-              Twenty years in B2B SaaS and fintech marketing. Four of them most recently as Head
-              of Marketing at a B2B fintech payments company, where I led a company-wide AI
-              marketing transformation, stepped in as interim sales leader, and helped execute the
-              sale when the company was acquired. Before that, the B2B side of a $70M nonprofit
-              marketing organization, and before that, sales enablement and marketing automation,
-              which is where I learned what the plumbing actually is.
+              The last four of those twenty years were as Head of Marketing at a fintech payments
+              company that was acquired in 2026. We built AI into how marketing ran there, under
+              NACHA and CFPB, with legal inside the workflow. It took 60% of the manual work out
+              of campaigns. I also spent a stretch as interim sales leader, which is where I
+              learned how the marketing to sales handoff breaks.
+            </p>
+            <p className="measure mt-4 text-base leading-[1.68] text-muted">
+              Now I do that for other companies: rebuild the marketing function around AI, get it
+              through legal review, and train the team to run it. I&apos;m always trying to work
+              myself out of a job.
             </p>
             </div>
             <figure className="max-w-[280px] md:max-w-none md:pt-14">
@@ -147,10 +150,7 @@ export default function About() {
 
         <section className="border-t border-rule px-6 pt-20 pb-20 sm:px-10 sm:pt-24 sm:pb-24">
           <div className="mx-auto max-w-[960px]">
-            <p className="label mb-8">What I believe about this work</p>
-            <h2 className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)]">
-              Three things I would say on any first call.
-            </h2>
+            <p className="label mb-8">How I work</p>
             <div className="mt-10 grid gap-x-12 gap-y-9 md:grid-cols-3">
               {beliefs.map((b) => (
                 <div key={b.t} className="border-t border-rule pt-5">
@@ -160,15 +160,15 @@ export default function About() {
               ))}
             </div>
             <p className="mt-11 border-t border-rule pt-7 text-[15px] leading-[1.7] text-muted">
-              The full definition of the thing I build is on{" "}
+              The full definition is on{" "}
               <a href="/marketing-engine" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
                 the marketing engine page
               </a>
-              , and three engagements are written up in{" "}
+              . Three engagements are written up under{" "}
               <a href="/work" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
-                the case studies
+                Work
               </a>
-              , with the client names withheld.
+              , names withheld.
             </p>
           </div>
         </section>
@@ -179,9 +179,8 @@ export default function About() {
               <p className="label">Elsewhere</p>
               <div className="max-w-[62ch]">
                 <p className="text-[15px] leading-[1.7] text-muted">
-                  Every other Tuesday I publish an essay about what building a marketing engine
-                  looks like from the inside: what I saw, what I decided, what the scoreboard said.
-                  Names changed, numbers real.
+                  I write on Substack about building marketing engines from the inside. Names
+                  changed, numbers real.
                 </p>
                 <ul className="mt-6">
                   <li className="border-t border-rule py-3 text-[14px] text-muted">
@@ -205,13 +204,13 @@ export default function About() {
                     >
                       LinkedIn
                     </a>{" "}
-                    for the full history and to send a note
+                    for the full history, or to send a note
                   </li>
                   <li className="border-t border-rule py-3 text-[14px] text-muted">
                     <a href="mailto:hello@neelythomson.com" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
                       hello@neelythomson.com
                     </a>{" "}
-                    if a form is the wrong shape for what you want to ask
+                    if you&apos;d rather write
                   </li>
                 </ul>
               </div>
@@ -226,8 +225,7 @@ export default function About() {
               Two weeks, $7,500, and you&apos;ll know what&apos;s broken.
             </h2>
             <p className="measure text-base leading-[1.68] text-muted">
-              Everything starts with the same audit. Two weeks, a fixed fee, and a written plan at
-              the end of it, yours either way.
+              Two weeks, a fixed fee, and a written plan at the end of it, yours either way.
             </p>
             <a
               href="/#start"
