@@ -8,6 +8,7 @@ export type EventName =
   | "form_submit"
   | "form_error"
   | "case_study_pdf"
+  | "scorecard_pdf"
   | "email_click"
   | "linkedin_click";
 
