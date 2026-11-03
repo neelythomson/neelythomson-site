@@ -17,12 +17,8 @@ const FIELDS = {
   name: { label: "Name", max: 120, required: true },
   email: { label: "Work email", max: 200, required: true },
   company: { label: "Company", max: 160, required: true },
-  companySize: { label: "Company size", max: 60, required: true },
-  engagement: { label: "Looking for", max: 100, required: true },
-  operator: { label: "Who owns marketing after", max: 120, required: true },
-  timeline: { label: "Timeline", max: 80, required: true },
   source: { label: "How they found me", max: 120, required: false },
-  notes: { label: "Anything else", max: 4000, required: false },
+  notes: { label: "What's going on", max: 4000, required: true },
 } as const;
 
 type FieldKey = keyof typeof FIELDS;
@@ -113,21 +109,17 @@ export async function POST(request: Request) {
     ["Name", clean.name],
     ["Email", clean.email],
     ["Company", clean.company],
-    ["Company size", clean.companySize],
-    ["Looking for", clean.engagement],
-    ["Owns marketing after", clean.operator],
-    ["Timeline", clean.timeline],
     ["How they found me", clean.source || "Not answered"],
   ];
 
   const text =
     rows.map(([k, v]) => `${k}: ${v}`).join("\n") +
-    (clean.notes ? `\n\nAnything else:\n${clean.notes}` : "");
+    `\n\nWhat's going on:\n${clean.notes}`;
 
   const html = `
     <div style="font-family:-apple-system,Segoe UI,Inter,sans-serif;font-size:15px;color:#1a1721;line-height:1.6">
       <p style="margin:0 0 4px;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#6d28d9">New enquiry</p>
-      <h2 style="margin:0 0 18px;font-size:20px">${escapeHtml(clean.company)} &mdash; ${escapeHtml(clean.engagement)}</h2>
+      <h2 style="margin:0 0 18px;font-size:20px">${escapeHtml(clean.company)}</h2>
       <table cellpadding="0" cellspacing="0" style="border-collapse:collapse">
         ${rows
           .map(
@@ -136,11 +128,7 @@ export async function POST(request: Request) {
           )
           .join("")}
       </table>
-      ${
-        clean.notes
-          ? `<p style="margin:20px 0 6px;color:#6e6779">Anything else</p><p style="margin:0;padding:14px 16px;background:#f3f1f5;border-radius:6px;white-space:pre-wrap">${escapeHtml(clean.notes)}</p>`
-          : ""
-      }
+      <p style="margin:20px 0 6px;color:#6e6779">What's going on</p><p style="margin:0;padding:14px 16px;background:#f3f1f5;border-radius:6px;white-space:pre-wrap">${escapeHtml(clean.notes)}</p>
       <p style="margin:24px 0 0;font-size:13px;color:#918aa0">Reply to this email to answer ${escapeHtml(clean.name)} directly.</p>
     </div>`;
 
@@ -155,7 +143,7 @@ export async function POST(request: Request) {
         from: `neelythomson.com enquiries <${FROM_EMAIL}>`,
         to: TO_EMAILS,
         reply_to: clean.email,
-        subject: `${clean.company} (${clean.companySize}): ${clean.engagement}`,
+        subject: `New enquiry: ${clean.company}`,
         text,
         html,
       }),
