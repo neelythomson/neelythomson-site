@@ -51,7 +51,7 @@ const jsonLd = {
           name: "What is a marketing diagnostic?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "A marketing diagnostic is a short, fixed-scope audit of a company's marketing stack, funnel data, processes, and team, ending in a written set of findings ranked by impact on pipeline and a scoped proposal for what to fix first. Mine takes two weeks, costs $7,500, and is credited in full toward the build that follows.",
+            text: "A two-week audit of a company's marketing stack, funnel data, processes and team. It ends in a findings document ranked by impact on pipeline, a board one-pager, and a scoped, priced proposal for what to build first. $7,500, credited in full toward the build.",
           },
         },
         {
@@ -175,17 +175,15 @@ export default function Diagnostic() {
               Two weeks, and you&apos;ll know what&apos;s broken.
             </h1>
             <p className="measure text-[17px] leading-[1.62] text-muted">
-              A marketing diagnostic is a short, fixed-scope audit of your
-              marketing stack, funnel data, processes, and team. It ends in a
-              written set of findings ranked by impact on pipeline, a one-pager
-              for your board, and a scoped, priced proposal for what to build
-              first. Mine takes ten business days, costs $7,500, and is credited
-              in full toward the build that follows.
+              The Diagnostic is a two-week audit of your marketing stack, funnel
+              data, processes and team. You get a findings document ranked by
+              impact on pipeline, a one-pager for your board, and a scoped,
+              priced proposal for what to build first. $7,500, credited in full
+              toward the build.
             </p>
             <p className="measure mt-4 text-[17px] leading-[1.62] text-muted">
-              It exists because nobody should quote a ninety-day build before
-              looking under the hood. It is designed so you can stop at the end
-              of it and keep the plan.
+              I don&apos;t quote a ninety-day build before I&apos;ve looked.
+              You can stop at the end of the two weeks and keep the plan.
             </p>
             <div className="mt-9 flex flex-wrap items-center gap-x-7 gap-y-4">
               <a href="/#start" className="rounded-sm bg-ink px-[22px] py-[13px] text-sm font-medium text-bg transition-colors hover:bg-accent">
@@ -264,7 +262,7 @@ export default function Diagnostic() {
 
         <section className="bg-ink px-6 pt-24 pb-20 text-band sm:px-10 sm:pt-28 sm:pb-24">
           <div className="mx-auto max-w-[960px]">
-            <p className="label mb-8 text-white/55">Terms</p>
+            <p className="label mb-8 text-white/70">Terms</p>
             <h2 className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)] text-white">
               The whole agreement fits on this screen.
             </h2>
@@ -277,7 +275,7 @@ export default function Diagnostic() {
               ))}
             </div>
             <div className="mt-12 border-t border-white/20 pt-7">
-              <p className="label mb-4 text-white/55">Not included</p>
+              <p className="label mb-4 text-white/70">Not included</p>
               <ul className="max-w-[70ch] sm:columns-2 sm:gap-x-11">
                 {excluded.map((x) => (
                   <li key={x} className="relative break-inside-avoid py-1.5 pl-4 text-[13.5px] leading-[1.5] text-white/60">
@@ -304,7 +302,7 @@ export default function Diagnostic() {
               , the $7,500 comes off the price and the build starts the week
               after. If we don&apos;t, the findings, the one-pager, and the
               proposal are yours, and you&apos;re free to hand them to anyone
-              you like. Some people do exactly that.
+              you like.
             </p>
             <div className="mt-9 flex flex-wrap items-center gap-x-7 gap-y-4">
               <a href="/#start" className="rounded-sm bg-ink px-[22px] py-[13px] text-sm font-medium text-bg transition-colors hover:bg-accent">
