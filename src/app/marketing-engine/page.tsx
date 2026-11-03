@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import Phases from "@/components/Phases";
+import Keeps from "@/components/Keeps";
 
 const TITLE = "What Is a Marketing Engine? The Three Layers, Defined";
 const DESCRIPTION =
@@ -223,7 +225,7 @@ export default function MarketingEngine() {
 
         <section className="bg-ink px-6 pt-24 pb-20 text-band sm:px-10 sm:pt-28 sm:pb-24">
           <div className="mx-auto max-w-[960px]">
-            <p className="label mb-8 text-white/55">Three terms</p>
+            <p className="label mb-8 text-white/70">Three terms</p>
             <h2 className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)] text-white">
               The vocabulary, defined once.
             </h2>
@@ -244,6 +246,9 @@ export default function MarketingEngine() {
             </div>
           </div>
         </section>
+
+        <Phases />
+        <Keeps />
 
         <section className="border-t border-rule px-6 pt-24 pb-20 sm:px-10 sm:pt-28 sm:pb-24">
           <div className="mx-auto max-w-[960px]">
