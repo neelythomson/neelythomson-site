@@ -19,10 +19,10 @@ const sections: { h: string; p: string[] }[] = [
   {
     h: "What the site collects",
     p: [
-      "The Diagnostic form. If you fill it in, you give me your name, work email, company, company size, what you are looking for, who would run marketing afterward, a timeline, and optionally how you found me and a note. That is everything the form collects, and it only collects it when you press send.",
-      "Analytics. The site uses Vercel Web Analytics, which counts page views without cookies and without storing anything that identifies you. It records the page, the referring site, the country, the device type, and any campaign tags in the link you arrived on. Your IP address is used to derive the country and is not stored.",
+      "The form. If you fill it in, you give me your name, work email, company, a note about what is going on, and optionally how you found me. That is everything the form collects, and it only collects it when you press send.",
+      "Analytics. The site uses Vercel Web Analytics, which counts page views without cookies, and Google Analytics, which records the pages you visit and which buttons you click (for example, sending the form or opening the booking page). Google Analytics sets a cookie to tell one visit from another. Advertising features and ad personalization are turned off. I use it to see which pages lead to a conversation, nothing else.",
       "Server logs. Vercel, which hosts the site, keeps standard request logs (the page requested, the time, and the IP address) for a short period for security and reliability.",
-      "Cookies. The site itself sets none. The Writing page embeds my Substack, and that embed is served by Substack under its own privacy policy.",
+      "Cookies. Google Analytics sets its own cookie, described above. The site sets no others. The Writing page embeds my Substack, and that embed is served by Substack under its own privacy policy.",
     ],
   },
   {
@@ -35,7 +35,7 @@ const sections: { h: string; p: string[] }[] = [
   {
     h: "Who handles the data",
     p: [
-      "Vercel hosts the site and provides the analytics. Resend delivers the form notification and your confirmation email. Google Workspace holds my mailbox. Google Fonts serves the two typefaces on the site, which means Google receives a request from your browser when a page loads. Each of these companies has its own privacy policy and handles data on my behalf, not for its own use.",
+      "Vercel hosts the site and provides one set of analytics; Google provides the other. Resend delivers the form notification and your confirmation email. Google Workspace holds my mailbox and the booking calendar. Each of these companies has its own privacy policy and handles data on my behalf, not for its own use.",
     ],
   },
   {
@@ -54,7 +54,7 @@ const sections: { h: string; p: string[] }[] = [
   {
     h: "Changes",
     p: [
-      "If this page changes in a way that matters, the date below moves and the change is described here. This version is effective September 2, 2026.",
+      "If this page changes in a way that matters, the date below moves and the change is described here. This version is effective November 3, 2026.",
     ],
   },
 ];
@@ -72,8 +72,9 @@ export default function Privacy() {
             </h1>
             <p className="measure text-base leading-[1.68] text-muted">
               Short version: the only personal information this site collects is
-              what you type into the Diagnostic form, it goes to my inbox and
-              nowhere else, and the analytics are cookieless.
+              what you type into the form, it goes to my inbox and nowhere
+              else, and the analytics are there to count visits and clicks,
+              not to follow you around.
             </p>
 
             <div className="mt-12">
