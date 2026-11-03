@@ -172,11 +172,12 @@ export async function POST(request: Request) {
   if (FROM_IS_VERIFIED_DOMAIN) {
     const firstName = clean.name.split(/\s+/)[0] || "there";
     const latest = await getEssays().then((e) => e[0]).catch(() => undefined);
+    const titleEnd = latest && /[.?!]$/.test(latest.title) ? "" : ".";
     const latestText = latest
       ? `While you wait, the latest essay is "${latest.title}": https://neelythomson.com/writing/${latest.slug}. I write one every other Tuesday; you can subscribe at https://neelythomson.substack.com/subscribe.`
       : "While you wait, the essays are at https://neelythomson.com/writing. I write one every other Tuesday; you can subscribe at https://neelythomson.substack.com/subscribe.";
     const latestHtml = latest
-      ? `While you wait, the latest essay is <a href="https://neelythomson.com/writing/${escapeHtml(latest.slug)}" style="color:#b33a24">${escapeHtml(latest.title)}</a>. I write one every other Tuesday; you can <a href="https://neelythomson.substack.com/subscribe" style="color:#b33a24">subscribe on Substack</a>.`
+      ? `While you wait, the latest essay is <a href="https://neelythomson.com/writing/${escapeHtml(latest.slug)}" style="color:#b33a24">${escapeHtml(latest.title)}</a>${titleEnd} I write one every other Tuesday; you can <a href="https://neelythomson.substack.com/subscribe" style="color:#b33a24">subscribe on Substack</a>.`
       : `While you wait, the essays are at <a href="https://neelythomson.com/writing" style="color:#b33a24">neelythomson.com/writing</a>. I write one every other Tuesday; you can <a href="https://neelythomson.substack.com/subscribe" style="color:#b33a24">subscribe on Substack</a>.`;
     const confirmText = [
       `Hi ${firstName},`,
