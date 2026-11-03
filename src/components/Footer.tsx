@@ -1,3 +1,5 @@
+import TrackedLink from "@/components/TrackedLink";
+
 export default function Footer() {
   return (
     <div className="mx-auto max-w-[960px] px-6 sm:px-10">
@@ -30,14 +32,16 @@ export default function Footer() {
         <a href="/writing" className="transition-colors hover:text-accent">
           Writing
         </a>
-        <a
+        <TrackedLink
+          event="linkedin_click"
+          place="footer"
           href="https://www.linkedin.com/in/neelythomson"
           target="_blank"
           rel="noopener noreferrer"
           className="transition-colors hover:text-accent"
         >
           LinkedIn
-        </a>
+        </TrackedLink>
         <a href="/privacy" className="transition-colors hover:text-accent">
           Privacy
         </a>
