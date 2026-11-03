@@ -7,7 +7,7 @@ import Keeps from "@/components/Keeps";
 
 const TITLE = "What Is a Marketing Engine? The Three Layers, Defined";
 const DESCRIPTION =
-  "A marketing engine is the system under your marketing that decides what gets made, for whom, and whether it worked. Three layers, three terms, and a five-question test.";
+  "What a marketing engine is, the three layers it is made of, and a five-question test to see if you have one. By a fractional CMO who builds them in ninety days and hands them to your team.";
 const URL = "https://neelythomson.com/marketing-engine";
 
 export const metadata: Metadata = {
@@ -54,12 +54,12 @@ const layers = [
 const terms: { t: string; d: string; more?: { href: string; text: string } }[] = [
   {
     t: "Plumbing over production",
-    d: "The routing, scoring, and attribution that decide whether anything you make turns into pipeline. AI made production cheap. That is exactly what made the plumbing scarce, and the plumbing is where a marketing leader's judgment now goes.",
+    d: "The routing, scoring, and attribution that decide whether anything you make turns into pipeline. AI made production cheap, which made the plumbing the scarce part.",
     more: { href: "/writing/ai-made-content-free-it-made-the", text: "The essay: AI made content free. It made the plumbing worth ten times more." },
   },
   {
     t: "Build, then hand over",
-    d: "A build with a fixed scope and a fixed end date. The systems are built in the client's own tools, documented, and run by a named person on the client's team before the build ends. Whether the consultant stays in an advisory seat afterward is the client's choice, not a condition of the work.",
+    d: "A build with a fixed scope and a fixed end date. The systems are built in the client's own tools, documented, and run by a named person on the client's team before the build ends. Whether I stay on afterward is the client's choice.",
   },
   {
     t: "The engine becomes a screenshot",
@@ -227,7 +227,7 @@ export default function MarketingEngine() {
           <div className="mx-auto max-w-[960px]">
             <p className="label mb-8 text-white/70">Three terms</p>
             <h2 className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)] text-white">
-              The vocabulary, defined once.
+              Three terms I use.
             </h2>
             <div className="mt-11">
               {terms.map((t, i) => (
@@ -288,7 +288,7 @@ export default function MarketingEngine() {
           <div className="mx-auto max-w-[960px]">
             <p className="label mb-8">Built, not described</p>
             <h2 className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)]">
-              I rebuild the function. Your team runs it.
+              I build these. Your team runs them.
             </h2>
             <p className="measure text-base leading-[1.68] text-muted">
               Three engines are written up, names withheld, at{" "}
