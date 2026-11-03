@@ -7,6 +7,7 @@ import Packages from "@/components/Packages";
 import Testimonials from "@/components/Testimonials";
 import Fit from "@/components/Fit";
 import About from "@/components/About";
+import LatestEssay from "@/components/LatestEssay";
 import Contact from "@/components/Contact";
 import StickyCta from "@/components/StickyCta";
 import Footer from "@/components/Footer";
@@ -24,6 +25,7 @@ export default function Home() {
         <Testimonials />
         <Fit />
         <About />
+        <LatestEssay />
         <Contact />
       </main>
       <StickyCta />
