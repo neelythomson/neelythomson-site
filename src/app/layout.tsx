@@ -23,7 +23,7 @@ import "./globals.css";
 
 const TITLE = "Neely Thomson | Fractional CMO for Regulated B2B Software";
 const DESCRIPTION =
-  "I build marketing functions for B2B software startups, then hand them to the person who runs them. Before your first marketing hire: the First Hire Plan. After it: a two-week Diagnostic, $7,500, then the Marketing Engine. Fintech, healthtech, edtech, govtech.";
+  "I build marketing functions for B2B software startups, then hand them to the person who runs them. Before your first marketing hire: the First Hire Plan. After it: a two-week Diagnostic, then the Marketing Engine. Fintech, healthtech, edtech, govtech.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -132,8 +132,6 @@ const jsonLd = {
         {
           "@type": "Offer",
           name: "The Diagnostic",
-          price: "7500",
-          priceCurrency: "USD",
           url: "https://neelythomson.com/diagnostic",
           description:
             "Two-week audit of the marketing stack, funnel economics by business unit, and team. Deliverables: a findings document covering what AI should cover, what stays human and what the function costs against today, ranked by pipeline impact; a board one-pager; and a priced proposal for the build. Credited in full toward The Marketing Engine.",

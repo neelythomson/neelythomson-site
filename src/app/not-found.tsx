@@ -6,7 +6,7 @@ export const metadata = { title: "Page not found" };
 const links = [
   { h: "/", t: "The homepage", b: "The whole offer on one page." },
   { h: "/work", t: "Work", b: "Three engines, written up with names withheld." },
-  { h: "/diagnostic", t: "The Diagnostic", b: "Two weeks, $7,500, and you'll know what's broken." },
+  { h: "/diagnostic", t: "The Diagnostic", b: "Two weeks, and you'll know what's broken." },
   { h: "/faq", t: "FAQ", b: "Everything people ask before the first call." },
 ];
 
