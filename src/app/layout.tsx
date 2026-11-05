@@ -23,7 +23,7 @@ import "./globals.css";
 
 const TITLE = "Neely Thomson | Fractional CMO for Regulated B2B Software";
 const DESCRIPTION =
-  "I rebuild marketing functions for regulated B2B software: AI-native, compliant, and run by your team. Fintech, edtech, healthtech, govtech. Start with a two-week Diagnostic, $7,500.";
+  "I build marketing functions for B2B software startups, then hand them to the person who runs them. Before your first marketing hire: the First Hire Plan. After it: a two-week Diagnostic, $7,500, then the Marketing Engine. Fintech, healthtech, edtech, govtech.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: TITLE,
     description:
-      "Fractional CMO for regulated B2B software. I rebuild the marketing function: AI-native, compliant, and run by your team. Starts with a two-week Diagnostic, $7,500.",
+      "I build marketing functions for B2B software startups, then hand them to the person who runs them. Before your first marketing hire, or after it. Most of my work is in regulated software: fintech, healthtech, edtech, govtech.",
     url: "https://neelythomson.com",
     siteName: "Neely Thomson",
     locale: "en_US",
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: TITLE,
     description:
-      "Fractional CMO for regulated B2B software. I rebuild marketing functions: AI-native, compliant, and run by your team.",
+      "I build marketing functions for B2B software startups, then hand them to the person who runs them.",
     creator: "@neelythomson",
   },
   robots: {
