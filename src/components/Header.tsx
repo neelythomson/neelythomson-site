@@ -90,7 +90,7 @@ export default function Header() {
                 href="/#start"
                 className="text-[13px] font-medium text-accent transition-opacity hover:opacity-70"
               >
-                Start a Diagnostic
+                Start the conversation
               </a>
             </li>
           </ul>
@@ -112,7 +112,7 @@ export default function Header() {
       {menuOpen && (
         <div className="border-b border-rule bg-bg md:hidden">
           <ul className="mx-auto flex max-w-[960px] flex-col gap-4 px-6 py-5 sm:px-10">
-            {[...navLinks, { label: "Start a Diagnostic", href: "/#start" }].map((link) => (
+            {[...navLinks, { label: "Start the conversation", href: "/#start" }].map((link) => (
               <li key={link.href}>
                 <a
                   href={link.href}
