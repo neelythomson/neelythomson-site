@@ -101,7 +101,7 @@ const faq = [
   },
   {
     q: "What does a fractional CMO for a credit union cost compared with an agency retainer?",
-    a: "Fractional CMO retainers in the US run $10,000 to $12,000 a month, usually with a three to six month minimum. An agency retainer for a mid-sized credit union often costs the same and produces campaigns, not systems. I work differently: a two-week Diagnostic for $7,500, the only price I publish, then a ninety-day build with a fixed scope and a fixed end date. The proposal shows that price next to the retainer and full-time options so you can compare them.",
+    a: "Fractional CMO retainers in the US run $10,000 to $12,000 a month, usually with a three to six month minimum. An agency retainer for a mid-sized credit union often costs the same and produces campaigns, not systems. I work differently: a two-week Diagnostic at a fixed fee, then a ninety-day build with a fixed scope and a fixed end date. The proposal shows that price next to the retainer and full-time options so you can compare them.",
   },
   {
     q: "How does the engagement process work?",
@@ -146,8 +146,6 @@ const jsonLd = {
       offers: {
         "@type": "Offer",
         name: "Marketing Diagnostic",
-        price: "7500",
-        priceCurrency: "USD",
         url: "https://neelythomson.com/diagnostic",
       },
     },
@@ -327,7 +325,7 @@ export default function FractionalCMOCreditUnions() {
           <div className="mx-auto max-w-[960px]">
             <p className="label mb-8">Start here</p>
             <h2 className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)]">
-              Two weeks, $7,500, and you&apos;ll know what&apos;s broken.
+              Two weeks, and you&apos;ll know what&apos;s broken.
             </h2>
             <p className="measure text-base leading-[1.68] text-muted">
               The Diagnostic audits your stack, your funnel economics by line of
