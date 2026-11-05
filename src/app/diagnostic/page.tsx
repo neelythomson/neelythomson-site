@@ -3,7 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
-const TITLE = "The Marketing Diagnostic: A Two-Week B2B Marketing Audit, $7,500";
+const TITLE = "The Marketing Diagnostic: A Two-Week B2B Marketing Audit";
 const DESCRIPTION =
   "A two-week, fixed-fee audit of a B2B company's marketing stack, funnel, and team. You get a findings document, a board one-pager, and a priced proposal for what to build first.";
 const URL = "https://neelythomson.com/diagnostic";
@@ -36,9 +36,7 @@ const jsonLd = {
       description: DESCRIPTION,
       offers: {
         "@type": "Offer",
-        price: "7500",
-        priceCurrency: "USD",
-        url: URL,
+                url: URL,
         description: "Two weeks, fixed fee, invoiced at signature. Credited in full toward The Marketing Engine if the build is signed within 30 days of the readout.",
       },
     },
@@ -51,7 +49,7 @@ const jsonLd = {
           name: "What is a marketing diagnostic?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "A two-week audit of a company's marketing stack, funnel data, processes and team. It ends in a findings document ranked by impact on pipeline, a board one-pager, and a scoped, priced proposal for what to build first. $7,500, credited in full toward the build.",
+            text: "A two-week audit of a company's marketing stack, funnel data, processes and team. It ends in a findings document ranked by impact on pipeline, a board one-pager, and a scoped, priced proposal for what to build first. Fixed fee, credited in full toward the build.",
           },
         },
         {
@@ -59,7 +57,7 @@ const jsonLd = {
           name: "How much does a B2B marketing audit cost?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The Diagnostic is $7,500, fixed, invoiced at signature and payable net 15. No expenses are anticipated. The fee is credited in full toward The Marketing Engine if that build is signed within 30 days of the readout.",
+            text: "The Diagnostic is a fixed fee, quoted on the first call, invoiced at signature and payable net 15. No expenses are anticipated. The fee is credited in full toward The Marketing Engine if that build is signed within 30 days of the readout.",
           },
         },
         {
@@ -145,7 +143,7 @@ const needs = [
 ];
 
 const terms = [
-  { k: "Fee", v: "$7,500, fixed. Invoiced at signature, payable net 15. No expenses anticipated." },
+  { k: "Fee", v: "Fixed, quoted on the first call. Invoiced at signature, payable net 15. No expenses anticipated." },
   { k: "Credit", v: "The full fee is credited toward The Marketing Engine if that build is signed within 30 days of the readout." },
   { k: "Timeline", v: "Ten business days from kickoff. If access or interviews slip past day 3, the timeline moves with them and the fee does not change." },
   { k: "Data", v: "Your customer data stays in your systems. Nothing goes into a third-party AI tool without your written approval of the tool and its data terms." },
@@ -170,7 +168,7 @@ export default function Diagnostic() {
       <main>
         <section className="px-6 pt-24 pb-20 sm:px-10 sm:pt-28 sm:pb-24">
           <div className="mx-auto max-w-[960px]">
-            <p className="label mb-8">The Diagnostic · Two weeks · $7,500</p>
+            <p className="label mb-8">The Diagnostic · Two weeks</p>
             <h1 className="display mb-8 max-w-[16ch] text-[clamp(2.2rem,4.8vw,3.8rem)]">
               Two weeks, and you&apos;ll know what&apos;s broken.
             </h1>
@@ -178,7 +176,7 @@ export default function Diagnostic() {
               The Diagnostic is a two-week audit of your marketing stack, funnel
               data, processes and team. You get a findings document ranked by
               impact on pipeline, a one-pager for your board, and a scoped,
-              priced proposal for what to build first. $7,500, credited in full
+              priced proposal for what to build first. Fixed fee, credited in full
               toward the build.
             </p>
             <p className="measure mt-4 text-[17px] leading-[1.62] text-muted">
@@ -299,7 +297,7 @@ export default function Diagnostic() {
               <a href="/#packages" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
                 The Marketing Engine
               </a>
-              , the $7,500 comes off the price and the build starts the week
+              , the Diagnostic fee comes off the price and the build starts the week
               after. If we don&apos;t, the findings, the one-pager, and the
               proposal are yours, and you&apos;re free to hand them to anyone
               you like.
