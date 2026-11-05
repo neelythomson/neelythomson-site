@@ -5,7 +5,8 @@ export default function Situation() {
         <p className="label mb-8">The situation</p>
 
         <h2 className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)]">
-          You have marketing. You don&apos;t have a marketing system.
+          You have marketing, or you&apos;re about to hire for it. Either way,
+          you don&apos;t have a marketing system.
         </h2>
 
         <p className="measure text-base leading-[1.68] text-muted">
@@ -16,9 +17,9 @@ export default function Situation() {
         </p>
         <p className="measure mt-4 text-base leading-[1.68] text-muted">
           That&apos;s the gap I close. It usually shows up as one of three
-          things: the Head of Marketing role is open and you don&apos;t know
-          what to hire for, headcount is flat and the board wants more
-          pipeline, or you bought AI tools and nothing changed.
+          things: you&apos;re about to make your first marketing hire and
+          don&apos;t know what to hire for, headcount is flat and the board
+          wants more pipeline, or you bought AI tools and nothing changed.
         </p>
         <p className="mt-5 text-[13.5px] leading-[1.6] text-faint">
           <span className="label mr-3">Related reading</span>

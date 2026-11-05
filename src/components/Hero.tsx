@@ -34,17 +34,19 @@ export default function Hero() {
       <section className="reveal px-6 pt-24 pb-20 sm:px-10">
         <div className="mx-auto max-w-[960px]">
           <div>
-            <p className="label mb-8">Fractional CMO · Regulated industries</p>
+            <p className="label mb-8">Marketing functions · B2B software startups</p>
 
             <h1 className="display mb-8 max-w-[16ch] text-[clamp(2.9rem,6.6vw,5.4rem)]">
-              I rebuild marketing functions{" "}
-              <em className="font-light italic">for regulated B2B software.</em>
+              I build marketing functions{" "}
+              <em className="font-light italic">for B2B software startups.</em>
             </h1>
 
             <p className="mb-9 max-w-[60ch] text-[17px] leading-[1.62] text-muted">
-              For companies selling to banks, schools, hospitals and government
-              agencies. I rebuild your marketing around AI, get it through legal
-              review, and train your team to run it. Ninety days, fixed price.
+              Then I hand them to the person who runs them. Before your first
+              marketing hire, I design the function: the role, the plan, the
+              budget, the stack, the scoreboard. After it, I rebuild the engine
+              your team runs. Most of my work is in regulated software: fintech,
+              healthtech, edtech, govtech.
             </p>
 
             <div className="flex flex-wrap items-center gap-x-7 gap-y-4">
@@ -54,7 +56,7 @@ export default function Hero() {
                 href="#start"
                 className="rounded-sm bg-ink px-[22px] py-[13px] text-sm font-medium text-bg transition-colors hover:bg-accent"
               >
-                Start with a Diagnostic &nbsp;&rarr;
+                Start the conversation &nbsp;&rarr;
               </TrackedLink>
               {BOOKING_URL ? (
                 <TrackedLink
@@ -69,10 +71,10 @@ export default function Hero() {
                 </TrackedLink>
               ) : (
                 <a
-                  href="#engine"
+                  href="#doors"
                   className="border-b border-accent pb-0.5 text-sm font-medium text-ink transition-colors hover:text-accent"
                 >
-                  How it works
+                  Two ways in
                 </a>
               )}
             </div>
