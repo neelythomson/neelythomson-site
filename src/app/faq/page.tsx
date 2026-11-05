@@ -64,7 +64,7 @@ const groups: Group[] = [
         q: "How much does a fractional CMO cost?",
         a: [
           "Market-rate fractional CMO retainers in the US run $10,000 to $12,000 a month for ten to twenty hours a week, usually with a three to six month minimum. The industry renewal rate is around 84 percent, so most engagements run past a year and the total cost is closer to $120,000 to $144,000 than to a monthly number.",
-          "My engagement is priced differently. It starts with a two-week Diagnostic at $7,500. The ninety-day build that follows is a fixed fee, scoped after the Diagnostic and written into the SOW before anything starts, and the Diagnostic fee is credited in full toward it. There's no retainer and nothing ongoing is required.",
+          "My engagement is priced differently. It starts with a two-week Diagnostic at a fixed fee. The ninety-day build that follows is a fixed fee, scoped after the Diagnostic and written into the SOW before anything starts, and the Diagnostic fee is credited in full toward it. There's no retainer and nothing ongoing is required.",
         ],
         more: { href: "/fractional-cmo-vs-full-time", text: "Fractional CMO vs. full-time: the year-one cost math, side by side" },
       },
@@ -109,8 +109,8 @@ const groups: Group[] = [
       {
         q: "What is the Diagnostic?",
         a: [
-          "The Diagnostic is a two-week, $7,500 audit that starts every engagement. I go through your stack, the funnel and unit economics by business unit, the last ninety days of marketing requests, and up to eight interviews across marketing, sales, and the business owners. Your side commits about six hours of interviews and read-only access to your systems.",
-          "At the end you have three things: a findings document ranked by impact on pipeline, a board one-pager, and a scoped, priced proposal for the build. If we go on to build, the $7,500 comes off the price. If we don't, the findings are yours to run yourself or hand to anyone you like, and some people do exactly that.",
+          "The Diagnostic is a two-week, fixed-fee audit that starts every engagement for a company that already has a marketer. I go through your stack, the funnel and unit economics by business unit, the last ninety days of marketing requests, and up to eight interviews across marketing, sales, and the business owners. Your side commits about six hours of interviews and read-only access to your systems.",
+          "At the end you have three things: a findings document ranked by impact on pipeline, a board one-pager, and a scoped, priced proposal for the build. If we go on to build, the Diagnostic fee comes off the price. If we don't, the findings are yours to run yourself or hand to anyone you like, and some people do exactly that.",
         ],
       },
       {
@@ -245,7 +245,7 @@ const groups: Group[] = [
       {
         q: "How do we start?",
         a: [
-          "Send a short note through the form at neelythomson.com/#start, or message me on LinkedIn. I'll reply with a few questions and, if it looks like a fit, a Diagnostic SOW. The Diagnostic is two weeks and $7,500, and at the end of it you'll know what's broken and what I'd build, in writing.",
+          "Send a short note through the form at neelythomson.com/#start, or message me on LinkedIn. I'll reply with a few questions and, if it looks like a fit, a Diagnostic SOW. The Diagnostic is two weeks, and at the end of it you'll know what's broken and what I'd build, in writing.",
         ],
       },
     ],
@@ -360,7 +360,7 @@ export default function FAQ() {
           <div className="mx-auto max-w-[960px]">
             <p className="label mb-8">Start here</p>
             <h2 className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)]">
-              Two weeks, $7,500, and you&apos;ll know what&apos;s broken.
+              Two weeks, and you&apos;ll know what&apos;s broken.
             </h2>
             <p className="measure text-base leading-[1.68] text-muted">
               The Diagnostic is where almost everything starts.{" "}
