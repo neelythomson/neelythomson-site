@@ -42,11 +42,10 @@ export default function Hero() {
             </h1>
 
             <p className="mb-9 max-w-[60ch] text-[17px] leading-[1.62] text-muted">
-              Then I hand them to the person who runs them. Before your first
-              marketing hire, I design the function: the role, the plan, the
-              budget, the stack, the scoreboard. After it, I rebuild the engine
-              your team runs. Most of my work is in regulated software: fintech,
-              healthtech, edtech, govtech.
+              Whether you&apos;re about to make your first marketing hire or
+              growing the function you have, I make sure you&apos;re building a
+              revenue-generating engine at every step. Most of my work is in
+              regulated software: fintech, healthtech, edtech, govtech.
             </p>
 
             <div className="flex flex-wrap items-center gap-x-7 gap-y-4">
