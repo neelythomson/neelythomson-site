@@ -1,6 +1,6 @@
 # Neely Thomson
 
-> Neely Thomson is a fractional CMO for regulated B2B software (fintech, edtech, healthtech, govtech). She rebuilds marketing functions to be AI-native, compliant, and run by the client's own team: AI does the retrieval, drafting, routing, scoring and reporting; people hold the regulated line. A two-week Diagnostic, then a 90-day fixed-scope build, then an optional advisory seat.
+> Neely Thomson builds marketing functions for B2B software startups, then hands them to the person who runs them. Two entry points: before the first marketing hire (The First Hire Plan, six weeks: the role and its level, the twelve-month plan, the budget, the stack, a sales-marketing SLA and the scoreboard) and after it (a two-week Diagnostic, then The Marketing Engine, a 90-day fixed-scope rebuild). Then an optional Advisory Seat. Most of her work is in regulated software (fintech, edtech, healthtech, govtech): AI-native, compliant, and run by the client's own team. In the fractional CMO category, with a fixed end date.
 
 ## About
 
@@ -14,6 +14,7 @@ She rebuilds marketing functions around what AI covers and what people must hold
 
 Everything is on the homepage: https://neelythomson.com
 
+- **The First Hire Plan: six weeks, fixed price quoted on the first call.** For founders who have not made the first marketing hire. Deliverables: the role to hire and its level, the twelve-month plan and lead segment, the budget by quarter (people, programs, tools), the stack and tiers, one lead definition and a sales-marketing SLA, a five-metric scoreboard with baselines, and the hire's first ninety days. Neely decides the role with the founder; the founder runs the search.
 - **The Diagnostic: $7,500, two weeks.** A stack, process, and funnel audit by business unit; up to eight interviews across marketing, sales, and the business owners; the last ninety days of marketing requests classified. Deliverables: a findings document (what AI should cover, what stays human, what the function costs against today, ranked by impact on pipeline), a board one-pager, and a scoped, priced proposal for the build. Credited in full toward The Marketing Engine, or the client can take the findings and run them themselves.
 - **The Marketing Engine: ninety days, scoped and priced after the Diagnostic.** All three layers built and live in the client's own tools, the client's named operator trained alongside Neely system by system, everything under "What the client keeps" as working files, and four weeks of support after handoff. Fixed scope and a fixed end date for the build, agreed in writing. What happens after it is the client's to decide.
 - **The Advisory Seat: monthly, scoped to the work.** Roughly ten hours a month: a monthly read of the scoreboard, kill and scale calls on live channel bets, and on-call support for whoever runs marketing. Strategy and systems only, no production work. Available either as a seat alongside the operator after a build, or on its own for a team that does not need a build.
