@@ -41,7 +41,7 @@ const rows = [
     k: "Year-one cost",
     ft: "$320,000 to $495,000 fully loaded: base, bonus, benefits, equity, and a recruiter fee of 20 to 30 percent of base.",
     fc: "$120,000 to $144,000 at a market retainer of $10,000 to $12,000 a month. Most retainers renew, so plan on year two.",
-    me: "A two-week Diagnostic at $7,500, then a fixed fee for the ninety-day build, scoped after the Diagnostic and written into the SOW before anything starts.",
+    me: "A two-week Diagnostic at a fixed fee, then a fixed fee for the ninety-day build, scoped after the Diagnostic and written into the SOW before anything starts.",
   },
   {
     k: "Time to start",
@@ -243,7 +243,7 @@ export default function FractionalCMOvsFullTime() {
               <div className="border-t-2 border-accent pt-6">
                 <p className="label mb-4">The Marketing Engine</p>
                 <ul className="text-[13.5px] leading-[1.6] text-muted">
-                  <li className="flex justify-between gap-4 border-b border-rule py-2"><span>The Diagnostic, two weeks</span><span className="tnum text-ink">$7,500</span></li>
+                  <li className="flex justify-between gap-4 border-b border-rule py-2"><span>The Diagnostic, two weeks</span><span className="tnum text-ink">Fixed fee</span></li>
                   <li className="flex justify-between gap-4 border-b border-rule py-2"><span>The build, ninety days</span><span className="tnum text-ink">Fixed fee, scoped after the Diagnostic</span></li>
                   <li className="flex justify-between gap-4 border-b border-rule py-2"><span>Support after handoff</span><span className="tnum text-ink">Four weeks, included</span></li>
                   <li className="flex justify-between gap-4 py-2"><span>Ongoing requirement</span><span className="tnum text-ink">None</span></li>
@@ -373,7 +373,7 @@ export default function FractionalCMOvsFullTime() {
               full-time or fractional, starts with something that already works.
             </p>
             <p className="mt-9 text-[13.5px] leading-[1.6] text-white/60">
-              Everything starts with a two-week Diagnostic at $7,500, credited in
+              Everything starts with a two-week Diagnostic, credited in
               full toward the build.{" "}
               <a href="/#start" className="border-b border-accent pb-px text-white transition-colors hover:text-accent">
                 Start a Diagnostic
