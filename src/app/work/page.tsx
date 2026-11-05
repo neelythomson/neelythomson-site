@@ -95,7 +95,7 @@ export default function Work() {
           <div className="mx-auto max-w-[960px]">
             <p className="label mb-8">Start here</p>
             <h2 className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)]">
-              Two weeks, $7,500, and you&apos;ll know what&apos;s broken.
+              Two weeks, and you&apos;ll know what&apos;s broken.
             </h2>
             <p className="measure text-base leading-[1.68] text-muted">
               Every engine above started with the same audit. Two weeks, a fixed
