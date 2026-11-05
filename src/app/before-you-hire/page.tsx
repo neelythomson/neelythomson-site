@@ -272,7 +272,7 @@ export default function BeforeYouHire() {
 
         <section className="border-t border-rule px-6 pt-24 pb-20 sm:px-10 sm:pt-28 sm:pb-24">
           <div className="mx-auto max-w-[960px]">
-            <p className="label mb-8">The Diagnostic, during the search · Two weeks · $7,500</p>
+            <p className="label mb-8">The Diagnostic, during the search · Two weeks</p>
             <h2 className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)]">
               Three things your hire walks into.
             </h2>
@@ -303,7 +303,7 @@ export default function BeforeYouHire() {
               </a>
               : ninety days, fixed scope, timed to finish before or as the
               hire starts. If it shows you&apos;re ready to hire, you get a
-              better posting and a plan, and the $7,500 was the cheapest part
+              better posting and a plan, and the Diagnostic was the cheapest part
               of the search.
             </p>
           </div>
