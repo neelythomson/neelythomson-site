@@ -5,7 +5,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 
 const TITLE = "Fractional CMO FAQ: How the Engagement Works, What It Costs, Who It's For";
 const DESCRIPTION =
-  "Twenty-nine questions people ask before hiring a fractional CMO: what one does, what it costs, what AI-native means in a regulated company, what stays human, how a 90-day build differs from a retainer, and what you keep.";
+  "Thirty-one questions people ask before hiring a fractional CMO: what one does, what it costs, what AI-native means in a regulated company, what stays human, how a 90-day build differs from a retainer, and what you keep.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -89,11 +89,23 @@ const groups: Group[] = [
           "Because a retainer pays the consultant for staying, and a build pays them for finishing. On a retainer, the systems tend to live in the consultant's head and leave when they do. In a build, every system ends up in your tools, documented, run by your person. I'm always trying to work myself out of a job, because I don't think a permanent fractional CMO is healthy for a marketing team.",
         ],
       },
+      {
+        q: "Is this a fractional CMO engagement?",
+        a: [
+          "Close, with an end date. A fractional CMO is a leader on retainer. What I do is build the marketing function and hand it to the person who runs it: before your first marketing hire, that means designing the role, the plan, the budget, the stack and the scoreboard the hire inherits; after it, rebuilding the engine your team runs. The agreement has a fixed scope and a fixed end date. If you want me close by afterwards, the Advisory Seat is a monthly arrangement, not a seat I plan to keep forever.",
+        ],
+      },
     ],
   },
   {
     label: "The engagement",
     items: [
+      {
+        q: "What is the First Hire Plan?",
+        a: [
+          "A six-week, fixed-price project for founders who haven't made their first marketing hire. Week by week: discovery with you, your sales lead, five customers and your pipeline data; the go-to-market on one page, with the segment to lead with and three channel bets; the function itself, meaning which role to hire and at what level, the twelve-month plan, the budget by quarter, and the stack; the operating system, meaning one lead definition, a sales-marketing SLA and a five-metric scoreboard with baselines; and the hire's first ninety days, written before the first interview. I decide the role with you. You run the search; I don't write the posting or interview candidates. Price is quoted on the first call.",
+        ],
+      },
       {
         q: "What is the Diagnostic?",
         a: [
@@ -146,7 +158,7 @@ const groups: Group[] = [
       {
         q: "Who is this for?",
         a: [
-          "B2B software companies selling into regulated or institutional buyers: fintech, edtech and workforce development, healthtech, govtech. Usually $2M to $30M in revenue, a dozen or more closed deals, some marketing spend going out the door, and either no marketing leader above the manager level or a marketing team that produces without a system behind it. It works when four things are true: you want to own the engine rather than rent an operator, you can name the person who'll run it, creative and media stay with your team or a partner, and you know who your buyer is.",
+          "B2B software startups, roughly 10 to 40 people, seed to Series A or bootstrapped, with marketing still run by the founder or a small team. Two moments: you're about to make your first marketing hire and want the function designed before the posting goes out, or you have a marketer and no engine behind them. Most of my work is in regulated or institutional markets: fintech, edtech and workforce development, healthtech, govtech. It works when four things are true: you want to own the engine rather than rent an operator, you can name the person who'll run it (or you're about to hire them), creative and media stay with your team or a partner, and you know who your buyer is.",
         ],
       },
       {
