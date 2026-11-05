@@ -11,15 +11,17 @@ export default async function Contact() {
         <p className="label mb-8">Start here</p>
 
         <h2 className="display mb-7 max-w-[16ch] text-[clamp(2.2rem,4.4vw,3.6rem)]">
-          Two weeks, and you&apos;ll know what&apos;s broken.
+          Tell me where you are. I&apos;ll tell you which door.
         </h2>
 
         <p className="measure mb-8 text-base leading-[1.68] text-muted">
-          Two weeks, a fixed fee, and a written plan at the end of it. If we go
-          on to build, the fee comes off the price. If we don&apos;t, you still
-          have the plan, and you&apos;re free to hand it to anyone you like.{" "}
-          <a href="/diagnostic" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
-            Here&apos;s how the two weeks run
+          No marketing hire yet, or a marketer and no engine: say which in the
+          note. I&apos;ll reply within two business days with a few questions
+          and, if it looks like a fit, what I&apos;d propose and what it costs.
+          Fixed scope and a fixed end date either way, and the plan is yours
+          whether or not we build it together.{" "}
+          <a href="/#doors" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+            The two ways in
           </a>
           .
         </p>
