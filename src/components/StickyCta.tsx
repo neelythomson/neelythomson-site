@@ -55,8 +55,8 @@ export default function StickyCta() {
         onClick={() => track("diagnostic_cta_click", { place: "sticky" })}
         className="flex items-center justify-between rounded-sm bg-ink px-[18px] py-[13px] text-sm font-medium text-bg"
       >
-        <span>Start with a Diagnostic</span>
-        <span className="text-white/70">Two weeks &rarr;</span>
+        <span>Start the conversation</span>
+        <span className="text-white/70">Two ways in &rarr;</span>
       </a>
     </div>
   );
