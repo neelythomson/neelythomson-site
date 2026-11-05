@@ -38,16 +38,6 @@ const groups = [
   },
 ];
 
-const excluded = [
-  "Writing your blog posts, emails, or social content",
-  "Graphic design, brand identity files, illustration, video (I specify the brand system and set creative direction; a designer produces it)",
-  "Running or optimizing paid campaigns. LinkedIn, Google, any of it",
-  "Holding or managing your ad accounts",
-  "Social media management, community, event execution",
-  "Acting as agency of record, or managing your agency",
-  "Managing your people",
-];
-
 export default function Engine() {
   return (
     <>
@@ -58,15 +48,15 @@ export default function Engine() {
           </p>
 
           <h2 className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)]">
-            Everything below is built in your tools and handed to a named person
-            on your team.
+            Systems that produce revenue, built in your tools and handed to a
+            named person on your team.
           </h2>
           <p className="measure text-base leading-[1.68] text-muted">
             Three layers, built in order, in the tools you already own.
             Strategy decides who you sell to and what you say. The operating
             system moves leads from first touch to sales without anyone chasing
-            them. The scoreboard tells you what each channel returned, every
-            month.{" "}
+            them. The scoreboard tells you what each channel returned in pipeline
+            and revenue, every month, so the proof is in your own numbers.{" "}
             <a href="/marketing-engine" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
               The full definition
             </a>
@@ -104,28 +94,6 @@ export default function Engine() {
         </div>
       </section>
 
-      <section className="border-t border-rule px-6 pt-24 pb-20 sm:px-10 sm:pt-28 sm:pb-24">
-        <div className="mx-auto max-w-[960px]">
-          <p className="label mb-8">Not included</p>
-          <h2 className="display-sm max-w-[24ch] text-[clamp(1.9rem,3.4vw,2.9rem)]">
-            What I don&apos;t do, written down so neither of us finds out in
-            week six.
-          </h2>
-          <ul className="mt-9 max-w-[74ch] sm:columns-2 sm:gap-x-11">
-            {excluded.map((x) => (
-              <li
-                key={x}
-                className="relative break-inside-avoid border-t border-rule py-2.5 pl-4 text-[14.5px] leading-[1.5] text-muted"
-              >
-                <span aria-hidden="true" className="absolute left-0.5 text-accent">
-                  &middot;
-                </span>
-                {x}
-              </li>
-            ))}
-          </ul>
-        </div>
-      </section>
     </>
   );
 }

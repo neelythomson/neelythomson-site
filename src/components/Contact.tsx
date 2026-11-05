@@ -11,7 +11,7 @@ export default async function Contact() {
         <p className="label mb-8">Start here</p>
 
         <h2 className="display mb-7 max-w-[16ch] text-[clamp(2.2rem,4.4vw,3.6rem)]">
-          Two weeks, $7,500, and you&apos;ll know what&apos;s broken.
+          Two weeks, and you&apos;ll know what&apos;s broken.
         </h2>
 
         <p className="measure mb-8 text-base leading-[1.68] text-muted">

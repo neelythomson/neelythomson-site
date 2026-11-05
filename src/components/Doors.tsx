@@ -83,9 +83,10 @@ export default function Doors() {
         </div>
 
         <p className="mt-10 border-t border-rule pt-7 text-[15px] leading-[1.7] text-muted">
-          Both doors end the same way: a function your team runs, with a fixed
-          end date in the agreement. If you want me close by while your
-          hire&apos;s first quarter runs, that&apos;s the Advisory Seat.
+          Both doors end the same way: a function your team runs, measured on
+          the revenue it produces, with a fixed end date in the agreement. If
+          you want me close by while your hire&apos;s first quarter runs,
+          that&apos;s the Advisory Seat.
         </p>
       </div>
     </section>

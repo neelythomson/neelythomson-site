@@ -20,8 +20,8 @@ const packages = [
     n: "02",
     stage: "After the hire · start here",
     name: "The Diagnostic",
-    figure: "$7,500",
-    terms: "Two weeks",
+    figure: "Two weeks",
+    terms: "Fixed fee, credited toward the build",
     lead: true,
     includes: [
       "Stack, process, and funnel audit, by business unit",
@@ -85,10 +85,10 @@ export default function Packages() {
 
         <p className="measure text-base leading-[1.68] text-muted">
           No marketing hire yet: start with the First Hire Plan. A marketer
-          already in place: start with the Diagnostic, two weeks and $7,500. I
+          already in place: start with the Diagnostic, two weeks. I
           audit your stack, your funnel and your team, then tell you what to
           build, what AI should do, what your people should do, and what it
-          costs. If you hire me to build it, the $7,500 comes off the price.
+          costs. If you hire me to build it, the Diagnostic fee comes off the price.
           If not, the plan is yours.
         </p>
 
@@ -160,7 +160,7 @@ export default function Packages() {
             Start a Diagnostic &nbsp;&rarr;
           </a>
           <p className="text-[13px] text-faint">
-            Two weeks, $7,500, credited in full if we go on to build. No
+            Two weeks, credited in full if we go on to build. No
             marketing hire yet? Say so in the note and we start with the First
             Hire Plan instead.
           </p>

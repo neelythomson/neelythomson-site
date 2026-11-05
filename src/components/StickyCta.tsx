@@ -56,7 +56,7 @@ export default function StickyCta() {
         className="flex items-center justify-between rounded-sm bg-ink px-[18px] py-[13px] text-sm font-medium text-bg"
       >
         <span>Start with a Diagnostic</span>
-        <span className="text-white/70">Two weeks · $7,500 &rarr;</span>
+        <span className="text-white/70">Two weeks &rarr;</span>
       </a>
     </div>
   );

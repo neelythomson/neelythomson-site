@@ -1,19 +1,19 @@
 const conditions = [
   {
-    t: "You want to own the function",
-    b: "At the end of the build it belongs to your team and runs under their hands. Whether I stay in the seat after that is your call, not a condition. If what you need is someone to run marketing week to week, you need an operator, not me.",
+    t: "You're about to make your first marketing hire",
+    b: "Seed to Series A, marketing still run by you, and you'd rather the hire inherit a plan, a budget, a stack and a scoreboard than spend their first quarter building them. That's the First Hire Plan.",
   },
   {
-    t: "You can name your operator",
-    b: "One person on your side who'll own the engine and give it four to six hours a week during the build. If you haven't hired that person yet, the First Hire Plan is how the role gets scoped, and the build waits until they're in the seat.",
+    t: "You have a marketer and want more pipeline from them",
+    b: "A marketer or a small team, a dozen or more closed deals, budget going out the door, and nobody can say what it returned. That's the Diagnostic, then the Marketing Engine.",
   },
   {
-    t: "Creative and media live with your team",
-    b: "I build the systems that route, score and measure the work. Your team or a partner produces it, and I'm glad to refer people I trust.",
+    t: "You measure marketing on revenue",
+    b: "Every system I build is scored on the pipeline it returns, and the proof sits in your own CRM, not in my deck. If you'd rather measure on activity, we'll disagree about what good looks like.",
   },
   {
-    t: "You know who your buyer is",
-    b: "Roughly a dozen closed deals is enough for me to build from patterns instead of guesses. Earlier than that, positioning work will do more for you than plumbing.",
+    t: "You want to own it",
+    b: "At the end, the function belongs to your team and runs under their hands. Someone on your side gives it a few hours a week during the build. Whether I stay close afterwards is your call, not a condition.",
   },
 ];
 
@@ -24,12 +24,14 @@ export default function Fit() {
         <p className="label mb-8">Fit</p>
 
         <h2 className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)]">
-          This works when four things are true.
+          This works when you want a marketing function that produces
+          revenue, and you want to own it.
         </h2>
 
         <p className="measure text-base leading-[1.68] text-muted">
-          If any of these isn&apos;t true yet, say so on the first call. It
-          usually means a different engagement, or a different month.
+          Four things are usually true of the companies that get the most out
+          of this. If you&apos;re not sure which door is yours, say so on the
+          first call and we&apos;ll work it out together.
         </p>
 
         <div className="mt-9">
