@@ -101,7 +101,7 @@ const faq = [
   },
   {
     q: "What does a fractional CMO for fintech cost?",
-    a: "Market-rate fractional CMO retainers in the US run $10,000 to $12,000 a month, usually with a three to six month minimum, and most run past a year. I work differently: a two-week Diagnostic for $7,500, which is the only price I publish, then a 90-day build with a fixed scope and a fixed end date, quoted in the proposal next to the retainer and full-time alternatives so you can compare them on the same page.",
+    a: "Market-rate fractional CMO retainers in the US run $10,000 to $12,000 a month, usually with a three to six month minimum, and most run past a year. I work differently: a two-week Diagnostic at a fixed fee, then a 90-day build with a fixed scope and a fixed end date, quoted in the proposal next to the retainer and full-time alternatives so you can compare them on the same page.",
   },
   {
     q: "Which fintech companies is this built for?",
@@ -150,8 +150,6 @@ const jsonLd = {
       offers: {
         "@type": "Offer",
         name: "Marketing Diagnostic",
-        price: "7500",
-        priceCurrency: "USD",
         url: "https://neelythomson.com/diagnostic",
       },
     },
@@ -337,7 +335,7 @@ export default function FractionalCMOFintech() {
           <div className="mx-auto max-w-[960px]">
             <p className="label mb-8">Start here</p>
             <h2 className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)]">
-              Two weeks, $7,500, and you&apos;ll know what&apos;s broken.
+              Two weeks, and you&apos;ll know what&apos;s broken.
             </h2>
             <p className="measure text-base leading-[1.68] text-muted">
               The Diagnostic audits your stack, your funnel economics, and how
