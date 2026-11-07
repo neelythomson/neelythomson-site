@@ -3,10 +3,12 @@ import StartCta from "@/components/StartCta";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import Byline from "@/components/Byline";
+import PageFaq from "@/components/PageFaq";
 
 const TITLE = "The First Hire Plan: Design the Marketing Function Before You Hire";
 const DESCRIPTION =
-  "A six-week, fixed-fee engagement for founders about to make their first marketing hire. The role and its level, the twelve-month plan, the budget, the stack, a sales-marketing SLA, and the scoreboard, written before the posting goes up.";
+  "Six weeks, before your first marketing hire: the role and its level, the twelve-month plan, the budget, the stack, the sales-marketing SLA and the scoreboard.";
 const URL = "https://neelythomson.com/first-hire-plan";
 
 export const metadata: Metadata = {
@@ -22,6 +24,12 @@ export const metadata: Metadata = {
     type: "article",
   },
 };
+
+const faq = [
+  { q: "What is the First Hire Plan?", a: "A six-week engagement for founders who are about to make their first marketing hire. Before the posting goes up, the marketing function is designed: which role and what level, the twelve-month plan, the budget by quarter, the stack, one lead definition with a sales-marketing SLA, the five-metric scoreboard, and the hire's first ninety days. The hire walks into a function instead of building one." },
+  { q: "Do you run the hiring search?", a: "No. I decide the role with you: the kind of marketer, the level, what to look for, and what the role runs in year one. You run the search. Once the person starts, they inherit the plan, the budget, the stack and the scoreboard on day one." },
+  { q: "What does the First Hire Plan cost?", a: "A fixed fee, quoted on the first call and written into the agreement before anything starts. No prices are published. The quote is anchored to what the first hire costs if it lands wrong: a year of salary and a year of lost pipeline." },
+];
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -51,32 +59,11 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "@id": `${URL}#faq`,
-      mainEntity: [
-        {
-          "@type": "Question",
-          name: "What is the First Hire Plan?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "A six-week engagement for founders who are about to make their first marketing hire. Before the posting goes up, the marketing function is designed: which role and what level, the twelve-month plan, the budget by quarter, the stack, one lead definition with a sales-marketing SLA, the five-metric scoreboard, and the hire's first ninety days. The hire walks into a function instead of building one.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Do you run the hiring search?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "No. I decide the role with you: the kind of marketer, the level, what to look for, and what the role runs in year one. You run the search. Once the person starts, they inherit the plan, the budget, the stack and the scoreboard on day one.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "What does the First Hire Plan cost?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "A fixed fee, quoted on the first call and written into the agreement before anything starts. No prices are published. The quote is anchored to what the first hire costs if it lands wrong: a year of salary and a year of lost pipeline.",
-          },
-        },
-      ],
+      mainEntity: faq.map((f) => ({
+        "@type": "Question",
+        name: f.q,
+        acceptedAnswer: { "@type": "Answer", text: f.a },
+      })),
     },
   ],
 };
@@ -151,12 +138,18 @@ export default function FirstHirePlan() {
         <section className="px-6 pt-24 pb-20 sm:px-10 sm:pt-28 sm:pb-24">
           <div className="mx-auto max-w-[960px]">
             <p className="label mb-8">
-              The First Hire Plan · Six weeks · Published <time dateTime="2026-11-07">November 2026</time>
+              The First Hire Plan · Six weeks
             </p>
             <h1 className="display mb-8 max-w-[16ch] text-[clamp(2.2rem,4.8vw,3.8rem)]">
               Before your first marketing hire.
             </h1>
             <p className="measure text-[17px] leading-[1.62] text-muted">
+              The First Hire Plan is a six-week, fixed-fee engagement that designs
+              a software startup&apos;s marketing function before its first
+              marketing hire, so the person you hire inherits a role, a plan, a
+              budget, a stack, and a scoreboard on day one.
+            </p>
+            <p className="measure mt-4 text-[17px] leading-[1.62] text-muted">
               You are a founder, marketing is still run by you, and the next
               hire is a marketer. Before you write the posting, I design the
               function they walk into: which role and what level, the
@@ -168,6 +161,7 @@ export default function FirstHirePlan() {
               The hire starts with a plan on day one instead of spending their
               first quarter writing one. Fixed fee, quoted on the first call.
             </p>
+            <Byline date="2026-11-07" label="Published" className="mt-6" />
             <div className="mt-9 flex flex-wrap items-center gap-x-7 gap-y-4">
               <StartCta place="first-hire-plan" />
               <a href="#what-you-get" className="border-b border-accent pb-0.5 text-sm font-medium text-ink transition-colors hover:text-accent">
@@ -299,6 +293,7 @@ export default function FirstHirePlan() {
             </div>
           </div>
         </section>
+        <PageFaq items={faq} />
       </main>
       <Footer />
     </>

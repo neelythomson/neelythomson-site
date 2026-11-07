@@ -3,6 +3,8 @@ import StartCta from "@/components/StartCta";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import Byline from "@/components/Byline";
+import PageFaq from "@/components/PageFaq";
 
 const TITLE = "The Marketing Diagnostic: A Two-Week B2B Marketing Audit";
 const DESCRIPTION =
@@ -22,6 +24,12 @@ export const metadata: Metadata = {
     type: "article",
   },
 };
+
+const faq = [
+  { q: "What is a marketing diagnostic?", a: "A two-week audit of a company's marketing stack, funnel data, processes and team. It ends in a findings document ranked by impact on pipeline, a board one-pager, and a scoped, priced proposal for what to build first. Fixed fee, credited in full toward the build." },
+  { q: "How much does a B2B marketing audit cost?", a: "The Diagnostic is a fixed fee, quoted on the first call, invoiced at signature and payable net 15. No expenses are anticipated. The fee is credited in full toward The Marketing Engine if that build is signed within 30 days of the readout." },
+  { q: "What do we get at the end of the Diagnostic?", a: "Three things: a findings document ranked by impact on pipeline with the evidence behind each finding, a one-page summary you can put in front of your board, and a scoped, priced proposal for the ninety-day build. Plus a sixty-minute readout to walk through all three." },
+];
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -51,32 +59,11 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "@id": `${URL}#faq`,
-      mainEntity: [
-        {
-          "@type": "Question",
-          name: "What is a marketing diagnostic?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "A two-week audit of a company's marketing stack, funnel data, processes and team. It ends in a findings document ranked by impact on pipeline, a board one-pager, and a scoped, priced proposal for what to build first. Fixed fee, credited in full toward the build.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "How much does a B2B marketing audit cost?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "The Diagnostic is a fixed fee, quoted on the first call, invoiced at signature and payable net 15. No expenses are anticipated. The fee is credited in full toward The Marketing Engine if that build is signed within 30 days of the readout.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "What do we get at the end of the Diagnostic?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Three things: a findings document ranked by impact on pipeline with the evidence behind each finding, a one-page summary you can put in front of your board, and a scoped, priced proposal for the ninety-day build. Plus a sixty-minute readout to walk through all three.",
-          },
-        },
-      ],
+      mainEntity: faq.map((f) => ({
+        "@type": "Question",
+        name: f.q,
+        acceptedAnswer: { "@type": "Answer", text: f.a },
+      })),
     },
   ],
 };
@@ -177,7 +164,7 @@ export default function Diagnostic() {
         <section className="px-6 pt-24 pb-20 sm:px-10 sm:pt-28 sm:pb-24">
           <div className="mx-auto max-w-[960px]">
             <p className="label mb-8">
-              The Diagnostic · Two weeks · Updated <time dateTime="2026-11-07">November 2026</time>
+              The Diagnostic · Two weeks
             </p>
             <h1 className="display mb-8 max-w-[16ch] text-[clamp(2.2rem,4.8vw,3.8rem)]">
               Two weeks, and you&apos;ll know what&apos;s broken.
@@ -193,6 +180,7 @@ export default function Diagnostic() {
               I don&apos;t quote a ninety-day build before I&apos;ve looked.
               You can stop at the end of the two weeks and keep the plan.
             </p>
+            <Byline date="2026-11-07" label="Updated" className="mt-6" />
             <div className="mt-9 flex flex-wrap items-center gap-x-7 gap-y-4">
               <StartCta place="diagnostic" label="Start a Diagnostic" />
               <a href="#what-happens" className="border-b border-accent pb-0.5 text-sm font-medium text-ink transition-colors hover:text-accent">
@@ -326,6 +314,7 @@ export default function Diagnostic() {
             </div>
           </div>
         </section>
+        <PageFaq items={faq} />
       </main>
       <Footer />
     </>

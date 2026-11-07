@@ -31,7 +31,12 @@ export default function Fit() {
         <p className="measure text-base leading-[1.68] text-muted">
           Four things are usually true of the companies that get the most out
           of this. If you&apos;re not sure which door is yours, say so on the
-          first call and we&apos;ll work it out together.
+          first call and we&apos;ll work it out together. Replacing or adding a
+          marketing leader rather than making the first hire?{" "}
+          <a href="/before-you-hire" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+            Build the function before you hire
+          </a>
+          .
         </p>
 
         <div className="mt-9">

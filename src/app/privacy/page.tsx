@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   description: "What neelythomson.com collects, why, and who handles it.",
   alternates: { canonical: "https://neelythomson.com/privacy" },
   robots: { index: false, follow: true },
+  openGraph: { title: "Privacy | Neely Thomson", url: "https://neelythomson.com/privacy" },
 };
 
 const sections: { h: string; p: string[] }[] = [

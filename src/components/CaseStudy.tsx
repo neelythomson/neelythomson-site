@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import StartCta from "@/components/StartCta";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import Byline from "@/components/Byline";
 import TrackedLink from "@/components/TrackedLink";
 
 export type CaseStudyData = {
@@ -75,7 +76,7 @@ export const caseStudies: CaseStudyData[] = [
     slug: "nonprofit-partnerships",
     n: "02",
     title: "An engine for the B2B side of a $70M marketing organization",
-    metaTitle: "Case Study: B2B Partnership Engine Inside a $70M Nonprofit Marketing Operation",
+    metaTitle: "Case Study: B2B Partnership Engine Inside a $70M Nonprofit",
     description:
       "How a national nonprofit's corporate and institutional partnership team grew net-new lead acquisition 15 percent and partner engagement 75 percent by wiring campaigns to CRM relationship data.",
     facts: [
@@ -177,8 +178,9 @@ export function caseStudyJsonLd(c: CaseStudyData) {
     headline: c.title,
     description: c.description,
     url: `https://neelythomson.com/work/${c.slug}`,
-    datePublished: "2026-09-02",
-    dateModified: "2026-09-02",
+    datePublished: "2026-09-02T12:00:00-05:00",
+    dateModified: "2026-09-02T12:00:00-05:00",
+    image: [`https://neelythomson.com/work/${c.slug}/opengraph-image`],
     author: { "@id": "https://neelythomson.com/#person" },
     publisher: { "@id": "https://neelythomson.com/#person" },
     isPartOf: { "@id": "https://neelythomson.com/#website" },
@@ -206,6 +208,7 @@ export default function CaseStudy({ c }: { c: CaseStudyData }) {
             </p>
             <h1 className="display mb-8 max-w-[18ch] text-[clamp(2.3rem,5vw,4rem)]">{c.title}</h1>
             <p className="measure text-[17px] leading-[1.65] text-ink">{c.description}</p>
+            <Byline date="2026-09-02" label="Published" className="mt-6" />
 
             <dl className="mt-11 grid gap-x-8 gap-y-6 border-t border-rule pt-8 sm:grid-cols-2 md:grid-cols-4">
               {c.facts.map((f) => (

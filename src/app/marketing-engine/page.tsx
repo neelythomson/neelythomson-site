@@ -3,6 +3,7 @@ import StartCta from "@/components/StartCta";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import Byline from "@/components/Byline";
 import Phases from "@/components/Phases";
 import Keeps from "@/components/Keeps";
 
@@ -112,8 +113,9 @@ const jsonLd = {
       headline: TITLE,
       description: DESCRIPTION,
       url: URL,
-      datePublished: "2026-09-02",
-      dateModified: "2026-11-07",
+      datePublished: "2026-09-02T12:00:00-05:00",
+      dateModified: "2026-11-07T12:00:00-05:00",
+      image: [`${URL}/opengraph-image`],
       author: { "@id": "https://neelythomson.com/#person" },
       publisher: { "@id": "https://neelythomson.com/#person" },
       isPartOf: { "@id": "https://neelythomson.com/#website" },
@@ -156,7 +158,7 @@ export default function MarketingEngine() {
         <section className="px-6 pt-24 pb-20 sm:px-10 sm:pt-28 sm:pb-24">
           <div className="mx-auto max-w-[960px]">
             <p className="label mb-8">
-              Definition · Updated <time dateTime="2026-11-07">November 2026</time>
+              Definition
             </p>
             <h1 className="display mb-8 max-w-[16ch] text-[clamp(2.2rem,4.8vw,3.8rem)]">
               What is a marketing engine?
@@ -174,6 +176,7 @@ export default function MarketingEngine() {
               pipeline, why sales and marketing argue about lead credit, and why
               the AI tools that were supposed to help made the queue longer.
             </p>
+            <Byline date="2026-11-07" label="Updated" className="mt-6" />
           </div>
         </section>
 

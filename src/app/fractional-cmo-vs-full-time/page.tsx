@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import Byline from "@/components/Byline";
 
 const TITLE = "Fractional CMO vs. Full-Time CMO: Cost, Timing, and Which to Choose";
 const DESCRIPTION =
@@ -28,8 +29,9 @@ const jsonLd = {
   headline: TITLE,
   description: DESCRIPTION,
   url: "https://neelythomson.com/fractional-cmo-vs-full-time",
-  datePublished: "2026-09-02",
-  dateModified: "2026-11-02",
+  datePublished: "2026-09-02T12:00:00-05:00",
+  dateModified: "2026-11-07T12:00:00-05:00",
+  image: ["https://neelythomson.com/fractional-cmo-vs-full-time/opengraph-image"],
   author: { "@id": "https://neelythomson.com/#person" },
   publisher: { "@id": "https://neelythomson.com/#person" },
   isPartOf: { "@id": "https://neelythomson.com/#website" },
@@ -144,6 +146,7 @@ export default function FractionalCMOvsFullTime() {
               is right, and a third option I think most companies at this stage
               should consider first.
             </p>
+            <Byline date="2026-11-07" label="Updated" className="mt-6" />
           </div>
         </section>
 

@@ -7,7 +7,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 
 const TITLE = "About Neely Thomson: Marketing Functions for Software Startups";
 const DESCRIPTION =
-  "Neely Thomson builds revenue-generating marketing functions for software startups, before the first marketing hire or after it. Twenty years running marketing for technology companies, the last four as Head of Marketing at a fintech payments company under NACHA and CFPB. Based in Atlanta.";
+  "Twenty years running marketing for technology companies, most recently as Head of Marketing at a fintech. Now Neely Thomson builds marketing functions for software startups.";
 const URL = "https://neelythomson.com/about";
 
 export const metadata: Metadata = {
@@ -227,9 +227,9 @@ export default function About() {
         <section className="border-t border-rule px-6 pt-20 pb-16 sm:px-10 sm:pt-24 sm:pb-20">
           <div className="mx-auto max-w-[960px]">
             <p className="label mb-8">Start here</p>
-            <h2 className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)]">
+            <p className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)]">
               Before your first marketing hire, or after it.
-            </h2>
+            </p>
             <p className="measure text-base leading-[1.68] text-muted">
               Two doors, one method: a marketing function your team runs,
               measured on the revenue it produces, with a fixed fee and a fixed

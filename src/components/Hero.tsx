@@ -97,6 +97,7 @@ export default function Hero() {
               <a
                 key={p.l}
                 href={p.href}
+                aria-label={`${p.v} ${p.l}: ${p.s}. Read the case study.`}
                 className="group block border-t border-rule pt-5 transition-colors hover:border-accent"
               >
                 <div className="display tnum text-[40px] leading-none transition-colors group-hover:text-accent">

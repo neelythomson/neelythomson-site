@@ -1,7 +1,11 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-export const metadata = { title: "Page not found" };
+export const metadata = {
+  title: "Page not found",
+  robots: { index: false, follow: true },
+  openGraph: { title: "Page not found | Neely Thomson", url: "https://neelythomson.com/404" },
+};
 
 const links = [
   { h: "/", t: "The homepage", b: "The whole offer on one page." },

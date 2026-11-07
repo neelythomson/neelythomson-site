@@ -55,14 +55,10 @@ export default async function EssayPage({ params }: Params) {
     mainEntityOfPage: { "@type": "WebPage", "@id": url },
     url,
     sameAs: [essay.substackUrl],
+    image: [`${url}/opengraph-image`],
     isPartOf: { "@type": "Blog", "@id": "https://neelythomson.com/writing" },
-    author: {
-      "@type": "Person",
-      name: "Neely Thomson",
-      url: "https://neelythomson.com",
-      jobTitle: "Fractional CMO",
-    },
-    publisher: { "@type": "Person", name: "Neely Thomson", url: "https://neelythomson.com" },
+    author: { "@id": "https://neelythomson.com/#person" },
+    publisher: { "@id": "https://neelythomson.com/#person" },
   };
 
   return (

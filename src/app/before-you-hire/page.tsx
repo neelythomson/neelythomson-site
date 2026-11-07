@@ -3,11 +3,13 @@ import StartCta from "@/components/StartCta";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import Byline from "@/components/Byline";
+import PageFaq from "@/components/PageFaq";
 import JdScorecard from "@/components/JdScorecard";
 
 const TITLE = "Before You Hire a Head of Marketing: Build the Function First";
 const DESCRIPTION =
-  "Hiring a Head of Marketing, VP of Marketing, or CMO? Your next marketing leader should inherit a system, not build one. A two-week Diagnostic during the search defines the role, the AI stack, and the ninety-day plan the hire walks into. Score your posting in ten questions.";
+  "Hiring a Head of Marketing? Build the function first so the hire inherits a system. What to decide before the job post, and where The First Hire Plan fits.";
 const URL = "https://neelythomson.com/before-you-hire";
 
 export const metadata: Metadata = {
@@ -24,6 +26,13 @@ export const metadata: Metadata = {
   },
 };
 
+const faq = [
+  { q: "Should we hire a fractional CMO before a full-time Head of Marketing?", a: "Do both, in order. A marketing-leader search takes months. A two-week Diagnostic during the search defines what the role runs, sets up the AI stack compliantly, and writes the ninety-day plan, so the hire inherits a working function instead of spending their first quarter building one. The hire still happens; it just lands on a system." },
+  { q: "What should a new Head of Marketing inherit on day one?", a: "A written definition of a qualified lead that sales agreed to, lead routing and scoring in the CRM, a five-metric scoreboard with real numbers in it, an AI stack with an owner and an approval step, a one-page go-to-market per business unit, and a weekly operating meeting that already runs. With those in place, the new leader's first quarter produces pipeline rather than infrastructure." },
+  { q: "How do you shorten the onboarding of a new CMO or Head of Marketing?", a: "Build the function before they arrive. A new marketing leader who inherits a lead definition, routing, a working scoreboard, an owned AI stack, and a go-to-market per business unit spends their first month on the leader's job: strategy, board management, hiring and people management, and revenue forecasting. Without those, the same work waits until the fourth month while the leader builds infrastructure at a leader's salary." },
+  { q: "How has AI changed the Head of Marketing job description?", a: "Producing content got cheap, so postings that ask a leader to manage a large content team or own the blog and social calendar describe the job as it was. The scarce work now is the system: definitions, routing, scoring, attribution, the AI usage policy, and the cadence. A current posting names the number the role owns, the systems it runs, the AI tools already in place, and the regulations the function operates under." },
+];
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
@@ -33,48 +42,20 @@ const jsonLd = {
       headline: "Build the function. Then hire the person who runs it.",
       description: DESCRIPTION,
       url: URL,
+      image: [`${URL}/opengraph-image`],
       author: { "@id": "https://neelythomson.com/#person" },
       publisher: { "@id": "https://neelythomson.com/#person" },
-      datePublished: "2026-11-03",
-      dateModified: "2026-11-07",
+      datePublished: "2026-11-03T12:00:00-05:00",
+      dateModified: "2026-11-07T12:00:00-05:00",
     },
     {
       "@type": "FAQPage",
       "@id": `${URL}#faq`,
-      mainEntity: [
-        {
-          "@type": "Question",
-          name: "Should we hire a fractional CMO before a full-time Head of Marketing?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Do both, in order. A marketing-leader search takes months. A two-week Diagnostic during the search defines what the role runs, sets up the AI stack compliantly, and writes the ninety-day plan, so the hire inherits a working function instead of spending their first quarter building one. The hire still happens; it just lands on a system.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "What should a new Head of Marketing inherit on day one?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "A written definition of a qualified lead that sales agreed to, lead routing and scoring in the CRM, a five-metric scoreboard with real numbers in it, an AI stack with an owner and an approval step, a one-page go-to-market per business unit, and a weekly operating meeting that already runs. With those in place, the new leader's first quarter produces pipeline rather than infrastructure.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "How do you shorten the onboarding of a new CMO or Head of Marketing?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Build the function before they arrive. A new marketing leader who inherits a lead definition, routing, a working scoreboard, an owned AI stack, and a go-to-market per business unit spends their first month on the leader's job: strategy, board management, hiring and people management, and revenue forecasting. Without those, the same work waits until the fourth month while the leader builds infrastructure at a leader's salary.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "How has AI changed the Head of Marketing job description?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Producing content got cheap, so postings that ask a leader to manage a large content team or own the blog and social calendar describe the job as it was. The scarce work now is the system: definitions, routing, scoring, attribution, the AI usage policy, and the cadence. A current posting names the number the role owns, the systems it runs, the AI tools already in place, and the regulations the function operates under.",
-          },
-        },
-      ],
+      mainEntity: faq.map((f) => ({
+        "@type": "Question",
+        name: f.q,
+        acceptedAnswer: { "@type": "Answer", text: f.a },
+      })),
     },
   ],
 };
@@ -156,7 +137,7 @@ export default function BeforeYouHire() {
         <section className="px-6 pt-24 pb-20 sm:px-10 sm:pt-28 sm:pb-24">
           <div className="mx-auto max-w-[960px]">
             <p className="label mb-8">
-              Before you hire · For CEOs with an open marketing-leader search · Updated <time dateTime="2026-11-07">November 2026</time>
+              Before you hire · For CEOs with an open marketing-leader search
             </p>
             <h1 className="display mb-8 max-w-[16ch] text-[clamp(2.2rem,4.8vw,3.8rem)]">
               Build the function. Then hire the person who runs it.
@@ -180,6 +161,7 @@ export default function BeforeYouHire() {
               </a>
               : six weeks, the function designed before the posting goes up.
             </p>
+            <Byline date="2026-11-07" label="Updated" className="mt-6" />
             <div className="mt-9 flex flex-wrap items-center gap-x-7 gap-y-4">
               <StartCta place="before-you-hire" />
               <a href="#scorecard" className="border-b border-accent pb-0.5 text-sm font-medium text-ink transition-colors hover:text-accent">
@@ -393,6 +375,7 @@ export default function BeforeYouHire() {
             </div>
           </div>
         </section>
+        <PageFaq items={faq} />
       </main>
       <Footer />
     </>

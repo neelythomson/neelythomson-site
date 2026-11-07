@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { caseStudies } from "@/components/CaseStudy";
 
-const TITLE = "Work: Marketing Engines Built for B2B, Fintech, and Institutional Buyers";
+const TITLE = "Work: Three Marketing Engines, Three Budgets";
 const DESCRIPTION =
   "Three case studies with numbers: an AI marketing engine under NACHA and CFPB, a B2B partnership engine inside a $70M nonprofit, and enterprise ABM on a $500K budget.";
 
@@ -54,6 +54,16 @@ export default function Work() {
               budgets, same problem: plenty of marketing activity, no system under it. Names are
               withheld; details and references are available in conversation.
             </p>
+            <p className="measure mt-4 text-base leading-[1.68] text-muted">
+              The method was the same each time. Two weeks of audit first: the stack, the funnel by
+              segment, the last ninety days of requests, and interviews with whoever owned the number.
+              Then the three layers, built in order inside the tools the team already owned: a strategy
+              layer that decides who to sell to and what to say, an operating system that moves a lead
+              from first touch to sales without anyone chasing it, and a scoreboard that reports what
+              each channel returned in pipeline. Every build ended with a named person on the team
+              running it and a written procedure for each system. The results below are the numbers
+              those teams reported on their own scoreboards afterward.
+            </p>
           </div>
         </section>
 
@@ -95,9 +105,9 @@ export default function Work() {
         <section className="border-t border-rule px-6 pt-20 pb-16 sm:px-10 sm:pt-24 sm:pb-20">
           <div className="mx-auto max-w-[960px]">
             <p className="label mb-8">Start here</p>
-            <h2 className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)]">
+            <p className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)]">
               Before your first marketing hire, or after it.
-            </h2>
+            </p>
             <p className="measure text-base leading-[1.68] text-muted">
               No marketing hire yet: the function gets designed before the
               posting goes up, in six weeks. A marketer already in place: every

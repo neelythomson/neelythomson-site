@@ -3,13 +3,14 @@ import StartCta from "@/components/StartCta";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import Byline from "@/components/Byline";
 
 const TITLE = "Fractional CMO for Credit Unions: Growth Under Exam Rules";
 const DESCRIPTION =
   "Fractional CMO for credit unions, and for the CUSOs and fintechs that sell to them. One lead definition across member and business lines, compliance inside the workflow, AI with guardrails.";
 const URL = "https://neelythomson.com/fractional-cmo-credit-unions";
-const PUBLISHED = "2026-11-02";
-const MODIFIED = "2026-11-02";
+const PUBLISHED = "2026-11-02T12:00:00-05:00";
+const MODIFIED = "2026-11-07T12:00:00-05:00";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -129,6 +130,7 @@ const jsonLd = {
       url: URL,
       datePublished: PUBLISHED,
       dateModified: MODIFIED,
+      image: [`${URL}/opengraph-image`],
       author: { "@id": "https://neelythomson.com/#person" },
       publisher: { "@id": "https://neelythomson.com/#person" },
       isPartOf: { "@id": "https://neelythomson.com/#website" },
@@ -176,8 +178,7 @@ export default function FractionalCMOCreditUnions() {
         <section className="px-6 pt-24 pb-20 sm:px-10 sm:pt-28 sm:pb-24">
           <div className="mx-auto max-w-[960px]">
             <p className="label mb-8">
-              Fractional CMO · Credit unions and CUSOs · Published{" "}
-              <time dateTime={PUBLISHED}>November 2026</time>
+              Fractional CMO · Credit unions and CUSOs
             </p>
             <h1 className="display mb-8 max-w-[18ch] text-[clamp(2.2rem,4.8vw,3.8rem)]">
               Fractional CMO for credit unions: growth that clears compliance.
@@ -196,6 +197,7 @@ export default function FractionalCMOCreditUnions() {
               is what I learned about marketing to institutions that answer to
               an examiner.
             </p>
+            <Byline date="2026-11-07" label="Updated" className="mt-6" />
             <div className="mt-9 flex flex-wrap items-center gap-x-7 gap-y-4">
               <StartCta place="credit-unions" />
               <a href="/fractional-cmo-fintech" className="border-b border-accent pb-0.5 text-sm font-medium text-ink transition-colors hover:text-accent">
@@ -324,7 +326,7 @@ export default function FractionalCMOCreditUnions() {
           <div className="mx-auto max-w-[960px]">
             <p className="label mb-8">Start here</p>
             <h2 className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)]">
-              Two weeks, and you&apos;ll know what&apos;s broken.
+              Where to start if you run a credit union or sell to one.
             </h2>
             <p className="measure text-base leading-[1.68] text-muted">
               The Diagnostic audits your stack, your funnel economics by line of

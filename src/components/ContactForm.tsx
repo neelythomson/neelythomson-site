@@ -23,6 +23,7 @@ type LatestEssay = { title: string; slug: string } | null;
 export default function ContactForm({ latest = null }: { latest?: LatestEssay }) {
   const [status, setStatus] = useState<Status>("idle");
   const [error, setError] = useState("");
+  const [source, setSource] = useState("");
 
   async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -132,7 +133,13 @@ export default function ContactForm({ latest = null }: { latest?: LatestEssay })
             How did you find me?{" "}
             <span className="font-normal text-faint">(optional)</span>
           </label>
-          <select id="source" name="source" defaultValue="" className={FIELD}>
+          <select
+            id="source"
+            name="source"
+            defaultValue=""
+            onChange={(e) => setSource(e.target.value)}
+            className={FIELD}
+          >
             <option value="">Select…</option>
             {SOURCES.map((s) => (
               <option key={s} value={s}>
@@ -141,6 +148,22 @@ export default function ContactForm({ latest = null }: { latest?: LatestEssay })
             ))}
           </select>
         </div>
+        {source.startsWith("An AI tool") && (
+          <div className="md:col-span-2">
+            <label className={LABEL} htmlFor="sourceDetail">
+              Which tool, and what did you ask it?{" "}
+              <span className="font-normal text-faint">(optional)</span>
+            </label>
+            <input
+              id="sourceDetail"
+              name="sourceDetail"
+              type="text"
+              maxLength={500}
+              placeholder="ChatGPT, asked for a fractional CMO for a fintech startup in Atlanta"
+              className={FIELD}
+            />
+          </div>
+        )}
         <div className="md:col-span-2">
           <label className={LABEL} htmlFor="notes">
             What&apos;s going on?

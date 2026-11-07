@@ -24,7 +24,7 @@ import "./globals.css";
 
 const TITLE = "Neely Thomson | Fractional CMO for Regulated B2B Software";
 const DESCRIPTION =
-  "I build marketing functions for B2B software startups, then hand them to the person who runs them. Before your first marketing hire: the First Hire Plan. After it: a two-week Diagnostic, then the Marketing Engine. Fintech, healthtech, edtech, govtech.";
+  "I build revenue-generating marketing functions for software startups, before the first marketing hire or after it. Regulated software is the specialty.";
 
 export const metadata: Metadata = {
   title: { default: TITLE, template: "%s | Neely Thomson" },
@@ -62,9 +62,6 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: TITLE,
-    description:
-      "I build marketing functions for B2B software startups, then hand them to the person who runs them.",
     creator: "@neelythomson",
   },
   robots: {
@@ -90,7 +87,8 @@ const jsonLd = {
       "@type": "Person",
       "@id": "https://neelythomson.com/#person",
       name: "Neely Thomson",
-      url: "https://neelythomson.com",
+      url: "https://neelythomson.com/about",
+      mainEntityOfPage: "https://neelythomson.com/about",
       image: "https://neelythomson.com/neely-thomson.jpg",
       jobTitle: "Fractional CMO for Regulated B2B Software",
       description:
@@ -163,14 +161,12 @@ const jsonLd = {
       "@type": "WebSite",
       "@id": "https://neelythomson.com/#website",
       url: "https://neelythomson.com",
-      name: TITLE,
+      name: "Neely Thomson",
+      alternateName: "neelythomson.com",
       publisher: { "@id": "https://neelythomson.com/#person" },
     },
   ],
 };
-
-const favicon =
-  "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='8' fill='%231a1917'/><text x='32' y='45' font-family='Georgia,serif' font-size='38' fill='%23fbfaf8' text-anchor='middle'>N</text></svg>";
 
 export default function RootLayout({
   children,
@@ -180,7 +176,6 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${newsreader.variable} ${inter.variable}`}>
       <head>
-        <link rel="icon" href={favicon} />
         <meta name="theme-color" content="#fbfaf8" />
         <script
           type="application/ld+json"

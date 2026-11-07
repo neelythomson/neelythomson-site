@@ -3,8 +3,9 @@ import StartCta from "@/components/StartCta";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import Byline from "@/components/Byline";
 
-const TITLE = "Fractional CMO FAQ: How the Engagement Works, What It Costs, Who It's For";
+const TITLE = "Fractional CMO FAQ: How the Engagement Works";
 const DESCRIPTION =
   "Thirty-one plain answers on hiring a fractional CMO: what it costs, what AI-native means in a regulated company, and how a 90-day build differs from a retainer.";
 
@@ -64,8 +65,7 @@ const groups: Group[] = [
       {
         q: "How much does a fractional CMO cost?",
         a: [
-          "Market-rate fractional CMO retainers in the US run $10,000 to $12,000 a month for ten to twenty hours a week, usually with a three to six month minimum. The industry renewal rate is around 84 percent, so most engagements run past a year and the total cost is closer to $120,000 to $144,000 than to a monthly number.",
-          "My engagement is priced differently. It starts with a two-week Diagnostic at a fixed fee. The ninety-day build that follows is a fixed fee, scoped after the Diagnostic and written into the SOW before anything starts, and the Diagnostic fee is credited in full toward it. There's no retainer and nothing ongoing is required.",
+          "Market-rate fractional CMO retainers in the US run $10,000 to $12,000 a month, and most run past a year; the full year-one math, next to a full-time hire, is on the comparison page. My engagements are fixed fees with a fixed end date, quoted on the first call, with the Diagnostic fee credited toward the build.",
         ],
         more: { href: "/fractional-cmo-vs-full-time", text: "Fractional CMO vs. full-time: the year-one cost math, side by side" },
       },
@@ -75,7 +75,7 @@ const groups: Group[] = [
           "A full-time CMO is an employee who owns the marketing function, manages the team, sits in executive meetings, and carries the number. A fractional CMO provides the same level of judgment part-time, without the salary, the recruiter fee, or the three to six months it takes to hire one.",
           "The right choice depends on stage. Five or more people reporting into marketing, or a board that wants a named owner of the number, means hire full-time. Revenue but no marketing leader, sales sourcing most of the pipeline, and a small team without senior direction means fractional.",
         ],
-        more: { href: "/fractional-cmo-vs-full-time", text: "The full comparison, with the year-one cost math" },
+        more: { href: "/before-you-hire", text: "Hiring a Head of Marketing? Build the function first, then hire the person who runs it" },
       },
       {
         q: "What is the difference between a fractional CMO and a marketing agency?",
@@ -263,7 +263,7 @@ const faqJsonLd = {
   author: { "@id": "https://neelythomson.com/#person" },
   isPartOf: { "@id": "https://neelythomson.com/#website" },
   mainEntity: groups.flatMap((g) =>
-    g.items.map((item) => ({
+    g.items.filter((item) => item.q !== "What is a marketing engine?").map((item) => ({
       "@type": "Question",
       name: item.q,
       acceptedAnswer: { "@type": "Answer", text: item.a.join(" ") },
@@ -293,7 +293,7 @@ export default function FAQ() {
         <section className="px-6 pt-20 pb-16 sm:px-10 sm:pt-24 sm:pb-20">
           <div className="mx-auto max-w-[960px]">
             <p className="label mb-8">
-              Questions · Updated <time dateTime="2026-11-07">November 2026</time>
+              Questions
             </p>
             <h1 className="display mb-8 max-w-[18ch] text-[clamp(2.3rem,5vw,4rem)]">
               The {count} questions people ask before they hire me.
@@ -307,6 +307,7 @@ export default function FAQ() {
               </a>
               .
             </p>
+            <Byline date="2026-11-07" label="Updated" className="mt-6" />
 
             <nav aria-label="Question groups" className="mt-10 flex flex-wrap gap-2.5 border-t border-rule pt-8">
               {groups.map((g) => (
@@ -363,9 +364,9 @@ export default function FAQ() {
         <section className="border-t border-rule px-6 pt-24 pb-20 sm:px-10 sm:pt-28 sm:pb-24">
           <div className="mx-auto max-w-[960px]">
             <p className="label mb-8">Start here</p>
-            <h2 className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)]">
+            <p className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)]">
               Before your first marketing hire, or after it.
-            </h2>
+            </p>
             <p className="measure text-base leading-[1.68] text-muted">
               Say which moment you are in and I&apos;ll reply with a few
               questions. Still deciding which kind of help you need? Read the{" "}

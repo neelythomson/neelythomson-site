@@ -19,6 +19,7 @@ const FIELDS = {
   email: { label: "Work email", max: 200, required: true },
   company: { label: "Company", max: 160, required: true },
   source: { label: "How they found me", max: 120, required: false },
+  sourceDetail: { label: "Which tool, and what they asked", max: 500, required: false },
   notes: { label: "What's going on", max: 4000, required: true },
 } as const;
 
@@ -111,6 +112,7 @@ export async function POST(request: Request) {
     ["Email", clean.email],
     ["Company", clean.company],
     ["How they found me", clean.source || "Not answered"],
+    ...(clean.sourceDetail ? ([["Which tool, and what they asked", clean.sourceDetail]] as [string, string][]) : []),
   ];
 
   const text =

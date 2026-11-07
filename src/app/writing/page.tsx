@@ -40,15 +40,16 @@ export default async function WritingPage() {
     description: DESCRIPTION,
     url: "https://neelythomson.com/writing",
     inLanguage: "en-US",
-    author: { "@type": "Person", name: "Neely Thomson", url: "https://neelythomson.com" },
-    publisher: { "@type": "Person", name: "Neely Thomson", url: "https://neelythomson.com" },
+    author: { "@id": "https://neelythomson.com/#person" },
+    publisher: { "@id": "https://neelythomson.com/#person" },
     blogPost: essays.map((e) => ({
       "@type": "BlogPosting",
       headline: e.title,
       description: e.dek,
       datePublished: e.isoDate,
       url: `https://neelythomson.com/writing/${e.slug}`,
-      author: { "@type": "Person", name: "Neely Thomson" },
+      image: [`https://neelythomson.com/writing/${e.slug}/opengraph-image`],
+      author: { "@id": "https://neelythomson.com/#person" },
     })),
   };
 
@@ -69,6 +70,15 @@ export default async function WritingPage() {
               company: what I saw, what I decided, what the scoreboard said.
               Names changed, numbers real. They go out on Substack when there is
               one worth sending.
+            </p>
+            <p className="measure mt-4 text-base leading-[1.68] text-muted">
+              The essays cover the same ground the engagements do: what changed when
+              AI made content cheap and routing scarce, how buyers now find vendors
+              through an AI tool before they ever see a website, why a marketing
+              function should be built so the team can run it without its builder,
+              and what a founder should decide before making the first marketing
+              hire. Each entry below carries the opening of the essay and a date;
+              the full text lives on Substack and is linked from every entry.
             </p>
           </div>
         </section>

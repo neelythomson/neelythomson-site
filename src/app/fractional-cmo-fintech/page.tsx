@@ -3,13 +3,14 @@ import StartCta from "@/components/StartCta";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import Byline from "@/components/Byline";
 
 const TITLE = "Fractional CMO for Fintech: Built to Pass Compliance Review";
 const DESCRIPTION =
   "Fractional CMO for fintech and payments companies. Legal inside the workflow, one lead definition, AI with guardrails. 60% less manual campaign work under NACHA and CFPB.";
 const URL = "https://neelythomson.com/fractional-cmo-fintech";
-const PUBLISHED = "2026-09-02";
-const MODIFIED = "2026-11-02";
+const PUBLISHED = "2026-09-02T12:00:00-05:00";
+const MODIFIED = "2026-11-07T12:00:00-05:00";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -113,10 +114,6 @@ const faq = [
     a: "Two weeks for the Diagnostic, which audits your stack, funnel economics, and team and returns a findings document, a board one-pager, and a priced proposal. Ninety days for The Marketing Engine, with a fixed scope and a fixed end date, in your own tools. A named person on your team runs the function afterward. The build has a fixed end date; an advisory seat after it is your call.",
   },
   {
-    q: "Do you work as a fractional CMO for credit unions and banks?",
-    a: "Mostly from the fintech side: B2B fintech and payments companies selling into banks and credit unions, where the institution's compliance, security, and procurement teams shape the deal. Those buying mechanics are what the engine is designed around. For a credit union or community bank with a named marketing operator and a pipeline goal, the same build applies under the examination calendar and the marketing-compliance rulebook. Start with the Diagnostic and the fit question gets answered in two weeks.",
-  },
-  {
     q: "Do you work in other regulated verticals?",
     a: "Yes. The architecture is the same wherever a buyer's legal, security, or procurement team sits inside the deal. Only the rulebook changes. Beyond fintech I work with healthtech, edtech and workforce, and govtech companies. Right now that includes designing the B2B go-to-market for a psychoeducation and community platform for neurodivergent adults, built under clinical and data-handling constraints from the first screen.",
   },
@@ -133,6 +130,7 @@ const jsonLd = {
       url: URL,
       datePublished: PUBLISHED,
       dateModified: MODIFIED,
+      image: [`${URL}/opengraph-image`],
       author: { "@id": "https://neelythomson.com/#person" },
       publisher: { "@id": "https://neelythomson.com/#person" },
       isPartOf: { "@id": "https://neelythomson.com/#website" },
@@ -180,8 +178,7 @@ export default function FractionalCMOFintech() {
         <section className="px-6 pt-24 pb-20 sm:px-10 sm:pt-28 sm:pb-24">
           <div className="mx-auto max-w-[960px]">
             <p className="label mb-8">
-              Fractional CMO · Fintech and payments · Updated{" "}
-              <time dateTime={MODIFIED}>November 2026</time>
+              Fractional CMO · Fintech and payments
             </p>
             <h1 className="display mb-8 max-w-[18ch] text-[clamp(2.2rem,4.8vw,3.8rem)]">
               Fractional CMO for fintech: marketing that survives compliance review.
@@ -201,6 +198,7 @@ export default function FractionalCMOFintech() {
               sales leader, and helped execute its acquisition. What follows is
               what I learned there and what I build now.
             </p>
+            <Byline date="2026-11-07" label="Updated" className="mt-6" />
             <div className="mt-9 flex flex-wrap items-center gap-x-7 gap-y-4">
               <StartCta place="fintech" />
               <a href="/work/fintech-payments" className="border-b border-accent pb-0.5 text-sm font-medium text-ink transition-colors hover:text-accent">
@@ -327,6 +325,13 @@ export default function FractionalCMOFintech() {
               </a>
               .
             </p>
+          <p className="measure mt-10 border-t border-rule pt-7 text-[15px] leading-[1.7] text-muted">
+            Credit unions and the companies that sell to them have their own page:{" "}
+            <a href="/fractional-cmo-credit-unions" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+              fractional CMO for credit unions
+            </a>
+            .
+          </p>
           </div>
         </section>
 
@@ -334,7 +339,7 @@ export default function FractionalCMOFintech() {
           <div className="mx-auto max-w-[960px]">
             <p className="label mb-8">Start here</p>
             <h2 className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)]">
-              Two weeks, and you&apos;ll know what&apos;s broken.
+              Where to start if you sell into banks and payments.
             </h2>
             <p className="measure text-base leading-[1.68] text-muted">
               The Diagnostic audits your stack, your funnel economics, and how
