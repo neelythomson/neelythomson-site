@@ -210,6 +210,21 @@ export default function WhatTheyInherit() {
           </section>
         ))}
 
+        <section className="border-t border-rule px-6 pt-16 pb-4 sm:px-10">
+          <div className="mx-auto max-w-[960px]">
+            <p className="text-[13.5px] leading-[1.6] text-faint">
+              <span className="label mr-3">Deeper</span>
+              <a href="/startup-marketing-budget-by-quarter" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+                Item three, the budget by quarter, with a template
+              </a>
+              <span className="mx-2">·</span>
+              <a href="/sales-marketing-sla-startup" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+                Item five, the sales and marketing SLA, clause by clause
+              </a>
+            </p>
+          </div>
+        </section>
+
         <section className="border-t border-rule px-6 pt-24 pb-20 sm:px-10 sm:pt-28 sm:pb-24">
           <div className="mx-auto max-w-[960px]">
             <p className="label mb-8">The window</p>

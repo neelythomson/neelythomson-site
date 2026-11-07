@@ -345,7 +345,11 @@ export default function FirstMarketingHire() {
               than larger ones because the revenue base is small and the
               growth target is not. An early-stage company that spends well
               under its benchmark is usually not frugal. It is usually not
-              doing marketing.
+              doing marketing.{" "}
+              <a href="/startup-marketing-budget-by-quarter" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+                The budget by quarter, with a template
+              </a>
+              .
             </p>
             <Figures
               className="mt-12 border-t border-rule pt-8"
@@ -369,6 +373,10 @@ export default function FirstMarketingHire() {
               month two.{" "}
               <a href="/what-your-first-marketer-inherits" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
                 The full checklist, with how to put each in place
+              </a>
+              , and{" "}
+              <a href="/sales-marketing-sla-startup" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+                the sales and marketing SLA on its own page
               </a>
               .
             </p>
