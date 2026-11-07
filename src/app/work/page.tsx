@@ -96,11 +96,14 @@ export default function Work() {
           <div className="mx-auto max-w-[960px]">
             <p className="label mb-8">Start here</p>
             <h2 className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)]">
-              Two weeks, and you&apos;ll know what&apos;s broken.
+              Before your first marketing hire, or after it.
             </h2>
             <p className="measure text-base leading-[1.68] text-muted">
-              Every engine above started with the same audit. Two weeks, a fixed
-              fee, and a written plan at the end of it.
+              No marketing hire yet: the function gets designed before the
+              posting goes up, in six weeks. A marketer already in place: every
+              engine above started with the same two-week Diagnostic. Fixed fee
+              either way, quoted on the first call, and the plan is yours whether
+              or not we build it together.
             </p>
             <StartCta place="work" className="mt-9" />
           </div>

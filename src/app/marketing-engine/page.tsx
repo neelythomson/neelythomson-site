@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import StartCta from "@/components/StartCta";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
@@ -303,11 +304,9 @@ export default function MarketingEngine() {
               <a href="/fractional-cmo-fintech" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">fractional CMO for fintech</a>.
             </p>
             <div className="mt-9 flex flex-wrap items-center gap-x-7 gap-y-4">
-              <a href="/diagnostic" className="rounded-sm bg-ink px-[22px] py-[13px] text-sm font-medium text-bg transition-colors hover:bg-accent">
-                The Diagnostic &nbsp;&rarr;
-              </a>
-              <a href="/#start" className="border-b border-accent pb-0.5 text-sm font-medium text-ink transition-colors hover:text-accent">
-                Start the conversation
+              <StartCta place="marketing-engine" />
+              <a href="/diagnostic" className="border-b border-accent pb-0.5 text-sm font-medium text-ink transition-colors hover:text-accent">
+                How the Diagnostic runs
               </a>
               <a href="/#engine" className="border-b border-accent pb-0.5 text-sm font-medium text-ink transition-colors hover:text-accent">
                 What gets built in ninety days

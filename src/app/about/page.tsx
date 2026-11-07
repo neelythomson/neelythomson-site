@@ -5,9 +5,9 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
-const TITLE = "About Neely Thomson: Fractional CMO for Regulated B2B Software";
+const TITLE = "About Neely Thomson: Marketing Functions for Software Startups";
 const DESCRIPTION =
-  "Neely Thomson is a fractional CMO in Atlanta for B2B software companies that sell into regulated buyers. Twenty years running B2B marketing in-house, the last four as Head of Marketing at a fintech payments company under NACHA and CFPB. She rebuilds the marketing function around AI, gets it through legal review, and trains the team to run it.";
+  "Neely Thomson builds revenue-generating marketing functions for software startups, before the first marketing hire or after it. Twenty years running marketing for technology companies, the last four as Head of Marketing at a fintech payments company under NACHA and CFPB. Based in Atlanta.";
 const URL = "https://neelythomson.com/about";
 
 export const metadata: Metadata = {
@@ -91,11 +91,14 @@ export default function About() {
             <div>
             <p className="label mb-8">About</p>
             <h1 className="display mb-8 max-w-[17ch] text-[clamp(2.3rem,5vw,4rem)]">
-              I ran B2B marketing in-house for twenty years. Now I rebuild it for other companies.
+              Twenty years running marketing for technology companies. Now I build the function for startups.
             </h1>
             <p className="measure text-base leading-[1.68] text-muted">
-              I&apos;m Neely Thomson, a fractional CMO in Atlanta. I work with B2B software
-              companies that sell into regulated buyers: fintech, edtech, healthtech, govtech.
+              I&apos;m Neely Thomson, in Atlanta. I build revenue-generating marketing functions
+              for software startups: before the first marketing hire, when the role, the plan,
+              the budget and the stack need to exist before the posting goes up, or after it,
+              when a marketer is in place and nobody can say what the spend returned. Most of
+              my work is in regulated software: fintech, healthtech, edtech, govtech.
             </p>
             <p className="measure mt-4 text-base leading-[1.68] text-muted">
               The last four of those twenty years were as Head of Marketing at a fintech payments
@@ -105,9 +108,11 @@ export default function About() {
               learned how the marketing to sales handoff breaks.
             </p>
             <p className="measure mt-4 text-base leading-[1.68] text-muted">
-              Now I do that for other companies: rebuild the marketing function around AI, get it
-              through legal review, and train the team to run it. I&apos;m always trying to work
-              myself out of a job.
+              I have done this at startup and enterprise scale, through two acquisitions, on
+              budgets from millions a month to bootstrapped. Now I do it for founders: design
+              or rebuild the marketing function around what AI covers and what people must hold,
+              get it through legal review, and hand it to the person who runs it. I&apos;m always
+              trying to work myself out of a job.
             </p>
             </div>
             <figure className="max-w-[280px] md:max-w-none md:pt-14">
@@ -223,10 +228,13 @@ export default function About() {
           <div className="mx-auto max-w-[960px]">
             <p className="label mb-8">Start here</p>
             <h2 className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)]">
-              Two weeks, and you&apos;ll know what&apos;s broken.
+              Before your first marketing hire, or after it.
             </h2>
             <p className="measure text-base leading-[1.68] text-muted">
-              Two weeks, a fixed fee, and a written plan at the end of it, yours either way.
+              Two doors, one method: a marketing function your team runs,
+              measured on the revenue it produces, with a fixed fee and a fixed
+              end date. Tell me which moment you are in and I will tell you which
+              door.
             </p>
             <StartCta place="about" className="mt-9" />
           </div>

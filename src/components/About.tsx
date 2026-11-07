@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 const track = [
-  { k: "2020 – present", v: "Independent · Fractional CMO for regulated industries" },
+  { k: "2020 – present", v: "Independent · Marketing functions for software startups" },
   { k: "2022 – 2026", v: "B2B fintech payments · Head of Marketing (acquired)" },
   { k: "2018 – 2022", v: "National nonprofit · Director of B2B Engagement" },
   { k: "2014 – 2016", v: "Enterprise collaboration software · Sr. Sales Enablement Marketing Manager" },
@@ -34,8 +34,8 @@ export default function About() {
             acquired.
           </p>
           <p className="mt-4 text-base leading-[1.68] text-muted">
-            Now I do this for B2B software companies that sell to regulated
-            buyers.
+            Now I do this for software startups, before the first marketing
+            hire or after it. Most of my work is in regulated software.
           </p>
         </div>
 

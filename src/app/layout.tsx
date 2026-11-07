@@ -94,7 +94,7 @@ const jsonLd = {
       image: "https://neelythomson.com/neely-thomson.jpg",
       jobTitle: "Fractional CMO for Regulated B2B Software",
       description:
-        "Fractional CMO for regulated B2B software: fintech, edtech, healthtech and govtech. Rebuilds marketing functions to be AI-native and compliant, with AI usage policy, approval gates and audit trail inside the workflow, and hands them to the client's own team to run. Twenty years in B2B SaaS and fintech, including AI marketing under NACHA and CFPB.",
+        "Builds revenue-generating marketing functions for software startups, before the first marketing hire (The First Hire Plan) or after it (The Diagnostic, then The Marketing Engine), and hands them to the person who runs them. Most work is in regulated software: fintech, healthtech, edtech, govtech. Twenty years running marketing for technology companies, including AI marketing under NACHA and CFPB.",
       knowsAbout: [
         "Fractional CMO",
         "Marketing systems architecture",
@@ -123,13 +123,20 @@ const jsonLd = {
     {
       "@type": "Service",
       "@id": "https://neelythomson.com/#service",
-      name: "The Marketing Engine, a fractional CMO engagement",
-      serviceType: "Fractional CMO / Marketing systems architecture",
+      name: "Marketing functions for software startups",
+      serviceType: "Fractional CMO / Marketing function design and build",
       provider: { "@id": "https://neelythomson.com/#person" },
       areaServed: "US",
       description:
-        "A 90-day fixed-scope engagement that rebuilds a B2B marketing function to be AI-native and compliant (positioning and brand system, AI usage policy and approval gates, lifecycle sequencing, lead scoring, CRM integration, routing and attribution), then hands it to the client's team to run, with an optional advisory seat afterward.",
+        "Fixed-scope, fixed-fee engagements that design or build a software startup's marketing function and hand it to the person who runs it: The First Hire Plan (six weeks, before the first marketing hire), The Diagnostic (two weeks), The Marketing Engine (ninety days), and The Advisory Seat (monthly). Every fee is quoted on the first call.",
       offers: [
+        {
+          "@type": "Offer",
+          name: "The First Hire Plan",
+          url: "https://neelythomson.com/first-hire-plan",
+          description:
+            "Six weeks, before the first marketing hire: the role and its level, the twelve-month plan, the budget by quarter, the stack, one lead definition with a sales-marketing SLA, the five-metric scoreboard, and the hire's first ninety days.",
+        },
         {
           "@type": "Offer",
           name: "The Diagnostic",
@@ -140,8 +147,9 @@ const jsonLd = {
         {
           "@type": "Offer",
           name: "The Marketing Engine",
+          url: "https://neelythomson.com/marketing-engine",
           description:
-            "Ninety-day fixed-scope build and handoff of a complete B2B marketing engine. Scoped and priced after the Diagnostic.",
+            "Ninety-day fixed-scope build and handoff of a complete B2B marketing engine. Fixed fee, quoted after the Diagnostic.",
         },
         {
           "@type": "Offer",

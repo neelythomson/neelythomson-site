@@ -310,6 +310,14 @@ export default function Diagnostic() {
               proposal are yours, and you&apos;re free to hand them to anyone
               you like.
             </p>
+            <p className="measure mt-4 text-base leading-[1.68] text-muted">
+              No marketing hire yet? The Diagnostic assumes a marketer in place.
+              The other door is{" "}
+              <a href="/first-hire-plan" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+                The First Hire Plan
+              </a>
+              , six weeks, before the posting goes up.
+            </p>
             <div className="mt-9 flex flex-wrap items-center gap-x-7 gap-y-4">
               <StartCta place="diagnostic" label="Start a Diagnostic" />
               <a href="/faq" className="border-b border-accent pb-0.5 text-sm font-medium text-ink transition-colors hover:text-accent">

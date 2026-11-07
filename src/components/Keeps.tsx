@@ -44,7 +44,7 @@ const artifacts = [
       "Routing rules and CRM field architecture",
       "The AI usage policy and approval routing",
       "The intake queue and its scoring rules",
-      "The marketing–sales SLA, agreed by both sides",
+      "The marketing-sales SLA, agreed by both sides",
     ],
   },
   {

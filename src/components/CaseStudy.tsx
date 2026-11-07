@@ -311,7 +311,9 @@ export default function CaseStudy({ c }: { c: CaseStudyData }) {
             </div>
             <div className="mt-12 border-t border-rule pt-7">
               <p className="text-[13.5px] leading-[1.6] text-muted">
-                Want this built for your team? It starts with a two-week Diagnostic.
+                Want this built for your team? With a marketer in place it starts with a
+                two-week Diagnostic. Before your first marketing hire, it starts with the{" "}
+                <a href="/first-hire-plan" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">First Hire Plan</a>.
               </p>
               <StartCta place="case-study" className="mt-5" />
             </div>

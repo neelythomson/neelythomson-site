@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import StartCta from "@/components/StartCta";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
@@ -32,7 +33,7 @@ const groups: Group[] = [
         q: "What is a fractional CMO?",
         a: [
           "A fractional CMO is a senior marketing leader who works with a company part-time, usually ten to twenty hours a week, instead of joining as a full-time executive. Most work on a monthly retainer of $10,000 to $12,000 and stay for a year or more. The model exists because companies between roughly $2M and $30M in revenue need marketing judgment at the executive level before they can justify the salary of one.",
-          "I work as a fractional CMO for B2B software sold to regulated buyers. The difference from most: I rebuild the marketing system in ninety days, train one person on your team to run it, and then it's yours. If you want me to stay on in an advisory seat after that, you can.",
+          "I sit in that category with one difference: I build the marketing function for software startups and hand it over, with a fixed scope and a fixed end date, instead of staying on retainer. Before your first marketing hire, that is the First Hire Plan. After it, the Diagnostic and then The Marketing Engine. If you want me to stay on afterward, that is the Advisory Seat, and it is your call.",
         ],
       },
       {
@@ -52,7 +53,7 @@ const groups: Group[] = [
       {
         q: "Who is Neely Thomson?",
         a: [
-          "I'm a fractional CMO for regulated industries, based in Atlanta. I spent twenty years leading B2B SaaS and fintech marketing teams, most recently four years as Head of Marketing at a B2B fintech payments company, where I led a company-wide AI marketing transformation, served as interim sales leader, and helped execute the sale when the company was acquired in 2026.",
+          "I build revenue-generating marketing functions for software startups, from Atlanta. I spent twenty years running marketing for technology companies, startup and enterprise, through two acquisitions, most recently four years as Head of Marketing at a B2B fintech payments company, where I led a company-wide AI marketing transformation, served as interim sales leader, and helped execute the sale when the company was acquired in 2026.",
         ],
       },
     ],
@@ -363,19 +364,17 @@ export default function FAQ() {
           <div className="mx-auto max-w-[960px]">
             <p className="label mb-8">Start here</p>
             <h2 className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)]">
-              Two weeks, and you&apos;ll know what&apos;s broken.
+              Before your first marketing hire, or after it.
             </h2>
             <p className="measure text-base leading-[1.68] text-muted">
-              The Diagnostic is where almost everything starts.{" "}
-              <a href="/#start" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
-                Send a note
-              </a>{" "}
-              and I&apos;ll reply with a few questions. Or read the{" "}
+              Say which moment you are in and I&apos;ll reply with a few
+              questions. Still deciding which kind of help you need? Read the{" "}
               <a href="/fractional-cmo-vs-full-time" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
                 fractional versus full-time comparison
               </a>{" "}
-              first if you&apos;re still deciding which kind of help you need.
+              first.
             </p>
+            <StartCta place="faq" className="mt-9" />
           </div>
         </section>
       </main>
