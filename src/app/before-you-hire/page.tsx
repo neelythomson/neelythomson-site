@@ -191,6 +191,11 @@ export default function BeforeYouHire() {
                 The First Hire Plan
               </a>
               : six weeks, the function designed before the posting goes up.
+              The thinking behind it is in{" "}
+              <a href="/first-marketing-hire" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+                the guide to the first marketing hire
+              </a>
+              .
             </p>
             <Byline date="2026-11-07" label="Updated" className="mt-6" />
             <div className="mt-9 flex flex-wrap items-center gap-x-7 gap-y-4">

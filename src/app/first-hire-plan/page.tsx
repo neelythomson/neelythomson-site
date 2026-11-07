@@ -233,6 +233,10 @@ export default function FirstHirePlan() {
             />
             <p className="mt-5 text-[13.5px] leading-[1.6] text-faint">
               <span className="label mr-3">Related</span>
+              <a href="/first-marketing-hire" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+                Your first marketing hire: when, who, and what they should inherit
+              </a>
+              <span className="mx-2">·</span>
               <a href="/before-you-hire" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
                 Hiring a Head of Marketing? Build the function first
               </a>
