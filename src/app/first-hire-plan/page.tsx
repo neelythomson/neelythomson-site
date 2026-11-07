@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Byline from "@/components/Byline";
+import Figures, { type Figure } from "@/components/Figures";
 import PageFaq from "@/components/PageFaq";
 
 const TITLE = "The First Hire Plan: Design the Marketing Function Before You Hire";
@@ -24,6 +25,42 @@ export const metadata: Metadata = {
     type: "article",
   },
 };
+
+const figures: Figure[] = [
+  {
+    n: "7.8%",
+    t: "of company revenue is the average marketing budget, and half of CMOs run on 6% or less. The first hire inherits whatever share of that you decided before they arrived",
+    s: "Gartner 2026 CMO Spend Survey",
+    href: "https://www.gartner.com/en/newsroom/press-releases/2026-05-11-gartner-2026-cmo-spend-survey-finds-cmos-allocate-15-point-3-percent-of-marketing-budgets-to-ai-but-only-30-percent-are-ready-to-scale-ai-capabilities",
+    note: "401 marketing leaders, North America and Europe",
+  },
+  {
+    n: "5%",
+    t: "is the median marketing budget as a share of revenue across a broader mix of company sizes (the average is about 9%), and smaller companies consistently spend a higher share",
+    s: "The CMO Survey, Spring 2026",
+    href: "https://cmosurvey.org/results/",
+    note: "Duke Fuqua, Deloitte and the American Marketing Association",
+  },
+  {
+    n: "39 days",
+    t: "is the median time to fill a non-executive role, from requisition to accepted offer. The plan is built in six weeks, so it is finished before the hire is",
+    s: "SHRM Recruiting Benchmarking 2026",
+    href: "https://www.shrm.org/mena/topics-tools/research/recruiting-benchmarking/full-data-brief",
+  },
+  {
+    n: "$5,475",
+    t: "is the average cost of a non-executive hire, and $35,879 for an executive, before a day of salary. A mis-hire spends it twice",
+    s: "SHRM 2025 recruiting benchmarks",
+    href: "https://www.shrm.org/mena/topics-tools/research/recruiting-benchmarking/full-data-brief",
+  },
+  {
+    n: "8%",
+    t: "of startups made a marketer their first hire after the founders; 48% hired an engineer first and 19% a salesperson. Marketing arrives late, into a company that has already formed habits without it",
+    s: "HubSpot Go-To-Market Report for Startups",
+    href: "https://www.hubspot.com/startups/go-to-market-startups/2019",
+    note: "2019 survey",
+  },
+];
 
 const faq = [
   { q: "What is the First Hire Plan?", a: "A six-week engagement for founders who are about to make their first marketing hire. Before the posting goes up, the marketing function is designed: which role and what level, the twelve-month plan, the budget by quarter, the stack, one lead definition with a sales-marketing SLA, the five-metric scoreboard, and the hire's first ninety days. The hire walks into a function instead of building one." },
@@ -189,6 +226,11 @@ export default function FirstHirePlan() {
               hiring into it. The fix is cheap next to a mis-hire: decide the
               function first, then hire the person who runs it.
             </p>
+            <Figures
+              className="mt-12 border-t border-rule pt-8"
+              intro="The costs around the hire are known. What is usually unknown is what the hire walks into."
+              items={figures}
+            />
             <p className="mt-5 text-[13.5px] leading-[1.6] text-faint">
               <span className="label mr-3">Related</span>
               <a href="/before-you-hire" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">

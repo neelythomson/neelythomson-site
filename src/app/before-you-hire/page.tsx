@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Byline from "@/components/Byline";
+import Figures, { type Figure } from "@/components/Figures";
 import PageFaq from "@/components/PageFaq";
 import JdScorecard from "@/components/JdScorecard";
 
@@ -25,6 +26,36 @@ export const metadata: Metadata = {
     type: "article",
   },
 };
+
+const figures: Figure[] = [
+  {
+    n: "4.1 years",
+    t: "is the average CMO tenure at S&P 500 companies, the second-shortest seat in the C-suite, against 5.0 years for all C-suite roles. A leader who spends the first quarter rebuilding the basics has spent a sizeable share of the time they will get",
+    s: "Spencer Stuart CMO Tenure Study 2026",
+    href: "https://www.aaaa.org/research-report/cmo-tenure-study/",
+    note: "S&P 500 companies; summary at the 4A's",
+  },
+  {
+    n: "49 days",
+    t: "is roughly how long a marketing role takes to fill in the United States, the fastest of ten functions LinkedIn measured, and a head-of role runs longer. The search is the window in which the function can be built",
+    s: "LinkedIn hiring analysis, reported by CNBC",
+    href: "https://www.cnbc.com/2023/08/16/landing-a-job-right-now-could-take-you-nearly-2-months-says-linkedin.html",
+    note: "about 178,000 confirmed U.S. hires, April to June 2023",
+  },
+  {
+    n: "$35,879",
+    t: "is the average cost of an executive hire before salary, against $5,475 for a non-executive role. The scorecard below is there so you only pay it once",
+    s: "SHRM 2025 recruiting benchmarks",
+    href: "https://www.shrm.org/mena/topics-tools/research/recruiting-benchmarking/full-data-brief",
+  },
+  {
+    n: "7.8%",
+    t: "of company revenue is the average marketing budget, and half of CMOs run on 6% or less. If the number for your company is not decided before the hire, the hire's first fight is about it",
+    s: "Gartner 2026 CMO Spend Survey",
+    href: "https://www.gartner.com/en/newsroom/press-releases/2026-05-11-gartner-2026-cmo-spend-survey-finds-cmos-allocate-15-point-3-percent-of-marketing-budgets-to-ai-but-only-30-percent-are-ready-to-scale-ai-capabilities",
+    note: "401 marketing leaders",
+  },
+];
 
 const faq = [
   { q: "Should we hire a fractional CMO before a full-time Head of Marketing?", a: "Do both, in order. A marketing-leader search takes months. A two-week Diagnostic during the search defines what the role runs, sets up the AI stack compliantly, and writes the ninety-day plan, so the hire inherits a working function instead of spending their first quarter building one. The hire still happens; it just lands on a system." },
@@ -258,6 +289,11 @@ export default function BeforeYouHire() {
                 four.
               </p>
             </div>
+            <Figures
+              className="mt-14 border-t border-rule pt-8"
+              intro="Three numbers on the hire itself, and one on what it inherits."
+              items={figures}
+            />
           </div>
         </section>
 
