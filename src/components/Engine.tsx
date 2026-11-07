@@ -1,3 +1,5 @@
+import LayersDiagram from "@/components/LayersDiagram";
+
 const groups = [
   {
     group: "The strategy layer",
@@ -63,7 +65,9 @@ export default function Engine() {
             .
           </p>
 
-          <div className="mt-12">
+          <LayersDiagram className="mt-12 hidden sm:block" />
+
+          <div className="mt-6">
             {groups.map((g, i) => (
               <div
                 key={g.group}

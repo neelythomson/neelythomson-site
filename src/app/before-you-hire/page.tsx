@@ -170,6 +170,14 @@ export default function BeforeYouHire() {
               already built, so their first month goes to strategy, the
               board, the team, and the forecast instead of the CRM.
             </p>
+            <p className="measure mt-4 border-t border-rule pt-4 text-[15px] leading-[1.7] text-muted">
+              First marketing hire, and marketing is still run by you? That
+              door is{" "}
+              <a href="/first-hire-plan" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+                The First Hire Plan
+              </a>
+              : six weeks, the function designed before the posting goes up.
+            </p>
             <div className="mt-9 flex flex-wrap items-center gap-x-7 gap-y-4">
               <StartCta place="before-you-hire" />
               <a href="#scorecard" className="border-b border-accent pb-0.5 text-sm font-medium text-ink transition-colors hover:text-accent">

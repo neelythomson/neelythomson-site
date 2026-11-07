@@ -334,7 +334,19 @@ export default function FractionalCMOCreditUnions() {
               <a href="/diagnostic" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
                 How the two weeks run
               </a>
-              .
+              . Then{" "}
+              <a href="/marketing-engine" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+                The Marketing Engine
+              </a>
+              , ninety days, and{" "}
+              <a href="/#packages" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+                The Advisory Seat
+              </a>{" "}
+              after it if you want one. No marketing hire yet? Start with{" "}
+              <a href="/first-hire-plan" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+                The First Hire Plan
+              </a>
+              . Every package is a fixed fee, quoted on the first call.
             </p>
             <StartCta place="credit-unions" className="mt-9" />
           </div>

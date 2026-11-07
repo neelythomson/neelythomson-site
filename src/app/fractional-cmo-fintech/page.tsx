@@ -102,7 +102,7 @@ const faq = [
   },
   {
     q: "What does a fractional CMO for fintech cost?",
-    a: "Market-rate fractional CMO retainers in the US run $10,000 to $12,000 a month, usually with a three to six month minimum, and most run past a year. I work differently: a two-week Diagnostic at a fixed fee, then a 90-day build with a fixed scope and a fixed end date, quoted in the proposal next to the retainer and full-time alternatives so you can compare them on the same page.",
+    a: "Market-rate fractional CMO retainers in the US run $10,000 to $12,000 a month, usually with a three to six month minimum, and most run past a year. I work differently: a two-week Diagnostic at a fixed fee, then The Marketing Engine, a 90-day build with a fixed scope and a fixed end date, quoted in the proposal next to the retainer and full-time alternatives so you can compare them on the same page.",
   },
   {
     q: "Which fintech companies is this built for?",
@@ -110,7 +110,7 @@ const faq = [
   },
   {
     q: "How does the fractional CMO engagement process work?",
-    a: "Two weeks for the Diagnostic, which audits your stack, funnel economics, and team and returns a findings document, a board one-pager, and a priced proposal. Ninety days for the build, with a fixed scope and a fixed end date, in your own tools. A named person on your team runs the function afterward. The build has a fixed end date; an advisory seat after it is your call.",
+    a: "Two weeks for the Diagnostic, which audits your stack, funnel economics, and team and returns a findings document, a board one-pager, and a priced proposal. Ninety days for The Marketing Engine, with a fixed scope and a fixed end date, in your own tools. A named person on your team runs the function afterward. The build has a fixed end date; an advisory seat after it is your call.",
   },
   {
     q: "Do you work as a fractional CMO for credit unions and banks?",
@@ -343,7 +343,19 @@ export default function FractionalCMOFintech() {
               <a href="/diagnostic" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
                 How the two weeks run
               </a>
-              .
+              . Then{" "}
+              <a href="/marketing-engine" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+                The Marketing Engine
+              </a>
+              , ninety days, and{" "}
+              <a href="/#packages" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+                The Advisory Seat
+              </a>{" "}
+              after it if you want one. No marketing hire yet? Start with{" "}
+              <a href="/first-hire-plan" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+                The First Hire Plan
+              </a>
+              . Every package is a fixed fee, quoted on the first call.
             </p>
             <StartCta place="fintech" className="mt-9" />
           </div>

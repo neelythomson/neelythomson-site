@@ -4,9 +4,8 @@ import { useEffect, useState } from "react";
 
 const navLinks = [
   { label: "How it works", href: "/#engine" },
-  { label: "Compliance", href: "/#compliant" },
   { label: "Packages", href: "/#packages" },
-  { label: "The 90 days", href: "/marketing-engine#ninety" },
+  { label: "The Marketing Engine", href: "/marketing-engine" },
   { label: "Work", href: "/work" },
   { label: "FAQ", href: "/faq" },
   { label: "About", href: "/about" },

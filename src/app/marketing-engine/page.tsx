@@ -293,7 +293,9 @@ export default function MarketingEngine() {
             <p className="measure text-base leading-[1.68] text-muted">
               Three engines are written up, names withheld, at{" "}
               <a href="/work" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">Work</a>.
-              Every one started with the same two-week audit. If you sell into
+              Every one started with the same two-week audit: The Diagnostic
+              is the first two weeks, sold on its own, and credited in full if
+              The Marketing Engine follows within thirty days of the readout. If you sell into
               payments or banking, the version of this built for compliance
               review is at{" "}
               <a href="/fractional-cmo-fintech" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">fractional CMO for fintech</a>.

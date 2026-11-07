@@ -17,6 +17,8 @@ const packages = [
       "The hire's first ninety days, written before the first interview",
     ],
     note: "For founders who haven't made the first marketing hire. I decide the role with you; you run the search. The hire inherits a function.",
+    href: "/first-hire-plan",
+    cta: "What the six weeks produce",
   },
   {
     n: "02",
@@ -34,6 +36,8 @@ const packages = [
       "A scoped, priced proposal for the build",
     ],
     note: "Credited in full if we go on to build. Or take the findings and run them yourself, which some people do.",
+    href: "/diagnostic",
+    cta: "How the two weeks run",
   },
   {
     n: "03",
@@ -49,6 +53,8 @@ const packages = [
       "Four weeks of support after handoff",
     ],
     note: "Fixed scope and a fixed end date, agreed in writing before anything starts.",
+    href: "/marketing-engine",
+    cta: "The three layers and the 90 days",
   },
   {
     n: "04",
@@ -64,6 +70,29 @@ const packages = [
       "Strategy and systems only, no production work",
     ],
     note: "The build has a fixed end date. The engagement doesn't have to. After a First Hire Plan, I'm on weekly with your new hire for their first quarter, then monthly. After an Engine, a seat alongside your operator. Or on its own.",
+    href: "/faq#what-is-the-advisory-seat",
+    cta: "How the seat works",
+  },
+];
+
+const doors = [
+  {
+    n: "01",
+    when: "Before the hire",
+    name: "The First Hire Plan",
+    lead: "You're a founder about to make your first marketing hire.",
+    fit: "Seed to Series A, 10 to 40 people, marketing still run by you.",
+    href: "/first-hire-plan",
+    cta: "What the six weeks produce",
+  },
+  {
+    n: "02",
+    when: "After the hire",
+    name: "The Diagnostic, then The Marketing Engine",
+    lead: "You have a marketer, or a small team, and no engine.",
+    fit: "A marketer in place, a dozen or more closed deals, budget going out the door.",
+    href: "/diagnostic",
+    cta: "How the Diagnostic runs",
   },
 ];
 
@@ -78,23 +107,52 @@ export default function Packages() {
   return (
     <section id="packages" className="scroll-mt-20 border-t border-rule px-6 pt-24 pb-20 sm:px-10 sm:pt-28 sm:pb-24">
       <div className="mx-auto max-w-[960px]">
-        <p className="label mb-8">Packages</p>
+        <p className="label mb-8">Packages <span className="text-accent">· two ways in</span></p>
 
         <h2 className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)]">
-          Four packages. Which one you start with depends on whether
-          you&apos;ve made the hire.
+          Before your first marketing hire, or after it.
         </h2>
 
         <p className="measure text-base leading-[1.68] text-muted">
-          No marketing hire yet: start with the First Hire Plan. A marketer
-          already in place: start with the Diagnostic, two weeks. I
-          audit your stack, your funnel and your team, then tell you what to
-          build, what AI should do, what your people should do, and what it
-          costs. If you hire me to build it, the Diagnostic fee comes off the price.
-          If not, the plan is yours.
+          Same company, same size, two different moments. Which door is yours
+          depends on one question: have you made the hire yet? Both end the
+          same way: a function your team runs, measured on the revenue it
+          produces, with a fixed end date in the agreement.
         </p>
 
-        <div className="mt-11 grid items-start gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-4">
+        <div id="doors" className="mt-11 grid scroll-mt-20 items-start gap-x-10 gap-y-8 md:grid-cols-2">
+          {doors.map((d, i) => (
+            <div
+              key={d.name}
+              className={`border-t-2 border-ink pt-6 ${i > 0 ? "md:border-l md:border-l-rule md:pl-10" : "md:pr-2"}`}
+            >
+              <p className="label mb-4">
+                {d.n} <span className="mx-0.5">·</span> {d.when}
+              </p>
+              <h3 className="display-xs mb-3 text-[22px]">{d.name}</h3>
+              <p className="text-[15.5px] font-medium leading-[1.55] text-ink">{d.lead}</p>
+              <p className="mt-3 text-[12.5px] leading-[1.55] text-faint">
+                <span className="label mr-3">Fit</span>
+                {d.fit}
+              </p>
+              <a
+                href={d.href}
+                className="mt-4 inline-block border-b border-accent pb-px text-[13px] text-ink transition-colors hover:text-accent"
+              >
+                {d.cta} &rarr;
+              </a>
+            </div>
+          ))}
+        </div>
+
+        <p className="label mt-16 mb-2">The four packages</p>
+        <p className="measure text-[15px] leading-[1.7] text-muted">
+          Every one is a fixed fee, quoted on the first call. The Diagnostic fee
+          comes off the price of the build. Whether I stay on afterward is your
+          call, never a condition.
+        </p>
+
+        <div className="mt-9 grid items-start gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-4">
           {packages.map((pkg, i) => (
             <div
               key={pkg.name}
@@ -134,11 +192,9 @@ export default function Packages() {
               <p className="mt-4 border-t border-rule pt-3.5 text-xs leading-[1.55] text-faint">
                 {pkg.note}
               </p>
-              {pkg.lead && (
-                <a href="/diagnostic" className="mt-3 inline-block border-b border-accent pb-px text-[13px] text-ink transition-colors hover:text-accent">
-                  How the two weeks run
-                </a>
-              )}
+              <a href={pkg.href} className="mt-3 inline-block border-b border-accent pb-px text-[13px] text-ink transition-colors hover:text-accent">
+                {pkg.cta} &rarr;
+              </a>
             </div>
           ))}
         </div>

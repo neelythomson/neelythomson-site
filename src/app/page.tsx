@@ -1,6 +1,5 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import Doors from "@/components/Doors";
 import Situation from "@/components/Situation";
 import Engine from "@/components/Engine";
 import Compliant from "@/components/Compliant";
@@ -19,7 +18,6 @@ export default function Home() {
       <Header />
       <main id="main">
         <Hero />
-        <Doors />
         <Situation />
         <Engine />
         <Compliant />

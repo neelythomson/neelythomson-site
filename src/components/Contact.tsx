@@ -2,7 +2,6 @@ import ContactForm from "@/components/ContactForm";
 import TrackedLink from "@/components/TrackedLink";
 import { BOOKING_URL, EMAIL, LINKEDIN_URL } from "@/lib/site";
 import { getEssays } from "@/lib/substack";
-import Image from "next/image";
 
 // The sequence a buyer cannot see when there is no price on the page: what
 // the note starts, and when the number arrives.
@@ -55,32 +54,19 @@ export default async function Contact() {
           </p>
         )}
 
-        <div className="grid items-start gap-10 md:grid-cols-[1fr_220px] md:gap-14">
-          <ContactForm latest={latest ? { title: latest.title, slug: latest.slug } : null} />
-
-          <aside className="border-t border-rule pt-6 md:border-t-0 md:pt-0">
-            <Image
-              src="/neely-thomson.jpg"
-              alt="Neely Thomson"
-              width={800}
-              height={800}
-              sizes="(min-width: 768px) 220px, 140px"
-              className="mb-6 aspect-[4/5] w-[140px] rounded-[3px] object-cover object-top md:w-full"
-            />
-            <p className="label mb-4">What happens next</p>
-            <ol className="tnum">
-              {steps.map((s, i) => (
-                <li
-                  key={s}
-                  className="flex gap-3 border-t border-rule py-2.5 text-[13px] leading-[1.5] text-muted"
-                >
-                  <span className="shrink-0 text-accent">0{i + 1}</span>
-                  <span>{s}</span>
-                </li>
-              ))}
-            </ol>
-          </aside>
+        <div className="mb-12 border-t border-rule pt-7">
+          <p className="label mb-5">What happens next</p>
+          <ol className="grid gap-x-8 gap-y-4 sm:grid-cols-2 lg:grid-cols-5">
+            {steps.map((s, i) => (
+              <li key={s} className="border-t border-rule pt-3">
+                <span className="label block text-accent">0{i + 1}</span>
+                <span className="mt-1.5 block text-[13px] leading-[1.5] text-muted">{s}</span>
+              </li>
+            ))}
+          </ol>
         </div>
+
+        <ContactForm latest={latest ? { title: latest.title, slug: latest.slug } : null} />
 
         <p className="mt-8 text-[13px] text-faint">
           Rather write an email?{" "}

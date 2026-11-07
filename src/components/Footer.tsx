@@ -8,6 +8,9 @@ export default function Footer() {
         <a href="/marketing-engine" className="transition-colors hover:text-accent">
           What is a marketing engine
         </a>
+        <a href="/first-hire-plan" className="transition-colors hover:text-accent">
+          The First Hire Plan
+        </a>
         <a href="/diagnostic" className="transition-colors hover:text-accent">
           The Diagnostic
         </a>
