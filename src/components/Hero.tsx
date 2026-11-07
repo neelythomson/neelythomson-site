@@ -52,6 +52,7 @@ export default function Hero() {
               <TrackedLink
                 event="diagnostic_cta_click"
                 place="hero"
+                label="Start the conversation"
                 href="#start"
                 className="rounded-sm bg-ink px-[22px] py-[13px] text-sm font-medium text-bg transition-colors hover:bg-accent"
               >

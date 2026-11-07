@@ -20,9 +20,9 @@ const sections: { h: string; p: string[] }[] = [
     h: "What the site collects",
     p: [
       "The form. If you fill it in, you give me your name, work email, company, a note about what is going on, and optionally how you found me. That is everything the form collects, and it only collects it when you press send.",
-      "Analytics. The site uses Vercel Web Analytics, which counts page views without cookies, and Google Analytics, which records the pages you visit and which buttons you click (for example, sending the form or opening the booking page). Google Analytics sets a cookie to tell one visit from another. Advertising features and ad personalization are turned off. I use it to see which pages lead to a conversation, nothing else.",
+      "Analytics. The site uses Vercel Web Analytics, which counts page views without cookies, and Google Analytics, which records the pages you visit and which buttons you click (for example, sending the form or opening the booking page). Google Analytics sets a cookie to tell one visit from another. Advertising features and ad personalization are turned off. I use it to see which pages lead to a conversation, nothing else. The site also uses Microsoft Clarity, which records how far down a page you scroll and where you click, and may replay an anonymized session; form fields are masked and no typed text is captured. Clarity sets its own cookies to tell one visit from another.",
       "Server logs. Vercel, which hosts the site, keeps standard request logs (the page requested, the time, and the IP address) for a short period for security and reliability.",
-      "Cookies. Google Analytics sets its own cookie, described above. The site sets no others. The Writing page embeds my Substack, and that embed is served by Substack under its own privacy policy.",
+      "Cookies. Google Analytics and Microsoft Clarity set their own cookies, described above. The site sets no others. The Writing page embeds my Substack, and that embed is served by Substack under its own privacy policy.",
     ],
   },
   {
@@ -54,7 +54,7 @@ const sections: { h: string; p: string[] }[] = [
   {
     h: "Changes",
     p: [
-      "If this page changes in a way that matters, the date below moves and the change is described here. This version is effective November 3, 2026.",
+      "If this page changes in a way that matters, the date below moves and the change is described here. This version is effective November 7, 2026.",
     ],
   },
 ];

@@ -10,6 +10,7 @@ import About from "@/components/About";
 import LatestEssay from "@/components/LatestEssay";
 import Contact from "@/components/Contact";
 import StickyCta from "@/components/StickyCta";
+import SectionViews from "@/components/SectionViews";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -29,6 +30,7 @@ export default function Home() {
         <Contact />
       </main>
       <StickyCta />
+      <SectionViews ids={["situation", "engine", "compliant", "packages", "fit", "start"]} />
       <Footer />
     </>
   );

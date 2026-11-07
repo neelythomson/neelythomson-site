@@ -84,6 +84,7 @@ export default function ContactForm({ latest = null }: { latest?: LatestEssay })
               href="https://neelythomson.substack.com/subscribe"
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => track("essay_outbound", { place: "form-success" })}
               className="border-b border-accent pb-px text-ink transition-colors hover:text-accent"
             >
               Subscribe on Substack

@@ -18,6 +18,7 @@ export default function StartCta({
       <TrackedLink
         event="diagnostic_cta_click"
         place={place}
+        label={label}
         href="/#start"
         className="rounded-sm bg-ink px-[22px] py-[13px] text-sm font-medium text-bg transition-colors hover:bg-accent"
       >

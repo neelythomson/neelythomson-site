@@ -10,7 +10,9 @@ export type EventName =
   | "case_study_pdf"
   | "scorecard_pdf"
   | "email_click"
-  | "linkedin_click";
+  | "linkedin_click"
+  | "essay_outbound"
+  | "section_view";
 
 type Gtag = (...args: unknown[]) => void;
 

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
+import Clarity from "@/components/Clarity";
 import localFont from "next/font/local";
 
 const newsreader = localFont({
@@ -188,6 +189,7 @@ export default function RootLayout({
         {children}
         <Analytics />
         <GoogleAnalytics />
+        <Clarity />
       </body>
     </html>
   );

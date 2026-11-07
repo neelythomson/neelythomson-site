@@ -19,7 +19,7 @@ const conditions = [
 
 export default function Fit() {
   return (
-    <section className="border-t border-rule px-6 pt-24 pb-20 sm:px-10 sm:pt-28 sm:pb-24">
+    <section id="fit" className="scroll-mt-20 border-t border-rule px-6 pt-24 pb-20 sm:px-10 sm:pt-28 sm:pb-24">
       <div className="mx-auto max-w-[960px]">
         <p className="label mb-8">Fit</p>
 
