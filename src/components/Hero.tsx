@@ -34,8 +34,6 @@ export default function Hero() {
       <section className="reveal px-6 pt-24 pb-20 sm:px-10">
         <div className="mx-auto max-w-[960px]">
           <div>
-            <p className="label mb-8">Marketing functions · B2B software startups</p>
-
             <h1 className="display mb-8 max-w-[16ch] text-[clamp(2.5rem,6.6vw,5.4rem)]">
               I build <span className="whitespace-nowrap">revenue-generating</span> marketing functions{" "}
               <em className="font-light italic">for software startups.</em>
