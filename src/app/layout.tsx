@@ -22,7 +22,7 @@ const inter = localFont({
 });
 import "./globals.css";
 
-const TITLE = "Neely Thomson | Fractional CMO for Regulated B2B Software";
+const TITLE = "Neely Thomson | Fractional CMO for B2B Software Startups";
 const DESCRIPTION =
   "I build revenue-generating marketing functions for software startups, before the first marketing hire or after it. Regulated software is the specialty.";
 
