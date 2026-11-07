@@ -35,7 +35,7 @@ export default function LayersDiagram({ className = "" }: { className?: string }
         {Array.from({ length: WEEKS + 1 }, (_, i) => i + 1).map((n) => (
           <g key={n}>
             <line x1={wk(n)} y1={TOP - 6} x2={wk(n)} y2={H - 24} stroke="#e7e4de" strokeWidth={1} />
-            {n <= WEEKS && (n === 1 || n % 2 === 0 || n === WEEKS) && (
+            {n <= WEEKS && (n === 1 || n % 2 === 0) && (
               <text
                 x={wk(n) + 3}
                 y={TOP - 12}
