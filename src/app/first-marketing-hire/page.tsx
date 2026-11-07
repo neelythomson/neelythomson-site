@@ -312,8 +312,12 @@ export default function FirstMarketingHire() {
               job as it was. A posting that names the number the role owns, the
               systems it runs, and who it reports to describes the job as it
               is.{" "}
+              <a href="/head-of-marketing-vs-marketing-manager" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+                The level decision, side by side
+              </a>
+              , and{" "}
               <a href="/before-you-hire" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
-                There is a scorecard for that posting here
+                a scorecard for the posting
               </a>
               .
             </p>
@@ -362,7 +366,11 @@ export default function FirstMarketingHire() {
               each one is, and what happens in the first quarter when it is
               missing. Most first marketing hires inherit two of the six. The
               best ones I have seen inherited all six and shipped pipeline in
-              month two.
+              month two.{" "}
+              <a href="/what-your-first-marketer-inherits" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+                The full checklist, with how to put each in place
+              </a>
+              .
             </p>
             <div className="mt-9">
               {inherits.map((x, i) => (

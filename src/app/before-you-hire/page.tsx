@@ -195,7 +195,15 @@ export default function BeforeYouHire() {
               <a href="/first-marketing-hire" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
                 the guide to the first marketing hire
               </a>
-              .
+              , with{" "}
+              <a href="/head-of-marketing-vs-marketing-manager" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+                the level decision
+              </a>{" "}
+              and{" "}
+              <a href="/what-your-first-marketer-inherits" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+                the day-one checklist
+              </a>{" "}
+              on their own pages.
             </p>
             <Byline date="2026-11-07" label="Updated" className="mt-6" />
             <div className="mt-9 flex flex-wrap items-center gap-x-7 gap-y-4">
