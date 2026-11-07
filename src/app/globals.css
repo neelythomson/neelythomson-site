@@ -44,50 +44,54 @@ p {
   outline-offset: 3px;
 }
 
-/* ── Display type ──────────────────────────────────────────
-   Newsreader is variable on both opsz and wght. Display sizes
-   push opsz to the top and keep weight LOW — a light serif at
-   large size reads as a monograph; a heavy one reads as a
-   newspaper masthead. Never set a weight above 400 on it. */
-.display {
-  font-family: var(--font-display);
-  font-variation-settings: "opsz" 72;
-  font-weight: 300;
-  letter-spacing: -0.021em;
-  line-height: 0.99;
-}
+/* Type helpers live in the components layer so a utility on the same
+   element (text-white/70 in a dark section, a custom size) wins over them. */
+@layer components {
+  /* ── Display type ──────────────────────────────────────────
+     Newsreader is variable on both opsz and wght. Display sizes
+     push opsz to the top and keep weight LOW — a light serif at
+     large size reads as a monograph; a heavy one reads as a
+     newspaper masthead. Never set a weight above 400 on it. */
+  .display {
+    font-family: var(--font-display);
+    font-variation-settings: "opsz" 72;
+    font-weight: 300;
+    letter-spacing: -0.021em;
+    line-height: 0.99;
+  }
 
-.display-sm {
-  font-family: var(--font-display);
-  font-variation-settings: "opsz" 60;
-  font-weight: 300;
-  letter-spacing: -0.016em;
-  line-height: 1.08;
-}
+  .display-sm {
+    font-family: var(--font-display);
+    font-variation-settings: "opsz" 60;
+    font-weight: 300;
+    letter-spacing: -0.016em;
+    line-height: 1.08;
+  }
 
-.display-xs {
-  font-family: var(--font-display);
-  font-variation-settings: "opsz" 36;
-  font-weight: 400;
-  letter-spacing: -0.01em;
-}
+  .display-xs {
+    font-family: var(--font-display);
+    font-variation-settings: "opsz" 36;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+  }
 
-/* Uppercase labels always carry tracking. Untracked caps is
-   the most common amateur tell in the whole type system. */
-.label {
-  font-size: 10.5px;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  font-weight: 500;
-  color: var(--color-faint);
-}
+  /* Uppercase labels always carry tracking. Untracked caps is
+     the most common amateur tell in the whole type system. */
+  .label {
+    font-size: 10.5px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--color-faint);
+  }
 
-.measure {
-  max-width: 66ch;
-}
+  .measure {
+    max-width: 66ch;
+  }
 
-.tnum {
-  font-variant-numeric: tabular-nums;
+  .tnum {
+    font-variant-numeric: tabular-nums;
+  }
 }
 
 /* ── Motion ─────────────────────────────────────────────── */

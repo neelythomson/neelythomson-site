@@ -43,8 +43,8 @@ export default function Hero() {
 
             <p className="mb-9 max-w-[60ch] text-[17px] leading-[1.62] text-muted">
               Whether you&apos;re about to make your first marketing hire or
-              growing the function you have, I make sure you&apos;re building a
-              revenue-generating engine at every step. Most of my work is in
+              growing the function you have, I make sure every step builds toward
+              revenue. Most of my work is in
               regulated software: fintech, healthtech, edtech, govtech.
             </p>
 

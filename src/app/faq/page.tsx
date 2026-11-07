@@ -257,6 +257,7 @@ const faqJsonLd = {
   "@type": "FAQPage",
   "@id": "https://neelythomson.com/faq#faq",
   url: "https://neelythomson.com/faq",
+  dateModified: "2026-11-07",
   name: TITLE,
   author: { "@id": "https://neelythomson.com/#person" },
   isPartOf: { "@id": "https://neelythomson.com/#website" },
@@ -290,7 +291,9 @@ export default function FAQ() {
       <main id="main">
         <section className="px-6 pt-20 pb-16 sm:px-10 sm:pt-24 sm:pb-20">
           <div className="mx-auto max-w-[960px]">
-            <p className="label mb-8">Questions</p>
+            <p className="label mb-8">
+              Questions · Updated <time dateTime="2026-11-07">November 2026</time>
+            </p>
             <h1 className="display mb-8 max-w-[18ch] text-[clamp(2.3rem,5vw,4rem)]">
               The {count} questions people ask before they hire me.
             </h1>

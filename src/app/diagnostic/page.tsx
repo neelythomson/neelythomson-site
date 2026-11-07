@@ -27,6 +27,13 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "WebPage",
+      "@id": "https://neelythomson.com/diagnostic#webpage",
+      url: "https://neelythomson.com/diagnostic",
+      isPartOf: { "@id": "https://neelythomson.com/#website" },
+      dateModified: "2026-11-07",
+    },
+    {
       "@type": "Service",
       "@id": `${URL}#service`,
       name: "The Marketing Diagnostic",
@@ -169,7 +176,9 @@ export default function Diagnostic() {
       <main id="main">
         <section className="px-6 pt-24 pb-20 sm:px-10 sm:pt-28 sm:pb-24">
           <div className="mx-auto max-w-[960px]">
-            <p className="label mb-8">The Diagnostic · Two weeks</p>
+            <p className="label mb-8">
+              The Diagnostic · Two weeks · Updated <time dateTime="2026-11-07">November 2026</time>
+            </p>
             <h1 className="display mb-8 max-w-[16ch] text-[clamp(2.2rem,4.8vw,3.8rem)]">
               Two weeks, and you&apos;ll know what&apos;s broken.
             </h1>

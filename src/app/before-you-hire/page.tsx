@@ -36,7 +36,7 @@ const jsonLd = {
       author: { "@id": "https://neelythomson.com/#person" },
       publisher: { "@id": "https://neelythomson.com/#person" },
       datePublished: "2026-11-03",
-      dateModified: "2026-11-03",
+      dateModified: "2026-11-07",
     },
     {
       "@type": "FAQPage",
@@ -155,7 +155,9 @@ export default function BeforeYouHire() {
       <main id="main">
         <section className="px-6 pt-24 pb-20 sm:px-10 sm:pt-28 sm:pb-24">
           <div className="mx-auto max-w-[960px]">
-            <p className="label mb-8">Before you hire · For CEOs with an open marketing-leader search</p>
+            <p className="label mb-8">
+              Before you hire · For CEOs with an open marketing-leader search · Updated <time dateTime="2026-11-07">November 2026</time>
+            </p>
             <h1 className="display mb-8 max-w-[16ch] text-[clamp(2.2rem,4.8vw,3.8rem)]">
               Build the function. Then hire the person who runs it.
             </h1>

@@ -27,6 +27,13 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "WebPage",
+      "@id": "https://neelythomson.com/first-hire-plan#webpage",
+      url: "https://neelythomson.com/first-hire-plan",
+      isPartOf: { "@id": "https://neelythomson.com/#website" },
+      dateModified: "2026-11-07",
+    },
+    {
       "@type": "Service",
       "@id": `${URL}#service`,
       name: "The First Hire Plan",
@@ -143,7 +150,9 @@ export default function FirstHirePlan() {
       <main id="main">
         <section className="px-6 pt-24 pb-20 sm:px-10 sm:pt-28 sm:pb-24">
           <div className="mx-auto max-w-[960px]">
-            <p className="label mb-8">The First Hire Plan · Six weeks</p>
+            <p className="label mb-8">
+              The First Hire Plan · Six weeks · Published <time dateTime="2026-11-07">November 2026</time>
+            </p>
             <h1 className="display mb-8 max-w-[16ch] text-[clamp(2.2rem,4.8vw,3.8rem)]">
               Before your first marketing hire.
             </h1>

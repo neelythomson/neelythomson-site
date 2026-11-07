@@ -112,7 +112,7 @@ const jsonLd = {
       description: DESCRIPTION,
       url: URL,
       datePublished: "2026-09-02",
-      dateModified: "2026-11-02",
+      dateModified: "2026-11-07",
       author: { "@id": "https://neelythomson.com/#person" },
       publisher: { "@id": "https://neelythomson.com/#person" },
       isPartOf: { "@id": "https://neelythomson.com/#website" },
@@ -154,7 +154,9 @@ export default function MarketingEngine() {
       <main id="main">
         <section className="px-6 pt-24 pb-20 sm:px-10 sm:pt-28 sm:pb-24">
           <div className="mx-auto max-w-[960px]">
-            <p className="label mb-8">Definition</p>
+            <p className="label mb-8">
+              Definition · Updated <time dateTime="2026-11-07">November 2026</time>
+            </p>
             <h1 className="display mb-8 max-w-[16ch] text-[clamp(2.2rem,4.8vw,3.8rem)]">
               What is a marketing engine?
             </h1>
