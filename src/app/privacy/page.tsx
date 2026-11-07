@@ -63,7 +63,7 @@ export default function Privacy() {
   return (
     <>
       <Header />
-      <main>
+      <main id="main">
         <section className="px-6 pt-24 pb-20 sm:px-10 sm:pt-28 sm:pb-24">
           <div className="mx-auto max-w-[960px]">
             <p className="label mb-8">Privacy</p>

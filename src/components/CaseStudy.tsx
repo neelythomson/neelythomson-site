@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import StartCta from "@/components/StartCta";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import TrackedLink from "@/components/TrackedLink";
@@ -196,7 +197,7 @@ export default function CaseStudy({ c }: { c: CaseStudyData }) {
       />
       <Header />
       <Breadcrumbs items={[{ name: "Work", url: "https://neelythomson.com/work" }, { name: c.title, url: `https://neelythomson.com/work/${c.slug}` }]} />
-      <main>
+      <main id="main">
         <section className="px-6 pt-20 pb-16 sm:px-10 sm:pt-24 sm:pb-20">
           <div className="mx-auto max-w-[960px]">
             <p className="label mb-8">
@@ -312,9 +313,7 @@ export default function CaseStudy({ c }: { c: CaseStudyData }) {
               <p className="text-[13.5px] leading-[1.6] text-muted">
                 Want this built for your team? It starts with a two-week Diagnostic.
               </p>
-              <a href="/#start" className="mt-5 inline-block rounded-sm bg-ink px-[22px] py-[13px] text-sm font-medium text-bg transition-colors hover:bg-accent">
-                Start a Diagnostic &nbsp;&rarr;
-              </a>
+              <StartCta place="case-study" className="mt-5" />
             </div>
           </div>
         </section>

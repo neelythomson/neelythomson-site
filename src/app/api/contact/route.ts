@@ -7,7 +7,7 @@ export const dynamic = "force-dynamic";
 // Comma-separated list. Resend's test sender (onboarding@resend.dev) can only
 // deliver to the account owner, so the second address only works once
 // CONTACT_FROM_EMAIL is on the verified neelythomson.com domain.
-const TO_EMAILS = (process.env.CONTACT_TO_EMAIL || "neelyannconway@gmail.com")
+const TO_EMAILS = (process.env.CONTACT_TO_EMAIL || "hello@neelythomson.com")
   .split(",")
   .map((s) => s.trim())
   .filter(Boolean);
@@ -75,7 +75,7 @@ export async function POST(request: Request) {
     request.headers.get("x-forwarded-for")?.split(",")[0].trim() || "unknown";
   if (isRateLimited(ip)) {
     return NextResponse.json(
-      { error: "Too many submissions. Try again in a few minutes, or email neelyannconway@gmail.com." },
+      { error: "Too many submissions. Try again in a few minutes, or email hello@neelythomson.com." },
       { status: 429 },
     );
   }
@@ -101,7 +101,7 @@ export async function POST(request: Request) {
   if (!apiKey) {
     console.error("[contact] RESEND_API_KEY is not set; cannot send notification.");
     return NextResponse.json(
-      { error: "The form isn't connected yet. Please email neelyannconway@gmail.com directly." },
+      { error: "The form isn't connected yet. Please email hello@neelythomson.com directly." },
       { status: 503 },
     );
   }
@@ -154,14 +154,14 @@ export async function POST(request: Request) {
       const detail = await res.text();
       console.error("[contact] Resend rejected the send:", res.status, detail);
       return NextResponse.json(
-        { error: "Something went wrong sending that. Please email neelyannconway@gmail.com directly." },
+        { error: "Something went wrong sending that. Please email hello@neelythomson.com directly." },
         { status: 502 },
       );
     }
   } catch (err) {
     console.error("[contact] Network error calling Resend:", err);
     return NextResponse.json(
-      { error: "Something went wrong sending that. Please email neelyannconway@gmail.com directly." },
+      { error: "Something went wrong sending that. Please email hello@neelythomson.com directly." },
       { status: 502 },
     );
   }
@@ -174,11 +174,11 @@ export async function POST(request: Request) {
     const latest = await getEssays().then((e) => e[0]).catch(() => undefined);
     const titleEnd = latest && /[.?!]$/.test(latest.title) ? "" : ".";
     const latestText = latest
-      ? `While you wait, the latest essay is "${latest.title}": https://neelythomson.com/writing/${latest.slug}. I write one every other Tuesday; you can subscribe at https://neelythomson.substack.com/subscribe.`
-      : "While you wait, the essays are at https://neelythomson.com/writing. I write one every other Tuesday; you can subscribe at https://neelythomson.substack.com/subscribe.";
+      ? `While you wait, the latest essay is "${latest.title}": https://neelythomson.com/writing/${latest.slug}. I send one when there is one worth sending; you can subscribe at https://neelythomson.substack.com/subscribe.`
+      : "While you wait, the essays are at https://neelythomson.com/writing. I send one when there is one worth sending; you can subscribe at https://neelythomson.substack.com/subscribe.";
     const latestHtml = latest
-      ? `While you wait, the latest essay is <a href="https://neelythomson.com/writing/${escapeHtml(latest.slug)}" style="color:#b33a24">${escapeHtml(latest.title)}</a>${titleEnd} I write one every other Tuesday; you can <a href="https://neelythomson.substack.com/subscribe" style="color:#b33a24">subscribe on Substack</a>.`
-      : `While you wait, the essays are at <a href="https://neelythomson.com/writing" style="color:#b33a24">neelythomson.com/writing</a>. I write one every other Tuesday; you can <a href="https://neelythomson.substack.com/subscribe" style="color:#b33a24">subscribe on Substack</a>.`;
+      ? `While you wait, the latest essay is <a href="https://neelythomson.com/writing/${escapeHtml(latest.slug)}" style="color:#b33a24">${escapeHtml(latest.title)}</a>${titleEnd} I send one when there is one worth sending; you can <a href="https://neelythomson.substack.com/subscribe" style="color:#b33a24">subscribe on Substack</a>.`
+      : `While you wait, the essays are at <a href="https://neelythomson.com/writing" style="color:#b33a24">neelythomson.com/writing</a>. I send one when there is one worth sending; you can <a href="https://neelythomson.substack.com/subscribe" style="color:#b33a24">subscribe on Substack</a>.`;
     const confirmText = [
       `Hi ${firstName},`,
       "",

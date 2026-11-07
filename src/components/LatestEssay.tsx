@@ -34,7 +34,7 @@ export default async function LatestEssay() {
             </Link>
             <span className="px-2">&middot;</span>
             <Link href="/writing" className="transition-colors hover:text-accent">
-              All essays, every other Tuesday
+              All essays
             </Link>
           </p>
         </div>

@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   if (!essay) return {};
   const url = `https://neelythomson.com/writing/${essay.slug}`;
   return {
-    title: `${essay.title} | Neely Thomson`,
+    title: essay.title,
     description: essay.dek,
     alternates: { canonical: url },
     openGraph: {
@@ -75,7 +75,7 @@ export default async function EssayPage({ params }: Params) {
         ]}
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <main>
+      <main id="main">
         <article className="px-6 pt-20 pb-16 sm:px-10 sm:pt-24 sm:pb-20">
           <div className="mx-auto max-w-[960px]">
             <p className="label mb-8">
@@ -118,7 +118,7 @@ export default async function EssayPage({ params }: Params) {
                     <p className="label mb-4">Get the next one</p>
                     <SubscribeEmbed />
                     <p className="mt-3 text-[12.5px] leading-[1.5] text-faint">
-                      Every other Tuesday. No other email.
+                      When there is one worth sending. No other email.
                     </p>
                   </div>
                   <p className="mt-8 text-[13px] text-faint">
@@ -129,8 +129,8 @@ export default async function EssayPage({ params }: Params) {
                       All essays
                     </Link>
                     <span className="px-2">·</span>
-                    <Link href="/diagnostic" className="transition-colors hover:text-accent">
-                      Start a Diagnostic
+                    <Link href="/#start" className="transition-colors hover:text-accent">
+                      Start the conversation
                     </Link>
                   </p>
                 </div>

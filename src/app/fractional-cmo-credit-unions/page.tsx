@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import StartCta from "@/components/StartCta";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
@@ -101,7 +102,7 @@ const faq = [
   },
   {
     q: "What does a fractional CMO for a credit union cost compared with an agency retainer?",
-    a: "Fractional CMO retainers in the US run $10,000 to $12,000 a month, usually with a three to six month minimum. An agency retainer for a mid-sized credit union often costs the same and produces campaigns, not systems. I work differently: a two-week Diagnostic at a fixed fee, then a ninety-day build with a fixed scope and a fixed end date. The proposal shows that price next to the retainer and full-time options so you can compare them.",
+    a: "For comparison, market-rate fractional CMO retainers in the US run $10,000 to $12,000 a month, usually with a three to six month minimum. An agency retainer for a mid-sized credit union often costs the same and produces campaigns, not systems. I work differently: a two-week Diagnostic at a fixed fee, then a ninety-day build with a fixed scope and a fixed end date. The proposal shows that price next to the retainer and full-time options so you can compare them.",
   },
   {
     q: "How does the engagement process work?",
@@ -171,7 +172,7 @@ export default function FractionalCMOCreditUnions() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
       <Breadcrumbs items={[{ name: "Fractional CMO for credit unions", url: URL }]} />
-      <main>
+      <main id="main">
         <section className="px-6 pt-24 pb-20 sm:px-10 sm:pt-28 sm:pb-24">
           <div className="mx-auto max-w-[960px]">
             <p className="label mb-8">
@@ -196,9 +197,7 @@ export default function FractionalCMOCreditUnions() {
               an examiner.
             </p>
             <div className="mt-9 flex flex-wrap items-center gap-x-7 gap-y-4">
-              <a href="/#start" className="rounded-sm bg-ink px-[22px] py-[13px] text-sm font-medium text-bg transition-colors hover:bg-accent">
-                Start a Diagnostic &nbsp;&rarr;
-              </a>
+              <StartCta place="credit-unions" />
               <a href="/fractional-cmo-fintech" className="border-b border-accent pb-0.5 text-sm font-medium text-ink transition-colors hover:text-accent">
                 The fintech version of this page
               </a>
@@ -337,9 +336,7 @@ export default function FractionalCMOCreditUnions() {
               </a>
               .
             </p>
-            <a href="/#start" className="mt-9 inline-block rounded-sm bg-ink px-[22px] py-[13px] text-sm font-medium text-bg transition-colors hover:bg-accent">
-              Start a Diagnostic &nbsp;&rarr;
-            </a>
+            <StartCta place="credit-unions" className="mt-9" />
           </div>
         </section>
       </main>

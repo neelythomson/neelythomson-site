@@ -118,7 +118,7 @@ export default function FractionalCMOvsFullTime() {
       />
       <Header />
       <Breadcrumbs items={[{ name: "Fractional CMO vs. full-time", url: "https://neelythomson.com/fractional-cmo-vs-full-time" }]} />
-      <main>
+      <main id="main">
         {/* ── Hero ────────────────────────────────────────── */}
         <section className="px-6 pt-20 pb-16 sm:px-10 sm:pt-24 sm:pb-20">
           <div className="mx-auto max-w-[960px]">
@@ -376,7 +376,7 @@ export default function FractionalCMOvsFullTime() {
               Everything starts with a two-week Diagnostic, credited in
               full toward the build.{" "}
               <a href="/#start" className="border-b border-accent pb-px text-white transition-colors hover:text-accent">
-                Start a Diagnostic
+                Start the conversation
               </a>
               , or{" "}
               <a href="/faq" className="border-b border-white/30 pb-px text-white transition-colors hover:text-accent">

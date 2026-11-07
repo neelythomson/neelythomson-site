@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import StartCta from "@/components/StartCta";
 import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -10,7 +11,7 @@ const DESCRIPTION =
 const URL = "https://neelythomson.com/about";
 
 export const metadata: Metadata = {
-  title: TITLE,
+  title: { absolute: TITLE },
   description: DESCRIPTION,
   alternates: { canonical: URL },
   openGraph: {
@@ -84,7 +85,7 @@ export default function About() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
       <Breadcrumbs items={[{ name: "About", url: URL }]} />
-      <main>
+      <main id="main">
         <section className="px-6 pt-20 pb-16 sm:px-10 sm:pt-24 sm:pb-20">
           <div className="mx-auto grid max-w-[960px] items-start gap-10 md:grid-cols-[1fr_240px] md:gap-14">
             <div>
@@ -154,7 +155,7 @@ export default function About() {
             <div className="mt-10 grid gap-x-12 gap-y-9 md:grid-cols-3">
               {beliefs.map((b) => (
                 <div key={b.t} className="border-t border-rule pt-5">
-                  <h3 className="display-xs mb-2.5 text-[19px]">{b.t}</h3>
+                  <h2 className="display-xs mb-2.5 text-[19px]">{b.t}</h2>
                   <p className="text-[13.5px] leading-[1.65] text-muted">{b.b}</p>
                 </div>
               ))}
@@ -227,12 +228,7 @@ export default function About() {
             <p className="measure text-base leading-[1.68] text-muted">
               Two weeks, a fixed fee, and a written plan at the end of it, yours either way.
             </p>
-            <a
-              href="/#start"
-              className="mt-9 inline-block rounded-sm bg-ink px-[22px] py-[13px] text-sm font-medium text-bg transition-colors hover:bg-accent"
-            >
-              Start a Diagnostic &nbsp;&rarr;
-            </a>
+            <StartCta place="about" className="mt-9" />
           </div>
         </section>
       </main>

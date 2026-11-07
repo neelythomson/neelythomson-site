@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import StartCta from "@/components/StartCta";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
@@ -40,7 +41,7 @@ export default function Work() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
       <Breadcrumbs items={[{ name: "Work", url: "https://neelythomson.com/work" }]} />
-      <main>
+      <main id="main">
         <section className="px-6 pt-20 pb-16 sm:px-10 sm:pt-24 sm:pb-20">
           <div className="mx-auto max-w-[960px]">
             <p className="label mb-8">Work</p>
@@ -101,9 +102,7 @@ export default function Work() {
               Every engine above started with the same audit. Two weeks, a fixed
               fee, and a written plan at the end of it.
             </p>
-            <a href="/#start" className="mt-9 inline-block rounded-sm bg-ink px-[22px] py-[13px] text-sm font-medium text-bg transition-colors hover:bg-accent">
-              Start a Diagnostic &nbsp;&rarr;
-            </a>
+            <StartCta place="work" className="mt-9" />
           </div>
         </section>
       </main>

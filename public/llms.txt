@@ -67,9 +67,16 @@ Best fit: B2B software companies selling into regulated or institutional buyers 
 
 ## Key results
 
-- 60% reduction in manual campaign work through AI automation
-- LTV:CAC ratio of 5:1
-- 15% MQL-to-opportunity conversion lift
+The four figures on the homepage, each from an anonymized case study:
+
+- 60% of manual campaign work removed (B2B fintech payments, under NACHA and CFPB)
+- 5:1 LTV:CAC over four years (same fintech)
+- 75% lift in partner engagement (national nonprofit, $70M marketing org)
+- 15% more net-new leads acquired (same nonprofit)
+
+Also:
+
+- 15% MQL-to-opportunity conversion lift (the fintech)
 - Helped execute the sale of the company she led marketing for, acquired 2026
 - 20 years of B2B SaaS and fintech marketing leadership
 
@@ -89,7 +96,7 @@ Best fit: B2B software companies selling into regulated or institutional buyers 
 - https://neelythomson.com/diagnostic: the two-week Diagnostic in full: the seven audit activities, the four deliverables, the ten-day schedule, what the client provides, and the terms (fixed fee, net 15, credited toward the build within 30 days, customer data stays in the client's systems).
 - https://neelythomson.com/about: who Neely Thomson is. The full track record year by year, the three things she would say on any first call (plumbing over production, build it so your team runs it, compliance is architecture), and where else she publishes.
 - https://neelythomson.com/faq: twenty-nine questions about the engagement, cost, scope, fit, what AI-native means here, what stays human, the compliance layer, and how regulation shapes the work, answered plainly.
-- https://neelythomson.com/writing: the essay index. Every other Tuesday Neely Thomson writes about building a marketing engine from inside a B2B software company: what she saw, what she decided, what the scoreboard said. Each essay has a page at https://neelythomson.com/writing/<slug> carrying the title, the date, and the opening of the essay; the full text is published on Substack at https://neelythomson.substack.com and linked from every essay page.
+- https://neelythomson.com/writing: the essay index. Neely Thomson writes, when there is one worth sending, about building a marketing engine from inside a B2B software company: what she saw, what she decided, what the scoreboard said. Each essay has a page at https://neelythomson.com/writing/<slug> carrying the title, the date, and the opening of the essay; the full text is published on Substack at https://neelythomson.substack.com and linked from every essay page.
 
 ## Contact
 

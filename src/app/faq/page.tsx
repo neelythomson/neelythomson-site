@@ -5,7 +5,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 
 const TITLE = "Fractional CMO FAQ: How the Engagement Works, What It Costs, Who It's For";
 const DESCRIPTION =
-  "Thirty-one questions people ask before hiring a fractional CMO: what one does, what it costs, what AI-native means in a regulated company, what stays human, how a 90-day build differs from a retainer, and what you keep.";
+  "Thirty-one plain answers on hiring a fractional CMO: what it costs, what AI-native means in a regulated company, and how a 90-day build differs from a retainer.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -287,7 +287,7 @@ export default function FAQ() {
       />
       <Header />
       <Breadcrumbs items={[{ name: "FAQ", url: "https://neelythomson.com/faq" }]} />
-      <main>
+      <main id="main">
         <section className="px-6 pt-20 pb-16 sm:px-10 sm:pt-24 sm:pb-20">
           <div className="mx-auto max-w-[960px]">
             <p className="label mb-8">Questions</p>

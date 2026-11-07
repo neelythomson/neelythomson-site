@@ -79,7 +79,7 @@ export default function ContactForm({ latest = null }: { latest?: LatestEssay })
             </p>
           )}
           <p className="mt-2 text-[15px] leading-[1.65] text-muted">
-            I write one every other Tuesday.{" "}
+            I send one when there is one worth sending.{" "}
             <a
               href="https://neelythomson.substack.com/subscribe"
               target="_blank"
@@ -171,11 +171,11 @@ export default function ContactForm({ latest = null }: { latest?: LatestEssay })
           disabled={status === "submitting"}
           className="inline-flex w-full items-center justify-center gap-2 rounded-sm bg-ink px-[22px] py-[14px] sm:w-auto sm:py-[13px] text-sm font-medium text-bg transition-colors hover:bg-accent disabled:cursor-not-allowed disabled:opacity-60"
         >
-          {status === "submitting" ? "Sending…" : "Send"}
+          {status === "submitting" ? "Sending…" : "Send the note"}
           {status !== "submitting" && <span aria-hidden="true">→</span>}
         </button>
         <p className="text-[13px] text-faint">
-          Goes straight to my inbox. No list, no sequence.
+          Straight to my inbox, no list, no sequence. I reply within two business days.
         </p>
       </div>
     </form>

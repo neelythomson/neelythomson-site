@@ -6,7 +6,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import SubscribeEmbed from "@/components/SubscribeEmbed";
 import { getEssays, SUBSTACK } from "@/lib/substack";
 
-const TITLE = "Writing | Neely Thomson";
+const TITLE = "Writing";
 const DESCRIPTION =
   "Essays on building a marketing engine from inside a B2B software company: what I saw, what I decided, what the scoreboard said.";
 
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     types: { "application/rss+xml": `${SUBSTACK}/feed` },
   },
   openGraph: {
-    title: TITLE,
+    title: "Writing | Neely Thomson",
     description: DESCRIPTION,
     url: "https://neelythomson.com/writing",
     siteName: "Neely Thomson",
@@ -57,7 +57,7 @@ export default async function WritingPage() {
       <Header />
       <Breadcrumbs items={[{ name: "Writing", url: "https://neelythomson.com/writing" }]} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogJsonLd) }} />
-      <main>
+      <main id="main">
         <section className="px-6 pt-20 pb-16 sm:px-10 sm:pt-24 sm:pb-20">
           <div className="mx-auto max-w-[960px]">
             <p className="label mb-8">Writing</p>
@@ -166,7 +166,7 @@ export default async function WritingPage() {
                   </a>
                   <span className="px-2 text-faint">&middot;</span>
                   <a href="/#start" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
-                    Start a Diagnostic
+                    Start the conversation
                   </a>
                 </p>
               </div>

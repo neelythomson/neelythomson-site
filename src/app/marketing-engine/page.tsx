@@ -151,7 +151,7 @@ export default function MarketingEngine() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
       <Breadcrumbs items={[{ name: "What is a marketing engine", url: "https://neelythomson.com/marketing-engine" }]} />
-      <main>
+      <main id="main">
         <section className="px-6 pt-24 pb-20 sm:px-10 sm:pt-28 sm:pb-24">
           <div className="mx-auto max-w-[960px]">
             <p className="label mb-8">Definition</p>
@@ -303,7 +303,7 @@ export default function MarketingEngine() {
                 The Diagnostic &nbsp;&rarr;
               </a>
               <a href="/#start" className="border-b border-accent pb-0.5 text-sm font-medium text-ink transition-colors hover:text-accent">
-                Start a Diagnostic
+                Start the conversation
               </a>
               <a href="/#engine" className="border-b border-accent pb-0.5 text-sm font-medium text-ink transition-colors hover:text-accent">
                 What gets built in ninety days

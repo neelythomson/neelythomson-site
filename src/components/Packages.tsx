@@ -1,10 +1,12 @@
+import StartCta from "@/components/StartCta";
+
 const packages = [
   {
     n: "01",
     stage: "Before the hire",
     name: "The First Hire Plan",
     figure: "Six weeks",
-    terms: "Fixed price, quoted on the first call",
+    terms: "Fixed fee, quoted on the first call",
     includes: [
       "The role to hire: which kind, what level, what to look for",
       "The twelve-month plan and the segment to lead with",
@@ -21,7 +23,7 @@ const packages = [
     stage: "After the hire · start here",
     name: "The Diagnostic",
     figure: "Two weeks",
-    terms: "Fixed fee, credited toward the build",
+    terms: "Fixed fee, quoted on the first call. Credited toward the build",
     lead: true,
     includes: [
       "Stack, process, and funnel audit, by business unit",
@@ -38,7 +40,7 @@ const packages = [
     stage: "The build",
     name: "The Marketing Engine",
     figure: "Ninety days",
-    terms: "Scoped and priced after the Diagnostic",
+    terms: "Fixed fee, quoted after the Diagnostic",
     includes: [
       "Everything in the Diagnostic",
       "All three layers, built and live in your tools",
@@ -53,7 +55,7 @@ const packages = [
     stage: "After, or instead",
     name: "The Advisory Seat",
     figure: "Monthly",
-    terms: "Scoped per client",
+    terms: "Fixed monthly fee, quoted on the first call",
     includes: [
       "Roughly ten hours a month",
       "A monthly read of the scoreboard",
@@ -152,17 +154,12 @@ export default function Packages() {
           ))}
         </ul>
 
-        <div className="mt-9 flex flex-wrap items-center gap-x-7 gap-y-3 border-t border-rule pt-8">
-          <a
-            href="#start"
-            className="rounded-sm bg-ink px-[22px] py-[13px] text-sm font-medium text-bg transition-colors hover:bg-accent"
-          >
-            Start a Diagnostic &nbsp;&rarr;
-          </a>
-          <p className="text-[13px] text-faint">
-            Two weeks, credited in full if we go on to build. No
-            marketing hire yet? Say so in the note and we start with the First
-            Hire Plan instead.
+        <div className="mt-9 border-t border-rule pt-8">
+          <StartCta place="packages" />
+          <p className="mt-4 text-[13px] text-faint">
+            Every package is a fixed fee, quoted on the first call. Say in the
+            note whether you have made the marketing hire yet and I will tell
+            you which one fits.
           </p>
         </div>
 

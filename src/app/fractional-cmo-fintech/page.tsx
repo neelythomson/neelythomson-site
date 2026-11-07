@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import StartCta from "@/components/StartCta";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
@@ -175,7 +176,7 @@ export default function FractionalCMOFintech() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
       <Breadcrumbs items={[{ name: "Fractional CMO for fintech", url: URL }]} />
-      <main>
+      <main id="main">
         <section className="px-6 pt-24 pb-20 sm:px-10 sm:pt-28 sm:pb-24">
           <div className="mx-auto max-w-[960px]">
             <p className="label mb-8">
@@ -201,9 +202,7 @@ export default function FractionalCMOFintech() {
               what I learned there and what I build now.
             </p>
             <div className="mt-9 flex flex-wrap items-center gap-x-7 gap-y-4">
-              <a href="/#start" className="rounded-sm bg-ink px-[22px] py-[13px] text-sm font-medium text-bg transition-colors hover:bg-accent">
-                Start a Diagnostic &nbsp;&rarr;
-              </a>
+              <StartCta place="fintech" />
               <a href="/work/fintech-payments" className="border-b border-accent pb-0.5 text-sm font-medium text-ink transition-colors hover:text-accent">
                 Read the fintech case study
               </a>
@@ -346,9 +345,7 @@ export default function FractionalCMOFintech() {
               </a>
               .
             </p>
-            <a href="/#start" className="mt-9 inline-block rounded-sm bg-ink px-[22px] py-[13px] text-sm font-medium text-bg transition-colors hover:bg-accent">
-              Start a Diagnostic &nbsp;&rarr;
-            </a>
+            <StartCta place="fintech" className="mt-9" />
           </div>
         </section>
       </main>

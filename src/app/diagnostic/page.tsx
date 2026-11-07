@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import StartCta from "@/components/StartCta";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
@@ -165,7 +166,7 @@ export default function Diagnostic() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
       <Breadcrumbs items={[{ name: "The Diagnostic", url: "https://neelythomson.com/diagnostic" }]} />
-      <main>
+      <main id="main">
         <section className="px-6 pt-24 pb-20 sm:px-10 sm:pt-28 sm:pb-24">
           <div className="mx-auto max-w-[960px]">
             <p className="label mb-8">The Diagnostic · Two weeks</p>
@@ -184,9 +185,7 @@ export default function Diagnostic() {
               You can stop at the end of the two weeks and keep the plan.
             </p>
             <div className="mt-9 flex flex-wrap items-center gap-x-7 gap-y-4">
-              <a href="/#start" className="rounded-sm bg-ink px-[22px] py-[13px] text-sm font-medium text-bg transition-colors hover:bg-accent">
-                Start a Diagnostic &nbsp;&rarr;
-              </a>
+              <StartCta place="diagnostic" label="Start a Diagnostic" />
               <a href="#what-happens" className="border-b border-accent pb-0.5 text-sm font-medium text-ink transition-colors hover:text-accent">
                 What happens in the two weeks
               </a>
@@ -303,9 +302,7 @@ export default function Diagnostic() {
               you like.
             </p>
             <div className="mt-9 flex flex-wrap items-center gap-x-7 gap-y-4">
-              <a href="/#start" className="rounded-sm bg-ink px-[22px] py-[13px] text-sm font-medium text-bg transition-colors hover:bg-accent">
-                Start a Diagnostic &nbsp;&rarr;
-              </a>
+              <StartCta place="diagnostic" label="Start a Diagnostic" />
               <a href="/faq" className="border-b border-accent pb-0.5 text-sm font-medium text-ink transition-colors hover:text-accent">
                 Questions people ask first
               </a>

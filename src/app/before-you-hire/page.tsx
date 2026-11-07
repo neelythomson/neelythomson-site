@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import StartCta from "@/components/StartCta";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
@@ -151,7 +152,7 @@ export default function BeforeYouHire() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
       <Breadcrumbs items={[{ name: "Before you hire", url: URL }]} />
-      <main>
+      <main id="main">
         <section className="px-6 pt-24 pb-20 sm:px-10 sm:pt-28 sm:pb-24">
           <div className="mx-auto max-w-[960px]">
             <p className="label mb-8">Before you hire · For CEOs with an open marketing-leader search</p>
@@ -170,9 +171,7 @@ export default function BeforeYouHire() {
               board, the team, and the forecast instead of the CRM.
             </p>
             <div className="mt-9 flex flex-wrap items-center gap-x-7 gap-y-4">
-              <a href="/#start" className="rounded-sm bg-ink px-[22px] py-[13px] text-sm font-medium text-bg transition-colors hover:bg-accent">
-                Start a Diagnostic &nbsp;&rarr;
-              </a>
+              <StartCta place="before-you-hire" />
               <a href="#scorecard" className="border-b border-accent pb-0.5 text-sm font-medium text-ink transition-colors hover:text-accent">
                 Score your posting in ten questions
               </a>
@@ -377,9 +376,7 @@ export default function BeforeYouHire() {
               a job.
             </p>
             <div className="mt-9 flex flex-wrap items-center gap-x-7 gap-y-4">
-              <a href="/#start" className="rounded-sm bg-ink px-[22px] py-[13px] text-sm font-medium text-bg transition-colors hover:bg-accent">
-                Start a Diagnostic &nbsp;&rarr;
-              </a>
+              <StartCta place="before-you-hire" />
               <a href="/fractional-cmo-vs-full-time" className="border-b border-accent pb-0.5 text-sm font-medium text-ink transition-colors hover:text-accent">
                 Fractional vs. full-time, side by side
               </a>

@@ -26,7 +26,7 @@ const DESCRIPTION =
   "I build marketing functions for B2B software startups, then hand them to the person who runs them. Before your first marketing hire: the First Hire Plan. After it: a two-week Diagnostic, then the Marketing Engine. Fintech, healthtech, edtech, govtech.";
 
 export const metadata: Metadata = {
-  title: TITLE,
+  title: { default: TITLE, template: "%s | Neely Thomson" },
   description: DESCRIPTION,
   keywords: [
     "fractional CMO",
@@ -179,6 +179,12 @@ export default function RootLayout({
         />
       </head>
       <body className="antialiased">
+        <a
+          href="#main"
+          className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[60] focus:rounded-sm focus:bg-ink focus:px-4 focus:py-2 focus:text-sm focus:text-bg"
+        >
+          Skip to content
+        </a>
         {children}
         <Analytics />
         <GoogleAnalytics />
