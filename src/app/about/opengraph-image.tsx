@@ -6,6 +6,6 @@ export default function Image() {
   return ogImage({
     label: "About",
     title: "I spent my career on the inside.",
-    sub: "Fractional CMO and marketing systems architect. Four years leading marketing at a fintech payments company, including a stretch in the sales chair.",
+    sub: "I build marketing functions for software startups. Four years leading marketing at a fintech payments company, including a stretch in the sales chair.",
   });
 }
