@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { track } from "@/lib/track";
+import StartCta from "@/components/StartCta";
 
 export const SCORECARD = [
   "The posting names the one number the role owns, and it is pipeline or revenue rather than MQLs or awareness.",
@@ -66,6 +67,19 @@ export default function JdScorecard() {
               ? r.b
               : "Tick each line that is true of the posting as it reads today. Eight or more and the search is the right next step. Four or fewer and the first hire is a system, not a person."}
           </p>
+          {touched && score < 8 && (
+            <>
+              <p className="mt-4 max-w-[62ch] text-[15px] leading-[1.7] text-muted">
+                The{" "}
+                <a href="/diagnostic" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+                  Diagnostic
+                </a>{" "}
+                settles the unticked lines in two weeks, and the fee is
+                credited toward the build if there is one.
+              </p>
+              <StartCta place="before-you-hire-scorecard" className="mt-6" />
+            </>
+          )}
           <p className="mt-6 text-[13.5px] text-muted">
             <a
               href="/before-you-hire/marketing-leader-posting-scorecard.pdf"
