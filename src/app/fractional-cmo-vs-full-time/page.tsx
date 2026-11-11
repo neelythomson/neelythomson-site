@@ -298,6 +298,18 @@ export default function FractionalCMOvsFullTime() {
               </table>
             </div>
             <Figures className="mt-12 border-t border-rule pt-8" label="The sources" items={figures} />
+            <div className="mt-12 border-t border-rule pt-8">
+              <p className="measure text-base leading-[1.68] text-muted">
+                Not sure which column you are in? That is what the two-week{" "}
+                <a href="/diagnostic" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+                  Diagnostic
+                </a>{" "}
+                answers: which option fits, what the function should be, and
+                what it costs, with the fee credited toward the build if there
+                is one. If the answer is a full-time hire, I will say so.
+              </p>
+              <StartCta place="vs-full-time-table" className="mt-7" />
+            </div>
           </div>
         </section>
 
