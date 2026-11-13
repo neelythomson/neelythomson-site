@@ -2,43 +2,53 @@
   "items": [
     {
       "q": "The posting names the one number the role owns, and it is pipeline or revenue rather than MQLs or awareness.",
-      "fix": "Add one sentence: \"This role owns pipeline created (or revenue sourced), reported monthly.\" If you can't choose the number yet, choosing it is your first job, before the posting goes up."
+      "fix": "Add one sentence: \"This role owns pipeline created (or revenue sourced), reported monthly.\" If you can't choose the number yet, choosing it is your first job, before the posting goes up.",
+      "group": "posting"
     },
     {
       "q": "It says who the role reports to and who sets the marketing budget.",
-      "fix": "Name the manager and the person who approves spend. If the budget isn't set, give a range for the first two quarters. A candidate will ask in the first interview either way."
+      "fix": "Name the manager and the person who approves spend. If the budget isn't set, give a range for the first two quarters. A candidate will ask in the first interview either way.",
+      "group": "posting"
     },
     {
-      "q": "It describes the systems the role runs (CRM, automation, scoring, routing, the scoreboard) rather than the assets it produces.",
-      "fix": "List the systems by name: your CRM, the automation tool, how leads are scored and routed, the report the board reads. Say which exist today and which the hire will build."
+      "q": "It names the systems the role will own (the CRM, marketing automation, lead routing, reporting) and says which exist today.",
+      "fix": "List the systems by name: your CRM, the automation tool, how leads are scored and routed, the report the board reads. Say which exist today and which the hire will build.",
+      "group": "posting"
     },
     {
-      "q": "The headcount under the role is stated, and it was set after deciding what AI now covers.",
-      "fix": "Describe the team as it is on day one: direct reports, agencies, contractors, and the work AI tools already do. \"No direct reports in year one\" is a good answer once it is written down."
+      "q": "It says who the role manages on day one: direct reports, agencies and contractors.",
+      "fix": "Describe the team as it is on day one. If the answer is nobody, write that. \"No direct reports in year one\" tells a candidate more than \"build and lead a team.\"",
+      "group": "posting"
     },
     {
-      "q": "It names the AI tools already in the stack and who owns them today.",
-      "fix": "List the AI tools the company pays for and who uses each one now. If nobody owns them, say the role will, and say whether there is a review step before anything they produce is published."
+      "q": "It says how the team uses AI today: which tools, and who is responsible for what they produce.",
+      "fix": "List the AI tools the company pays for and who uses each one now. If nobody owns them, say the role will, and say whether anything they produce is reviewed before it is published.",
+      "group": "posting"
     },
     {
       "q": "It says what the first ninety days are for, and the answer is something other than \"assess.\"",
-      "fix": "Write three outcomes for day ninety that someone could check. For example: the lead definition is signed by sales, the scoreboard is live with baselines, one campaign is in market."
+      "fix": "Write three outcomes for day ninety that someone could check. For example: the lead definition is signed by sales, the scoreboard is live with baselines, one campaign is in market.",
+      "group": "posting"
     },
     {
-      "q": "It names the regulations the function operates under and who signs off on a claim before it ships.",
-      "fix": "Name the rules that apply to your marketing (NACHA, FINRA, HIPAA, FERPA, state procurement rules) and who approves a claim before it is published. If none apply, say so. Candidates from regulated companies will ask."
+      "q": "It names the rules marketing operates under, or says there are none, and who approves a claim before it is published.",
+      "fix": "Name the rules that apply to your marketing (NACHA, FINRA, HIPAA, FERPA, state procurement rules) and who approves a claim before it is published. If none apply, say so. Candidates from regulated companies will ask.",
+      "group": "posting"
     },
     {
-      "q": "It asks for evidence that a function the candidate built kept running after they left.",
-      "fix": "Add one application question: \"Tell us about something you built that was still running a year after you left it.\" It works in a final-round interview too."
+      "q": "It asks for evidence that something the candidate built kept running after they left.",
+      "fix": "Add one application question: \"Tell us about something you built that was still running a year after you left it.\" It works in a final-round interview too.",
+      "group": "posting"
     },
     {
-      "q": "A written definition of a qualified lead, agreed by sales, exists before the hire.",
-      "fix": "Write one paragraph: who qualifies, which signal counts, what sales does with a qualified lead and how fast. Ask your sales lead to sign it. Without it, the hire negotiates it in their first quarter, with less standing than you have today."
+      "q": "A written definition of a qualified lead, agreed by sales, exists.",
+      "fix": "Write one paragraph: who qualifies, which signal counts, what sales does with a qualified lead and how fast. Ask your sales lead to sign it. Without it, the hire negotiates it in their first quarter, with less standing than you have today.",
+      "group": "before"
     },
     {
       "q": "The sales leader has read the posting and agreed to it.",
-      "fix": "Send the posting to whoever runs sales with one question: \"Would you commit to the number in this posting?\" Edit it together until the answer is yes."
+      "fix": "Send the posting to whoever runs sales with one question: \"Would you commit to the number in this posting?\" Edit it together until the answer is yes.",
+      "group": "before"
     }
   ],
   "bands": [
@@ -71,5 +81,61 @@
       "q": "What did you build that was still running a year after you left it?",
       "why": "Tests line 08. The answer shows whether they build things other people can run."
     }
-  ]
+  ],
+  "groups": {
+    "posting": {
+      "label": "In the posting",
+      "note": "Eight lines you can check against the text."
+    },
+    "before": {
+      "label": "Before you post",
+      "note": "Two things the posting depends on that a candidate can't see."
+    }
+  },
+  "model": {
+    "title": "Head of Marketing, [Company]",
+    "intro": "[Company] sells [product] to [buyer]. We are [number] people, [funding stage], and marketing has been run by [the founder / sales] until now.",
+    "parts": [
+      {
+        "line": "01",
+        "h": "The number you own",
+        "t": "Pipeline created: qualified opportunities and their dollar value, reported monthly to the CEO and quarterly to the board. Today marketing sources about [X] percent of pipeline."
+      },
+      {
+        "line": "02",
+        "h": "Who you report to",
+        "t": "The CEO, who also approves the marketing budget. For your first two quarters that budget is [range], with salaries counted separately."
+      },
+      {
+        "line": "03",
+        "h": "What you will run",
+        "t": "[CRM and marketing automation tool], in place and lightly configured. Lead scoring and routing, which do not exist yet and are yours to build. The monthly pipeline report, which lives in a spreadsheet today."
+      },
+      {
+        "line": "04",
+        "h": "Your team on day one",
+        "t": "No direct reports in year one. One contract designer for about ten hours a week, and a paid search agency on a monthly contract that you can keep or replace."
+      },
+      {
+        "line": "05",
+        "h": "How we use AI",
+        "t": "We pay for [tools]. Sales uses them for call notes and marketing uses them for first drafts. You will own that process, and nothing AI-drafted is published without your review."
+      },
+      {
+        "line": "06",
+        "h": "Your first ninety days",
+        "t": "By day 30, a lead definition signed by our head of sales. By day 60, scoring and routing live and the pipeline report running from the CRM. By day 90, one campaign in market to our lead segment, with its results on the report."
+      },
+      {
+        "line": "07",
+        "h": "The rules we work under",
+        "t": "We sell to [banks / schools / health systems], so our marketing claims fall under [rule]. Our [compliance lead] approves any product or performance claim before it is published, usually within two business days."
+      },
+      {
+        "line": "08",
+        "h": "What we would like to see from you",
+        "t": "Tell us about something you built that was still running a year after you handed it off: what it was, who ran it, and how you know."
+      }
+    ]
+  }
 }

@@ -4,11 +4,12 @@ import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Byline from "@/components/Byline";
 import PostingScorecard from "@/components/PostingScorecard";
+import CopyPosting from "@/components/CopyPosting";
 import data from "@/data/posting-scorecard.json";
 
 const TITLE = "Marketing Leader Job Posting Scorecard: Ten Lines to Check Before It Goes Live";
 const DESCRIPTION =
-  "A free ten-line scorecard for a Head of Marketing, VP of Marketing or first marketing hire posting. Tick what is true, see what to change for every line that is not, and take three questions into the final round.";
+  "A free ten-line scorecard for a Head of Marketing, VP of Marketing or first marketing hire posting. Tick what is true, see what to change for every line that is not, copy an example posting, and take three questions into the final round.";
 const URL = "https://neelythomson.com/scorecard";
 const PUBLISHED = "2026-11-13";
 
@@ -72,8 +73,9 @@ export default function Scorecard() {
             <p className="measure text-[17px] leading-[1.62] text-muted">
               Open the posting as it reads today and tick each line that is
               true. Every open line has a note under it that says what to
-              change. It takes about ten minutes, and it works for a Head of
-              Marketing, a VP of Marketing, or a first marketing hire.
+              change, and there is an example posting further down that you
+              can copy. It takes about ten minutes, and it works for a Head
+              of Marketing, a VP of Marketing, or a first marketing hire.
             </p>
             <p className="measure mt-4 text-[14px] leading-[1.62] text-faint">
               Free to use and to share. Nothing you tick is stored or sent
@@ -99,7 +101,43 @@ export default function Scorecard() {
           </div>
         </section>
 
-        <section className="border-t border-rule px-6 pt-20 pb-16 sm:px-10 sm:pt-24 sm:pb-20">
+        <section id="example" className="scroll-mt-20 border-t border-rule px-6 pt-20 pb-16 sm:px-10 sm:pt-24 sm:pb-20">
+          <div className="mx-auto max-w-[960px]">
+            <p className="label mb-8">An example to edit</p>
+            <h2 className="display-sm mb-7 max-w-[24ch] text-[clamp(1.7rem,3vw,2.5rem)]">
+              A posting that covers all eight lines.
+            </h2>
+            <p className="measure text-base leading-[1.68] text-muted">
+              Every detail below is a placeholder. Keep the structure, replace
+              what is in brackets, and change the specifics to what is true at
+              your company. The number beside each paragraph is the line it
+              answers.
+            </p>
+            <div className="mt-10 border-t border-ink pt-8">
+              <div className="grid gap-3 pb-6 md:grid-cols-[170px_1fr] md:gap-10">
+                <span className="label pt-1">The posting</span>
+                <div>
+                  <p className="display-xs text-[21px]">{data.model.title}</p>
+                  <p className="mt-2 max-w-[62ch] text-[15px] leading-[1.7] text-muted">{data.model.intro}</p>
+                </div>
+              </div>
+              {data.model.parts.map((p) => (
+                <div key={p.line} className="grid gap-3 border-t border-rule py-5 md:grid-cols-[170px_1fr] md:gap-10">
+                  <span className="label pt-1 tnum">Line {p.line}</span>
+                  <div>
+                    <p className="text-[15px] font-medium leading-[1.6] text-ink">{p.h}</p>
+                    <p className="mt-1 max-w-[62ch] text-[15px] leading-[1.7] text-muted">{p.t}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+            <div className="mt-8">
+              <CopyPosting />
+            </div>
+          </div>
+        </section>
+
+        <section className="border-t border-rule bg-band px-6 pt-20 pb-16 sm:px-10 sm:pt-24 sm:pb-20">
           <div className="mx-auto max-w-[960px]">
             <p className="label mb-8">For the final round</p>
             <h2 className="display-sm mb-9 max-w-[24ch] text-[clamp(1.7rem,3vw,2.5rem)]">
@@ -119,7 +157,7 @@ export default function Scorecard() {
           </div>
         </section>
 
-        <section className="border-t border-rule bg-band px-6 pt-16 pb-16 sm:px-10">
+        <section className="border-t border-rule px-6 pt-16 pb-16 sm:px-10">
           <div className="mx-auto max-w-[960px]">
             <p className="label mb-5">Who made this</p>
             <p className="measure text-base leading-[1.68] text-muted">

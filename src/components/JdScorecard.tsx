@@ -3,19 +3,9 @@
 import { useState } from "react";
 import { track } from "@/lib/track";
 import StartCta from "@/components/StartCta";
+import data from "@/data/posting-scorecard.json";
 
-export const SCORECARD = [
-  "The posting names the one number the role owns, and it is pipeline or revenue rather than MQLs or awareness.",
-  "It says who the role reports to and who sets the marketing budget.",
-  "It describes the systems the role runs (CRM, automation, scoring, routing, the scoreboard) rather than the assets it produces.",
-  "The headcount under the role is stated, and it was set after deciding what AI now covers.",
-  "It names the AI tools already in the stack and who owns them today.",
-  "It says what the first ninety days are for, and the answer is something other than \"assess.\"",
-  "It names the regulations the function operates under and who signs off on a claim before it ships.",
-  "It asks for evidence that a function the candidate built kept running after they left.",
-  "A written definition of a qualified lead, agreed by sales, exists before the hire.",
-  "The sales leader has read the posting and agreed to it.",
-];
+export const SCORECARD = data.items.map((it) => it.q);
 
 function read(score: number) {
   if (score >= 8) return { t: "Hire.", b: "The function is defined. The search is the right next step, and the Diagnostic would mostly confirm what you already know." };
@@ -82,7 +72,7 @@ export default function JdScorecard() {
           )}
           <p className="mt-6 text-[13.5px] text-muted">
             <a
-              href="/before-you-hire/marketing-leader-posting-scorecard.pdf"
+              href="/scorecard/marketing-leader-posting-scorecard.pdf"
               onClick={() => track("scorecard_pdf", { place: "before-you-hire" })}
               className="border-b border-accent pb-px text-ink transition-colors hover:text-accent"
             >
