@@ -42,6 +42,8 @@ export default async function EssayPage({ params }: Params) {
   const essay = await getEssay(slug);
   if (!essay) notFound();
 
+  const others = (await getEssays()).filter((e) => e.slug !== essay.slug).slice(0, 4);
+
   const url = `https://neelythomson.com/writing/${essay.slug}`;
   const jsonLd = {
     "@context": "https://schema.org",
@@ -117,6 +119,23 @@ export default async function EssayPage({ params }: Params) {
                       When there is one worth sending. No other email.
                     </p>
                   </div>
+                  {others.length > 0 && (
+                    <div className="mt-12 border-t border-rule pt-8">
+                      <p className="label mb-4">More essays</p>
+                      <ul>
+                        {others.map((o) => (
+                          <li key={o.slug} className="flex flex-wrap items-baseline gap-x-4 gap-y-1 border-b border-rule py-3.5">
+                            <span className="tnum w-[130px] shrink-0 text-[12.5px] text-faint">
+                              <time dateTime={o.isoDate}>{o.date}</time>
+                            </span>
+                            <Link href={`/writing/${o.slug}`} className="text-[15px] leading-[1.5] text-ink transition-colors hover:text-accent">
+                              {o.title}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
                   <p className="mt-8 text-[13px] text-faint">
                     <Link
                       href="/writing"

@@ -12,7 +12,7 @@ const DESCRIPTION =
   "Three ways to get marketing leadership at a B2B software company: a full-time CMO, a fractional CMO on retainer, or building the function first and hiring into it. Year-one cost from third-party benchmarks, time to start, what is left when it ends, and when each is right.";
 const URL = "https://neelythomson.com/fractional-cmo-vs-full-time";
 const PUBLISHED = "2026-09-02";
-const UPDATED = "2026-11-07";
+const UPDATED = "2026-11-16";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -338,6 +338,10 @@ export default function FractionalCMOvsFullTime() {
               , and{" "}
               <a href="/head-of-marketing-vs-marketing-manager" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
                 a page on which level to hire
+              </a>
+              . If this is your first marketing hire,{" "}
+              <a href="/first-marketing-hire" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+                start with the guide to the first hire
               </a>
               .
             </p>

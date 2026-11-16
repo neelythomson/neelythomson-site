@@ -10,7 +10,7 @@ const DESCRIPTION =
   "Fractional CMO for credit unions, and for the CUSOs and fintechs that sell to them. One lead definition across member and business lines, compliance inside the workflow, AI with guardrails.";
 const URL = "https://neelythomson.com/fractional-cmo-credit-unions";
 const PUBLISHED = "2026-11-02T12:00:00-05:00";
-const MODIFIED = "2026-11-07T12:00:00-05:00";
+const MODIFIED = "2026-11-16T12:00:00-05:00";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -106,6 +106,14 @@ const faq = [
     a: "For comparison, market-rate fractional CMO retainers in the US run $10,000 to $12,000 a month, usually with a three to six month minimum. An agency retainer for a mid-sized credit union often costs the same and produces campaigns, not systems. I work differently: a two-week Diagnostic at a fixed fee, then a ninety-day build with a fixed scope and a fixed end date. The proposal shows that price next to the retainer and full-time options so you can compare them.",
   },
   {
+    q: "Is a fractional CMO the same as an outsourced CMO for a credit union?",
+    a: "Mostly, yes. Outsourced CMO, fractional CMO, and fractional chief marketing officer all describe a senior marketing leader who works with you part-time instead of joining the staff. The question worth asking is what is left when the engagement ends. An arrangement that only supplies leadership leaves when the person does. I build systems your marketing lead runs afterward, so the lead definition, the review workflow, and the scoreboard stay with the credit union.",
+  },
+  {
+    q: "What should a credit union marketing leader put first for growth?",
+    a: "Three things, before any new campaign. First, one written definition of a qualified lead for each line of business, so lending and marketing count the same thing. Second, compliance review inside the workflow, so the plan sets the calendar and each claim travels with its disclosure. Third, a scoreboard that reports funded loans, new deposits, and cost per funded account by channel. With those in place, the growth plan becomes a question of which channels to fund, and the board can see the answer on one page.",
+  },
+  {
     q: "How does the engagement process work?",
     a: "Two weeks for the Diagnostic: an audit of your stack, your funnel by line of business, and how work moves through compliance today. You get a findings document, a board one-pager, and a priced proposal. Then ninety days for the build, in your own tools, with a named person on your team running each system before it ends. Whether I stay on afterward is your call.",
   },
@@ -197,7 +205,7 @@ export default function FractionalCMOCreditUnions() {
               is what I learned about marketing to institutions that answer to
               an examiner.
             </p>
-            <Byline date="2026-11-07" label="Updated" className="mt-6" />
+            <Byline date="2026-11-16" label="Updated" className="mt-6" />
             <div className="mt-9 flex flex-wrap items-center gap-x-7 gap-y-4">
               <StartCta place="credit-unions" />
               <a href="/fractional-cmo-fintech" className="border-b border-accent pb-0.5 text-sm font-medium text-ink transition-colors hover:text-accent">

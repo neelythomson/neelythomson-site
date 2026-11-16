@@ -10,7 +10,7 @@ const DESCRIPTION =
   "Fractional CMO for fintech and payments companies. Legal inside the workflow, one lead definition, AI with guardrails. 60% less manual campaign work under NACHA and CFPB.";
 const URL = "https://neelythomson.com/fractional-cmo-fintech";
 const PUBLISHED = "2026-09-02T12:00:00-05:00";
-const MODIFIED = "2026-11-07T12:00:00-05:00";
+const MODIFIED = "2026-11-16T12:00:00-05:00";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -43,6 +43,25 @@ const segments = [
     n: "03",
     t: "Fintech sold through institutions",
     b: "Financial wellness, benefits, and member-facing products that reach the end user through employers, credit unions, and banks. Two buyers, one engine, and a lead definition that has to hold for both.",
+  },
+];
+
+const signs = [
+  {
+    t: "Legal review sets the campaign calendar",
+    b: "Campaigns ship when the review queue clears, and nobody can say how long that takes. The fix is a workflow where each claim travels with its evidence. That is a build, and a busy team rarely gets to it.",
+  },
+  {
+    t: "Sales and marketing count leads differently",
+    b: "The board deck shows one number and the CRM shows another. Until there is one written definition of a qualified lead, with scoring and routing behind it, every pipeline review turns into an argument about credit.",
+  },
+  {
+    t: "The AI tools raised output and pipeline stayed flat",
+    b: "More assets are going out and the same number of deals are coming in. The tools are working. What belongs around them is missing: approved claims, a review state, and a way to see which asset produced which opportunity.",
+  },
+  {
+    t: "You are about to hire a marketing leader",
+    b: "A leader who has to build the system first spends the opening months on it before the number moves. When the system is built before the start date, the hire inherits something that already runs.",
   },
 ];
 
@@ -112,6 +131,14 @@ const faq = [
   {
     q: "How does the fractional CMO engagement process work?",
     a: "Two weeks for the Diagnostic, which audits your stack, funnel economics, and team and returns a findings document, a board one-pager, and a priced proposal. Ninety days for The Marketing Engine, with a fixed scope and a fixed end date, in your own tools. A named person on your team runs the function afterward. The build has a fixed end date; an advisory seat after it is your call.",
+  },
+  {
+    q: "Is fractional marketing for fintech the same as a fractional CMO?",
+    a: "The terms overlap. Fractional marketing usually means part-time execution: a contractor or a small team running campaigns a few days a week. A fractional CMO owns the strategy, the systems, and the number. I work at the CMO level and build the function your own team then runs, so the execution stays in-house.",
+  },
+  {
+    q: "Do you work with banks and other financial services companies?",
+    a: "This page is written for software companies that sell to banks, credit unions, and other financial institutions, because that is the side of the sale I ran marketing on for four years. Credit unions building the same system for their own marketing team have their own page. The approach carries to any financial services company where compliance reads the marketing before it ships.",
   },
   {
     q: "Do you work in other regulated verticals?",
@@ -198,7 +225,7 @@ export default function FractionalCMOFintech() {
               sales leader, and helped execute its acquisition. What follows is
               what I learned there and what I build now.
             </p>
-            <Byline date="2026-11-07" label="Updated" className="mt-6" />
+            <Byline date="2026-11-16" label="Updated" className="mt-6" />
             <div className="mt-9 flex flex-wrap items-center gap-x-7 gap-y-4">
               <StartCta place="fintech" />
               <a href="/work/fintech-payments" className="border-b border-accent pb-0.5 text-sm font-medium text-ink transition-colors hover:text-accent">
@@ -252,6 +279,34 @@ export default function FractionalCMOFintech() {
                 </div>
               ))}
             </div>
+          </div>
+        </section>
+
+        <section className="border-t border-rule px-6 pt-24 pb-20 sm:px-10 sm:pt-28 sm:pb-24">
+          <div className="mx-auto max-w-[960px]">
+            <p className="label mb-8">When to bring one in</p>
+            <h2 className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)]">
+              Four signs a fintech needs a fractional CMO.
+            </h2>
+            <div className="mt-11">
+              {signs.map((d, i) => (
+                <div key={d.t} className={`grid gap-4 py-7 md:grid-cols-[260px_1fr] md:gap-10 ${i === 0 ? "" : "border-t border-rule"}`}>
+                  <h3 className="display-xs text-[19px]">{d.t}</h3>
+                  <p className="max-w-[62ch] text-[15px] leading-[1.7] text-muted">{d.b}</p>
+                </div>
+              ))}
+            </div>
+            <p className="measure mt-8 text-base leading-[1.68] text-muted">
+              If the open question is who to hire and when, start with{" "}
+              <a href="/first-marketing-hire" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+                the guide to your first marketing hire
+              </a>{" "}
+              and{" "}
+              <a href="/fractional-cmo-vs-full-time" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+                fractional, full-time, and build-then-hire compared
+              </a>
+              .
+            </p>
           </div>
         </section>
 

@@ -50,6 +50,11 @@ const nextConfig: NextConfig = {
       { source: "/work/01-b2b-fintech-payments-platform", destination: "/work/fintech-payments", permanent: true },
       { source: "/work/02-national-nonprofit", destination: "/work/nonprofit-partnerships", permanent: true },
       { source: "/work/03-technology-services-firm", destination: "/work/enterprise-abm", permanent: true },
+      // Outbound links. Plain addresses in a message, a source in the
+      // analytics: email uses /posting-scorecard, LinkedIn messages use
+      // /hiring-scorecard. Temporary redirects so the tags can change.
+      { source: "/posting-scorecard", destination: "/scorecard?utm_source=lemlist&utm_medium=email&utm_campaign=outbound", permanent: false },
+      { source: "/hiring-scorecard", destination: "/scorecard?utm_source=linkedin&utm_medium=message&utm_campaign=outbound", permanent: false },
       // Two URLs people and crawlers guess at.
       { source: "/privacy-policy", destination: "/privacy", permanent: true },
       { source: "/what-gets-built", destination: "/marketing-engine", permanent: true },

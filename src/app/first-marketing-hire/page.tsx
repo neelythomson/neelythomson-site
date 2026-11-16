@@ -315,9 +315,13 @@ export default function FirstMarketingHire() {
               <a href="/head-of-marketing-vs-marketing-manager" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
                 The level decision, side by side
               </a>
-              , and{" "}
+              ,{" "}
               <a href="/before-you-hire" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
                 a scorecard for the posting
+              </a>
+              , and{" "}
+              <a href="/fractional-cmo-vs-full-time" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+                what fractional, full-time, and build-then-hire each cost in year one
               </a>
               .
             </p>
