@@ -36,6 +36,10 @@ export default function Fit() {
           <a href="/before-you-hire" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
             Build the function before you hire
           </a>
+          , or{" "}
+          <a href="/scorecard" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+            score the posting in ten lines
+          </a>
           .
         </p>
 
