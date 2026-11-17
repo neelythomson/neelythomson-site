@@ -184,6 +184,15 @@ export default function BeforeYouHire() {
               already built, so their first month goes to strategy, the
               board, the team, and the forecast instead of the CRM.
             </p>
+            <p className="measure mt-4 text-[15px] leading-[1.7] text-muted">
+              The longer argument, with what seven current postings ask
+              for, is in the essay{" "}
+              <a href="/writing/your-next-marketing-leader-should" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+                Your next marketing leader should inherit a system, not build
+                one
+              </a>
+              .
+            </p>
             <p className="measure mt-4 border-t border-rule pt-4 text-[15px] leading-[1.7] text-muted">
               First marketing hire, and marketing is still run by you? That
               door is{" "}
