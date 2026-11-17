@@ -175,6 +175,11 @@ export default function Scorecard() {
               <a href="/first-marketing-hire" className={link}>
                 here
               </a>
+              , and the reasoning behind these lines is in the essay{" "}
+              <a href="/writing/your-next-marketing-leader-should" className={link}>
+                Your next marketing leader should inherit a system, not build
+                one
+              </a>
               .
             </p>
           </div>
