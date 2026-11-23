@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import StartCta from "@/components/StartCta";
+import ReadNext from "@/components/ReadNext";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
@@ -177,6 +178,19 @@ export default function MarketingEngine() {
               the AI tools that were supposed to help made the queue longer.
             </p>
             <Byline date="2026-11-07" label="Updated" className="mt-6" />
+            <ReadNext
+              className="mt-8"
+              next={{
+                lead: "See one built:",
+                href: "/work/fintech-payments",
+                text: "a fintech payments engine, under NACHA and CFPB",
+              }}
+              step={{
+                lead: "Want to know which layer is missing at your company?",
+                href: "/diagnostic",
+                text: "The Diagnostic finds it in two weeks",
+              }}
+            />
           </div>
         </section>
 

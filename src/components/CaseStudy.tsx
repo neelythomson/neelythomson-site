@@ -112,6 +112,7 @@ export const caseStudies: CaseStudyData[] = [
       "At $70M of marketing spend, the win wasn't more budget. It was the system connecting relationship data to campaign execution. Institutional buyers respond to relevance and timing, not volume. The mechanics that moved both numbers were unglamorous: clean data, segmentation, campaigns triggered by the relationship instead of the calendar. They apply anywhere the customer is an institution with a budget cycle.",
     ],
     note: "Organization name withheld. Detail and verification available in conversation.",
+    more: { href: "/marketing-engine", text: "The three layers under a build like this: what a marketing engine is" },
     keywords: ["nonprofit B2B marketing case study", "corporate partnerships marketing", "CRM-integrated campaigns", "institutional buyer marketing"],
   },
   {
@@ -314,8 +315,8 @@ export default function CaseStudy({ c }: { c: CaseStudyData }) {
             </div>
             <div className="mt-12 border-t border-rule pt-7">
               <p className="text-[13.5px] leading-[1.6] text-muted">
-                Want this built for your team? With a marketer in place it starts with a
-                two-week Diagnostic. Before your first marketing hire, it starts with the{" "}
+                Want this built for your team? With a marketer in place it starts with a{" "}
+                <a href="/diagnostic" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">two-week Diagnostic</a>. Before your first marketing hire, it starts with the{" "}
                 <a href="/first-hire-plan" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">First Hire Plan</a>.
               </p>
               <StartCta place="case-study" className="mt-5" />

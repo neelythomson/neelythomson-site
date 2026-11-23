@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import StartCta from "@/components/StartCta";
+import ReadNext from "@/components/ReadNext";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
@@ -222,6 +223,19 @@ export default function Diagnostic() {
                 </div>
               ))}
             </div>
+            <ReadNext
+              className="mt-11"
+              next={{
+                lead: "What gets built after the readout:",
+                href: "/marketing-engine",
+                text: "the marketing engine, layer by layer",
+              }}
+              step={{
+                lead: "What one returned at a fintech payments company:",
+                href: "/work/fintech-payments",
+                text: "the case study",
+              }}
+            />
           </div>
         </section>
 

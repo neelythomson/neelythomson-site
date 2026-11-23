@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Byline from "@/components/Byline";
+import ReadNext from "@/components/ReadNext";
 import Figures, { type Figure } from "@/components/Figures";
 import PageFaq from "@/components/PageFaq";
 
@@ -189,6 +190,19 @@ export default function HeadVsManager() {
               would make the next three too, the role that is open is a
               manager. If you want never to make them again, it is a head.
             </p>
+            <ReadNext
+              className="mt-8"
+              next={{
+                lead: "Level decided?",
+                href: "/scorecard",
+                text: "Score the posting in ten lines before it goes live",
+              }}
+              step={{
+                lead: "Want it decided with you?",
+                href: "/first-hire-plan",
+                text: "The First Hire Plan settles the level and the five decisions after it",
+              }}
+            />
           </div>
         </section>
 

@@ -1,3 +1,5 @@
+import ReadNext from "@/components/ReadNext";
+
 export default function Situation() {
   return (
     <section className="border-t border-rule px-6 pt-24 pb-20 sm:px-10 sm:pt-28 sm:pb-24">
@@ -21,12 +23,19 @@ export default function Situation() {
           don&apos;t know what to hire for, headcount is flat and the board
           wants more pipeline, or you bought AI tools and nothing changed.
         </p>
-        <p className="mt-5 text-[13.5px] leading-[1.6] text-faint">
-          <span className="label mr-3">Related reading</span>
-          <a href="/writing/your-buyers-are-finding-you-through" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
-            Your buyers are finding you through an AI tool. Are you ready?
-          </a>
-        </p>
+        <ReadNext
+          className="mt-7"
+          next={{
+            lead: "About to make the first hire?",
+            href: "/head-of-marketing-vs-marketing-manager",
+            text: "Head of marketing, or marketing manager",
+          }}
+          step={{
+            lead: "Have a marketer already?",
+            href: "/diagnostic",
+            text: "How the two-week Diagnostic runs",
+          }}
+        />
 
         <p
           className="mt-9 max-w-[32ch] border-t border-rule pt-7 text-[23px] italic leading-[1.42] text-ink"

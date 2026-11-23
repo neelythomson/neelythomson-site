@@ -5,6 +5,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import Byline from "@/components/Byline";
 import PostingScorecard from "@/components/PostingScorecard";
 import CopyPosting from "@/components/CopyPosting";
+import ReadNext from "@/components/ReadNext";
 import data from "@/data/posting-scorecard.json";
 
 const TITLE = "Marketing Leader Job Posting Scorecard: Ten Lines to Check Before It Goes Live";
@@ -83,6 +84,19 @@ export default function Scorecard() {
             </p>
             <Byline date={PUBLISHED} label="Published" className="mt-6" />
             <PostingScorecard />
+            <ReadNext
+              className="mt-10"
+              next={{
+                lead: "Not sure which level the posting is for?",
+                href: "/head-of-marketing-vs-marketing-manager",
+                text: "Head of marketing, or marketing manager",
+              }}
+              step={{
+                lead: "The open lines are the function your hire walks into. You can build it while you search:",
+                href: "/before-you-hire",
+                text: "Build the function, then hire the person who runs it",
+              }}
+            />
           </div>
         </section>
 

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import StartCta from "@/components/StartCta";
+import ReadNext from "@/components/ReadNext";
 import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -114,6 +115,19 @@ export default function About() {
               get it through legal review, and hand it to the person who runs it. I&apos;m always
               trying to work myself out of a job.
             </p>
+            <ReadNext
+              className="mt-8"
+              next={{
+                lead: "The fintech build is written up, numbers included:",
+                href: "/work/fintech-payments",
+                text: "the fintech payments case study",
+              }}
+              step={{
+                lead: "With a marketer in place, the work starts with",
+                href: "/diagnostic",
+                text: "a two-week Diagnostic",
+              }}
+            />
             </div>
             <figure className="max-w-[280px] md:max-w-none md:pt-14">
               <Image
