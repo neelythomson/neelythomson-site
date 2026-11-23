@@ -10,9 +10,10 @@ import PageFaq from "@/components/PageFaq";
 
 const TITLE = "Head of Marketing vs Marketing Manager: Which First Hire a Startup Needs";
 const DESCRIPTION =
-  "The difference between a head of marketing and a marketing manager at a software startup: scope, level, what each runs in year one, and a decision rule for which to hire first.";
+  "The difference between a head of marketing, a marketing lead and a marketing manager at a software startup: scope, level, what each runs in year one, and a decision rule for which to hire first.";
 const URL = "https://neelythomson.com/head-of-marketing-vs-marketing-manager";
 const PUBLISHED = "2026-11-07";
+const UPDATED = "2026-11-23";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -74,8 +75,8 @@ const faq = [
     a: "Hire a manager if the founder will keep setting strategy for the next twelve months, which is true at most seed and early Series A companies. Hire a head if the founder is handing strategy off now and will let the hire make the calls. The mis-hire in both directions is common: a head who is not allowed to lead, or a manager who is expected to invent a strategy at a manager's authority.",
   },
   {
-    q: "What does a marketing lead do, compared with a head of marketing?",
-    a: "Marketing lead is usually a manager-level role with a senior title: the first marketer, running execution with the founder still deciding strategy. Some companies use it as a head-of role in waiting, with the understanding that the person grows into strategy as the company grows. Write down which one you mean before the posting goes up, because the candidate will assume the bigger one.",
+    q: "What is the difference between a marketing lead and a marketing manager?",
+    a: "Usually the title and not much else. Marketing lead is most often a manager-level role with a senior title: the first marketer, running execution with the founder still deciding strategy. Some companies use it as a head-of role in waiting, with the understanding that the person grows into strategy as the company grows. Write down which one you mean before the posting goes up, because the candidate will assume the bigger one.",
   },
 ];
 
@@ -89,12 +90,12 @@ const jsonLd = {
       description: DESCRIPTION,
       url: URL,
       datePublished: `${PUBLISHED}T12:00:00-05:00`,
-      dateModified: `${PUBLISHED}T12:00:00-05:00`,
+      dateModified: `${UPDATED}T12:00:00-05:00`,
       image: [`${URL}/opengraph-image`],
       author: { "@id": "https://neelythomson.com/#person" },
       publisher: { "@id": "https://neelythomson.com/#person" },
       isPartOf: { "@id": "https://neelythomson.com/#website" },
-      about: ["Head of Marketing", "Marketing Manager", "First marketing hire", "Startup marketing"],
+      about: ["Head of Marketing", "Marketing Lead", "Marketing Manager", "First marketing hire", "Startup marketing"],
     },
     {
       "@type": "FAQPage",
@@ -165,7 +166,7 @@ export default function HeadVsManager() {
               what each one does in year one, and ends with the one question
               that decides it.
             </p>
-            <Byline date={PUBLISHED} label="Published" className="mt-6" />
+            <Byline date={UPDATED} label="Updated" className="mt-6" />
           </div>
         </section>
 
@@ -232,6 +233,39 @@ export default function HeadVsManager() {
                 </tbody>
               </table>
             </div>
+          </div>
+        </section>
+
+        <section id="marketing-lead" className="scroll-mt-20 border-t border-rule px-6 pt-24 pb-20 sm:px-10 sm:pt-28 sm:pb-24">
+          <div className="mx-auto max-w-[960px]">
+            <p className="label mb-8">The title in between</p>
+            <h2 className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)]">
+              Marketing lead vs marketing manager: is a lead a third level?
+            </h2>
+            <p className="measure text-base leading-[1.68] text-muted">
+              Usually not. At most startups a marketing lead is a marketing
+              manager with a more senior title: the first marketer, running
+              execution, with the founder still deciding the segment, the
+              message and the channel bets. The work in the right-hand
+              column of the table above is the work, whatever the posting
+              calls it.
+            </p>
+            <p className="measure mt-4 text-base leading-[1.68] text-muted">
+              Sometimes &ldquo;lead&rdquo; means something else: a head of
+              marketing in waiting, hired to run execution now and take over
+              strategy as the company grows. That can work well. It works
+              when it&apos;s said out loud at the offer stage, with a rough
+              date attached, and it fails when the candidate assumed the
+              bigger job and you assumed the smaller one.
+            </p>
+            <p className="measure mt-4 text-base leading-[1.68] text-muted">
+              So the same question settles it. If you will set strategy for
+              the next twelve months, you&apos;re hiring a manager, and
+              &ldquo;lead&rdquo; is a title you&apos;re offering to win the
+              candidate. If the hire will, you&apos;re hiring a head, and
+              calling the role a lead undersells it and underpays it.
+              Write down which one you mean before the posting goes up.
+            </p>
           </div>
         </section>
 

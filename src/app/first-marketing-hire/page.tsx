@@ -245,6 +245,13 @@ export default function FirstMarketingHire() {
               of activities. That question does not go away. It gets asked
               again next quarter, with a number expected.
             </p>
+            <p className="measure mt-4 text-base leading-[1.68] text-muted">
+              Each of the three has a check you can run this week:{" "}
+              <a href="/when-to-hire-first-marketer" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+                when to make your first marketing hire
+              </a>
+              .
+            </p>
           </div>
         </section>
 
