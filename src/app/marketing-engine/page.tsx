@@ -325,8 +325,8 @@ export default function MarketingEngine() {
               <a href="/diagnostic" className="border-b border-accent pb-0.5 text-sm font-medium text-ink transition-colors hover:text-accent">
                 How the Diagnostic runs
               </a>
-              <a href="/#engine" className="border-b border-accent pb-0.5 text-sm font-medium text-ink transition-colors hover:text-accent">
-                What gets built in ninety days
+              <a href="/how-to-build-a-marketing-engine" className="border-b border-accent pb-0.5 text-sm font-medium text-ink transition-colors hover:text-accent">
+                How to build one, in order
               </a>
             </div>
             <p className="mt-8 max-w-2xl border-t border-rule pt-6 text-[14px] leading-[1.65] text-muted">

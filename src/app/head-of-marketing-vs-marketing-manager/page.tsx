@@ -322,6 +322,13 @@ export default function HeadVsManager() {
               manager. The same company with a founder who is done with it
               needs a head. The posting should say which.
             </p>
+            <p className="measure mt-4 text-base leading-[1.68] text-muted">
+              Weighing a growth title instead?{" "}
+              <a href="/head-of-growth-vs-head-of-marketing" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+                Head of growth, or head of marketing
+              </a>{" "}
+              covers that choice.
+            </p>
             <Figures className="mt-12 border-t border-rule pt-8" label="The numbers behind this page" items={figures} />
           </div>
         </section>
