@@ -4,6 +4,7 @@ import Situation from "@/components/Situation";
 import Engine from "@/components/Engine";
 import Compliant from "@/components/Compliant";
 import Packages from "@/components/Packages";
+import NamedWork from "@/components/NamedWork";
 import Testimonials from "@/components/Testimonials";
 import Fit from "@/components/Fit";
 import About from "@/components/About";
@@ -23,6 +24,7 @@ export default function Home() {
         <Engine />
         <Compliant />
         <Packages />
+        <NamedWork />
         <Testimonials />
         <Fit />
         <About />

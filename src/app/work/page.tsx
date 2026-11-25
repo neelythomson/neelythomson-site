@@ -152,7 +152,7 @@ export default function Work() {
           </div>
         </section>
 
-        <section className="border-t border-rule px-6 pt-20 pb-20 sm:px-10 sm:pt-24 sm:pb-24">
+        <section id="named" className="scroll-mt-20 border-t border-rule px-6 pt-20 pb-20 sm:px-10 sm:pt-24 sm:pb-24">
           <div className="mx-auto max-w-[960px]">
             <p className="label mb-8">Where I&apos;ve done this work</p>
             <h2 className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)]">

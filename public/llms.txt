@@ -6,7 +6,7 @@
 
 Neely Thomson is a fractional CMO for regulated B2B software. She works independently. Most recently she spent four years as Head of Marketing at a B2B fintech payments startup, where she also served as interim sales leader and helped execute the sale when the company was acquired in 2026. Twenty years in B2B SaaS and fintech marketing.
 
-She does not publish client or employer names. Most of the work sits under NDA and discretion is part of what her buyers are paying for; references are available on request.
+She names some past work and keeps the rest private. Named: stable/kernel and LeadLife Solutions, where she was fractional marketing lead and handed each program to an in-house owner; PGi, where she launched the enterprise-wide sales enablement program for 400+ reps; Socialvest, where she was the first marketing hire; and Pfizer Animal Health (now Zoetis), where she ran consumer rewards program operations. She does not name current clients, and the case studies with results keep company names withheld; references are available on request.
 
 She also founded and runs Signed Off (https://signedoffstories.com), a separate service that writes customer stories for B2B software companies selling to regulated buyers. Each story is written from one customer call and comes with a source table that traces every figure and quote and an approval packet for the customer's reviewers. Neely reviews every story. Signed Off has its own site and its own terms, and it is not part of her fractional CMO engagements.
 
@@ -84,7 +84,7 @@ Also:
 
 ## Work (case studies, names withheld)
 
-- [Work](https://neelythomson.com/work): index.
+- [Work](https://neelythomson.com/work): index, plus the named list of past clients and programs.
 - [Case study: fintech payments](https://neelythomson.com/work/fintech-payments): B2B fintech payments platform, ~$2M budget, NACHA/CFPB: 60% reduction in manual campaign work, 5:1 LTV:CAC, 15% MQL-to-opportunity lift.
 - [Case study: nonprofit partnerships](https://neelythomson.com/work/nonprofit-partnerships): national nonprofit, $70M marketing budget, B2B partnerships side: 15% increase in net-new lead acquisition, 75% increase in partner engagement via CRM-integrated campaigns.
 - [Case study: enterprise ABM](https://neelythomson.com/work/enterprise-abm): technology services firm, lean budget: full-lifecycle enterprise ABM (redefined ICP, executive communications, direct mail) the team runs itself.
