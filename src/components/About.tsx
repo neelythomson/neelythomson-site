@@ -1,27 +1,19 @@
 import Image from "next/image";
 import TrackedLink from "@/components/TrackedLink";
 
-const track = [
-  { k: "2020 – present", v: "Independent · Marketing functions for software startups" },
-  { k: "2022 – 2026", v: "B2B fintech payments · Head of Marketing (acquired)" },
-  { k: "2018 – 2022", v: "National nonprofit · Director of B2B Engagement" },
-  { k: "2014 – 2016", v: "Enterprise collaboration software · Sr. Sales Enablement Marketing Manager" },
-  { k: "2013 – 2014", v: "B2B marketing automation software · Fractional marketing lead" },
-];
-
 export default function About() {
   return (
     <section id="about" className="scroll-mt-20 border-t border-rule px-6 pt-24 pb-20 sm:px-10 sm:pt-28 sm:pb-24">
-      <div className="mx-auto grid max-w-[960px] items-start gap-8 lg:grid-cols-2 lg:gap-14">
-        <div>
-          <Image
-            src="/neely-thomson.jpg"
-            alt="Neely Thomson"
-            width={800}
-            height={800}
-            sizes="168px"
-            className="mb-8 aspect-[4/5] w-[168px] rounded-[3px] object-cover object-top"
-          />
+      <div className="mx-auto grid max-w-[960px] items-start gap-8 md:grid-cols-[240px_1fr] md:gap-14">
+        <Image
+          src="/neely-thomson.jpg"
+          alt="Neely Thomson"
+          width={800}
+          height={800}
+          sizes="(min-width: 768px) 240px, 168px"
+          className="aspect-[4/5] w-[168px] rounded-[3px] object-cover object-top md:w-full"
+        />
+        <div className="max-w-[62ch]">
           <p className="label mb-8">About</p>
           <h2 className="display-sm mb-5 text-[clamp(1.9rem,3.4vw,2.9rem)]">
             Neely Thomson
@@ -57,20 +49,6 @@ export default function About() {
           </p>
         </div>
 
-        <div>
-          <p className="label mb-8">Track record</p>
-          <ul>
-            {track.map((r) => (
-              <li
-                key={r.v}
-                className="grid gap-1 border-t border-rule py-3 text-[13.5px] leading-[1.5] text-muted sm:grid-cols-[118px_1fr] sm:gap-4"
-              >
-                <span className="label pt-0.5">{r.k}</span>
-                {r.v}
-              </li>
-            ))}
-          </ul>
-        </div>
       </div>
     </section>
   );
