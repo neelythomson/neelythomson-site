@@ -35,6 +35,61 @@ const jsonLd = {
   hasPart: caseStudies.map((c) => ({ "@id": `https://neelythomson.com/work/${c.slug}#article` })),
 };
 
+const clients = [
+  {
+    name: "stable/kernel",
+    role: "Fractional marketing lead",
+    body: "I built and launched the enterprise ABM program, aimed at accounts with seven-figure contracts, then handed it to an in-house owner.",
+  },
+  {
+    name: "LeadLife Solutions",
+    role: "Fractional marketing lead",
+    body: "I launched the B2B digital marketing program that reached startups and mid-sized businesses, then handed it to an in-house owner.",
+  },
+];
+
+const programs = [
+  {
+    name: "Dwolla",
+    role: "Head of Marketing",
+    body: "I led marketing at a B2B fintech payments company through its acquisition.",
+  },
+  {
+    name: "PGi",
+    role: "Sales enablement",
+    body: "I launched the enterprise-wide sales enablement program for 400+ reps.",
+  },
+  {
+    name: "Socialvest",
+    role: "First marketing hire",
+    body: "I ran digital marketing from the start at an early-stage ecommerce platform.",
+  },
+  {
+    name: "Pfizer Animal Health (now Zoetis)",
+    role: "Program operations",
+    body: "I ran the consumer rewards program operations end to end.",
+  },
+];
+
+function NamedRows({ rows }: { rows: { name: string; role: string; body: string }[] }) {
+  return (
+    <div>
+      {rows.map((r, i) => (
+        <div
+          key={r.name}
+          className={`grid gap-3 py-6 md:grid-cols-[230px_1fr] md:gap-10 ${i === 0 ? "" : "border-t border-rule"}`}
+        >
+          <div>
+            <p className="text-[15px] font-medium text-ink">{r.name}</p>
+            <p className="mt-1 text-[12.5px] text-faint">{r.role}</p>
+          </div>
+          <p className="max-w-[62ch] text-[15px] leading-[1.7] text-muted">{r.body}</p>
+        </div>
+      ))}
+    </div>
+  );
+}
+
 export default function Work() {
   return (
     <>
@@ -51,8 +106,8 @@ export default function Work() {
             <p className="measure text-base leading-[1.68] text-muted">
               A $2M fintech marketing budget under federal payments regulation, the B2B side of a
               $70M nonprofit, and a $500K services firm selling to enterprise executives. Different
-              budgets, same problem: plenty of marketing activity, no system under it. Names are
-              withheld; details and references are available in conversation.
+              budgets, same problem: plenty of marketing activity, no system under it. Company names
+              are withheld on the case studies; details and references are available in conversation.
             </p>
             <p className="measure mt-4 text-base leading-[1.68] text-muted">
               The method was the same each time. Two weeks of audit first: the stack, the funnel by
@@ -99,6 +154,26 @@ export default function Work() {
                 </div>
               </a>
             ))}
+          </div>
+        </section>
+
+        <section className="border-t border-rule px-6 pt-20 pb-20 sm:px-10 sm:pt-24 sm:pb-24">
+          <div className="mx-auto max-w-[960px]">
+            <p className="label mb-8">Where I&apos;ve done this work</p>
+            <h2 className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)]">
+              I&apos;ve worked this way before.
+            </h2>
+            <p className="measure text-base leading-[1.68] text-muted">
+              Two companies brought me in as their marketing lead to build a program, get it
+              running, and hand it to someone in-house. The rest are programs I built from the
+              inside.
+            </p>
+
+            <p className="label mt-14 mb-2">Fractional engagements</p>
+            <NamedRows rows={clients} />
+
+            <p className="label mt-14 mb-2">Programs I&apos;ve built</p>
+            <NamedRows rows={programs} />
           </div>
         </section>
 
