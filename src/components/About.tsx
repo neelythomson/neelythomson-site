@@ -29,8 +29,6 @@ export default function About() {
           <p className="mt-4 text-base leading-[1.68] text-muted">
             Now I do this for software startups, before the first marketing
             hire or after it. Most of my work is in regulated software.
-            I&apos;ve built programs inside PGi and Pfizer Animal Health, and
-            as a fractional lead for stable/kernel and LeadLife Solutions.
           </p>
           <p className="mt-4 text-base leading-[1.68] text-muted">
             I also run{" "}

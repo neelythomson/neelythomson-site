@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getEssays } from "@/lib/substack";
+import SubscribeEmbed from "@/components/SubscribeEmbed";
 
 // One hairline row, fed by the Substack feed, so the homepage always points at
 // the newest essay without anyone touching it.
@@ -9,7 +10,7 @@ export default async function LatestEssay() {
 
   return (
     <section className="border-t border-rule px-6 py-14 sm:px-10 sm:py-16">
-      <div className="mx-auto grid max-w-[960px] gap-4 md:grid-cols-[170px_1fr] md:gap-10">
+      <div className="mx-auto grid max-w-[960px] gap-x-4 gap-y-10 md:grid-cols-[170px_1fr] md:gap-x-10">
         <div>
           <p className="label">Latest essay</p>
           <p className="tnum mt-2 text-[12.5px] leading-[1.5] text-faint">
@@ -37,6 +38,15 @@ export default async function LatestEssay() {
               All essays
             </Link>
           </p>
+        </div>
+        <div>
+          <p className="label">Subscribe</p>
+          <p className="tnum mt-2 text-[12.5px] leading-[1.5] text-muted">
+            When there is one worth sending. No other email.
+          </p>
+        </div>
+        <div>
+          <SubscribeEmbed />
         </div>
       </div>
     </section>

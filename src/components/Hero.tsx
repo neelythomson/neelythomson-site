@@ -69,7 +69,7 @@ export default function Hero() {
                 </TrackedLink>
               ) : (
                 <a
-                  href="#doors"
+                  href="#packages"
                   className="border-b border-accent pb-0.5 text-sm font-medium text-ink transition-colors hover:text-accent"
                 >
                   Two ways in

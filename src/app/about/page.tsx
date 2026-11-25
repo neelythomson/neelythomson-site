@@ -40,29 +40,36 @@ const jsonLd = {
 
 const track = [
   {
-    k: "2020 – present",
     v: "Independent",
     r: "Fractional CMO for regulated B2B software.",
   },
   {
-    k: "2022 – 2026",
     v: "B2B fintech payments",
     r: "Head of Marketing. Led the AI marketing rebuild, served as interim sales leader, helped execute the sale.",
   },
   {
-    k: "2018 – 2022",
     v: "National nonprofit",
     r: "Director of B2B Engagement, corporate partnerships, inside a $70M marketing organization.",
   },
   {
-    k: "2014 – 2016",
-    v: "Enterprise collaboration software",
+    v: "stable/kernel",
+    r: "Fractional marketing lead. Built and launched the enterprise ABM program and handed it to an in-house owner.",
+  },
+  {
+    v: "LeadLife Solutions",
+    r: "Fractional marketing lead. Launched the B2B digital marketing program and handed it to an in-house owner.",
+  },
+  {
+    v: "PGi",
     r: "Senior Sales Enablement Marketing Manager. Launched the internal sales enablement platform used by 400+ reps.",
   },
   {
-    k: "2013 – 2014",
-    v: "B2B marketing automation software",
-    r: "Fractional marketing lead. Launched the B2B digital marketing program and handed it to an in-house owner.",
+    v: "Socialvest",
+    r: "First marketing hire. Ran digital marketing at an early-stage ecommerce platform.",
+  },
+  {
+    v: "Pfizer Animal Health (now Zoetis)",
+    r: "Ran the consumer rewards program operations end to end.",
   },
 ];
 
@@ -158,10 +165,7 @@ export default function About() {
                     i === 0 ? "" : "border-t border-rule"
                   }`}
                 >
-                  <div>
-                    <p className="label tnum">{t.k}</p>
-                    <p className="mt-1.5 text-[12.5px] font-medium">{t.v}</p>
-                  </div>
+                  <p className="text-[15px] font-medium text-ink">{t.v}</p>
                   <p className="max-w-[62ch] text-[15px] leading-[1.7] text-muted">{t.r}</p>
                 </div>
               ))}

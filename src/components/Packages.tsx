@@ -75,27 +75,6 @@ const packages = [
   },
 ];
 
-const doors = [
-  {
-    n: "01",
-    when: "Before the hire",
-    name: "The First Hire Plan",
-    lead: "You're a founder about to make your first marketing hire.",
-    fit: "Seed to Series A, 10 to 40 people, marketing still run by you.",
-    href: "/first-hire-plan",
-    cta: "What the six weeks produce",
-  },
-  {
-    n: "02",
-    when: "After the hire",
-    name: "The Diagnostic, then The Marketing Engine",
-    lead: "You have a marketer, or a small team, and no engine.",
-    fit: "A marketer in place, a dozen or more closed deals, budget going out the door.",
-    href: "/diagnostic",
-    cta: "How the Diagnostic runs",
-  },
-];
-
 const terms = [
   "Fixed scope",
   "Fixed end date",
@@ -119,31 +98,6 @@ export default function Packages() {
           same way: a function your team runs, measured on the revenue it
           produces, with a fixed end date in the agreement.
         </p>
-
-        <div id="doors" className="mt-11 grid scroll-mt-20 items-start gap-x-10 gap-y-8 md:grid-cols-2">
-          {doors.map((d, i) => (
-            <div
-              key={d.name}
-              className={`border-t-2 border-ink pt-6 ${i > 0 ? "md:border-l md:border-l-rule md:pl-10" : "md:pr-2"}`}
-            >
-              <p className="label mb-4">
-                {d.n} <span className="mx-0.5">·</span> {d.when}
-              </p>
-              <h3 className="display-xs mb-3 text-[22px]">{d.name}</h3>
-              <p className="text-[15.5px] font-medium leading-[1.55] text-ink">{d.lead}</p>
-              <p className="mt-3 text-[12.5px] leading-[1.55] text-faint">
-                <span className="label mr-3">Fit</span>
-                {d.fit}
-              </p>
-              <a
-                href={d.href}
-                className="mt-4 inline-block border-b border-accent pb-px text-[13px] text-ink transition-colors hover:text-accent"
-              >
-                {d.cta} &rarr;
-              </a>
-            </div>
-          ))}
-        </div>
 
         <p className="label mt-16 mb-2">The four packages</p>
         <p className="measure text-[15px] leading-[1.7] text-muted">

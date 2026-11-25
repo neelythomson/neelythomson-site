@@ -53,9 +53,6 @@ export default function Compliant() {
           <a href="/fractional-cmo-credit-unions" className="border-b border-white/40 pb-px text-white transition-colors hover:text-accent">
             Credit unions
           </a>
-          <span className="mx-2">&middot;</span>Healthtech
-          <span className="mx-2">&middot;</span>Edtech and workforce
-          <span className="mx-2">&middot;</span>Govtech
         </p>
 
         <div className="mt-11 grid gap-x-12 gap-y-8 sm:grid-cols-2">

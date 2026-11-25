@@ -30,7 +30,7 @@ export default async function Contact() {
           and, if it looks like a fit, what I&apos;d propose and what it costs.
           Fixed scope and a fixed end date either way, and the plan is yours
           whether or not we build it together.{" "}
-          <a href="/#doors" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
+          <a href="/#packages" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
             The two ways in
           </a>
           .
