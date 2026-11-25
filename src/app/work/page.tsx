@@ -161,9 +161,8 @@ export default function Work() {
               I&apos;ve worked this way before.
             </h2>
             <p className="measure text-base leading-[1.68] text-muted">
-              Two companies brought me in as their marketing lead to build a program, get it
-              running, and hand it to someone in-house. The rest are programs I built from the
-              inside.
+              I come in as the marketing lead, build the program, get it running, and hand it to
+          someone in-house. I&apos;ve done it as a fractional lead and from the inside.
             </p>
 
             <p className="label mt-14 mb-2">Fractional engagements</p>
