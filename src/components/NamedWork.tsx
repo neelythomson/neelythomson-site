@@ -12,7 +12,9 @@ export default function NamedWork() {
   return (
     <section id="named" className="scroll-mt-20 border-t border-rule bg-band px-6 pt-20 pb-16 sm:px-10 sm:pt-24 sm:pb-20">
       <div className="mx-auto max-w-[960px]">
-        <p className="label mb-8">Where I&apos;ve done this work</p>
+        <p className="label mb-8">
+          Where I&apos;ve done this work <span className="text-accent">&middot; a selection</span>
+        </p>
         <h2 className="display-sm mb-7 max-w-[22ch] text-[clamp(1.9rem,3.4vw,2.9rem)]">
           I&apos;ve worked this way before.
         </h2>
@@ -28,6 +30,12 @@ export default function NamedWork() {
             </li>
           ))}
         </ul>
+        <p className="measure mt-7 text-[15px] leading-[1.7] text-muted">
+          These are the ones I can name. Over twenty years I&apos;ve built marketing inside
+          companies from bootstrapped startups to a $70M marketing organization, through two
+          acquisitions. Most of that work I don&apos;t name publicly, and references are
+          available in conversation.
+        </p>
         <p className="mt-7">
           <a
             href="/work#named"
