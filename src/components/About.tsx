@@ -1,4 +1,5 @@
 import Image from "next/image";
+import TrackedLink from "@/components/TrackedLink";
 
 const track = [
   { k: "2020 – present", v: "Independent · Marketing functions for software startups" },
@@ -36,6 +37,21 @@ export default function About() {
           <p className="mt-4 text-base leading-[1.68] text-muted">
             Now I do this for software startups, before the first marketing
             hire or after it. Most of my work is in regulated software.
+          </p>
+          <p className="mt-4 text-base leading-[1.68] text-muted">
+            I also run{" "}
+            <TrackedLink
+              event="signed_off_click"
+              place="home_about"
+              href="https://signedoffstories.com/?utm_source=neelythomson.com&utm_medium=referral&utm_campaign=home-about"
+              target="_blank"
+              rel="noopener"
+              className="border-b border-accent pb-px text-ink transition-colors hover:text-accent"
+            >
+              Signed Off
+            </TrackedLink>
+            , which writes customer stories for regulated software companies
+            and traces every figure and quote to its source.
           </p>
         </div>
 

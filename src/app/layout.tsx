@@ -119,6 +119,15 @@ const jsonLd = {
       ],
     },
     {
+      "@type": "Organization",
+      "@id": "https://signedoffstories.com/#organization",
+      name: "Signed Off",
+      url: "https://signedoffstories.com",
+      description:
+        "Customer stories for B2B software companies that sell to regulated buyers. Each story is written from one customer call and comes with a source table that traces every figure and quote, and an approval packet for the customer's reviewers.",
+      founder: { "@id": "https://neelythomson.com/#person" },
+    },
+    {
       "@type": "Service",
       "@id": "https://neelythomson.com/#service",
       name: "Marketing functions for software startups",

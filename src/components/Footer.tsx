@@ -42,6 +42,16 @@ export default function Footer() {
           Writing
         </a>
         <TrackedLink
+          event="signed_off_click"
+          place="footer"
+          href="https://signedoffstories.com/?utm_source=neelythomson.com&utm_medium=referral&utm_campaign=footer"
+          target="_blank"
+          rel="noopener"
+          className="transition-colors hover:text-accent"
+        >
+          Signed Off
+        </TrackedLink>
+        <TrackedLink
           event="linkedin_click"
           place="footer"
           href="https://www.linkedin.com/in/neelythomson"

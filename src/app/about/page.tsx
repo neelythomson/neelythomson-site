@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import StartCta from "@/components/StartCta";
+import TrackedLink from "@/components/TrackedLink";
 import ReadNext from "@/components/ReadNext";
 import Image from "next/image";
 import Header from "@/components/Header";
@@ -214,6 +215,21 @@ export default function About() {
                     <a href="/writing/your-buyers-are-finding-you-through" className="border-b border-accent pb-px text-ink transition-colors hover:text-accent">
                       Your buyers are finding you through an AI tool. Are you ready?
                     </a>
+                  </li>
+                  <li className="border-t border-rule py-3 text-[14px] text-muted">
+                    <TrackedLink
+                      event="signed_off_click"
+                      place="about_elsewhere"
+                      href="https://signedoffstories.com/?utm_source=neelythomson.com&utm_medium=referral&utm_campaign=about"
+                      target="_blank"
+                      rel="noopener"
+                      className="border-b border-accent pb-px text-ink transition-colors hover:text-accent"
+                    >
+                      Signed Off
+                    </TrackedLink>
+                    , the customer-story service I run for regulated software companies. Every
+                    figure and quote is traced to its source, so the customer&apos;s reviewers
+                    can approve it
                   </li>
                   <li className="border-t border-rule py-3 text-[14px] text-muted">
                     <a

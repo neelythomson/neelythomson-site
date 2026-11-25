@@ -7,7 +7,7 @@ import Byline from "@/components/Byline";
 
 const TITLE = "Fractional CMO FAQ: How the Engagement Works";
 const DESCRIPTION =
-  "Thirty-one plain answers on hiring a fractional CMO: what it costs, what AI-native means in a regulated company, and how a 90-day build differs from a retainer.";
+  "Thirty-three plain answers on hiring a fractional CMO: what it costs, what AI-native means in a regulated company, and how a 90-day build differs from a retainer.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -56,6 +56,14 @@ const groups: Group[] = [
         a: [
           "I build revenue-generating marketing functions for software startups, from Atlanta. I spent twenty years running marketing for technology companies, startup and enterprise, through two acquisitions, most recently four years as Head of Marketing at a B2B fintech payments company, where I led a company-wide AI marketing transformation, served as interim sales leader, and helped execute the sale when the company was acquired in 2026.",
         ],
+      },
+      {
+        q: "What is Signed Off?",
+        a: [
+          "Signed Off is a separate service I run. It writes customer stories for B2B software companies that sell to regulated buyers: fintech, healthtech, security and compliance. From one customer call it produces the story, an anonymized version, a source table that traces every figure and quote, and an approval packet for the customer's reviewers. I review every story before it goes out.",
+          "It has its own site and its own terms, and it is not part of the First Hire Plan, the Diagnostic or The Marketing Engine.",
+        ],
+        more: { href: "https://signedoffstories.com/?utm_source=neelythomson.com&utm_medium=referral&utm_campaign=faq", text: "Signed Off, at signedoffstories.com" },
       },
     ],
   },
@@ -155,6 +163,14 @@ const groups: Group[] = [
           "Writing your blog posts, emails, or social content. Graphic design, brand identity files, illustration, video (I specify the brand system and set creative direction; a designer produces it). Running or optimizing paid campaigns on LinkedIn, Google, or anywhere else. Holding or managing your ad accounts. Social media management, community, or event execution. Acting as agency of record. Managing your people.",
           "The rule is simple: if it produces an asset, it's your team's or a partner's. If it moves, routes, scores, or measures an asset, it's mine.",
         ],
+      },
+      {
+        q: "Do you write case studies?",
+        a: [
+          "Not inside an engagement. A customer story is an asset, and assets stay with your team or a partner.",
+          "If you need them written, that is what Signed Off is for. It is a separate service I run: a customer story from one customer call, with every figure and quote traced to its source so the customer's reviewers can approve it.",
+        ],
+        more: { href: "https://signedoffstories.com/?utm_source=neelythomson.com&utm_medium=referral&utm_campaign=faq-case-studies", text: "Signed Off, at signedoffstories.com" },
       },
       {
         q: "Who is this for?",
@@ -258,7 +274,7 @@ const faqJsonLd = {
   "@type": "FAQPage",
   "@id": "https://neelythomson.com/faq#faq",
   url: "https://neelythomson.com/faq",
-  dateModified: "2026-11-07",
+  dateModified: "2026-11-25",
   name: TITLE,
   author: { "@id": "https://neelythomson.com/#person" },
   isPartOf: { "@id": "https://neelythomson.com/#website" },
@@ -307,7 +323,7 @@ export default function FAQ() {
               </a>
               .
             </p>
-            <Byline date="2026-11-07" label="Updated" className="mt-6" />
+            <Byline date="2026-11-25" label="Updated" className="mt-6" />
 
             <nav aria-label="Question groups" className="mt-10 flex flex-wrap gap-2.5 border-t border-rule pt-8">
               {groups.map((g) => (

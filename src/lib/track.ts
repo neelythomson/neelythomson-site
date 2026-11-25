@@ -12,6 +12,7 @@ export type EventName =
   | "email_click"
   | "linkedin_click"
   | "essay_outbound"
+  | "signed_off_click"
   | "section_view";
 
 type Gtag = (...args: unknown[]) => void;
