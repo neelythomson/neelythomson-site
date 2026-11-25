@@ -7,7 +7,7 @@ import { caseStudies } from "@/components/CaseStudy";
 
 const TITLE = "Work: Three Marketing Engines, Three Budgets";
 const DESCRIPTION =
-  "Three case studies with numbers: an AI marketing engine under NACHA and CFPB, a B2B partnership engine inside a $70M nonprofit, and enterprise ABM on a $500K budget.";
+  "Three case studies with numbers: an AI marketing engine under NACHA and CFPB, a B2B partnership engine inside a $70M nonprofit, and enterprise ABM on a lean budget.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -49,11 +49,6 @@ const clients = [
 ];
 
 const programs = [
-  {
-    name: "Dwolla",
-    role: "Head of Marketing",
-    body: "I led marketing at a B2B fintech payments company through its acquisition.",
-  },
   {
     name: "PGi",
     role: "Sales enablement",
@@ -105,7 +100,7 @@ export default function Work() {
             </h1>
             <p className="measure text-base leading-[1.68] text-muted">
               A $2M fintech marketing budget under federal payments regulation, the B2B side of a
-              $70M nonprofit, and a $500K services firm selling to enterprise executives. Different
+              $70M nonprofit, and a services firm selling to enterprise executives on a lean budget. Different
               budgets, same problem: plenty of marketing activity, no system under it. Company names
               are withheld on the case studies; details and references are available in conversation.
             </p>

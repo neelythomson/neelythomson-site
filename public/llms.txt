@@ -87,7 +87,7 @@ Also:
 - [Work](https://neelythomson.com/work): index.
 - [Case study: fintech payments](https://neelythomson.com/work/fintech-payments): B2B fintech payments platform, ~$2M budget, NACHA/CFPB: 60% reduction in manual campaign work, 5:1 LTV:CAC, 15% MQL-to-opportunity lift.
 - [Case study: nonprofit partnerships](https://neelythomson.com/work/nonprofit-partnerships): national nonprofit, $70M marketing budget, B2B partnerships side: 15% increase in net-new lead acquisition, 75% increase in partner engagement via CRM-integrated campaigns.
-- [Case study: enterprise ABM](https://neelythomson.com/work/enterprise-abm): technology services firm, $500K budget: full-lifecycle enterprise ABM (redefined ICP, executive communications, direct mail) the team runs itself.
+- [Case study: enterprise ABM](https://neelythomson.com/work/enterprise-abm): technology services firm, lean budget: full-lifecycle enterprise ABM (redefined ICP, executive communications, direct mail) the team runs itself.
 
 ## Other pages
 

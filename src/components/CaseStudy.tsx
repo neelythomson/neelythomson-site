@@ -118,18 +118,18 @@ export const caseStudies: CaseStudyData[] = [
   {
     slug: "enterprise-abm",
     n: "03",
-    title: "Enterprise ABM, built on a $500K budget",
-    metaTitle: "Case Study: Full-Lifecycle Enterprise ABM Program on a $500K Budget",
+    title: "Enterprise ABM, built on a lean budget",
+    metaTitle: "Case Study: Full-Lifecycle Enterprise ABM Program on a Lean Budget",
     description:
       "How a technology services firm replaced broad-market marketing with a named-account ABM motion its own team could run: redefined ICP, executive communications, and direct mail.",
     facts: [
       { k: "Company", v: "Technology services firm" },
-      { k: "Annual marketing budget", v: "$500K" },
+      { k: "Annual marketing budget", v: "Lean, with no room for volume plays" },
       { k: "Engagement", v: "Consulting, full-lifecycle ABM build" },
       { k: "My role", v: "Fractional marketing lead" },
     ],
     situation: [
-      "A custom software services firm selling large engagements to enterprise buyers, with roughly $500K a year to market on. At that budget there's no room for volume plays: every dollar has to land on accounts that can buy, and the executives who sign those deals don't respond to volume campaigns anyway.",
+      "A custom software services firm selling large engagements to enterprise buyers, on a lean marketing budget. At that size there's no room for volume plays: every dollar has to land on accounts that can buy, and the executives who sign those deals don't respond to volume campaigns anyway.",
       "The engagement: build the account-based marketing engine, end to end.",
     ],
     build: [
