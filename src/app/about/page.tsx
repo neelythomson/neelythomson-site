@@ -62,7 +62,7 @@ const track = [
   {
     k: "2013 – 2014",
     v: "B2B marketing automation software",
-    r: "Marketing Manager.",
+    r: "Fractional marketing lead. Launched the B2B digital marketing program and handed it to an in-house owner.",
   },
 ];
 

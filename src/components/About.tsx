@@ -6,7 +6,7 @@ const track = [
   { k: "2022 – 2026", v: "B2B fintech payments · Head of Marketing (acquired)" },
   { k: "2018 – 2022", v: "National nonprofit · Director of B2B Engagement" },
   { k: "2014 – 2016", v: "Enterprise collaboration software · Sr. Sales Enablement Marketing Manager" },
-  { k: "2013 – 2014", v: "B2B marketing automation software · Marketing Manager" },
+  { k: "2013 – 2014", v: "B2B marketing automation software · Fractional marketing lead" },
 ];
 
 export default function About() {
